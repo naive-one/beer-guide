@@ -1,0 +1,55 @@
+> beer-guide@1.2.0 check
+> npm run build && npm test
+
+
+> beer-guide@1.2.0 build
+> node scripts/build.mjs
+
+Built 67 entries, 83 sources; standalone.html 233837 bytes.
+dist/ is ready: six application files plus 404.html, _headers, and robots.txt.
+
+> beer-guide@1.2.0 test
+> node --test tests/core.test.cjs tests/chart.test.cjs tests/tier-data.test.cjs tests/deploy.test.cjs tests/publish.test.cjs
+
+✔ missing price and guide stay unknown, never an editorial or zero-price point (0.921958ms)
+✔ normalize volume and pack; never infer null as free (2.225056ms)
+✔ exact Pareto: lower price AND >=score dominates; tradeoffs survive (1.090326ms)
+✔ ties, equal price/equal score, duplicate points (14.287555ms)
+✔ cross-style dominance disabled only in same-style mode (0.310325ms)
+✔ empty and invalid rows excluded (0.429439ms)
+✔ v1.2 default: 67 visible, 21 eligible, seven per-platform frontier nodes (2.699971ms)
+✔ ambiguous prices require explicit opt-in; historical reference is visible by default (1.201526ms)
+✔ manual price overrides and replaces historical restrictions (0.271742ms)
+✔ budget below minimum returns no recommendation, not automatic upsell (1.305462ms)
+✔ personal score mode never fills missing personal scores from BA (0.978184ms)
+✔ minimum sample and ABV filters: unknowns excluded under restrictive limit (0.372032ms)
+✔ identity placeholders never become comparable through manual input (0.222801ms)
+✔ personal import rejects bad shapes/unknown ids/infinity and retains only allowed keys (0.84909ms)
+✔ data integrity and traceable ratings/quotes/review sources (0.748902ms)
+✔ quote entry threshold is not a fabricated market price (0.425091ms)
+✔ scores from different platforms never dominate each other (0.215266ms)
+✔ all 67 have chart entries; unknown coordinates stay null (1.117276ms)
+✔ editorial ceilings and related scores do not create evidence eligibility (0.255202ms)
+✔ written comments are not a rating sample count (0.663522ms)
+✔ historical toggle excludes known expired prices from calculation, not visibility (0.42475ms)
+✔ original research coverage stays intact while new user-only entries remain unverified (0.650456ms)
+✔ platform filter and personal mode use independent correct scopes (0.628175ms)
+✔ reference metadata never changes Pareto results (3.992559ms)
+✔ Workers config uses only dist, a matching name, and actual 404s (1.739961ms)
+✔ build is deterministic, purges stale dist files, and publishes only allowlisted files (124.468139ms)
+✔ committed dist assets match current sources and include non-sticky cache headers (1.483938ms)
+✔ local preview serves the application, not repository files, and returns real 404 (153.475141ms)
+✔ publisher rejects traversal paths, credentials, and other hidden runtime data (1.850781ms)
+✔ manifest verifies regular files and prevents silently publishing a modified package (9.137663ms)
+✔ remote protection permits only identical files or the known initial README (4.161518ms)
+✔ all supplied tiers and original names are preserved in original order (2.639708ms)
+✔ user-only additions do not invent specifications, ratings, prices, budgets or citations (1.158625ms)
+✔ subjective tiers never affect community evidence and do not assert imported versions (4.89948ms)
+ℹ tests 34
+ℹ suites 0
+ℹ pass 34
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 378.381051

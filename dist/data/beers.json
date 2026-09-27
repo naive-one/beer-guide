@@ -8,17 +8,18 @@
     "market": "中国大陆零售参考样本",
     "scorePlatform": "分平台：BeerAdvocate / 酒花儿 / Untappd",
     "scoreScale": 5,
-    "scope": "42个明确展示的候选；三处模糊品牌名以明确标注的代表款作临时研究对象。不是全市场。",
+    "scope": "67个候选：保留原42款研究资料，补入25款仅有用户清单的待核验条目；五档榜单共49项。不是全市场。",
     "pricePolicy": "报价均为有出处的静态样本，默认展示历史情景，绝非实时在售承诺。建议试饮预算为编辑判断，不进入证据前沿。",
     "reviewPolicy": "保留原平台均分与样本口径；不同平台之间不相互支配。版本未匹配的相关评价只供阅读，不进入前沿。",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "coverage": {
-      "entries": 42,
+      "entries": 67,
       "matchedRatings": 35,
       "relatedOnlyRatings": 6,
       "priceSnapshots": 30,
       "editorialBudgetGuides": 42,
-      "sources": 83
+      "sources": 83,
+      "rankedEntries": 49
     }
   },
   "families": {
@@ -102,7 +103,8 @@
       },
       "originalList": true,
       "aliases": [
-        "维森 水晶白"
+        "维森 水晶白",
+        "维森啤酒"
       ],
       "identityNote": "此条仅 Hefeweissbier；Kristall 水晶白是不同酒款。",
       "identityPending": false,
@@ -121,7 +123,8 @@
         "abv": "reference-label"
       },
       "researchNote": "该酒款已完成本轮资料整理；“未核实”是明确的证据状态，不表示商品不存在或不好。",
-      "extraSourceIds": []
+      "extraSourceIds": [],
+      "userTier": "hang"
     },
     {
       "id": "paulaner",
@@ -168,7 +171,8 @@
       },
       "originalList": true,
       "aliases": [
-        "柏龙 保拉纳"
+        "柏龙 保拉纳",
+        "柏龙啤酒（保拉纳）"
       ],
       "identityNote": "",
       "identityPending": false,
@@ -187,7 +191,8 @@
         "abv": "reference-label"
       },
       "researchNote": "该酒款已完成本轮资料整理；“未核实”是明确的证据状态，不表示商品不存在或不好。",
-      "extraSourceIds": []
+      "extraSourceIds": [],
+      "userTier": "hang"
     },
     {
       "id": "ayinger",
@@ -234,7 +239,8 @@
       },
       "originalList": true,
       "aliases": [
-        "Ayinger"
+        "Ayinger",
+        "艾英格"
       ],
       "identityNote": "不要与艾丁格 Erdinger 混淆。",
       "identityPending": false,
@@ -253,7 +259,8 @@
         "abv": "reference-label"
       },
       "researchNote": "该酒款已完成本轮资料整理；“未核实”是明确的证据状态，不表示商品不存在或不好。",
-      "extraSourceIds": []
+      "extraSourceIds": [],
+      "userTier": "hang"
     },
     {
       "id": "benediktiner",
@@ -622,8 +629,10 @@
         "note": "取页面价102.90元，不采用97.90元的条件优惠；页面月日显示09-21但年份未完整核实。运费与库存未核验。",
         "checkedAt": "2026-09-27"
       },
-      "originalList": false,
-      "aliases": [],
+      "originalList": true,
+      "aliases": [
+        "罗斯福啤酒（10°）"
+      ],
       "identityNote": "",
       "identityPending": false,
       "purchaseGuide": {
@@ -641,7 +650,8 @@
         "abv": "reference-label"
       },
       "researchNote": "该酒款已完成本轮资料整理；“未核实”是明确的证据状态，不表示商品不存在或不好。",
-      "extraSourceIds": []
+      "extraSourceIds": [],
+      "userTier": "top"
     },
     {
       "id": "rochefort8",
@@ -750,9 +760,10 @@
         "note": "页面报价样本；活动有效期、运费、税费、库存与账号条件均未现场结算核验。",
         "checkedAt": "2026-09-27"
       },
-      "originalList": false,
+      "originalList": true,
       "aliases": [
-        "智美 蓝帽"
+        "智美 蓝帽",
+        "至美蓝帽"
       ],
       "identityNote": "",
       "identityPending": false,
@@ -771,7 +782,8 @@
         "abv": "reference-label"
       },
       "researchNote": "该酒款已完成本轮资料整理；“未核实”是明确的证据状态，不表示商品不存在或不好。",
-      "extraSourceIds": []
+      "extraSourceIds": [],
+      "userTier": "top"
     },
     {
       "id": "abt12",
@@ -1366,7 +1378,8 @@
       },
       "originalList": true,
       "aliases": [
-        "暴龙之王 King Sue"
+        "暴龙之王 King Sue",
+        "暴龙王啤酒"
       ],
       "identityNote": "",
       "identityPending": false,
@@ -1385,7 +1398,8 @@
         "abv": "reference-label"
       },
       "researchNote": "该酒款已完成本轮资料整理；“未核实”是明确的证据状态，不表示商品不存在或不好。",
-      "extraSourceIds": []
+      "extraSourceIds": [],
+      "userTier": "hang"
     },
     {
       "id": "rasputin",
@@ -1543,9 +1557,10 @@
         "note": "保留活动标价44.9元；没有采用88VIP等优惠后的36.2元。不是Foreign Extra。活动是否仍可用未核验。",
         "checkedAt": "2026-09-27"
       },
-      "originalList": false,
+      "originalList": true,
       "aliases": [
-        "健力士 氮气 Guinness"
+        "健力士 氮气 Guinness",
+        "健力士啤酒"
       ],
       "identityNote": "",
       "identityPending": false,
@@ -1564,7 +1579,8 @@
         "abv": "reference-label"
       },
       "researchNote": "该酒款已完成本轮资料整理；“未核实”是明确的证据状态，不表示商品不存在或不好。",
-      "extraSourceIds": []
+      "extraSourceIds": [],
+      "userTier": "top"
     },
     {
       "id": "beaver",
@@ -1630,7 +1646,8 @@
         "abv": "reference-label"
       },
       "researchNote": "该酒款已完成本轮资料整理；“未核实”是明确的证据状态，不表示商品不存在或不好。",
-      "extraSourceIds": []
+      "extraSourceIds": [],
+      "userTier": "hang"
     },
     {
       "id": "pilsner",
@@ -1677,7 +1694,8 @@
       },
       "originalList": true,
       "aliases": [
-        "博士纳 博世纳 皮尔森乌奎尔"
+        "博士纳 博世纳 皮尔森乌奎尔",
+        "博士纳乌奎尔"
       ],
       "identityNote": "",
       "identityPending": false,
@@ -1696,7 +1714,8 @@
         "abv": "reference-label"
       },
       "researchNote": "该酒款已完成本轮资料整理；“未核实”是明确的证据状态，不表示商品不存在或不好。",
-      "extraSourceIds": []
+      "extraSourceIds": [],
+      "userTier": "hang"
     },
     {
       "id": "heineken",
@@ -1821,7 +1840,8 @@
         "abv": "reference-label"
       },
       "researchNote": "该酒款已完成本轮资料整理；“未核实”是明确的证据状态，不表示商品不存在或不好。",
-      "extraSourceIds": []
+      "extraSourceIds": [],
+      "userTier": "hang"
     },
     {
       "id": "dajiu",
@@ -1869,7 +1889,8 @@
       },
       "originalList": true,
       "aliases": [
-        "大九 降临"
+        "大九 降临",
+        "大九酿造降临"
       ],
       "identityNote": "",
       "identityPending": false,
@@ -1888,7 +1909,8 @@
         "abv": "reference-label"
       },
       "researchNote": "该酒款已完成本轮资料整理；“未核实”是明确的证据状态，不表示商品不存在或不好。",
-      "extraSourceIds": []
+      "extraSourceIds": [],
+      "userTier": "hang"
     },
     {
       "id": "salt",
@@ -1937,7 +1959,8 @@
       },
       "originalList": true,
       "aliases": [
-        "帝都海盐 牛啤堂"
+        "帝都海盐 牛啤堂",
+        "牛啤堂帝都海盐"
       ],
       "identityNote": "",
       "identityPending": false,
@@ -1957,7 +1980,8 @@
         "abv": "reference-label"
       },
       "researchNote": "该酒款已完成本轮资料整理；“未核实”是明确的证据状态，不表示商品不存在或不好。",
-      "extraSourceIds": []
+      "extraSourceIds": [],
+      "userTier": "hang"
     },
     {
       "id": "primator",
@@ -1996,7 +2020,8 @@
       "quote": null,
       "originalList": true,
       "aliases": [
-        "捷皇 Primator"
+        "捷皇 Primator",
+        "捷皇"
       ],
       "identityNote": "",
       "identityPending": false,
@@ -2015,7 +2040,8 @@
         "abv": "reference-label"
       },
       "researchNote": "该酒款已完成本轮资料整理；“未核实”是明确的证据状态，不表示商品不存在或不好。",
-      "extraSourceIds": []
+      "extraSourceIds": [],
+      "userTier": "hang"
     },
     {
       "id": "snow",
@@ -2055,7 +2081,8 @@
       },
       "originalList": true,
       "aliases": [
-        "老雪 老雪花"
+        "老雪 老雪花",
+        "老雪花"
       ],
       "identityNote": "本条选择沈阳老雪640ml、4.7%/12°P版。老雪1964平台条目的4.1%不能当作本款独立评分；价格页未完整确认批次。",
       "identityPending": false,
@@ -2086,7 +2113,8 @@
       "researchNote": "该酒款已完成本轮资料整理；“未核实”是明确的证据状态，不表示商品不存在或不好。",
       "extraSourceIds": [
         "jh-snow1964"
-      ]
+      ],
+      "userTier": "hang"
     },
     {
       "id": "pang",
@@ -2134,7 +2162,8 @@
       },
       "originalList": true,
       "aliases": [
-        "胖东来 小啤酒"
+        "胖东来 小啤酒",
+        "胖东来精酿小啤酒"
       ],
       "identityNote": "",
       "identityPending": false,
@@ -2153,7 +2182,8 @@
         "abv": "reference-label"
       },
       "researchNote": "该酒款已完成本轮资料整理；“未核实”是明确的证据状态，不表示商品不存在或不好。",
-      "extraSourceIds": []
+      "extraSourceIds": [],
+      "userTier": "hang"
     },
     {
       "id": "asahi",
@@ -2193,7 +2223,8 @@
       },
       "originalList": true,
       "aliases": [
-        "朝日 Asahi"
+        "朝日 Asahi",
+        "朝日"
       ],
       "identityNote": "本条选择国产经典超爽500ml、5%标签版本；近年另有低度和无糖等版本。5%为经典系列参考，购买须核对实物，不套用食彩或全开盖版。",
       "identityPending": false,
@@ -2224,7 +2255,8 @@
       "researchNote": "该酒款已完成本轮资料整理；“未核实”是明确的证据状态，不表示商品不存在或不好。",
       "extraSourceIds": [
         "jh-asahi"
-      ]
+      ],
+      "userTier": "hang"
     },
     {
       "id": "tsingtao-white",
@@ -2294,7 +2326,8 @@
       "researchNote": "该酒款已完成本轮资料整理；“未核实”是明确的证据状态，不表示商品不存在或不好。",
       "extraSourceIds": [
         "jh-tsing-white"
-      ]
+      ],
+      "userTier": "hang"
     },
     {
       "id": "augerta",
@@ -2333,7 +2366,8 @@
       },
       "originalList": true,
       "aliases": [
-        "奥古特 A3"
+        "奥古特 A3",
+        "奥古特"
       ],
       "identityNote": "本版选择A3全麦500ml罐装，不代表原版奥古特或A6。原麦汁浓度不是酒精度；未取得足够明确的A3标签酒精度，暂不填数字。",
       "identityPending": false,
@@ -2352,7 +2386,8 @@
         "abv": "not-verified"
       },
       "researchNote": "该酒款已完成本轮资料整理；“未核实”是明确的证据状态，不表示商品不存在或不好。",
-      "extraSourceIds": []
+      "extraSourceIds": [],
+      "userTier": "hang"
     },
     {
       "id": "heineken-can",
@@ -2423,7 +2458,8 @@
       "researchNote": "该酒款已完成本轮资料整理；“未核实”是明确的证据状态，不表示商品不存在或不好。",
       "extraSourceIds": [
         "jh-heineken-can"
-      ]
+      ],
+      "userTier": "hang"
     },
     {
       "id": "heineken-bottle",
@@ -2482,7 +2518,8 @@
       "researchNote": "该酒款已完成本轮资料整理；“未核实”是明确的证据状态，不表示商品不存在或不好。",
       "extraSourceIds": [
         "jh-heineken-glass"
-      ]
+      ],
+      "userTier": "hang"
     },
     {
       "id": "heineken-keg",
@@ -2521,7 +2558,8 @@
       },
       "originalList": true,
       "aliases": [
-        "铁金刚 金刚桶"
+        "铁金刚 金刚桶",
+        "喜力金刚桶"
       ],
       "identityNote": "",
       "identityPending": false,
@@ -2552,7 +2590,8 @@
       "researchNote": "该酒款已完成本轮资料整理；“未核实”是明确的证据状态，不表示商品不存在或不好。",
       "extraSourceIds": [
         "ba-heineken"
-      ]
+      ],
+      "userTier": "hang"
     },
     {
       "id": "nadu",
@@ -2599,7 +2638,9 @@
         "checkedAt": "2026-09-27"
       },
       "originalList": true,
-      "aliases": [],
+      "aliases": [
+        "纳德"
+      ],
       "identityNote": "原始“纳德”无法唯一识别。本版主动选择施纳德7号作临时代表，绝不表示已确认原清单指的就是它；不是5号，也不是其他编号。",
       "identityPending": false,
       "representative": true,
@@ -2618,7 +2659,8 @@
         "abv": "reference-label"
       },
       "researchNote": "该酒款已完成本轮资料整理；“未核实”是明确的证据状态，不表示商品不存在或不好。",
-      "extraSourceIds": []
+      "extraSourceIds": [],
+      "userTier": "hang"
     },
     {
       "id": "dream",
@@ -2665,7 +2707,9 @@
         "checkedAt": "2026-09-27"
       },
       "originalList": true,
-      "aliases": [],
+      "aliases": [
+        "沙坡尾梦小姐"
+      ],
       "identityNote": "原清单只写系列名。本版明确选择酒花儿所列6%酸浑浊IPA作代表；不是3%超级芒果或5%贵妃芒芒。检索到的泛系列报价未确认到此版，因此仍标记歧义。",
       "identityPending": false,
       "representative": true,
@@ -2684,7 +2728,8 @@
         "abv": "reference-label"
       },
       "researchNote": "该酒款已完成本轮资料整理；“未核实”是明确的证据状态，不表示商品不存在或不好。",
-      "extraSourceIds": []
+      "extraSourceIds": [],
+      "userTier": "hang"
     },
     {
       "id": "pohjala",
@@ -2723,7 +2768,8 @@
       "quote": null,
       "originalList": true,
       "aliases": [
-        "伯亚拉 珀亚拉 爱沙尼亚"
+        "伯亚拉 珀亚拉 爱沙尼亚",
+        "爱沙尼亚伯亚拉"
       ],
       "identityNote": "珀亚拉是酒厂，不是单一酒款。本版主动选取常规黑夜Pime Öö作代表；不代表全品牌，不是PX或其他桶陈黑夜。",
       "identityPending": false,
@@ -2744,7 +2790,933 @@
         "abv": "reference-label"
       },
       "researchNote": "该酒款已完成本轮资料整理；“未核实”是明确的证据状态，不表示商品不存在或不好。",
-      "extraSourceIds": []
+      "extraSourceIds": [],
+      "userTier": "hang"
+    },
+    {
+      "id": "kirin-ichiban",
+      "name": "一番榨",
+      "english": "名称与版本待核验",
+      "family": "unresolved",
+      "style": "待确认",
+      "country": "待核验",
+      "abv": null,
+      "volumeMl": null,
+      "rating": null,
+      "tags": [
+        "用户榜单",
+        "资料待补"
+      ],
+      "review": {
+        "positive": "用户将「一番榨」列为「顶级」。这是原清单的主观档位，不是已核验的公开品饮结论。",
+        "caution": "具体SKU、产地、规格和公开评价尚未核验；不套用同品牌其他产品的数据。",
+        "fit": "先核对商品全名与包装，再决定是否试饮；暂无已核验的风味或选购预算建议。",
+        "sourceIds": [],
+        "type": "用户提供的主观榜单；非公开评价归纳、非亲自试饮"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [],
+      "identityNote": "按用户原文录入，具体商品身份与版本待核验。",
+      "identityPending": true,
+      "purchaseGuide": null,
+      "coverage": {
+        "identity": "user-list-unverified",
+        "price": "missing",
+        "rating": "missing",
+        "abv": "unverified"
+      },
+      "researchNote": "仅补录用户清单，未新增价格、规格、评分或来源证据。",
+      "extraSourceIds": [],
+      "userTier": "top"
+    },
+    {
+      "id": "tsingtao-small-brown",
+      "name": "青岛小棕瓶",
+      "english": "名称与版本待核验",
+      "family": "unresolved",
+      "style": "待确认",
+      "country": "待核验",
+      "abv": null,
+      "volumeMl": null,
+      "rating": null,
+      "tags": [
+        "用户榜单",
+        "资料待补"
+      ],
+      "review": {
+        "positive": "用户将「青岛小棕瓶」列为「顶级」。这是原清单的主观档位，不是已核验的公开品饮结论。",
+        "caution": "具体SKU、产地、规格和公开评价尚未核验；不套用同品牌其他产品的数据。",
+        "fit": "先核对商品全名与包装，再决定是否试饮；暂无已核验的风味或选购预算建议。",
+        "sourceIds": [],
+        "type": "用户提供的主观榜单；非公开评价归纳、非亲自试饮"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [],
+      "identityNote": "按用户原文录入，具体商品身份与版本待核验。",
+      "identityPending": true,
+      "purchaseGuide": null,
+      "coverage": {
+        "identity": "user-list-unverified",
+        "price": "missing",
+        "rating": "missing",
+        "abv": "unverified"
+      },
+      "researchNote": "仅补录用户清单，未新增价格、规格、评分或来源证据。",
+      "extraSourceIds": [],
+      "userTier": "top"
+    },
+    {
+      "id": "yanjing-craft",
+      "name": "燕京精酿",
+      "english": "名称与版本待核验",
+      "family": "unresolved",
+      "style": "待确认",
+      "country": "待核验",
+      "abv": null,
+      "volumeMl": null,
+      "rating": null,
+      "tags": [
+        "用户榜单",
+        "资料待补"
+      ],
+      "review": {
+        "positive": "用户将「燕京精酿」列为「顶级」。这是原清单的主观档位，不是已核验的公开品饮结论。",
+        "caution": "具体SKU、产地、规格和公开评价尚未核验；不套用同品牌其他产品的数据。",
+        "fit": "先核对商品全名与包装，再决定是否试饮；暂无已核验的风味或选购预算建议。",
+        "sourceIds": [],
+        "type": "用户提供的主观榜单；非公开评价归纳、非亲自试饮"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [],
+      "identityNote": "按用户原文录入，具体商品身份与版本待核验。",
+      "identityPending": true,
+      "purchaseGuide": null,
+      "coverage": {
+        "identity": "user-list-unverified",
+        "price": "missing",
+        "rating": "missing",
+        "abv": "unverified"
+      },
+      "researchNote": "仅补录用户清单，未新增价格、规格、评分或来源证据。",
+      "extraSourceIds": [],
+      "userTier": "top"
+    },
+    {
+      "id": "fan-jia-le",
+      "name": "范佳乐",
+      "english": "名称与版本待核验",
+      "family": "unresolved",
+      "style": "待确认",
+      "country": "待核验",
+      "abv": null,
+      "volumeMl": null,
+      "rating": null,
+      "tags": [
+        "用户榜单",
+        "资料待补"
+      ],
+      "review": {
+        "positive": "用户将「范佳乐」列为「顶级」。这是原清单的主观档位，不是已核验的公开品饮结论。",
+        "caution": "具体SKU、产地、规格和公开评价尚未核验；不套用同品牌其他产品的数据。",
+        "fit": "先核对商品全名与包装，再决定是否试饮；暂无已核验的风味或选购预算建议。",
+        "sourceIds": [],
+        "type": "用户提供的主观榜单；非公开评价归纳、非亲自试饮"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [],
+      "identityNote": "原文未指定产地或版本；独立记录，不把旧库“教士进口小麦白啤”的评分和价格移植过来。",
+      "identityPending": true,
+      "purchaseGuide": null,
+      "coverage": {
+        "identity": "user-list-unverified",
+        "price": "missing",
+        "rating": "missing",
+        "abv": "unverified"
+      },
+      "researchNote": "仅补录用户清单，未新增价格、规格、评分或来源证据。",
+      "extraSourceIds": [],
+      "userTier": "top"
+    },
+    {
+      "id": "tsingtao-unfiltered",
+      "name": "青岛原浆",
+      "english": "名称与版本待核验",
+      "family": "unresolved",
+      "style": "待确认",
+      "country": "待核验",
+      "abv": null,
+      "volumeMl": null,
+      "rating": null,
+      "tags": [
+        "用户榜单",
+        "资料待补"
+      ],
+      "review": {
+        "positive": "用户将「青岛原浆」列为「顶级」。这是原清单的主观档位，不是已核验的公开品饮结论。",
+        "caution": "具体SKU、产地、规格和公开评价尚未核验；不套用同品牌其他产品的数据。",
+        "fit": "先核对商品全名与包装，再决定是否试饮；暂无已核验的风味或选购预算建议。",
+        "sourceIds": [],
+        "type": "用户提供的主观榜单；非公开评价归纳、非亲自试饮"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [],
+      "identityNote": "按用户原文录入，具体商品身份与版本待核验。",
+      "identityPending": true,
+      "purchaseGuide": null,
+      "coverage": {
+        "identity": "user-list-unverified",
+        "price": "missing",
+        "rating": "missing",
+        "abv": "unverified"
+      },
+      "researchNote": "仅补录用户清单，未新增价格、规格、评分或来源证据。",
+      "extraSourceIds": [],
+      "userTier": "top"
+    },
+    {
+      "id": "he-bu-fan-yellow-river",
+      "name": "或不凡黄河之水",
+      "english": "名称与版本待核验",
+      "family": "unresolved",
+      "style": "待确认",
+      "country": "待核验",
+      "abv": null,
+      "volumeMl": null,
+      "rating": null,
+      "tags": [
+        "用户榜单",
+        "资料待补"
+      ],
+      "review": {
+        "positive": "用户将「或不凡黄河之水」列为「顶级」。这是原清单的主观档位，不是已核验的公开品饮结论。",
+        "caution": "具体SKU、产地、规格和公开评价尚未核验；不套用同品牌其他产品的数据。",
+        "fit": "先核对商品全名与包装，再决定是否试饮；暂无已核验的风味或选购预算建议。",
+        "sourceIds": [],
+        "type": "用户提供的主观榜单；非公开评价归纳、非亲自试饮"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [],
+      "identityNote": "保留原文“或不凡黄河之水”；名称与具体版本待核验。",
+      "identityPending": true,
+      "purchaseGuide": null,
+      "coverage": {
+        "identity": "user-list-unverified",
+        "price": "missing",
+        "rating": "missing",
+        "abv": "unverified"
+      },
+      "researchNote": "仅补录用户清单，未新增价格、规格、评分或来源证据。",
+      "extraSourceIds": [],
+      "userTier": "top"
+    },
+    {
+      "id": "duchesse",
+      "name": "勃艮第女公爵",
+      "english": "名称与版本待核验",
+      "family": "unresolved",
+      "style": "待确认",
+      "country": "待核验",
+      "abv": null,
+      "volumeMl": null,
+      "rating": null,
+      "tags": [
+        "用户榜单",
+        "资料待补"
+      ],
+      "review": {
+        "positive": "用户将「勃艮第女公爵」列为「顶级」。这是原清单的主观档位，不是已核验的公开品饮结论。",
+        "caution": "具体SKU、产地、规格和公开评价尚未核验；不套用同品牌其他产品的数据。",
+        "fit": "先核对商品全名与包装，再决定是否试饮；暂无已核验的风味或选购预算建议。",
+        "sourceIds": [],
+        "type": "用户提供的主观榜单；非公开评价归纳、非亲自试饮"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [],
+      "identityNote": "按用户原文录入，具体商品身份与版本待核验。",
+      "identityPending": true,
+      "purchaseGuide": null,
+      "coverage": {
+        "identity": "user-list-unverified",
+        "price": "missing",
+        "rating": "missing",
+        "abv": "unverified"
+      },
+      "researchNote": "仅补录用户清单，未新增价格、规格、评分或来源证据。",
+      "extraSourceIds": [],
+      "userTier": "top"
+    },
+    {
+      "id": "tsingtao-green",
+      "name": "绿瓶青岛",
+      "english": "名称与版本待核验",
+      "family": "unresolved",
+      "style": "待确认",
+      "country": "待核验",
+      "abv": null,
+      "volumeMl": null,
+      "rating": null,
+      "tags": [
+        "用户榜单",
+        "资料待补"
+      ],
+      "review": {
+        "positive": "用户将「绿瓶青岛」列为「人上人」。这是原清单的主观档位，不是已核验的公开品饮结论。",
+        "caution": "具体SKU、产地、规格和公开评价尚未核验；不套用同品牌其他产品的数据。",
+        "fit": "先核对商品全名与包装，再决定是否试饮；暂无已核验的风味或选购预算建议。",
+        "sourceIds": [],
+        "type": "用户提供的主观榜单；非公开评价归纳、非亲自试饮"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [],
+      "identityNote": "按用户原文录入，具体商品身份与版本待核验。",
+      "identityPending": true,
+      "purchaseGuide": null,
+      "coverage": {
+        "identity": "user-list-unverified",
+        "price": "missing",
+        "rating": "missing",
+        "abv": "unverified"
+      },
+      "researchNote": "仅补录用户清单，未新增价格、规格、评分或来源证据。",
+      "extraSourceIds": [],
+      "userTier": "above"
+    },
+    {
+      "id": "snow-brave",
+      "name": "雪花勇闯",
+      "english": "名称与版本待核验",
+      "family": "unresolved",
+      "style": "待确认",
+      "country": "待核验",
+      "abv": null,
+      "volumeMl": null,
+      "rating": null,
+      "tags": [
+        "用户榜单",
+        "资料待补"
+      ],
+      "review": {
+        "positive": "用户将「雪花勇闯」列为「人上人」。这是原清单的主观档位，不是已核验的公开品饮结论。",
+        "caution": "具体SKU、产地、规格和公开评价尚未核验；不套用同品牌其他产品的数据。",
+        "fit": "先核对商品全名与包装，再决定是否试饮；暂无已核验的风味或选购预算建议。",
+        "sourceIds": [],
+        "type": "用户提供的主观榜单；非公开评价归纳、非亲自试饮"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [],
+      "identityNote": "按用户原文录入，具体商品身份与版本待核验。",
+      "identityPending": true,
+      "purchaseGuide": null,
+      "coverage": {
+        "identity": "user-list-unverified",
+        "price": "missing",
+        "rating": "missing",
+        "abv": "unverified"
+      },
+      "researchNote": "仅补录用户清单，未新增价格、规格、评分或来源证据。",
+      "extraSourceIds": [],
+      "userTier": "above"
+    },
+    {
+      "id": "hoegaarden-user",
+      "name": "福佳白啤",
+      "english": "名称与版本待核验",
+      "family": "unresolved",
+      "style": "待确认",
+      "country": "待核验",
+      "abv": null,
+      "volumeMl": null,
+      "rating": null,
+      "tags": [
+        "用户榜单",
+        "资料待补"
+      ],
+      "review": {
+        "positive": "用户将「福佳白啤」列为「人上人」。这是原清单的主观档位，不是已核验的公开品饮结论。",
+        "caution": "具体SKU、产地、规格和公开评价尚未核验；不套用同品牌其他产品的数据。",
+        "fit": "先核对商品全名与包装，再决定是否试饮；暂无已核验的风味或选购预算建议。",
+        "sourceIds": [],
+        "type": "用户提供的主观榜单；非公开评价归纳、非亲自试饮"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [],
+      "identityNote": "原文未指定产地；独立记录，不把旧库“福佳白比利时原版”自动当作本条。",
+      "identityPending": true,
+      "purchaseGuide": null,
+      "coverage": {
+        "identity": "user-list-unverified",
+        "price": "missing",
+        "rating": "missing",
+        "abv": "unverified"
+      },
+      "researchNote": "仅补录用户清单，未新增价格、规格、评分或来源证据。",
+      "extraSourceIds": [],
+      "userTier": "above"
+    },
+    {
+      "id": "liquan-1998-plus",
+      "name": "漓泉1998++",
+      "english": "名称与版本待核验",
+      "family": "unresolved",
+      "style": "待确认",
+      "country": "待核验",
+      "abv": null,
+      "volumeMl": null,
+      "rating": null,
+      "tags": [
+        "用户榜单",
+        "资料待补"
+      ],
+      "review": {
+        "positive": "用户将「漓泉1998++」列为「人上人」。这是原清单的主观档位，不是已核验的公开品饮结论。",
+        "caution": "具体SKU、产地、规格和公开评价尚未核验；不套用同品牌其他产品的数据。",
+        "fit": "先核对商品全名与包装，再决定是否试饮；暂无已核验的风味或选购预算建议。",
+        "sourceIds": [],
+        "type": "用户提供的主观榜单；非公开评价归纳、非亲自试饮"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [],
+      "identityNote": "按用户原文录入，具体商品身份与版本待核验。",
+      "identityPending": true,
+      "purchaseGuide": null,
+      "coverage": {
+        "identity": "user-list-unverified",
+        "price": "missing",
+        "rating": "missing",
+        "abv": "unverified"
+      },
+      "researchNote": "仅补录用户清单，未新增价格、规格、评分或来源证据。",
+      "extraSourceIds": [],
+      "userTier": "above"
+    },
+    {
+      "id": "vedett-white",
+      "name": "白熊啤酒",
+      "english": "名称与版本待核验",
+      "family": "unresolved",
+      "style": "待确认",
+      "country": "待核验",
+      "abv": null,
+      "volumeMl": null,
+      "rating": null,
+      "tags": [
+        "用户榜单",
+        "资料待补"
+      ],
+      "review": {
+        "positive": "用户将「白熊啤酒」列为「人上人」。这是原清单的主观档位，不是已核验的公开品饮结论。",
+        "caution": "具体SKU、产地、规格和公开评价尚未核验；不套用同品牌其他产品的数据。",
+        "fit": "先核对商品全名与包装，再决定是否试饮；暂无已核验的风味或选购预算建议。",
+        "sourceIds": [],
+        "type": "用户提供的主观榜单；非公开评价归纳、非亲自试饮"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [],
+      "identityNote": "按用户原文录入，具体商品身份与版本待核验。",
+      "identityPending": true,
+      "purchaseGuide": null,
+      "coverage": {
+        "identity": "user-list-unverified",
+        "price": "missing",
+        "rating": "missing",
+        "abv": "unverified"
+      },
+      "researchNote": "仅补录用户清单，未新增价格、规格、评分或来源证据。",
+      "extraSourceIds": [],
+      "userTier": "above"
+    },
+    {
+      "id": "yanjing-u8",
+      "name": "燕京u8",
+      "english": "名称与版本待核验",
+      "family": "unresolved",
+      "style": "待确认",
+      "country": "待核验",
+      "abv": null,
+      "volumeMl": null,
+      "rating": null,
+      "tags": [
+        "用户榜单",
+        "资料待补"
+      ],
+      "review": {
+        "positive": "用户将「燕京u8」列为「NPC」。这是原清单的主观档位，不是已核验的公开品饮结论。",
+        "caution": "具体SKU、产地、规格和公开评价尚未核验；不套用同品牌其他产品的数据。",
+        "fit": "先核对商品全名与包装，再决定是否试饮；暂无已核验的风味或选购预算建议。",
+        "sourceIds": [],
+        "type": "用户提供的主观榜单；非公开评价归纳、非亲自试饮"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [],
+      "identityNote": "按用户原文录入，具体商品身份与版本待核验。",
+      "identityPending": true,
+      "purchaseGuide": null,
+      "coverage": {
+        "identity": "user-list-unverified",
+        "price": "missing",
+        "rating": "missing",
+        "abv": "unverified"
+      },
+      "researchNote": "仅补录用户清单，未新增价格、规格、评分或来源证据。",
+      "extraSourceIds": [],
+      "userTier": "npc"
+    },
+    {
+      "id": "harbin-white-can",
+      "name": "哈皮白罐",
+      "english": "名称与版本待核验",
+      "family": "unresolved",
+      "style": "待确认",
+      "country": "待核验",
+      "abv": null,
+      "volumeMl": null,
+      "rating": null,
+      "tags": [
+        "用户榜单",
+        "资料待补"
+      ],
+      "review": {
+        "positive": "用户将「哈皮白罐」列为「NPC」。这是原清单的主观档位，不是已核验的公开品饮结论。",
+        "caution": "具体SKU、产地、规格和公开评价尚未核验；不套用同品牌其他产品的数据。",
+        "fit": "先核对商品全名与包装，再决定是否试饮；暂无已核验的风味或选购预算建议。",
+        "sourceIds": [],
+        "type": "用户提供的主观榜单；非公开评价归纳、非亲自试饮"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [],
+      "identityNote": "保留原文“哈皮白罐”；品牌、具体包装与SKU待核验。",
+      "identityPending": true,
+      "purchaseGuide": null,
+      "coverage": {
+        "identity": "user-list-unverified",
+        "price": "missing",
+        "rating": "missing",
+        "abv": "unverified"
+      },
+      "researchNote": "仅补录用户清单，未新增价格、规格、评分或来源证据。",
+      "extraSourceIds": [],
+      "userTier": "npc"
+    },
+    {
+      "id": "kronenbourg-1664",
+      "name": "1664",
+      "english": "名称与版本待核验",
+      "family": "unresolved",
+      "style": "待确认",
+      "country": "待核验",
+      "abv": null,
+      "volumeMl": null,
+      "rating": null,
+      "tags": [
+        "用户榜单",
+        "资料待补"
+      ],
+      "review": {
+        "positive": "用户将「1664」列为「NPC」。这是原清单的主观档位，不是已核验的公开品饮结论。",
+        "caution": "具体SKU、产地、规格和公开评价尚未核验；不套用同品牌其他产品的数据。",
+        "fit": "先核对商品全名与包装，再决定是否试饮；暂无已核验的风味或选购预算建议。",
+        "sourceIds": [],
+        "type": "用户提供的主观榜单；非公开评价归纳、非亲自试饮"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [],
+      "identityNote": "按用户原文录入，具体商品身份与版本待核验。",
+      "identityPending": true,
+      "purchaseGuide": null,
+      "coverage": {
+        "identity": "user-list-unverified",
+        "price": "missing",
+        "rating": "missing",
+        "abv": "unverified"
+      },
+      "researchNote": "仅补录用户清单，未新增价格、规格、评分或来源证据。",
+      "extraSourceIds": [],
+      "userTier": "npc"
+    },
+    {
+      "id": "blue-ribbon",
+      "name": "蓝带",
+      "english": "名称与版本待核验",
+      "family": "unresolved",
+      "style": "待确认",
+      "country": "待核验",
+      "abv": null,
+      "volumeMl": null,
+      "rating": null,
+      "tags": [
+        "用户榜单",
+        "资料待补"
+      ],
+      "review": {
+        "positive": "用户将「蓝带」列为「NPC」。这是原清单的主观档位，不是已核验的公开品饮结论。",
+        "caution": "具体SKU、产地、规格和公开评价尚未核验；不套用同品牌其他产品的数据。",
+        "fit": "先核对商品全名与包装，再决定是否试饮；暂无已核验的风味或选购预算建议。",
+        "sourceIds": [],
+        "type": "用户提供的主观榜单；非公开评价归纳、非亲自试饮"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [],
+      "identityNote": "按用户原文录入，具体商品身份与版本待核验。",
+      "identityPending": true,
+      "purchaseGuide": null,
+      "coverage": {
+        "identity": "user-list-unverified",
+        "price": "missing",
+        "rating": "missing",
+        "abv": "unverified"
+      },
+      "researchNote": "仅补录用户清单，未新增价格、规格、评分或来源证据。",
+      "extraSourceIds": [],
+      "userTier": "npc"
+    },
+    {
+      "id": "heineken-silver",
+      "name": "喜力银星（白罐）",
+      "english": "名称与版本待核验",
+      "family": "unresolved",
+      "style": "待确认",
+      "country": "待核验",
+      "abv": null,
+      "volumeMl": null,
+      "rating": null,
+      "tags": [
+        "用户榜单",
+        "资料待补"
+      ],
+      "review": {
+        "positive": "用户将「喜力银星（白罐）」列为「NPC」。这是原清单的主观档位，不是已核验的公开品饮结论。",
+        "caution": "具体SKU、产地、规格和公开评价尚未核验；不套用同品牌其他产品的数据。",
+        "fit": "先核对商品全名与包装，再决定是否试饮；暂无已核验的风味或选购预算建议。",
+        "sourceIds": [],
+        "type": "用户提供的主观榜单；非公开评价归纳、非亲自试饮"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [],
+      "identityNote": "与紧随其后的“乌苏白啤”拆为两款；白罐称呼按原文保留，具体版本待核验。",
+      "identityPending": true,
+      "purchaseGuide": null,
+      "coverage": {
+        "identity": "user-list-unverified",
+        "price": "missing",
+        "rating": "missing",
+        "abv": "unverified"
+      },
+      "researchNote": "仅补录用户清单，未新增价格、规格、评分或来源证据。",
+      "extraSourceIds": [],
+      "userTier": "npc"
+    },
+    {
+      "id": "wusu-white",
+      "name": "乌苏白啤",
+      "english": "名称与版本待核验",
+      "family": "unresolved",
+      "style": "待确认",
+      "country": "待核验",
+      "abv": null,
+      "volumeMl": null,
+      "rating": null,
+      "tags": [
+        "用户榜单",
+        "资料待补"
+      ],
+      "review": {
+        "positive": "用户将「乌苏白啤」列为「NPC」。这是原清单的主观档位，不是已核验的公开品饮结论。",
+        "caution": "具体SKU、产地、规格和公开评价尚未核验；不套用同品牌其他产品的数据。",
+        "fit": "先核对商品全名与包装，再决定是否试饮；暂无已核验的风味或选购预算建议。",
+        "sourceIds": [],
+        "type": "用户提供的主观榜单；非公开评价归纳、非亲自试饮"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [],
+      "identityNote": "从原文“喜力银星（白罐）乌苏白啤”单独拆出，不与“乌苏”普通款合并。",
+      "identityPending": true,
+      "purchaseGuide": null,
+      "coverage": {
+        "identity": "user-list-unverified",
+        "price": "missing",
+        "rating": "missing",
+        "abv": "unverified"
+      },
+      "researchNote": "仅补录用户清单，未新增价格、规格、评分或来源证据。",
+      "extraSourceIds": [],
+      "userTier": "npc"
+    },
+    {
+      "id": "wusu",
+      "name": "乌苏",
+      "english": "名称与版本待核验",
+      "family": "unresolved",
+      "style": "待确认",
+      "country": "待核验",
+      "abv": null,
+      "volumeMl": null,
+      "rating": null,
+      "tags": [
+        "用户榜单",
+        "资料待补"
+      ],
+      "review": {
+        "positive": "用户将「乌苏」列为「拉完了」。这是原清单的主观档位，不是已核验的公开品饮结论。",
+        "caution": "具体SKU、产地、规格和公开评价尚未核验；不套用同品牌其他产品的数据。",
+        "fit": "先核对商品全名与包装，再决定是否试饮；暂无已核验的风味或选购预算建议。",
+        "sourceIds": [],
+        "type": "用户提供的主观榜单；非公开评价归纳、非亲自试饮"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [],
+      "identityNote": "按用户原文录入，具体商品身份与版本待核验。",
+      "identityPending": true,
+      "purchaseGuide": null,
+      "coverage": {
+        "identity": "user-list-unverified",
+        "price": "missing",
+        "rating": "missing",
+        "abv": "unverified"
+      },
+      "researchNote": "仅补录用户清单，未新增价格、规格、评分或来源证据。",
+      "extraSourceIds": [],
+      "userTier": "bottom"
+    },
+    {
+      "id": "corona-user",
+      "name": "卡罗娜",
+      "english": "名称与版本待核验",
+      "family": "unresolved",
+      "style": "待确认",
+      "country": "待核验",
+      "abv": null,
+      "volumeMl": null,
+      "rating": null,
+      "tags": [
+        "用户榜单",
+        "资料待补"
+      ],
+      "review": {
+        "positive": "用户将「卡罗娜」列为「拉完了」。这是原清单的主观档位，不是已核验的公开品饮结论。",
+        "caution": "具体SKU、产地、规格和公开评价尚未核验；不套用同品牌其他产品的数据。",
+        "fit": "先核对商品全名与包装，再决定是否试饮；暂无已核验的风味或选购预算建议。",
+        "sourceIds": [],
+        "type": "用户提供的主观榜单；非公开评价归纳、非亲自试饮"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [],
+      "identityNote": "保留原文“卡罗娜”；暂未核验其正式名称和具体SKU。",
+      "identityPending": true,
+      "purchaseGuide": null,
+      "coverage": {
+        "identity": "user-list-unverified",
+        "price": "missing",
+        "rating": "missing",
+        "abv": "unverified"
+      },
+      "researchNote": "仅补录用户清单，未新增价格、规格、评分或来源证据。",
+      "extraSourceIds": [],
+      "userTier": "bottom"
+    },
+    {
+      "id": "pearl-river-green",
+      "name": "珠江绿罐",
+      "english": "名称与版本待核验",
+      "family": "unresolved",
+      "style": "待确认",
+      "country": "待核验",
+      "abv": null,
+      "volumeMl": null,
+      "rating": null,
+      "tags": [
+        "用户榜单",
+        "资料待补"
+      ],
+      "review": {
+        "positive": "用户将「珠江绿罐」列为「拉完了」。这是原清单的主观档位，不是已核验的公开品饮结论。",
+        "caution": "具体SKU、产地、规格和公开评价尚未核验；不套用同品牌其他产品的数据。",
+        "fit": "先核对商品全名与包装，再决定是否试饮；暂无已核验的风味或选购预算建议。",
+        "sourceIds": [],
+        "type": "用户提供的主观榜单；非公开评价归纳、非亲自试饮"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [],
+      "identityNote": "按用户原文录入，具体商品身份与版本待核验。",
+      "identityPending": true,
+      "purchaseGuide": null,
+      "coverage": {
+        "identity": "user-list-unverified",
+        "price": "missing",
+        "rating": "missing",
+        "abv": "unverified"
+      },
+      "researchNote": "仅补录用户清单，未新增价格、规格、评分或来源证据。",
+      "extraSourceIds": [],
+      "userTier": "bottom"
+    },
+    {
+      "id": "tuborg",
+      "name": "乐堡",
+      "english": "名称与版本待核验",
+      "family": "unresolved",
+      "style": "待确认",
+      "country": "待核验",
+      "abv": null,
+      "volumeMl": null,
+      "rating": null,
+      "tags": [
+        "用户榜单",
+        "资料待补"
+      ],
+      "review": {
+        "positive": "用户将「乐堡」列为「拉完了」。这是原清单的主观档位，不是已核验的公开品饮结论。",
+        "caution": "具体SKU、产地、规格和公开评价尚未核验；不套用同品牌其他产品的数据。",
+        "fit": "先核对商品全名与包装，再决定是否试饮；暂无已核验的风味或选购预算建议。",
+        "sourceIds": [],
+        "type": "用户提供的主观榜单；非公开评价归纳、非亲自试饮"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [],
+      "identityNote": "按用户原文录入，具体商品身份与版本待核验。",
+      "identityPending": true,
+      "purchaseGuide": null,
+      "coverage": {
+        "identity": "user-list-unverified",
+        "price": "missing",
+        "rating": "missing",
+        "abv": "unverified"
+      },
+      "researchNote": "仅补录用户清单，未新增价格、规格、评分或来源证据。",
+      "extraSourceIds": [],
+      "userTier": "bottom"
+    },
+    {
+      "id": "budweiser",
+      "name": "百威",
+      "english": "名称与版本待核验",
+      "family": "unresolved",
+      "style": "待确认",
+      "country": "待核验",
+      "abv": null,
+      "volumeMl": null,
+      "rating": null,
+      "tags": [
+        "用户榜单",
+        "资料待补"
+      ],
+      "review": {
+        "positive": "用户将「百威」列为「拉完了」。这是原清单的主观档位，不是已核验的公开品饮结论。",
+        "caution": "具体SKU、产地、规格和公开评价尚未核验；不套用同品牌其他产品的数据。",
+        "fit": "先核对商品全名与包装，再决定是否试饮；暂无已核验的风味或选购预算建议。",
+        "sourceIds": [],
+        "type": "用户提供的主观榜单；非公开评价归纳、非亲自试饮"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [],
+      "identityNote": "按用户原文录入，具体商品身份与版本待核验。",
+      "identityPending": true,
+      "purchaseGuide": null,
+      "coverage": {
+        "identity": "user-list-unverified",
+        "price": "missing",
+        "rating": "missing",
+        "abv": "unverified"
+      },
+      "researchNote": "仅补录用户清单，未新增价格、规格、评分或来源证据。",
+      "extraSourceIds": [],
+      "userTier": "bottom"
+    },
+    {
+      "id": "strong-user",
+      "name": "强爽",
+      "english": "名称与版本待核验",
+      "family": "unresolved",
+      "style": "待确认",
+      "country": "待核验",
+      "abv": null,
+      "volumeMl": null,
+      "rating": null,
+      "tags": [
+        "用户榜单",
+        "资料待补"
+      ],
+      "review": {
+        "positive": "用户将「强爽」列为「拉完了」。这是原清单的主观档位，不是已核验的公开品饮结论。",
+        "caution": "具体SKU、产地、规格和公开评价尚未核验；不套用同品牌其他产品的数据。",
+        "fit": "先核对商品全名与包装，再决定是否试饮；暂无已核验的风味或选购预算建议。",
+        "sourceIds": [],
+        "type": "用户提供的主观榜单；非公开评价归纳、非亲自试饮"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [],
+      "identityNote": "保留原文“强爽”；品类和具体产品待核验，不擅自断言它是啤酒。",
+      "identityPending": true,
+      "purchaseGuide": null,
+      "coverage": {
+        "identity": "user-list-unverified",
+        "price": "missing",
+        "rating": "missing",
+        "abv": "unverified"
+      },
+      "researchNote": "仅补录用户清单，未新增价格、规格、评分或来源证据。",
+      "extraSourceIds": [],
+      "userTier": "bottom"
+    },
+    {
+      "id": "laoshan",
+      "name": "崂山啤酒",
+      "english": "名称与版本待核验",
+      "family": "unresolved",
+      "style": "待确认",
+      "country": "待核验",
+      "abv": null,
+      "volumeMl": null,
+      "rating": null,
+      "tags": [
+        "用户榜单",
+        "资料待补"
+      ],
+      "review": {
+        "positive": "用户将「崂山啤酒」列为「拉完了」。这是原清单的主观档位，不是已核验的公开品饮结论。",
+        "caution": "具体SKU、产地、规格和公开评价尚未核验；不套用同品牌其他产品的数据。",
+        "fit": "先核对商品全名与包装，再决定是否试饮；暂无已核验的风味或选购预算建议。",
+        "sourceIds": [],
+        "type": "用户提供的主观榜单；非公开评价归纳、非亲自试饮"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [],
+      "identityNote": "按用户原文录入，具体商品身份与版本待核验。",
+      "identityPending": true,
+      "purchaseGuide": null,
+      "coverage": {
+        "identity": "user-list-unverified",
+        "price": "missing",
+        "rating": "missing",
+        "abv": "unverified"
+      },
+      "researchNote": "仅补录用户清单，未新增价格、规格、评分或来源证据。",
+      "extraSourceIds": [],
+      "userTier": "bottom"
     }
   ],
   "sources": {
@@ -3578,5 +4550,255 @@
       "checkedAt": "2026-09-27",
       "note": "检索片段只明确规格与优惠金额，未可靠取得总价；不做可换算报价。"
     }
+  },
+  "tierList": {
+    "title": "用户提供的五档口味榜单",
+    "description": "保留用户原文与顺序；主观档位不是社区分数，不进入证据前沿。未指定版本的原库映射仅用于资料导航。",
+    "tiers": [
+      {
+        "id": "hang",
+        "label": "夯",
+        "entries": [
+          {
+            "name": "奥古特",
+            "beerId": "augerta"
+          },
+          {
+            "name": "喜力绿瓶",
+            "beerId": "heineken-bottle"
+          },
+          {
+            "name": "喜力绿罐",
+            "beerId": "heineken-can"
+          },
+          {
+            "name": "老雪花",
+            "beerId": "snow"
+          },
+          {
+            "name": "青岛白啤",
+            "beerId": "tsingtao-white"
+          },
+          {
+            "name": "朝日",
+            "beerId": "asahi"
+          },
+          {
+            "name": "胖东来精酿小啤酒",
+            "beerId": "pang"
+          },
+          {
+            "name": "柏龙啤酒（保拉纳）",
+            "beerId": "paulaner",
+            "note": "原文为柏龙/保拉纳品牌称呼；沿用原资料库小麦白啤条目，购买时仍需核对具体版本。"
+          },
+          {
+            "name": "维森啤酒",
+            "beerId": "weihen",
+            "note": "原文仅为品牌泛称；这里沿用原资料库的维森原味小麦作为阅读对象，不代表确认所有维森产品。"
+          },
+          {
+            "name": "纳德",
+            "beerId": "nadu",
+            "note": "“德式小麦三巨头”之一。沿用施纳德7号临时代表款；“纳德”的准确身份仍未由原文确认。"
+          },
+          {
+            "name": "捷皇",
+            "beerId": "primator",
+            "note": "“德式小麦三巨头”之一；这是用户原文分组，不作为产地或风格的核验结论。"
+          },
+          {
+            "name": "艾英格",
+            "beerId": "ayinger",
+            "note": "“德式小麦三巨头”之一；沿用原资料库小麦白啤条目，原文未指定具体SKU。"
+          },
+          {
+            "name": "喜力金刚桶",
+            "beerId": "heineken-keg"
+          },
+          {
+            "name": "施耐德5号",
+            "beerId": "tap5"
+          },
+          {
+            "name": "暴龙王啤酒",
+            "beerId": "kingsue"
+          },
+          {
+            "name": "大九酿造降临",
+            "beerId": "dajiu"
+          },
+          {
+            "name": "沙坡尾梦小姐",
+            "beerId": "dream",
+            "note": "原文未指定版本；沿用原库梦小姐6%酸浑浊代表款，不意味着对原清单版本的确认。"
+          },
+          {
+            "name": "海狸万岁",
+            "beerId": "beaver"
+          },
+          {
+            "name": "爱沙尼亚伯亚拉",
+            "beerId": "pohjala",
+            "note": "原文为酒厂/品牌泛称；沿用珀亚拉黑夜 Pime Öö 代表款，不代表整个酒厂的全部产品。"
+          },
+          {
+            "name": "牛啤堂帝都海盐",
+            "beerId": "salt"
+          },
+          {
+            "name": "博士纳乌奎尔",
+            "beerId": "pilsner"
+          }
+        ]
+      },
+      {
+        "id": "top",
+        "label": "顶级",
+        "entries": [
+          {
+            "name": "一番榨",
+            "beerId": "kirin-ichiban"
+          },
+          {
+            "name": "青岛小棕瓶",
+            "beerId": "tsingtao-small-brown"
+          },
+          {
+            "name": "燕京精酿",
+            "beerId": "yanjing-craft"
+          },
+          {
+            "name": "范佳乐",
+            "beerId": "fan-jia-le",
+            "note": "原文未指定产地或版本；独立记录，不把旧库“教士进口小麦白啤”的评分和价格移植过来。"
+          },
+          {
+            "name": "罗斯福啤酒（10°）",
+            "beerId": "rochefort10",
+            "note": "原文“罗斯福啤酒（10°）至美蓝帽”拆成两款；括号中的10°按原文保留，不能当作酒精度。"
+          },
+          {
+            "name": "至美蓝帽",
+            "beerId": "chimay",
+            "note": "保留原文“至美蓝帽”，映射至原库“智美蓝帽”条目供阅读；不是静默修改原清单。"
+          },
+          {
+            "name": "健力士啤酒",
+            "beerId": "guinness",
+            "note": "原文仅指定健力士，沿用原资料库氮气世涛条目；具体包装与版本仍以实物为准。"
+          },
+          {
+            "name": "青岛原浆",
+            "beerId": "tsingtao-unfiltered"
+          },
+          {
+            "name": "或不凡黄河之水",
+            "beerId": "he-bu-fan-yellow-river",
+            "note": "保留原文“或不凡黄河之水”；名称与具体版本待核验。"
+          },
+          {
+            "name": "勃艮第女公爵",
+            "beerId": "duchesse"
+          }
+        ]
+      },
+      {
+        "id": "above",
+        "label": "人上人",
+        "entries": [
+          {
+            "name": "绿瓶青岛",
+            "beerId": "tsingtao-green"
+          },
+          {
+            "name": "雪花勇闯",
+            "beerId": "snow-brave"
+          },
+          {
+            "name": "福佳白啤",
+            "beerId": "hoegaarden-user",
+            "note": "原文未指定产地；独立记录，不把旧库“福佳白比利时原版”自动当作本条。"
+          },
+          {
+            "name": "漓泉1998++",
+            "beerId": "liquan-1998-plus"
+          },
+          {
+            "name": "白熊啤酒",
+            "beerId": "vedett-white"
+          }
+        ]
+      },
+      {
+        "id": "npc",
+        "label": "NPC",
+        "entries": [
+          {
+            "name": "燕京u8",
+            "beerId": "yanjing-u8"
+          },
+          {
+            "name": "哈皮白罐",
+            "beerId": "harbin-white-can",
+            "note": "保留原文“哈皮白罐”；品牌、具体包装与SKU待核验。"
+          },
+          {
+            "name": "1664",
+            "beerId": "kronenbourg-1664"
+          },
+          {
+            "name": "蓝带",
+            "beerId": "blue-ribbon"
+          },
+          {
+            "name": "喜力银星（白罐）",
+            "beerId": "heineken-silver",
+            "note": "与紧随其后的“乌苏白啤”拆为两款；白罐称呼按原文保留，具体版本待核验。"
+          },
+          {
+            "name": "乌苏白啤",
+            "beerId": "wusu-white",
+            "note": "从原文“喜力银星（白罐）乌苏白啤”单独拆出，不与“乌苏”普通款合并。"
+          }
+        ]
+      },
+      {
+        "id": "bottom",
+        "label": "拉完了",
+        "entries": [
+          {
+            "name": "乌苏",
+            "beerId": "wusu"
+          },
+          {
+            "name": "卡罗娜",
+            "beerId": "corona-user",
+            "note": "保留原文“卡罗娜”；暂未核验其正式名称和具体SKU。"
+          },
+          {
+            "name": "珠江绿罐",
+            "beerId": "pearl-river-green"
+          },
+          {
+            "name": "乐堡",
+            "beerId": "tuborg"
+          },
+          {
+            "name": "百威",
+            "beerId": "budweiser"
+          },
+          {
+            "name": "强爽",
+            "beerId": "strong-user",
+            "note": "保留原文“强爽”；品类和具体产品待核验，不擅自断言它是啤酒。"
+          },
+          {
+            "name": "崂山啤酒",
+            "beerId": "laoshan"
+          }
+        ]
+      }
+    ]
   }
 }

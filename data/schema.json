@@ -64,6 +64,70 @@
       "additionalProperties": {
         "$ref": "#/$defs/source"
       }
+    },
+    "tierList": {
+      "type": "object",
+      "required": [
+        "title",
+        "description",
+        "tiers"
+      ],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "tiers": {
+          "type": "array",
+          "minItems": 5,
+          "maxItems": 5,
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "label",
+              "entries"
+            ],
+            "properties": {
+              "id": {
+                "enum": [
+                  "hang",
+                  "top",
+                  "above",
+                  "npc",
+                  "bottom"
+                ]
+              },
+              "label": {
+                "type": "string"
+              },
+              "entries": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "name",
+                    "beerId"
+                  ],
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "beerId": {
+                      "type": "string"
+                    },
+                    "note": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "$defs": {
@@ -352,7 +416,10 @@
           "$ref": "#/$defs/rating"
         },
         "purchaseGuide": {
-          "type": "object",
+          "type": [
+            "object",
+            "null"
+          ],
           "required": [
             "ceiling",
             "volumeMl",
@@ -373,6 +440,15 @@
               "const": "editorial-ceiling"
             }
           }
+        },
+        "userTier": {
+          "enum": [
+            "hang",
+            "top",
+            "above",
+            "npc",
+            "bottom"
+          ]
         }
       }
     }

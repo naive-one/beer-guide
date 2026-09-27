@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "security_concerns": [],
+  "logic_errors": [],
+  "suggestions": [
+    "Add a deterministic regression that closes and reopens a dialog before the queued close event runs. Current ui_chart.py covers repeated transitions but does not explicitly force that event ordering."
+  ],
+  "visual_summary": "Attached desktop/mobile charts and desktop ranking show no obvious clipping or text overlap. Cluster controls sit outside plots; frontier names and ordinal indices remain readable. Mobile secondary text is compact.",
+  "summary": "Read-only review found no blocking defects. Picker focus restoration handles actual openers and replacement nodes; delayed close handling protects reopened dialogs and existing focus. Subjective tiers remain separate from scores, and unknown values remain null. Confirmed 67 records, tier counts 21/10/5/6/7, unchanged original research fields, and matching source/dist files. No edits, commits, browser tests, or deployment tests performed."
+}

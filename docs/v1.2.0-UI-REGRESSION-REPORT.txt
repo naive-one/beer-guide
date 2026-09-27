@@ -1,0 +1,25 @@
+PASS chart panels, all records, frontier key, all overlap members, dismissal and rerender focus, nulls, budget-invariant scales and geometry and responsive geometry
+PASS uncluttered mobile plot, separate overlap chooser and readable labels
+PASS complete ranking, every mapped dialog, independent tier filter, unknown price and original-name search
+PASS all cards + map entries + index buttons + table rows, no pagination
+PASS 21 evidence-qualified records, 7 independent-platform frontier nodes, no mixed-platform winner
+PASS coverage counters match dataset
+PASS all detail dialogs contain evaluations, quote status, budget guidance and score provenance
+PASS unknown score, editorial budget, and related-version score have distinct accessible labels
+PASS evidence-only chart toggle does not hide the other cards
+PASS platform filter and restore-all button
+PASS comment count never masquerades as rating sample size
+PASS historical exclusion changes calculation, not full-view visibility
+PASS same-style frontiers retain distinct styles
+PASS budget library filter supports quoted prices and explicitly identified budget conditions
+PASS actual quote overrides ambiguous source and recalculates frontier
+PASS personal quote and score serialize and round-trip using native localStorage after reload
+PASS personal mode does not backfill missing personal scores with community scores
+PASS three-item comparison cap and dialog
+PASS accessible complete data table
+PASS all 83 source links and safe external-link attributes
+PASS personal JSON export produces expected contents
+PASS personal JSON import validates and restores records
+PASS 390/768/1440px responsive layouts retain all entries with no page horizontal overflow
+PASS no JavaScript runtime errors across all exercised flows
+ALL 21 UI CHECKS PASSED

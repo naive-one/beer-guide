@@ -2,7 +2,7 @@
 (function(root,factory){if(typeof module==='object'&&module.exports)module.exports=factory();else root.BeerCore=factory();})(typeof globalThis!=='undefined'?globalThis:this,function(){
  'use strict';
  const EPS=1e-9;
- const defaults=()=>({budget:20,unit:'500ml',family:'all',style:'all',mode:'global',scoreMode:'community',scorePlatform:'all',mapMode:'all',minRatings:0,maxAbv:16,includeHistoric:true,includeAmbiguous:false,onlyPersonalPrices:false,query:'',sort:'price',libraryMode:'all',shortlist:[],overrides:{},personalScores:{}});
+ const defaults=()=>({budget:20,unit:'500ml',family:'all',style:'all',mode:'global',scoreMode:'community',scorePlatform:'all',mapMode:'all',minRatings:0,maxAbv:16,includeHistoric:true,includeAmbiguous:false,onlyPersonalPrices:false,query:'',tierFilter:'all',sort:'price',libraryMode:'all',shortlist:[],overrides:{},personalScores:{}});
  const finite=v=>typeof v==='number'&&Number.isFinite(v);
  function validQuote(q){return !!(q&&finite(q.total)&&q.total>0&&q.total<=1000000&&Number.isInteger(q.quantity)&&q.quantity>=1&&q.quantity<=10000&&finite(q.volumeMl)&&q.volumeMl>=1&&q.volumeMl<=100000);}
  function cost(q,unit='500ml'){if(!validQuote(q))return null;return unit==='order'?q.total:unit==='unit'?q.total/q.quantity:q.total/q.quantity*500/q.volumeMl;}
@@ -31,7 +31,7 @@
  }
  function entryLimit(row,eligible,mode='global'){if(!row.activeRating)return null;const peers=eligible.filter(p=>p.id!==row.id&&comparable(p,row,mode)&&p.activeRating.value>=row.activeRating.value-EPS);if(!peers.length)return {price:null,strict:false,peerIds:[]};const min=Math.min(...peers.map(p=>p.price)),closest=peers.filter(p=>Math.abs(p.price-min)<=EPS);return {price:min,strict:closest.some(p=>p.activeRating.value>row.activeRating.value+EPS),peerIds:closest.map(p=>p.id)};}
  // A chart reference is NOT an eligible Pareto record. Unknown scores stay null.
- function displayPoint(row,s){const r=row.activeRating||(s.scoreMode==='community'?row.relatedRating:null);const hasPrice=finite(row.price);return {...row,plotPrice:hasPrice?row.price:guideCost(row,s),plotRating:r||null,reference:!row.eligible,priceBasis:hasPrice?'quote':'editorial-ceiling',scoreBasis:row.activeRating?'matched':r?'related':'unknown'};}
+ function displayPoint(row,s){const r=row.activeRating||(s.scoreMode==='community'?row.relatedRating:null);const hasPrice=finite(row.price);return {...row,plotPrice:hasPrice?row.price:guideCost(row,s),plotRating:r||null,reference:!row.eligible,priceBasis:hasPrice?'quote':finite(guideCost(row,s))?'editorial-ceiling':'unknown',scoreBasis:row.activeRating?'matched':r?'related':'unknown'};}
  function validateImport(input,ids){if(!input||typeof input!=='object'||Array.isArray(input)||input.schemaVersion!==1)throw Error('只接受 schemaVersion 为 1 的个人数据JSON。');const out={overrides:{},personalScores:{},shortlist:[]};
   for(const [id,q]of Object.entries(input.overrides||{})){if(!ids.has(id))throw Error('包含未知酒款ID：'+id);if(!validQuote(q))throw Error('报价无效：'+id);out.overrides[id]={total:q.total,quantity:q.quantity,volumeMl:q.volumeMl,checkedAt:typeof q.checkedAt==='string'?q.checkedAt.slice(0,32):'',note:typeof q.note==='string'?q.note.slice(0,200):''};}
   for(const [id,r]of Object.entries(input.personalScores||{})){if(!ids.has(id)||!finite(r)||r<0||r>5)throw Error('个人评分无效：'+id);out.personalScores[id]=r;}

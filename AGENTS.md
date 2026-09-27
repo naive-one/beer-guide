@@ -1,4 +1,14 @@
-# Beer Guide v1.1.0 · Agent施工说明
+# Beer Guide v1.2.0 · Agent施工说明
+
+## 当前版本差异（优先于下方保留的v1.1基线）
+
+当前资料库67款：原42款研究记录加25款仅用户清单的未核验条目。五档榜单49项，计数21/10/5/6/7，见docs/RANKING.md；未上榜旧款不能删除。quote/rating/purchaseGuide均可为null，不能用假预算让未知价格进入图，也不能把null当成免费。用户档位独立于社区分/个人分，不影响证据前沿。
+
+默认67张卡、67图表条目（含待补坐标区）、67快捷索引、67明细；原35匹配分、6相关版分、30报价、83来源、21可比记录和7前沿节点不变。平台用独立小图和坐标；图下列出前沿全名，重叠点从图外入口展开。
+
+运行npm run check；先启动npm run preview，再用已装Playwright的Python运行tests/ui_smoke.py、tests/ui_chart.py、tests/ui_ranking.py、tests/ui_readability.py。CHROMIUM_PATH指定本机浏览器；BEER_URL默认为http://127.0.0.1:8080。当前UI测试用真实HTTP和原生localStorage，不是旧版Storage替身。
+
+以下为旧版研究维护约束；条目数量与浏览器限制以本节为准。
 
 ## 更新目标
 
