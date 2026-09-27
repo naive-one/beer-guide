@@ -1,0 +1,23 @@
+{
+  "name": "beer-guide",
+  "version": "1.0.1",
+  "private": true,
+  "description": "啤酒前沿：可追溯价格与口碑的本地优先帕累托探索网站",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/naive-one/beer-guide.git"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/core.test.cjs tests/deploy.test.cjs tests/publish.test.cjs",
+    "check": "npm run build && npm test",
+    "preview": "node scripts/serve.mjs",
+    "dev": "npm run build && node scripts/serve.mjs",
+    "deploy": "npm run build && npx --yes wrangler@4 deploy",
+    "publish:github": "node scripts/publish-github.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

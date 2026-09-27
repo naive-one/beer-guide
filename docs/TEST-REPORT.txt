@@ -1,0 +1,142 @@
+TAP version 13
+# Subtest: normalize volume and pack; never infer null as free
+ok 1 - normalize volume and pack; never infer null as free
+  ---
+  duration_ms: 1.111616
+  type: 'test'
+  ...
+# Subtest: exact Pareto: lower price AND >=score dominates; tradeoffs survive
+ok 2 - exact Pareto: lower price AND >=score dominates; tradeoffs survive
+  ---
+  duration_ms: 0.755108
+  type: 'test'
+  ...
+# Subtest: ties, equal price/equal score, duplicate points
+ok 3 - ties, equal price/equal score, duplicate points
+  ---
+  duration_ms: 6.887777
+  type: 'test'
+  ...
+# Subtest: cross-style dominance disabled only in same-style mode
+ok 4 - cross-style dominance disabled only in same-style mode
+  ---
+  duration_ms: 0.233021
+  type: 'test'
+  ...
+# Subtest: empty and invalid rows excluded
+ok 5 - empty and invalid rows excluded
+  ---
+  duration_ms: 0.195254
+  type: 'test'
+  ...
+# Subtest: default scenario is evidence-aware and reproducible
+ok 6 - default scenario is evidence-aware and reproducible
+  ---
+  duration_ms: 0.724182
+  type: 'test'
+  ...
+# Subtest: historical and ambiguous prices require explicit toggles
+ok 7 - historical and ambiguous prices require explicit toggles
+  ---
+  duration_ms: 0.383488
+  type: 'test'
+  ...
+# Subtest: manual price overrides and replaces historical restrictions
+ok 8 - manual price overrides and replaces historical restrictions
+  ---
+  duration_ms: 0.13936
+  type: 'test'
+  ...
+# Subtest: budget below minimum returns no recommendation, not automatic upsell
+ok 9 - budget below minimum returns no recommendation, not automatic upsell
+  ---
+  duration_ms: 0.283157
+  type: 'test'
+  ...
+# Subtest: personal score mode never fills missing personal scores from BA
+ok 10 - personal score mode never fills missing personal scores from BA
+  ---
+  duration_ms: 0.442898
+  type: 'test'
+  ...
+# Subtest: minimum sample and ABV filters: unknowns excluded under restrictive limit
+ok 11 - minimum sample and ABV filters: unknowns excluded under restrictive limit
+  ---
+  duration_ms: 0.745444
+  type: 'test'
+  ...
+# Subtest: identity placeholders never become comparable through manual input
+ok 12 - identity placeholders never become comparable through manual input
+  ---
+  duration_ms: 0.108163
+  type: 'test'
+  ...
+# Subtest: personal import rejects bad shapes/unknown ids/infinity and retains only allowed keys
+ok 13 - personal import rejects bad shapes/unknown ids/infinity and retains only allowed keys
+  ---
+  duration_ms: 0.619504
+  type: 'test'
+  ...
+# Subtest: data integrity and traceable ratings/quotes/review sources
+ok 14 - data integrity and traceable ratings/quotes/review sources
+  ---
+  duration_ms: 0.316407
+  type: 'test'
+  ...
+# Subtest: quote entry threshold is not a fabricated market price
+ok 15 - quote entry threshold is not a fabricated market price
+  ---
+  duration_ms: 0.492763
+  type: 'test'
+  ...
+# Subtest: Workers config uses only dist, a matching name, and actual 404s
+ok 16 - Workers config uses only dist, a matching name, and actual 404s
+  ---
+  duration_ms: 0.962582
+  type: 'test'
+  ...
+# Subtest: build is deterministic, purges stale dist files, and publishes only allowlisted files
+ok 17 - build is deterministic, purges stale dist files, and publishes only allowlisted files
+  ---
+  duration_ms: 72.933034
+  type: 'test'
+  ...
+# Subtest: committed dist assets match current sources and include non-sticky cache headers
+ok 18 - committed dist assets match current sources and include non-sticky cache headers
+  ---
+  duration_ms: 1.091727
+  type: 'test'
+  ...
+# Subtest: local preview serves the application, not repository files, and returns real 404
+ok 19 - local preview serves the application, not repository files, and returns real 404
+  ---
+  duration_ms: 88.345307
+  type: 'test'
+  ...
+# Subtest: publisher rejects traversal paths, credentials, and other hidden runtime data
+ok 20 - publisher rejects traversal paths, credentials, and other hidden runtime data
+  ---
+  duration_ms: 9.321277
+  type: 'test'
+  ...
+# Subtest: manifest verifies regular files and prevents silently publishing a modified package
+ok 21 - manifest verifies regular files and prevents silently publishing a modified package
+  ---
+  duration_ms: 2.52658
+  type: 'test'
+  ...
+# Subtest: remote protection permits only identical files or the known initial README
+ok 22 - remote protection permits only identical files or the known initial README
+  ---
+  duration_ms: 1.183635
+  type: 'test'
+  ...
+1..22
+# tests 22
+# suites 0
+# pass 22
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 242.293016

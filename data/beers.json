@@ -1,0 +1,2153 @@
+{
+  "schemaVersion": 1,
+  "meta": {
+    "title": "啤酒前沿",
+    "english": "BEER FRONTIER",
+    "snapshotDate": "2026-09-27",
+    "currency": "CNY",
+    "market": "中国大陆零售参考样本",
+    "scorePlatform": "BeerAdvocate",
+    "scoreScale": 5,
+    "scope": "代表性候选集，不是所有啤酒、所有渠道或全市场最优。",
+    "pricePolicy": "没有实时结算验证价格。所有外部价格均为参考样本；年份未知不等于新价。已知旧价和规格有歧义的样本默认不参与。",
+    "reviewPolicy": "品饮文本是公开评价的简短归纳，适合人群为编辑判断；未进行实物盲测。"
+  },
+  "families": {
+    "all": {
+      "name": "全部风格",
+      "color": "#d06337"
+    },
+    "wheat": {
+      "name": "小麦 / 白啤",
+      "color": "#bd8b31"
+    },
+    "lager": {
+      "name": "拉格 / 皮尔森",
+      "color": "#587864"
+    },
+    "belgian": {
+      "name": "比利时艾尔",
+      "color": "#916045"
+    },
+    "hoppy": {
+      "name": "酒花 / IPA",
+      "color": "#788541"
+    },
+    "dark": {
+      "name": "世涛 / 深色",
+      "color": "#64516d"
+    },
+    "sour": {
+      "name": "酸啤 / 果味",
+      "color": "#b46c76"
+    },
+    "unresolved": {
+      "name": "名称待确认",
+      "color": "#88827a"
+    }
+  },
+  "beers": [
+    {
+      "id": "weihen",
+      "name": "维森原味小麦",
+      "english": "Weihenstephaner Hefeweissbier",
+      "family": "wheat",
+      "style": "德式小麦 Hefeweizen",
+      "country": "德国",
+      "abv": 5.4,
+      "volumeMl": 500,
+      "rating": {
+        "platform": "BeerAdvocate",
+        "scale": 5,
+        "value": 4.41,
+        "count": 9420,
+        "sourceId": "ba-weihen",
+        "checkedAt": "2026-09-27"
+      },
+      "tags": [
+        "香蕉",
+        "丁香",
+        "面包"
+      ],
+      "review": {
+        "positive": "评价集中在香蕉与丁香香、细腻麦香和顺滑平衡，社区样本量较大。",
+        "caution": "清爽拉格爱好者可能觉得酒体偏厚；现有价格页有版本歧义，必须核对原味浑浊款。",
+        "fit": "希望从普通白啤升级、看重平衡而非极端浓烈的人。",
+        "sourceIds": [
+          "ba-weihen",
+          "weihen-product"
+        ],
+        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+      },
+      "quote": {
+        "total": 71.3,
+        "quantity": 6,
+        "volumeMl": 500,
+        "currency": "CNY",
+        "sourceId": "price-weihen",
+        "historical": false,
+        "ambiguous": true,
+        "note": "这是“起价”聚合记录；部分关联描述混用水晶白。必须确认买到 Hefeweissbier 原味浑浊小麦，而非 Kristall。未核对前不参与默认前沿。",
+        "checkedAt": "2026-09-27"
+      },
+      "originalList": true,
+      "aliases": [
+        "维森 水晶白"
+      ],
+      "identityNote": "此条仅 Hefeweissbier；Kristall 水晶白是不同酒款。",
+      "identityPending": false
+    },
+    {
+      "id": "paulaner",
+      "name": "保拉纳小麦白啤",
+      "english": "Paulaner Hefe-Weissbier Naturtrüb",
+      "family": "wheat",
+      "style": "德式小麦 Hefeweizen",
+      "country": "德国",
+      "abv": 5.5,
+      "volumeMl": 500,
+      "rating": {
+        "platform": "BeerAdvocate",
+        "scale": 5,
+        "value": 4.06,
+        "count": 4099,
+        "sourceId": "ba-paulaner",
+        "checkedAt": "2026-09-27"
+      },
+      "tags": [
+        "香蕉",
+        "丁香",
+        "麦香"
+      ],
+      "review": {
+        "positive": "麦香、香蕉与轻香料是典型反馈，泡沫和气泡感明显。",
+        "caution": "风味不是越浓越好；只喜欢干爽口感的人可能不偏爱麦芽甜感。",
+        "fit": "想用较低成本尝试德式小麦。",
+        "sourceIds": [
+          "ba-paulaner"
+        ],
+        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+      },
+      "quote": {
+        "total": 195,
+        "quantity": 24,
+        "volumeMl": 500,
+        "currency": "CNY",
+        "sourceId": "price-paulaner",
+        "historical": false,
+        "ambiguous": false,
+        "note": "页面报价样本；活动有效期、运费、税费、库存与账号条件均未现场结算核验。",
+        "checkedAt": "2026-09-27"
+      },
+      "originalList": true,
+      "aliases": [
+        "柏龙 保拉纳"
+      ],
+      "identityNote": "",
+      "identityPending": false
+    },
+    {
+      "id": "ayinger",
+      "name": "艾英格小麦白啤",
+      "english": "Ayinger Bräuweisse",
+      "family": "wheat",
+      "style": "德式小麦 Hefeweizen",
+      "country": "德国",
+      "abv": 5.1,
+      "volumeMl": 500,
+      "rating": {
+        "platform": "BeerAdvocate",
+        "scale": 5,
+        "value": 4.17,
+        "count": 2602,
+        "sourceId": "ba-ayinger",
+        "checkedAt": "2026-09-27"
+      },
+      "tags": [
+        "香蕉",
+        "麦香",
+        "柔和香料"
+      ],
+      "review": {
+        "positive": "口碑重点是柔和麦香、香蕉香与顺滑平衡，不以极端香气取胜。",
+        "caution": "国内同规格价格未核实；仅凭品牌溢价不能判断性价比。",
+        "fit": "偏好细腻传统小麦，愿意与维森对照的人。",
+        "sourceIds": [
+          "ba-ayinger"
+        ],
+        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [
+        "Ayinger"
+      ],
+      "identityNote": "不要与艾丁格 Erdinger 混淆。",
+      "identityPending": false
+    },
+    {
+      "id": "benediktiner",
+      "name": "百帝王小麦白啤",
+      "english": "Benediktiner Weissbier",
+      "family": "wheat",
+      "style": "德式小麦 Hefeweizen",
+      "country": "德国",
+      "abv": 5.4,
+      "volumeMl": 500,
+      "rating": {
+        "platform": "BeerAdvocate",
+        "scale": 5,
+        "value": 3.83,
+        "count": 471,
+        "sourceId": "ba-benediktiner",
+        "checkedAt": "2026-09-27"
+      },
+      "tags": [
+        "香蕉",
+        "丁香",
+        "麦甜"
+      ],
+      "review": {
+        "positive": "典型香蕉与丁香风味，入口有麦甜，属于传统小麦路线。",
+        "caution": "有评价认为风味表达较收敛、酒体偏轻；样本量比维森小。",
+        "fit": "预算较紧，又想尝试进口小麦的人。",
+        "sourceIds": [
+          "ba-benediktiner"
+        ],
+        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+      },
+      "quote": {
+        "total": 158,
+        "quantity": 24,
+        "volumeMl": 500,
+        "currency": "CNY",
+        "sourceId": "price-benediktiner",
+        "historical": false,
+        "ambiguous": false,
+        "note": "页面报价样本；活动有效期、运费、税费、库存与账号条件均未现场结算核验。",
+        "checkedAt": "2026-09-27"
+      },
+      "originalList": false,
+      "aliases": [
+        "百帝王 本笃"
+      ],
+      "identityNote": "",
+      "identityPending": false
+    },
+    {
+      "id": "franziskaner",
+      "name": "教士进口小麦白啤",
+      "english": "Franziskaner Premium Weissbier",
+      "family": "wheat",
+      "style": "德式小麦 Hefeweizen",
+      "country": "德国",
+      "abv": 5,
+      "volumeMl": 500,
+      "rating": {
+        "platform": "BeerAdvocate",
+        "scale": 5,
+        "value": 4.07,
+        "count": 5078,
+        "sourceId": "ba-franziskaner",
+        "checkedAt": "2026-09-27"
+      },
+      "tags": [
+        "小麦",
+        "香蕉",
+        "泡沫"
+      ],
+      "review": {
+        "positive": "以传统小麦风味、浑浊外观与绵密泡沫受到认可。",
+        "caution": "保留的是2023年旧促销；国产范佳乐与德国进口版应分开比较。",
+        "fit": "传统白啤备选；有实际到手价再与保拉纳比较。",
+        "sourceIds": [
+          "ba-franziskaner"
+        ],
+        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+      },
+      "quote": {
+        "total": 159.9,
+        "quantity": 20,
+        "volumeMl": 500,
+        "currency": "CNY",
+        "sourceId": "price-franziskaner",
+        "historical": true,
+        "ambiguous": false,
+        "note": "2023年券后历史促销，默认排除。不能套用国产范佳乐450ml的价格。",
+        "checkedAt": "2026-09-27"
+      },
+      "originalList": false,
+      "aliases": [
+        "教士 范佳乐"
+      ],
+      "identityNote": "本条为德国进口500ml；不把评分直接移植到国产450ml。",
+      "identityPending": false
+    },
+    {
+      "id": "erdinger",
+      "name": "艾丁格小麦白啤",
+      "english": "Erdinger Weissbier",
+      "family": "wheat",
+      "style": "德式小麦 Hefeweizen",
+      "country": "德国",
+      "abv": 5.3,
+      "volumeMl": 500,
+      "rating": {
+        "platform": "BeerAdvocate",
+        "scale": 5,
+        "value": 3.56,
+        "count": 2302,
+        "sourceId": "ba-erdinger",
+        "checkedAt": "2026-09-27"
+      },
+      "tags": [
+        "轻麦香",
+        "轻香蕉",
+        "气泡"
+      ],
+      "review": {
+        "positive": "评价常见较轻的香蕉、丁香与活跃气泡，表达相对温和。",
+        "caution": "部分评价觉得薄、香气不够突出；不等于喜欢清淡的人会不喜欢。",
+        "fit": "偏温和口感，且到手价有优势的人。",
+        "sourceIds": [
+          "ba-erdinger"
+        ],
+        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+      },
+      "quote": null,
+      "originalList": false,
+      "aliases": [
+        "Erdinger"
+      ],
+      "identityNote": "艾丁格与艾英格不是同一品牌。",
+      "identityPending": false
+    },
+    {
+      "id": "vitus",
+      "name": "维森维图斯",
+      "english": "Weihenstephaner Vitus",
+      "family": "wheat",
+      "style": "小麦博克 Weizenbock",
+      "country": "德国",
+      "abv": 7.7,
+      "volumeMl": 500,
+      "rating": {
+        "platform": "BeerAdvocate",
+        "scale": 5,
+        "value": 4.28,
+        "count": 4078,
+        "sourceId": "ba-vitus",
+        "checkedAt": "2026-09-27"
+      },
+      "tags": [
+        "杏果",
+        "香蕉",
+        "丁香"
+      ],
+      "review": {
+        "positive": "杏果、柑橘和丁香香气，酒体较饱满，气泡与顺滑感并存。",
+        "caution": "7.7%酒精度，不应按普通清淡白啤理解。",
+        "fit": "喜欢小麦、想尝试更浓郁版本。",
+        "sourceIds": [
+          "ba-vitus"
+        ],
+        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+      },
+      "quote": null,
+      "originalList": false,
+      "aliases": [
+        "维图斯 维森Vitus"
+      ],
+      "identityNote": "",
+      "identityPending": false
+    },
+    {
+      "id": "tap6",
+      "name": "施纳德6号",
+      "english": "Schneider Weisse Aventinus",
+      "family": "wheat",
+      "style": "小麦博克 Weizenbock",
+      "country": "德国",
+      "abv": 8.2,
+      "volumeMl": 500,
+      "rating": {
+        "platform": "BeerAdvocate",
+        "scale": 5,
+        "value": 4.33,
+        "count": 4916,
+        "sourceId": "ba-tap6",
+        "checkedAt": "2026-09-27"
+      },
+      "tags": [
+        "丁香",
+        "焦糖",
+        "深色水果"
+      ],
+      "review": {
+        "positive": "焦糖、丁香和深色果香叠在小麦底味上，浓郁而有层次。",
+        "caution": "现有118.68元记录的包装数量没核实，故没有除成“单瓶价”；酒精感偏强。",
+        "fit": "想体验深色浓郁小麦的人。",
+        "sourceIds": [
+          "ba-tap6"
+        ],
+        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+      },
+      "quote": null,
+      "originalList": false,
+      "aliases": [
+        "施耐德6号 Aventinus"
+      ],
+      "identityNote": "",
+      "identityPending": false
+    },
+    {
+      "id": "rochefort10",
+      "name": "罗斯福10号",
+      "english": "Trappistes Rochefort 10",
+      "family": "belgian",
+      "style": "四料 Quadrupel",
+      "country": "比利时",
+      "abv": 11.3,
+      "volumeMl": 330,
+      "rating": {
+        "platform": "BeerAdvocate",
+        "scale": 5,
+        "value": 4.5,
+        "count": 10109,
+        "sourceId": "ba-rochefort10",
+        "checkedAt": "2026-09-27"
+      },
+      "tags": [
+        "深色水果",
+        "焦糖",
+        "烘烤"
+      ],
+      "review": {
+        "positive": "深色果干、糖蜜与烘烤麦芽构成厚实风味，社区口碑稳定。",
+        "caution": "11.3%酒精度且偏浓厚；“10号”不是10%酒精度。适合人群不如淡啤广。",
+        "fit": "喜欢果干、焦糖和浓郁麦芽，能接受高酒精度。",
+        "sourceIds": [
+          "ba-rochefort10",
+          "official-rochefort10"
+        ],
+        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+      },
+      "quote": {
+        "total": 102.9,
+        "quantity": 5,
+        "volumeMl": 330,
+        "currency": "CNY",
+        "sourceId": "price-rochefort10",
+        "historical": false,
+        "ambiguous": false,
+        "note": "取页面价102.90元，不采用97.90元的条件优惠；页面月日显示09-21但年份未完整核实。运费与库存未核验。",
+        "checkedAt": "2026-09-27"
+      },
+      "originalList": false,
+      "aliases": [],
+      "identityNote": "",
+      "identityPending": false
+    },
+    {
+      "id": "rochefort8",
+      "name": "罗斯福8号",
+      "english": "Trappistes Rochefort 8",
+      "family": "belgian",
+      "style": "比利时深色烈性艾尔",
+      "country": "比利时",
+      "abv": 9.2,
+      "volumeMl": 330,
+      "rating": {
+        "platform": "BeerAdvocate",
+        "scale": 5,
+        "value": 4.33,
+        "count": 5776,
+        "sourceId": "ba-rochefort8",
+        "checkedAt": "2026-09-27"
+      },
+      "tags": [
+        "果干",
+        "深色麦芽",
+        "香料"
+      ],
+      "review": {
+        "positive": "以果干、深色麦芽和较有力气泡表现复杂度。",
+        "caution": "高酒精度与浓郁感未必适合清爽需求；聚合报价日期不完整。",
+        "fit": "想探索比利时深色艾尔，同时比较8号与10号差价。",
+        "sourceIds": [
+          "ba-rochefort8"
+        ],
+        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+      },
+      "quote": {
+        "total": 79.9,
+        "quantity": 5,
+        "volumeMl": 330,
+        "currency": "CNY",
+        "sourceId": "price-rochefort8",
+        "historical": false,
+        "ambiguous": false,
+        "note": "页面报价样本；活动有效期、运费、税费、库存与账号条件均未现场结算核验。",
+        "checkedAt": "2026-09-27"
+      },
+      "originalList": false,
+      "aliases": [],
+      "identityNote": "",
+      "identityPending": false
+    },
+    {
+      "id": "chimay",
+      "name": "智美蓝帽",
+      "english": "Chimay Bleue / Grande Réserve",
+      "family": "belgian",
+      "style": "比利时深色烈性艾尔",
+      "country": "比利时",
+      "abv": 9,
+      "volumeMl": 330,
+      "rating": {
+        "platform": "BeerAdvocate",
+        "scale": 5,
+        "value": 4.3,
+        "count": 8489,
+        "sourceId": "ba-chimay",
+        "checkedAt": "2026-09-27"
+      },
+      "tags": [
+        "深色果香",
+        "麦芽",
+        "香料"
+      ],
+      "review": {
+        "positive": "深色麦芽、果香与香料感是主要风味方向，口碑样本较大。",
+        "caution": "蓝、红、白帽不是同一酒；750ml与330ml也不能直接按瓶价比较。",
+        "fit": "喜欢浓郁果干麦芽型风味。",
+        "sourceIds": [
+          "ba-chimay"
+        ],
+        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+      },
+      "quote": {
+        "total": 96.5,
+        "quantity": 6,
+        "volumeMl": 330,
+        "currency": "CNY",
+        "sourceId": "price-chimay",
+        "historical": false,
+        "ambiguous": false,
+        "note": "页面报价样本；活动有效期、运费、税费、库存与账号条件均未现场结算核验。",
+        "checkedAt": "2026-09-27"
+      },
+      "originalList": false,
+      "aliases": [
+        "智美 蓝帽"
+      ],
+      "identityNote": "",
+      "identityPending": false
+    },
+    {
+      "id": "abt12",
+      "name": "圣伯纳12号",
+      "english": "St. Bernardus Abt 12",
+      "family": "belgian",
+      "style": "四料 Quadrupel",
+      "country": "比利时",
+      "abv": 10,
+      "volumeMl": 330,
+      "rating": {
+        "platform": "BeerAdvocate",
+        "scale": 5,
+        "value": 4.47,
+        "count": 10464,
+        "sourceId": "ba-abt12",
+        "checkedAt": "2026-09-27"
+      },
+      "tags": [
+        "葡萄干",
+        "李子",
+        "焦糖"
+      ],
+      "review": {
+        "positive": "评价以葡萄干、李子、糖蜜和香料的浓厚层次见长。",
+        "caution": "10%且偏甜浓；不要拿圣伯纳白啤或圣诞款的价格代入。",
+        "fit": "喜欢深色烈性艾尔，想与罗斯福10对比。",
+        "sourceIds": [
+          "ba-abt12"
+        ],
+        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+      },
+      "quote": null,
+      "originalList": false,
+      "aliases": [
+        "圣伯纳 Abt12 圣伯纳杜斯"
+      ],
+      "identityNote": "",
+      "identityPending": false
+    },
+    {
+      "id": "duvel",
+      "name": "督威经典款",
+      "english": "Duvel Original",
+      "family": "belgian",
+      "style": "比利时淡色烈性艾尔",
+      "country": "比利时",
+      "abv": 8.5,
+      "volumeMl": 330,
+      "rating": {
+        "platform": "BeerAdvocate",
+        "scale": 5,
+        "value": 4.25,
+        "count": 8646,
+        "sourceId": "ba-duvel",
+        "checkedAt": "2026-09-27"
+      },
+      "tags": [
+        "柑橘",
+        "酵母香料",
+        "干爽"
+      ],
+      "review": {
+        "positive": "柑橘与酵母香料，气泡充足，收口较干。",
+        "caution": "酒精度不低，也不是甜果汁型；6.66和三花是不同款。",
+        "fit": "喜欢香料、干爽和较明显苦味。",
+        "sourceIds": [
+          "ba-duvel"
+        ],
+        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+      },
+      "quote": null,
+      "originalList": false,
+      "aliases": [
+        "Duvel"
+      ],
+      "identityNote": "只对应经典8.5%；不套用6.66或三花Citra报价。",
+      "identityPending": false
+    },
+    {
+      "id": "karmeliet",
+      "name": "卡美里特三料",
+      "english": "Tripel Karmeliet",
+      "family": "belgian",
+      "style": "三料 Tripel",
+      "country": "比利时",
+      "abv": 8.4,
+      "volumeMl": 330,
+      "rating": {
+        "platform": "BeerAdvocate",
+        "scale": 5,
+        "value": 4.29,
+        "count": 4651,
+        "sourceId": "ba-karmeliet",
+        "checkedAt": "2026-09-27"
+      },
+      "tags": [
+        "橙香",
+        "花香",
+        "香料"
+      ],
+      "review": {
+        "positive": "大麦、小麦、燕麦基底，评价提到橙香、香蕉和花香，柔和但有气泡支撑。",
+        "caution": "8.4%酒精度；“三料”不是简单的原料数量或品质等级。",
+        "fit": "想尝试比深色四料更明亮的比利时风味。",
+        "sourceIds": [
+          "ba-karmeliet"
+        ],
+        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+      },
+      "quote": null,
+      "originalList": false,
+      "aliases": [
+        "卡麦利特 卡美里特"
+      ],
+      "identityNote": "",
+      "identityPending": false
+    },
+    {
+      "id": "westmalle",
+      "name": "西麦尔三料",
+      "english": "Westmalle Tripel",
+      "family": "belgian",
+      "style": "三料 Tripel",
+      "country": "比利时",
+      "abv": 9.5,
+      "volumeMl": 330,
+      "rating": {
+        "platform": "BeerAdvocate",
+        "scale": 5,
+        "value": 4.3,
+        "count": 5079,
+        "sourceId": "ba-westmalle",
+        "checkedAt": "2026-09-27"
+      },
+      "tags": [
+        "酵母香料",
+        "香蕉",
+        "酒花"
+      ],
+      "review": {
+        "positive": "香蕉、酵母香料与酒花结合，果香之外有干爽苦味。",
+        "caution": "酒精暖感与苦味更有存在感，不适合只追求甜柔。",
+        "fit": "喜欢比利时香料香，也接受干苦收口。",
+        "sourceIds": [
+          "ba-westmalle"
+        ],
+        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+      },
+      "quote": null,
+      "originalList": false,
+      "aliases": [
+        "西麦尔 Westmalle"
+      ],
+      "identityNote": "",
+      "identityPending": false
+    },
+    {
+      "id": "orval",
+      "name": "奥威",
+      "english": "Orval",
+      "family": "belgian",
+      "style": "比利时淡色艾尔",
+      "country": "比利时",
+      "abv": 6.2,
+      "volumeMl": 330,
+      "rating": {
+        "platform": "BeerAdvocate",
+        "scale": 5,
+        "value": 4.2,
+        "count": 5988,
+        "sourceId": "ba-orval",
+        "checkedAt": "2026-09-27"
+      },
+      "tags": [
+        "干爽",
+        "酵母",
+        "酒花"
+      ],
+      "review": {
+        "positive": "果香、酒花和特别的酵母气息，风格干爽而有复杂感。",
+        "caution": "不同日期或市场标签酒精度可能不同；本页6.2%为BA记录，实物优先。",
+        "fit": "对干爽发酵风味好奇，而非只想喝甜麦香。",
+        "sourceIds": [
+          "ba-orval"
+        ],
+        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+      },
+      "quote": {
+        "total": 36,
+        "quantity": 1,
+        "volumeMl": 330,
+        "currency": "CNY",
+        "sourceId": "price-orval",
+        "historical": false,
+        "ambiguous": false,
+        "note": "页面报价样本；活动有效期、运费、税费、库存与账号条件均未现场结算核验。",
+        "checkedAt": "2026-09-27"
+      },
+      "originalList": false,
+      "aliases": [
+        "奥瓦 奥威"
+      ],
+      "identityNote": "",
+      "identityPending": false
+    },
+    {
+      "id": "hoegaarden",
+      "name": "福佳白比利时原版",
+      "english": "Hoegaarden Original White Ale",
+      "family": "wheat",
+      "style": "比利时白啤 Witbier",
+      "country": "比利时",
+      "abv": 4.9,
+      "volumeMl": 330,
+      "rating": {
+        "platform": "BeerAdvocate",
+        "scale": 5,
+        "value": 3.79,
+        "count": 5853,
+        "sourceId": "ba-hoegaarden",
+        "checkedAt": "2026-09-27"
+      },
+      "tags": [
+        "橙皮",
+        "芫荽",
+        "轻麦香"
+      ],
+      "review": {
+        "positive": "橙皮、芫荽与柔和麦香，风格轻盈、柑橘感明显。",
+        "caution": "部分评价觉得甜或薄；没有把进口原版评分直接套给国产包装。",
+        "fit": "喜欢轻香料、柑橘调而不追求强苦味。",
+        "sourceIds": [
+          "ba-hoegaarden"
+        ],
+        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+      },
+      "quote": null,
+      "originalList": false,
+      "aliases": [
+        "福佳白"
+      ],
+      "identityNote": "只记录比利时原版；国产版、玫瑰款需独立核验。",
+      "identityPending": false
+    },
+    {
+      "id": "sierra",
+      "name": "内华达山脉淡色艾尔",
+      "english": "Sierra Nevada Pale Ale",
+      "family": "hoppy",
+      "style": "美式淡色艾尔 APA",
+      "country": "美国",
+      "abv": 5.6,
+      "volumeMl": 355,
+      "rating": {
+        "platform": "BeerAdvocate",
+        "scale": 5,
+        "value": 4.04,
+        "count": 12392,
+        "sourceId": "ba-sierra",
+        "checkedAt": "2026-09-27"
+      },
+      "tags": [
+        "柑橘",
+        "松香",
+        "麦芽"
+      ],
+      "review": {
+        "positive": "柑橘与香料类酒花叠在麦芽底味上，属于经典美式淡艾尔。",
+        "caution": "不是浑浊果汁型；苦味与麦芽同时存在。国内报价待补。",
+        "fit": "想尝试清晰酒花与麦芽平衡。",
+        "sourceIds": [
+          "ba-sierra"
+        ],
+        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+      },
+      "quote": null,
+      "originalList": false,
+      "aliases": [
+        "内华达山脉 Sierra Nevada"
+      ],
+      "identityNote": "",
+      "identityPending": false
+    },
+    {
+      "id": "torpedo",
+      "name": "内华达山脉鱼雷",
+      "english": "Sierra Nevada Torpedo Extra IPA",
+      "family": "hoppy",
+      "style": "美式 IPA",
+      "country": "美国",
+      "abv": 7.2,
+      "volumeMl": 355,
+      "rating": {
+        "platform": "BeerAdvocate",
+        "scale": 5,
+        "value": 4.15,
+        "count": 11779,
+        "sourceId": "ba-torpedo",
+        "checkedAt": "2026-09-27"
+      },
+      "tags": [
+        "柑橘",
+        "松针",
+        "草本"
+      ],
+      "review": {
+        "positive": "柑橘、松针与草本酒花，麦芽仍有存在感。",
+        "caution": "苦味比较明确，7.2%；不适合把IPA理解成纯果汁。",
+        "fit": "更喜欢干净苦味与松香的酒花爱好者。",
+        "sourceIds": [
+          "ba-torpedo"
+        ],
+        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+      },
+      "quote": null,
+      "originalList": false,
+      "aliases": [
+        "鱼雷 Torpedo"
+      ],
+      "identityNote": "",
+      "identityPending": false
+    },
+    {
+      "id": "pseudosue",
+      "name": "伪暴龙",
+      "english": "Toppling Goliath Pseudo Sue",
+      "family": "hoppy",
+      "style": "浑浊淡色艾尔",
+      "country": "美国",
+      "abv": 5.8,
+      "volumeMl": 473,
+      "rating": {
+        "platform": "BeerAdvocate",
+        "scale": 5,
+        "value": 4.49,
+        "count": 5893,
+        "sourceId": "ba-pseudosue",
+        "checkedAt": "2026-09-27"
+      },
+      "tags": [
+        "葡萄柚",
+        "芒果",
+        "柑橘"
+      ],
+      "review": {
+        "positive": "以Citra带来的葡萄柚、芒果与柑橘香获得好评，酒体相对轻。",
+        "caution": "5.8%为BA记录，实际批次可能不同；国内可核实价格缺失。",
+        "fit": "想探索美式浑浊香气，但不直接选择双倍IPA。",
+        "sourceIds": [
+          "ba-pseudosue"
+        ],
+        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+      },
+      "quote": null,
+      "originalList": false,
+      "aliases": [
+        "伪暴龙 Pseudo Sue"
+      ],
+      "identityNote": "",
+      "identityPending": false
+    },
+    {
+      "id": "kingsue",
+      "name": "暴龙王",
+      "english": "Toppling Goliath King Sue",
+      "family": "hoppy",
+      "style": "浑浊双倍 IPA",
+      "country": "美国",
+      "abv": 8.2,
+      "volumeMl": 473,
+      "rating": {
+        "platform": "BeerAdvocate",
+        "scale": 5,
+        "value": 4.57,
+        "count": 3627,
+        "sourceId": "ba-kingsue",
+        "checkedAt": "2026-09-27"
+      },
+      "tags": [
+        "热带水果",
+        "柑橘",
+        "浓酒花"
+      ],
+      "review": {
+        "positive": "Citra热带水果与柑橘香非常集中，社区评价突出。",
+        "caution": "也有酒花辛辣感反馈；8.2%为页面当前值，批次可变。旧促销价不代表现价。",
+        "fit": "专门探索浓郁浑浊双倍IPA，而非低预算日常选项。",
+        "sourceIds": [
+          "ba-kingsue"
+        ],
+        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+      },
+      "quote": {
+        "total": 27.2,
+        "quantity": 1,
+        "volumeMl": 473,
+        "currency": "CNY",
+        "sourceId": "price-kingsue",
+        "historical": true,
+        "ambiguous": false,
+        "note": "2024年促销历史记录，不能当作今天可买到的价格；默认排除。核对具体批次和规格。",
+        "checkedAt": "2026-09-27"
+      },
+      "originalList": true,
+      "aliases": [
+        "暴龙之王 King Sue"
+      ],
+      "identityNote": "",
+      "identityPending": false
+    },
+    {
+      "id": "rasputin",
+      "name": "北岸老拉斯普京",
+      "english": "North Coast Old Rasputin",
+      "family": "dark",
+      "style": "俄式帝国世涛",
+      "country": "美国",
+      "abv": 9,
+      "volumeMl": 355,
+      "rating": {
+        "platform": "BeerAdvocate",
+        "scale": 5,
+        "value": 4.3,
+        "count": 13215,
+        "sourceId": "ba-rasputin",
+        "checkedAt": "2026-09-27"
+      },
+      "tags": [
+        "烘烤",
+        "深色麦芽",
+        "苦巧克力"
+      ],
+      "review": {
+        "positive": "浓郁烘烤麦芽、饱满口感和明显暖感是常见评价。",
+        "caution": "“俄式”指风格，酒厂在美国；不要和氮气或桶陈变体混价。",
+        "fit": "喜欢烘烤与强烈深色麦芽。",
+        "sourceIds": [
+          "ba-rasputin"
+        ],
+        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+      },
+      "quote": null,
+      "originalList": false,
+      "aliases": [
+        "老拉斯普京 拉斯普京"
+      ],
+      "identityNote": "",
+      "identityPending": false
+    },
+    {
+      "id": "breakfast",
+      "name": "创始者早餐世涛",
+      "english": "Founders Breakfast Stout",
+      "family": "dark",
+      "style": "燕麦世涛",
+      "country": "美国",
+      "abv": 8.3,
+      "volumeMl": 355,
+      "rating": {
+        "platform": "BeerAdvocate",
+        "scale": 5,
+        "value": 4.51,
+        "count": 18032,
+        "sourceId": "ba-breakfast",
+        "checkedAt": "2026-09-27"
+      },
+      "tags": [
+        "咖啡",
+        "巧克力",
+        "燕麦"
+      ],
+      "review": {
+        "positive": "咖啡、巧克力和燕麦的烘烤层次，社区评分与样本量都较突出。",
+        "caution": "个别评价认为酒体偏薄或有酸涩；不能据此断言配方改变。国内报价待补。",
+        "fit": "喜欢咖啡可可风味，愿意核对价格后再做进阶选择。",
+        "sourceIds": [
+          "ba-breakfast",
+          "review-breakfast-panel"
+        ],
+        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+      },
+      "quote": null,
+      "originalList": false,
+      "aliases": [
+        "创始人 早餐世涛"
+      ],
+      "identityNote": "“早餐”为酒名，不是早晨饮酒建议；KBS是另一款。",
+      "identityPending": false
+    },
+    {
+      "id": "guinness",
+      "name": "健力士氮气世涛",
+      "english": "Guinness Draught",
+      "family": "dark",
+      "style": "爱尔兰干世涛",
+      "country": "爱尔兰",
+      "abv": 4.2,
+      "volumeMl": 440,
+      "rating": {
+        "platform": "BeerAdvocate",
+        "scale": 5,
+        "value": 3.61,
+        "count": 8989,
+        "sourceId": "ba-guinness",
+        "checkedAt": "2026-09-27"
+      },
+      "tags": [
+        "轻烘烤",
+        "细泡",
+        "干爽"
+      ],
+      "review": {
+        "positive": "口感顺滑、烘烤气息轻，身体感并非浓厚帝国世涛。",
+        "caution": "不喜欢的人会觉得偏薄；Draught不等于Foreign Extra。地区标签可略有变化。",
+        "fit": "想试轻巧干爽的黑啤，而不是甜品型世涛。",
+        "sourceIds": [
+          "ba-guinness"
+        ],
+        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+      },
+      "quote": {
+        "total": 44.9,
+        "quantity": 4,
+        "volumeMl": 440,
+        "currency": "CNY",
+        "sourceId": "price-guinness",
+        "historical": false,
+        "ambiguous": false,
+        "note": "保留活动标价44.9元；没有采用88VIP等优惠后的36.2元。不是Foreign Extra。活动是否仍可用未核验。",
+        "checkedAt": "2026-09-27"
+      },
+      "originalList": false,
+      "aliases": [
+        "健力士 氮气 Guinness"
+      ],
+      "identityNote": "",
+      "identityPending": false
+    },
+    {
+      "id": "beaver",
+      "name": "海狸万岁",
+      "english": "Belching Beaver ¡Viva La Beaver!",
+      "family": "dark",
+      "style": "甜世涛 / 牛奶世涛",
+      "country": "美国",
+      "abv": 7.5,
+      "volumeMl": 473,
+      "rating": {
+        "platform": "BeerAdvocate",
+        "scale": 5,
+        "value": 4.09,
+        "count": 185,
+        "sourceId": "ba-beaver",
+        "checkedAt": "2026-09-27"
+      },
+      "tags": [
+        "花生酱",
+        "巧克力",
+        "肉桂"
+      ],
+      "review": {
+        "positive": "花生酱、巧克力、肉桂与咖啡感突出，是鲜明的甜品路线。",
+        "caution": "甜腻或花生酱存在感太强是争议点；评分样本较少。关注实物配料及过敏原。",
+        "fit": "喜欢甜点、咖啡与巧克力风味。",
+        "sourceIds": [
+          "ba-beaver"
+        ],
+        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [
+        "海狸万岁"
+      ],
+      "identityNote": "",
+      "identityPending": false
+    },
+    {
+      "id": "pilsner",
+      "name": "博世纳乌奎尔",
+      "english": "Pilsner Urquell",
+      "family": "lager",
+      "style": "捷克皮尔森",
+      "country": "捷克",
+      "abv": 4.4,
+      "volumeMl": 500,
+      "rating": {
+        "platform": "BeerAdvocate",
+        "scale": 5,
+        "value": 3.65,
+        "count": 4639,
+        "sourceId": "ba-pilsner",
+        "checkedAt": "2026-09-27"
+      },
+      "tags": [
+        "麦芽",
+        "萨兹酒花",
+        "清苦"
+      ],
+      "review": {
+        "positive": "麦芽底味和萨兹酒花苦味的平衡，风格清晰而不过度浓厚。",
+        "caution": "社区分数不及烈性精酿，不代表清爽场景差；国内仅找到较旧参考报价。",
+        "fit": "希望拉格有麦香与苦味，而不是追求浓烈果香。",
+        "sourceIds": [
+          "ba-pilsner"
+        ],
+        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+      },
+      "quote": {
+        "total": 356,
+        "quantity": 24,
+        "volumeMl": 500,
+        "currency": "CNY",
+        "sourceId": "price-pilsner",
+        "historical": true,
+        "ambiguous": false,
+        "note": "2023年资讯站参考价，不是实际成交或实时商家报价；默认排除。",
+        "checkedAt": "2026-09-27"
+      },
+      "originalList": true,
+      "aliases": [
+        "博士纳 博世纳 皮尔森乌奎尔"
+      ],
+      "identityNote": "",
+      "identityPending": false
+    },
+    {
+      "id": "heineken",
+      "name": "喜力经典款 · 进口原版",
+      "english": "Heineken Lager Beer",
+      "family": "lager",
+      "style": "欧洲淡色拉格",
+      "country": "荷兰",
+      "abv": 5,
+      "volumeMl": 500,
+      "rating": {
+        "platform": "BeerAdvocate",
+        "scale": 5,
+        "value": 2.75,
+        "count": 5870,
+        "sourceId": "ba-heineken",
+        "checkedAt": "2026-09-27"
+      },
+      "tags": [
+        "淡麦芽",
+        "草本",
+        "干爽"
+      ],
+      "review": {
+        "positive": "轻麦芽与草本苦味，熟悉度高；评价分歧明显。",
+        "caution": "BA是国际经典款样本，不是国产绿瓶、绿罐的独立盲测；不按包装制造酒质高低。",
+        "fit": "已经喜欢经典喜力口味的人；先按自己的偏好，而不是只看社区低分。",
+        "sourceIds": [
+          "ba-heineken"
+        ],
+        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+      },
+      "quote": null,
+      "originalList": false,
+      "aliases": [
+        "喜力 Heineken"
+      ],
+      "identityNote": "此条只用于国际经典款口碑；你的国产绿瓶/绿罐在候选区单列，不自动移植评分。",
+      "identityPending": false
+    },
+    {
+      "id": "tap5",
+      "name": "施耐德5号",
+      "english": "Schneider Weisse Tap 5",
+      "family": "wheat",
+      "style": "小麦博克 Weizenbock",
+      "country": "德国",
+      "abv": 8.2,
+      "volumeMl": 500,
+      "rating": null,
+      "tags": [
+        "酒花",
+        "小麦",
+        "浓郁"
+      ],
+      "review": {
+        "positive": "酒款资料显示8.2%酒精度、40 IBU，是强化酒花的小麦博克方向。",
+        "caution": "没有用酒花儿评分换算BA分数；没有把未核实的整组价格当单瓶价。",
+        "fit": "希望小麦与较强酒花同时出现。",
+        "sourceIds": [
+          "review-tap5"
+        ],
+        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [
+        "施纳德5号"
+      ],
+      "identityNote": "",
+      "identityPending": false
+    },
+    {
+      "id": "dajiu",
+      "name": "大九酿造·降临",
+      "english": "Dajiu · Advent",
+      "family": "hoppy",
+      "style": "浑浊 IPA",
+      "country": "中国",
+      "abv": null,
+      "volumeMl": 500,
+      "rating": null,
+      "tags": [
+        "柑橘",
+        "热带果香",
+        "酒花"
+      ],
+      "review": {
+        "positive": "检索评价常提到柑橘、百香果与菠萝感，也有尾段涩和酒花辛辣的反馈。",
+        "caution": "酒花儿约3.71/5不与BA直接混用；国内同规格实价未核实。",
+        "fit": "尝试国产浑浊IPA；先少量试口味。",
+        "sourceIds": [
+          "review-dajiu"
+        ],
+        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [
+        "大九 降临"
+      ],
+      "identityNote": "",
+      "identityPending": false
+    },
+    {
+      "id": "salt",
+      "name": "牛啤堂·帝都海盐",
+      "english": "NBeer Imperial City Gose",
+      "family": "sour",
+      "style": "古斯 Gose",
+      "country": "中国",
+      "abv": null,
+      "volumeMl": 330,
+      "rating": null,
+      "tags": [
+        "轻酸",
+        "淡盐",
+        "清爽"
+      ],
+      "review": {
+        "positive": "单条品饮记录描述轻乳酸、淡盐感和较低苦味。",
+        "caution": "这不是大样本一致口碑；不同水果变体不能套原味。价格、BA评分尚缺。",
+        "fit": "对咸酸风味好奇的人。",
+        "sourceIds": [
+          "review-salt"
+        ],
+        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [
+        "帝都海盐 牛啤堂"
+      ],
+      "identityNote": "",
+      "identityPending": false
+    },
+    {
+      "id": "primator",
+      "name": "捷皇小麦白啤",
+      "english": "Primátor Weizenbier",
+      "family": "wheat",
+      "style": "德式小麦 Hefeweizen",
+      "country": "捷克",
+      "abv": null,
+      "volumeMl": 500,
+      "rating": null,
+      "tags": [
+        "小麦风格"
+      ],
+      "review": {
+        "positive": "酒厂位于捷克；“德式小麦”是风格称呼。历史奖项不能代替现在批次的评价。",
+        "caution": "国内价格、同源平均分未核实。不能用“德式三巨头”口号代替证据。",
+        "fit": "把它作为传统小麦的待比价候选。",
+        "sourceIds": [
+          "official-primator"
+        ],
+        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [
+        "捷皇 Primator"
+      ],
+      "identityNote": "",
+      "identityPending": false
+    },
+    {
+      "id": "snow",
+      "name": "沈阳老雪花",
+      "english": "Snow · Laoxue",
+      "family": "lager",
+      "style": "拉格（具体版本待核对）",
+      "country": "中国",
+      "abv": null,
+      "volumeMl": 640,
+      "rating": null,
+      "tags": [
+        "拉格"
+      ],
+      "review": {
+        "positive": "找到640ml×12瓶、56.5元的报价记录，适合先比较整单支出和实际规格。",
+        "caution": "本次没有同源口碑分；不把“劲大”当品质指标，也不把原麦汁浓度当酒精度。",
+        "fit": "以低预算为先，并确认自己喜欢这个具体版本。",
+        "sourceIds": [
+          "price-snow"
+        ],
+        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+      },
+      "quote": {
+        "total": 56.5,
+        "quantity": 12,
+        "volumeMl": 640,
+        "currency": "CNY",
+        "sourceId": "price-snow",
+        "historical": false,
+        "ambiguous": false,
+        "note": "页面报价样本；活动有效期、运费、税费、库存与账号条件均未现场结算核验。",
+        "checkedAt": "2026-09-27"
+      },
+      "originalList": true,
+      "aliases": [
+        "老雪 老雪花"
+      ],
+      "identityNote": "",
+      "identityPending": false
+    },
+    {
+      "id": "pang",
+      "name": "胖东来精酿小麦啤酒",
+      "english": "Pang Dong Lai Wheat Beer",
+      "family": "wheat",
+      "style": "小麦啤酒（版本待核对）",
+      "country": "中国",
+      "abv": null,
+      "volumeMl": 330,
+      "rating": null,
+      "tags": [
+        "小麦风格"
+      ],
+      "review": {
+        "positive": "媒体记录过原价与转售价格差异。先看具体型号、容量和实际到手价，不为网红标签多付钱。",
+        "caution": "本次未完成当前同规格售价复核，不沿用上一轮2.5元作为今天报价；没有可比BA分。",
+        "fit": "能拿到低加价渠道、且喜欢其口味的人。",
+        "sourceIds": [
+          "report-pang"
+        ],
+        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [
+        "胖东来 小啤酒"
+      ],
+      "identityNote": "",
+      "identityPending": false
+    },
+    {
+      "id": "asahi",
+      "name": "朝日超爽 · 国产经典",
+      "english": "Asahi Super Dry · China",
+      "family": "lager",
+      "style": "干型拉格",
+      "country": "中国",
+      "abv": null,
+      "volumeMl": 500,
+      "rating": null,
+      "tags": [
+        "待补资料"
+      ],
+      "review": {
+        "positive": "已保留你的候选；本次没有取得足够的同规格价格与独立口碑资料。",
+        "caution": "不要用进口版、食彩或全开盖罐价格代替国产经典。",
+        "fit": "先确认SKU，再记录实付总价与容量。",
+        "sourceIds": [],
+        "type": "用户给出的候选名；本次缺少可核实的对应品饮资料。下文为选购核对建议，不是口碑结论。"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [
+        "朝日 Asahi"
+      ],
+      "identityNote": "",
+      "identityPending": false
+    },
+    {
+      "id": "tsingtao-white",
+      "name": "青岛全麦白啤",
+      "english": "Tsingtao Wheat Beer",
+      "family": "wheat",
+      "style": "小麦啤酒（版本待核对）",
+      "country": "中国",
+      "abv": null,
+      "volumeMl": 500,
+      "rating": null,
+      "tags": [
+        "待补资料"
+      ],
+      "review": {
+        "positive": "已保留你的候选；本次没有取得足够的同规格价格与独立口碑资料。",
+        "caution": "先确认是否全麦白啤、包装容量与产地；没有拿其他青岛产品评分替代。",
+        "fit": "先确认SKU，再记录实付总价与容量。",
+        "sourceIds": [],
+        "type": "用户给出的候选名；本次缺少可核实的对应品饮资料。下文为选购核对建议，不是口碑结论。"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [
+        "青岛白啤"
+      ],
+      "identityNote": "",
+      "identityPending": false
+    },
+    {
+      "id": "augerta",
+      "name": "青岛奥古特 / A3 待分型",
+      "english": "Tsingtao Augerta",
+      "family": "lager",
+      "style": "拉格（版本待核对）",
+      "country": "中国",
+      "abv": null,
+      "volumeMl": 500,
+      "rating": null,
+      "tags": [
+        "待补资料"
+      ],
+      "review": {
+        "positive": "已保留你的候选；本次没有取得足够的同规格价格与独立口碑资料。",
+        "caution": "原版奥古特与全麦A3不能视为同一个SKU；填写价格前先确认。",
+        "fit": "先确认SKU，再记录实付总价与容量。",
+        "sourceIds": [],
+        "type": "用户给出的候选名；本次缺少可核实的对应品饮资料。下文为选购核对建议，不是口碑结论。"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [
+        "奥古特 A3"
+      ],
+      "identityNote": "",
+      "identityPending": false
+    },
+    {
+      "id": "heineken-can",
+      "name": "喜力绿罐 · 国产经典",
+      "english": "Heineken Original · Can / China",
+      "family": "lager",
+      "style": "淡色拉格（具体产地待核对）",
+      "country": "中国",
+      "abv": null,
+      "volumeMl": 500,
+      "rating": null,
+      "tags": [
+        "待补资料"
+      ],
+      "review": {
+        "positive": "已保留你的候选；本次没有取得足够的同规格价格与独立口碑资料。",
+        "caution": "同为经典款也要核实产地；不能从包装直接断言比绿瓶好或差。",
+        "fit": "先确认SKU，再记录实付总价与容量。",
+        "sourceIds": [],
+        "type": "用户给出的候选名；本次缺少可核实的对应品饮资料。下文为选购核对建议，不是口碑结论。"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [
+        "喜力绿罐"
+      ],
+      "identityNote": "",
+      "identityPending": false
+    },
+    {
+      "id": "heineken-bottle",
+      "name": "喜力绿瓶 · 国产经典",
+      "english": "Heineken Original · Bottle / China",
+      "family": "lager",
+      "style": "淡色拉格（具体产地待核对）",
+      "country": "中国",
+      "abv": null,
+      "volumeMl": null,
+      "rating": null,
+      "tags": [
+        "待补资料"
+      ],
+      "review": {
+        "positive": "已保留你的候选；本次没有取得足够的同规格价格与独立口碑资料。",
+        "caution": "瓶装有不同容量，不能拿330ml和500ml直接比“每瓶价”。",
+        "fit": "先确认SKU，再记录实付总价与容量。",
+        "sourceIds": [],
+        "type": "用户给出的候选名；本次缺少可核实的对应品饮资料。下文为选购核对建议，不是口碑结论。"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [
+        "喜力绿瓶"
+      ],
+      "identityNote": "",
+      "identityPending": false
+    },
+    {
+      "id": "heineken-keg",
+      "name": "喜力金刚桶 5L",
+      "english": "Heineken Draught Keg",
+      "family": "lager",
+      "style": "淡色拉格",
+      "country": "荷兰",
+      "abv": null,
+      "volumeMl": 5000,
+      "rating": null,
+      "tags": [
+        "打酒体验"
+      ],
+      "review": {
+        "positive": "官方介绍为带内置二氧化碳压力系统的5L桶装，差异主要在使用体验。",
+        "caution": "未取得当前大陆报价，也不把瓶罐评分直接当桶装独立评价；5L不是建议一次饮用量。",
+        "fit": "看重聚会打酒体验，而非单纯追求酒液低价。",
+        "sourceIds": [
+          "official-keg"
+        ],
+        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [
+        "铁金刚 金刚桶"
+      ],
+      "identityNote": "",
+      "identityPending": false
+    },
+    {
+      "id": "nadu",
+      "name": "“纳德” · 名称待确认",
+      "english": "Unresolved name",
+      "family": "unresolved",
+      "style": "待确认",
+      "country": "待确认",
+      "abv": null,
+      "volumeMl": null,
+      "rating": null,
+      "tags": [
+        "待确认"
+      ],
+      "review": {
+        "positive": "无法唯一对应具体酒款，没有强行认作施纳德。",
+        "caution": "需补品牌外文、编号或瓶身；不让不明确实体进入任何前沿。",
+        "fit": "先确认酒名。",
+        "sourceIds": [],
+        "type": "用户给出的候选名；本次缺少可核实的对应品饮资料。下文为选购核对建议，不是口碑结论。"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [],
+      "identityNote": "",
+      "identityPending": true
+    },
+    {
+      "id": "dream",
+      "name": "沙坡尾梦小姐 · 版本待确认",
+      "english": "Shapowei Miss Dream · version needed",
+      "family": "sour",
+      "style": "待确认",
+      "country": "中国",
+      "abv": null,
+      "volumeMl": null,
+      "rating": null,
+      "tags": [
+        "待确认"
+      ],
+      "review": {
+        "positive": "同一系列名称不足以确定具体配方和规格。",
+        "caution": "需要完整款名；不把不同水果或酒精度版本混为一款。",
+        "fit": "先提供具体罐身版本，再补价格和口碑。",
+        "sourceIds": [],
+        "type": "用户给出的候选名；本次缺少可核实的对应品饮资料。下文为选购核对建议，不是口碑结论。"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [],
+      "identityNote": "",
+      "identityPending": true
+    },
+    {
+      "id": "pohjala",
+      "name": "珀亚拉 · 请指定酒款",
+      "english": "Põhjala Brewery",
+      "family": "unresolved",
+      "style": "待确认",
+      "country": "爱沙尼亚",
+      "abv": null,
+      "volumeMl": null,
+      "rating": null,
+      "tags": [
+        "酒厂不是酒款"
+      ],
+      "review": {
+        "positive": "珀亚拉是酒厂，产品横跨多个风格，不能给整个品牌一个统一酒款评分。",
+        "caution": "先选具体酒名；常规世涛与桶陈款不应共用价格。",
+        "fit": "按具体产品补充，不按品牌盲买。",
+        "sourceIds": [
+          "official-pohjala"
+        ],
+        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+      },
+      "quote": null,
+      "originalList": true,
+      "aliases": [
+        "伯亚拉 珀亚拉 爱沙尼亚"
+      ],
+      "identityNote": "",
+      "identityPending": true
+    }
+  ],
+  "sources": {
+    "price-paulaner": {
+      "id": "price-paulaner",
+      "url": "https://m.smzdm.com/p/180562773/",
+      "title": "保拉纳小麦白啤 500ml×24听，195元",
+      "kind": "price",
+      "evidence": "search-index",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": "第三方价格记录；部分正文打开失败，依据搜索索引。不是商家实时成交报价。"
+    },
+    "price-weihen": {
+      "id": "price-weihen",
+      "url": "https://pinpai.smzdm.com/51019/wiki/",
+      "title": "维森小麦白啤 500ml×6瓶，71.3元起",
+      "kind": "price",
+      "evidence": "search-index",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": "第三方价格记录；部分正文打开失败，依据搜索索引。不是商家实时成交报价。"
+    },
+    "price-chimay": {
+      "id": "price-chimay",
+      "url": "https://www.smzdm.com/p/180903930/",
+      "title": "智美蓝帽 330ml×6瓶，96.5元",
+      "kind": "price",
+      "evidence": "search-index",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": "第三方价格记录；部分正文打开失败，依据搜索索引。不是商家实时成交报价。"
+    },
+    "price-rochefort10": {
+      "id": "price-rochefort10",
+      "url": "https://www.smzdm.com/p/182750989/",
+      "title": "罗斯福10号 330ml×5瓶，页面价102.9元",
+      "kind": "price",
+      "evidence": "search-index",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": "第三方价格记录；部分正文打开失败，依据搜索索引。不是商家实时成交报价。"
+    },
+    "price-rochefort8": {
+      "id": "price-rochefort8",
+      "url": "https://www.smzdm.com/ju/s256vjm/",
+      "title": "分类聚合页：罗斯福8号 330ml×5瓶，79.9元",
+      "kind": "price",
+      "evidence": "search-index",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": "第三方价格记录；部分正文打开失败，依据搜索索引。不是商家实时成交报价。"
+    },
+    "price-benediktiner": {
+      "id": "price-benediktiner",
+      "url": "https://www.smzdm.com/ju/s256vjm/",
+      "title": "分类聚合页：百帝王白啤 500ml×24，158元",
+      "kind": "price",
+      "evidence": "search-index",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": "第三方价格记录；部分正文打开失败，依据搜索索引。不是商家实时成交报价。"
+    },
+    "price-orval": {
+      "id": "price-orval",
+      "url": "https://www.smzdm.com/ju/s256vjm/",
+      "title": "分类聚合页：奥威 330ml单瓶，36元",
+      "kind": "price",
+      "evidence": "search-index",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": "第三方价格记录；部分正文打开失败，依据搜索索引。不是商家实时成交报价。"
+    },
+    "price-franziskaner": {
+      "id": "price-franziskaner",
+      "url": "https://www.smzdm.com/p/74766759/",
+      "title": "教士德国进口白啤 500ml×20，159.9元",
+      "kind": "price",
+      "evidence": "search-index",
+      "publishedAt": "2023-03-11",
+      "checkedAt": "2026-09-27",
+      "note": "第三方价格记录；部分正文打开失败，依据搜索索引。不是商家实时成交报价。"
+    },
+    "price-kingsue": {
+      "id": "price-kingsue",
+      "url": "https://www.smzdm.com/p/113214192/",
+      "title": "暴龙王 King Sue 473ml，27.2元",
+      "kind": "price",
+      "evidence": "search-index",
+      "publishedAt": "2024-05-20",
+      "checkedAt": "2026-09-27",
+      "note": "第三方价格记录；部分正文打开失败，依据搜索索引。不是商家实时成交报价。"
+    },
+    "price-guinness": {
+      "id": "price-guinness",
+      "url": "https://www.smzdm.com/p/180710938/",
+      "title": "健力士 Draught 440ml×4，活动标价44.9元",
+      "kind": "price",
+      "evidence": "search-index",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": "第三方价格记录；部分正文打开失败，依据搜索索引。不是商家实时成交报价。"
+    },
+    "price-snow": {
+      "id": "price-snow",
+      "url": "https://m.smzdm.com/p/181560653/",
+      "title": "沈阳老雪花 640ml×12，56.5元",
+      "kind": "price",
+      "evidence": "search-index",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": "第三方价格记录；部分正文打开失败，依据搜索索引。不是商家实时成交报价。"
+    },
+    "price-pilsner": {
+      "id": "price-pilsner",
+      "url": "https://m.9998.tv/baike/64657.html",
+      "title": "博世纳 500ml×24，参考356元",
+      "kind": "price",
+      "evidence": "search-index",
+      "publishedAt": "2023-02-16",
+      "checkedAt": "2026-09-27",
+      "note": "第三方价格记录；部分正文打开失败，依据搜索索引。不是商家实时成交报价。"
+    },
+    "ba-weihen": {
+      "id": "ba-weihen",
+      "url": "https://www.beeradvocate.com/beer/profile/252/731/",
+      "title": "维森原味小麦 · BeerAdvocate",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": ""
+    },
+    "ba-paulaner": {
+      "id": "ba-paulaner",
+      "url": "https://www.beeradvocate.com/beer/profile/124/1256/",
+      "title": "保拉纳小麦白啤 · BeerAdvocate",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": ""
+    },
+    "ba-ayinger": {
+      "id": "ba-ayinger",
+      "url": "https://www.beeradvocate.com/beer/profile/39/132/",
+      "title": "艾英格小麦白啤 · BeerAdvocate",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": ""
+    },
+    "ba-benediktiner": {
+      "id": "ba-benediktiner",
+      "url": "https://www.beeradvocate.com/beer/profile/2432/55287/",
+      "title": "百帝王小麦白啤 · BeerAdvocate",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": ""
+    },
+    "ba-franziskaner": {
+      "id": "ba-franziskaner",
+      "url": "https://www.beeradvocate.com/beer/profile/142/1946/",
+      "title": "教士进口小麦白啤 · BeerAdvocate",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": ""
+    },
+    "ba-erdinger": {
+      "id": "ba-erdinger",
+      "url": "https://www.beeradvocate.com/beer/profile/703/2434/",
+      "title": "艾丁格小麦白啤 · BeerAdvocate",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": ""
+    },
+    "ba-vitus": {
+      "id": "ba-vitus",
+      "url": "https://www.beeradvocate.com/beer/profile/252/35625/",
+      "title": "维森维图斯 · BeerAdvocate",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": ""
+    },
+    "ba-tap6": {
+      "id": "ba-tap6",
+      "url": "https://www.beeradvocate.com/beer/profile/72/224/",
+      "title": "施纳德6号 · BeerAdvocate",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": ""
+    },
+    "ba-rochefort10": {
+      "id": "ba-rochefort10",
+      "url": "https://www.beeradvocate.com/beer/profile/207/645/",
+      "title": "罗斯福10号 · BeerAdvocate",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": ""
+    },
+    "ba-rochefort8": {
+      "id": "ba-rochefort8",
+      "url": "https://www.beeradvocate.com/beer/profile/207/1696/",
+      "title": "罗斯福8号 · BeerAdvocate",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": ""
+    },
+    "ba-chimay": {
+      "id": "ba-chimay",
+      "url": "https://www.beeradvocate.com/beer/profile/215/2512/",
+      "title": "智美蓝帽 · BeerAdvocate",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": ""
+    },
+    "ba-abt12": {
+      "id": "ba-abt12",
+      "url": "https://www.beeradvocate.com/beer/profile/259/1708/",
+      "title": "圣伯纳12号 · BeerAdvocate",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": ""
+    },
+    "ba-duvel": {
+      "id": "ba-duvel",
+      "url": "https://www.beeradvocate.com/beer/profile/222/695/",
+      "title": "督威经典款 · BeerAdvocate",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": ""
+    },
+    "ba-karmeliet": {
+      "id": "ba-karmeliet",
+      "url": "https://www.beeradvocate.com/beer/profile/202/656/",
+      "title": "卡美里特三料 · BeerAdvocate",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": ""
+    },
+    "ba-westmalle": {
+      "id": "ba-westmalle",
+      "url": "https://www.beeradvocate.com/beer/profile/208/646/",
+      "title": "西麦尔三料 · BeerAdvocate",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": ""
+    },
+    "ba-orval": {
+      "id": "ba-orval",
+      "url": "https://www.beeradvocate.com/beer/profile/37/129/",
+      "title": "奥威 · BeerAdvocate",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": ""
+    },
+    "ba-hoegaarden": {
+      "id": "ba-hoegaarden",
+      "url": "https://www.beeradvocate.com/beer/profile/83/248/",
+      "title": "福佳白比利时原版 · BeerAdvocate",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": ""
+    },
+    "ba-sierra": {
+      "id": "ba-sierra",
+      "url": "https://www.beeradvocate.com/beer/profile/140/276/",
+      "title": "内华达山脉淡色艾尔 · BeerAdvocate",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": ""
+    },
+    "ba-torpedo": {
+      "id": "ba-torpedo",
+      "url": "https://www.beeradvocate.com/beer/profile/140/30420/",
+      "title": "内华达山脉鱼雷 · BeerAdvocate",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": ""
+    },
+    "ba-pseudosue": {
+      "id": "ba-pseudosue",
+      "url": "https://www.beeradvocate.com/beer/profile/23222/72170/",
+      "title": "伪暴龙 · BeerAdvocate",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": ""
+    },
+    "ba-kingsue": {
+      "id": "ba-kingsue",
+      "url": "https://www.beeradvocate.com/beer/profile/23222/113674/",
+      "title": "暴龙王 · BeerAdvocate",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": ""
+    },
+    "ba-rasputin": {
+      "id": "ba-rasputin",
+      "url": "https://www.beeradvocate.com/beer/profile/112/412/",
+      "title": "北岸老拉斯普京 · BeerAdvocate",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": ""
+    },
+    "ba-breakfast": {
+      "id": "ba-breakfast",
+      "url": "https://www.beeradvocate.com/beer/profile/1199/11757/",
+      "title": "创始者早餐世涛 · BeerAdvocate",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": ""
+    },
+    "ba-guinness": {
+      "id": "ba-guinness",
+      "url": "https://www.beeradvocate.com/beer/profile/209/754/",
+      "title": "健力士氮气世涛 · BeerAdvocate",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": ""
+    },
+    "ba-beaver": {
+      "id": "ba-beaver",
+      "url": "https://www.beeradvocate.com/beer/profile/30923/235819/",
+      "title": "海狸万岁 · BeerAdvocate",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": ""
+    },
+    "ba-pilsner": {
+      "id": "ba-pilsner",
+      "url": "https://www.beeradvocate.com/beer/profile/1/429/",
+      "title": "博世纳乌奎尔 · BeerAdvocate",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": ""
+    },
+    "ba-heineken": {
+      "id": "ba-heineken",
+      "url": "https://www.beeradvocate.com/beer/profile/81/246/",
+      "title": "喜力经典款 · 进口原版 · BeerAdvocate",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": ""
+    },
+    "review-tap5": {
+      "id": "review-tap5",
+      "url": "https://www.jiuhuar.com/craftbeer/5b4c6ddd8ba5b0c4548b456f.html",
+      "title": "施耐德5号 · 酒花儿",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": ""
+    },
+    "review-dajiu": {
+      "id": "review-dajiu",
+      "url": "https://www.jiuhuar.com/craftbeer/68307d54fdbf070d8902b2bb.html",
+      "title": "大九酿造·降临 · 酒花儿",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": ""
+    },
+    "review-salt": {
+      "id": "review-salt",
+      "url": "https://www.gcores.com/talks/226312",
+      "title": "牛啤堂帝都海盐 · 用户品饮记录",
+      "kind": "review",
+      "evidence": "search-index",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": ""
+    },
+    "official-primator": {
+      "id": "official-primator",
+      "url": "https://primator.cz/en/pivovar/historie/",
+      "title": "Primátor 酒厂历史",
+      "kind": "official",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": ""
+    },
+    "report-pang": {
+      "id": "report-pang",
+      "url": "https://finance.youth.cn/finance_yw/202404/t20240415_15197147.htm",
+      "title": "胖东来啤酒零售与转售现象 · 中国青年网",
+      "kind": "report",
+      "evidence": "page",
+      "publishedAt": "2024-04-15",
+      "checkedAt": "2026-09-27",
+      "note": ""
+    },
+    "official-keg": {
+      "id": "official-keg",
+      "url": "https://www.heineken.com/ph/en/our-products/draught-keg",
+      "title": "喜力5L Draught Keg · 官方",
+      "kind": "official",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": ""
+    },
+    "official-pohjala": {
+      "id": "official-pohjala",
+      "url": "https://pohjalabeer.com/",
+      "title": "Põhjala 酒厂官网",
+      "kind": "official",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": ""
+    },
+    "weihen-product": {
+      "id": "weihen-product",
+      "url": "https://wiki.smzdm.com/p/yn7543w/",
+      "title": "维森500ml×6商品条目（描述有原味/水晶白歧义）",
+      "kind": "price",
+      "evidence": "search-index",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": "与品牌聚合价格交叉核对；SKU歧义已在该报价中标注。"
+    },
+    "official-rochefort10": {
+      "id": "official-rochefort10",
+      "url": "https://www.trappistes-rochefort.com/zh-hans/beer/rochefort-10/",
+      "title": "罗斯福10 · 官方规格",
+      "kind": "official",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-27",
+      "note": ""
+    },
+    "review-breakfast-panel": {
+      "id": "review-breakfast-panel",
+      "url": "https://www.beerandbrewing.com/review/breakfast-stout",
+      "title": "Founders Breakfast Stout · Craft Beer & Brewing 品饮",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": "2017-01-11",
+      "checkedAt": "2026-09-27",
+      "note": ""
+    }
+  }
+}

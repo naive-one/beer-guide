@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "target": "https://github.com/naive-one/beer-guide.git",
+  "purpose": "One-time initial import package; excludes the manifest itself from hashing.",
+  "files": [
+    {
+      "path": ".dockerignore",
+      "sha256": "e0f04d1265b4b3855caf924fef3e3b4727ba76f0094d371e613403b46c769b51"
+    },
+    {
+      "path": ".gitattributes",
+      "sha256": "9a5b3e8c93ebcd35a580f2c2cf3b51cad2f4e5c1514a6984f454f36b355dacd8"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "25dac2e79a8e6337bb7db3b95421640c9723d16083db27fdbfe95be98684a55b"
+    },
+    {
+      "path": ".node-version",
+      "sha256": "f14b4987904bcb5814e4459a057ed4d20f58a633152288a761214dcd28780b56"
+    },
+    {
+      "path": ".nvmrc",
+      "sha256": "f14b4987904bcb5814e4459a057ed4d20f58a633152288a761214dcd28780b56"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "b9fa67dd5f7e8f2fff7e08d607f9a8173ca485dc8241247c5db9bbdb16773d3f"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "0f9b6390a797437ed4942e9e95f6d8745877976532d3be4905a1d2cd3edb075a"
+    },
+    {
+      "path": "Dockerfile",
+      "sha256": "b2433348bb99cfa7f7ec6393ff02fb6b1e20e2eea935fc744f8cabe2674468a1"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "ccb885380f0f3da9f918ee03121869cf44cfb14df9833ce205b3c8e965ac23fa"
+    },
+    {
+      "path": "METHODOLOGY.md",
+      "sha256": "0e3bebd6792e8f5b51cf628ac2f2bdb5f9ce05ada77c4e296da2bbb50b601640"
+    },
+    {
+      "path": "README.md",
+      "sha256": "c5111cdd2876403ad17a0ec895b2b90fce214939bcdadbfdd6f3569db8d1516a"
+    },
+    {
+      "path": "SOURCES.md",
+      "sha256": "625a204dda55821ba8ddfe25b5ef01e436ed8822e1f71326ade9f749f0a0934c"
+    },
+    {
+      "path": "app.js",
+      "sha256": "3f0de021c0a61117bcacdd446035650bf4e48ce2b67cc6602f672289d15fcd33"
+    },
+    {
+      "path": "core.js",
+      "sha256": "5e0783473726e7579b5d85dba88590be94e00a52c3b360dc3b531c8f126467e1"
+    },
+    {
+      "path": "data/beers.json",
+      "sha256": "82abac0e2e3cb49a6a3ba3e3a448da26a7f7e1c6794a66c7160bf2ede210c882"
+    },
+    {
+      "path": "data/data.js",
+      "sha256": "f2fa5eb807c5aa36d6567388f1804caa54d520437054ec8c5700f06a2a6dfe5a"
+    },
+    {
+      "path": "data/schema.json",
+      "sha256": "b5b00dbddfc623c272f7a06348cabec6bb39a75ba98b9fdca7ee00a55bb1f29f"
+    },
+    {
+      "path": "deploy/nginx.conf",
+      "sha256": "6b6375157f7d35956c893ac31818c6648c68b50a92ff036c976e9005a8b887cc"
+    },
+    {
+      "path": "dist/404.html",
+      "sha256": "6ef1f9e69ddbfd1a9bff193a196336d81db41dbbca629d5d5893234423847694"
+    },
+    {
+      "path": "dist/_headers",
+      "sha256": "81881c9f9da7526725be58ab5c06229744fb98d452f8376b30ae73edbceeb7ee"
+    },
+    {
+      "path": "dist/app.js",
+      "sha256": "3f0de021c0a61117bcacdd446035650bf4e48ce2b67cc6602f672289d15fcd33"
+    },
+    {
+      "path": "dist/core.js",
+      "sha256": "5e0783473726e7579b5d85dba88590be94e00a52c3b360dc3b531c8f126467e1"
+    },
+    {
+      "path": "dist/data/beers.json",
+      "sha256": "82abac0e2e3cb49a6a3ba3e3a448da26a7f7e1c6794a66c7160bf2ede210c882"
+    },
+    {
+      "path": "dist/data/data.js",
+      "sha256": "f2fa5eb807c5aa36d6567388f1804caa54d520437054ec8c5700f06a2a6dfe5a"
+    },
+    {
+      "path": "dist/index.html",
+      "sha256": "6c8543da917637df6b3847b41f9262fad4ca78e7c4010751a839dfd0c63973a0"
+    },
+    {
+      "path": "dist/robots.txt",
+      "sha256": "16ceb5ee3e0dc13aa9adf31a3ebbe45a1d965b8c2b9f72eaf84e5911e140ed95"
+    },
+    {
+      "path": "dist/styles.css",
+      "sha256": "6689affbee7261ca7972dc51d9da42dc3617eab0857fd4070a8f48fd0b33c1c0"
+    },
+    {
+      "path": "docs/CLOUDFLARE.md",
+      "sha256": "47ac990888335a64f8967934061a3cb87f099535fd6511ffd4026b8318c7f41b"
+    },
+    {
+      "path": "docs/PROJECT-ORIGINAL.md",
+      "sha256": "ee2e4597de64eca5883786ba1411f61d52aba8f25d7b18c88cad9670d50eb774"
+    },
+    {
+      "path": "docs/TEST-REPORT.txt",
+      "sha256": "f9c6f322914afcfc66db3069c2a987a4b76f610e74191218f1efd32e9940aed1"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "sha256": "78992d3bf7540131c8aa991b3436f4ed97e4fe633f6ec4663a4bac2267cf6e83"
+    },
+    {
+      "path": "docs/v1.0.0-CORE-TEST-REPORT.txt",
+      "sha256": "da2d7fade2cd22bef84c6351e959c15320fe5de6c152143182a47cd6403874e8"
+    },
+    {
+      "path": "docs/v1.0.0-TEST-REPORT.json",
+      "sha256": "771bf1fcb765407a99ca458da963bdee00b362a7099b7d555cb861f9dbc94909"
+    },
+    {
+      "path": "index.html",
+      "sha256": "6c8543da917637df6b3847b41f9262fad4ca78e7c4010751a839dfd0c63973a0"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "25a1e0dbefcca395a9efeb1578ff831ad81a335d3d8a56a680428a4017b8d59d"
+    },
+    {
+      "path": "package.json",
+      "sha256": "14edb66079d7e9d8d197f2ab116f6046957c418bcb8d92ec63569c2634ca1e0b"
+    },
+    {
+      "path": "public/404.html",
+      "sha256": "6ef1f9e69ddbfd1a9bff193a196336d81db41dbbca629d5d5893234423847694"
+    },
+    {
+      "path": "public/_headers",
+      "sha256": "81881c9f9da7526725be58ab5c06229744fb98d452f8376b30ae73edbceeb7ee"
+    },
+    {
+      "path": "public/robots.txt",
+      "sha256": "16ceb5ee3e0dc13aa9adf31a3ebbe45a1d965b8c2b9f72eaf84e5911e140ed95"
+    },
+    {
+      "path": "scripts/build.mjs",
+      "sha256": "3d36d9649b28b879c9b706982f58e63012b51b904a57877f26da1283a977bd7e"
+    },
+    {
+      "path": "scripts/publish-github.mjs",
+      "sha256": "5ca869ea57ae456dcd9eabc510846e166da3ef73d3738332fb95f7bae07ddeda"
+    },
+    {
+      "path": "scripts/seed.py",
+      "sha256": "65a7053b039c5f523d48e76e1da08dae30cc623d73a28520317a798abf7f50aa"
+    },
+    {
+      "path": "scripts/serve.mjs",
+      "sha256": "b17c7940c2f2bb8aad034f448aae0a63f3e7385fa05f43518486d6dbfdb6ea0a"
+    },
+    {
+      "path": "standalone.html",
+      "sha256": "71fac6a601f601abc30e9a288e6b720356ba7b37cdade7dfa52c8c2c68348fad"
+    },
+    {
+      "path": "styles.css",
+      "sha256": "6689affbee7261ca7972dc51d9da42dc3617eab0857fd4070a8f48fd0b33c1c0"
+    },
+    {
+      "path": "tests/core.test.cjs",
+      "sha256": "e9a2e62889e5da1b24ca1bab89ed49431bc0ef0efe81d3db299da59299254591"
+    },
+    {
+      "path": "tests/deploy.test.cjs",
+      "sha256": "a790f5daf78e871c38cde21861752e7afb37e054885c0564ee0fe9030056e54f"
+    },
+    {
+      "path": "tests/publish.test.cjs",
+      "sha256": "7a2c86da50ac1c9936259ce1ac6c7a0bfe340ea22780fa7011d6d8581832567b"
+    },
+    {
+      "path": "tests/screenshots/desktop-explorer.png",
+      "sha256": "04e2c6d0dd772a60ab6fe8d86ae26c3e5527a282400237c8cc4426df973381ed"
+    },
+    {
+      "path": "tests/screenshots/desktop-home.png",
+      "sha256": "2046127c7c6b72e1280acc934c39ad5424ca25baad3ef7c8903fa1a3366d73bb"
+    },
+    {
+      "path": "tests/screenshots/mobile-chart.png",
+      "sha256": "5df2728fa9ee397bc0743e47305ad6ed2a72470d79c9b5297860f24e7aa318f2"
+    },
+    {
+      "path": "tests/screenshots/mobile-detail.png",
+      "sha256": "75eb977f0d1bbb1395ecffba84065af4a1040021af79b29da41e7acf8267a5e2"
+    },
+    {
+      "path": "tests/screenshots/mobile-explorer.png",
+      "sha256": "1c75cffead5325c0acb93dcc241a8d06be14c9a2d9fee399a38f1086d1a2a739"
+    },
+    {
+      "path": "tests/screenshots/mobile-home.png",
+      "sha256": "7eb2378ce4b3a59a066cd204139f4456524db0dc611cec95f597be5d47b520f4"
+    },
+    {
+      "path": "tests/ui_smoke.py",
+      "sha256": "b7ee3bdb92f57b9f0ffe3f1c624dfe5779fcc9e2e3b0df5b4de9a6997796c34d"
+    },
+    {
+      "path": "wrangler.jsonc",
+      "sha256": "0ca22ad95c38af0143f59aa3fcf005e3fc8ca5688eb3bd45f44a8a4511926d1d"
+    }
+  ]
+}

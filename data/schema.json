@@ -1,0 +1,339 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Beer Frontier research dataset",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "meta",
+    "families",
+    "beers",
+    "sources"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "meta": {
+      "type": "object",
+      "required": [
+        "snapshotDate",
+        "scope",
+        "pricePolicy",
+        "scorePlatform"
+      ],
+      "properties": {
+        "snapshotDate": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "scorePlatform": {
+          "const": "BeerAdvocate"
+        },
+        "scoreScale": {
+          "const": 5
+        }
+      }
+    },
+    "families": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "name",
+          "color"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "color": {
+            "type": "string",
+            "pattern": "^#[A-Fa-f0-9]{6}$"
+          }
+        }
+      }
+    },
+    "beers": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/beer"
+      }
+    },
+    "sources": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/$defs/source"
+      }
+    }
+  },
+  "$defs": {
+    "quote": {
+      "type": "object",
+      "required": [
+        "total",
+        "quantity",
+        "volumeMl",
+        "currency",
+        "sourceId",
+        "historical",
+        "ambiguous",
+        "note",
+        "checkedAt"
+      ],
+      "properties": {
+        "total": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "quantity": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "volumeMl": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "currency": {
+          "const": "CNY"
+        },
+        "sourceId": {
+          "type": "string"
+        },
+        "historical": {
+          "type": "boolean"
+        },
+        "ambiguous": {
+          "type": "boolean"
+        },
+        "note": {
+          "type": "string"
+        },
+        "checkedAt": {
+          "type": "string"
+        }
+      }
+    },
+    "rating": {
+      "type": "object",
+      "required": [
+        "platform",
+        "scale",
+        "value",
+        "count",
+        "sourceId",
+        "checkedAt"
+      ],
+      "properties": {
+        "platform": {
+          "const": "BeerAdvocate"
+        },
+        "scale": {
+          "const": 5
+        },
+        "value": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 5
+        },
+        "count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "sourceId": {
+          "type": "string"
+        },
+        "checkedAt": {
+          "type": "string"
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "id",
+        "url",
+        "title",
+        "kind",
+        "evidence",
+        "publishedAt",
+        "checkedAt",
+        "note"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https?://"
+        },
+        "title": {
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "review",
+            "price",
+            "official",
+            "report"
+          ]
+        },
+        "evidence": {
+          "enum": [
+            "page",
+            "search-index"
+          ]
+        },
+        "publishedAt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "checkedAt": {
+          "type": "string"
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "beer": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "english",
+        "family",
+        "style",
+        "country",
+        "abv",
+        "volumeMl",
+        "rating",
+        "tags",
+        "review",
+        "quote",
+        "originalList",
+        "aliases",
+        "identityNote",
+        "identityPending"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$"
+        },
+        "name": {
+          "type": "string"
+        },
+        "english": {
+          "type": "string"
+        },
+        "family": {
+          "enum": [
+            "wheat",
+            "lager",
+            "belgian",
+            "hoppy",
+            "dark",
+            "sour",
+            "unresolved"
+          ]
+        },
+        "style": {
+          "type": "string"
+        },
+        "country": {
+          "type": "string"
+        },
+        "abv": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 80
+        },
+        "volumeMl": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        },
+        "rating": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/rating"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "quote": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/quote"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "originalList": {
+          "type": "boolean"
+        },
+        "identityNote": {
+          "type": "string"
+        },
+        "identityPending": {
+          "type": "boolean"
+        },
+        "review": {
+          "type": "object",
+          "required": [
+            "positive",
+            "caution",
+            "fit",
+            "sourceIds",
+            "type"
+          ],
+          "properties": {
+            "positive": {
+              "type": "string"
+            },
+            "caution": {
+              "type": "string"
+            },
+            "fit": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            },
+            "sourceIds": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

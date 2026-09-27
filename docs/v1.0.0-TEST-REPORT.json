@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-27",
+  "browser": "Chromium (headless)",
+  "checks": [
+    "local HTTP server serves all six runtime assets (non-browser check)",
+    "DOM render and evidence-filtered 7 candidates",
+    "budget updates recommendation",
+    "same-style frontier does not eliminate dry stout by wheat score",
+    "manual quote overrides ambiguous source; frontier recomputes",
+    "Storage-API test double: personal data round-trip on app remount",
+    "personal scores computed separately from community scores",
+    "shortlist and comparison dialog",
+    "accessible data table",
+    "all 49 original sources available with safe external links",
+    "personal JSON export",
+    "validated personal JSON import",
+    "whole-order budget uses full pack price",
+    "responsive layout without horizontal page overflow: 390px",
+    "responsive layout without horizontal page overflow: 768px",
+    "responsive layout without horizontal page overflow: 1440px",
+    "no JavaScript errors or runtime external network requests",
+    "standalone HTML renders with no remote assets (DOM injection; navigation restricted)"
+  ],
+  "passed": 18,
+  "limitations": "Managed browser blocks all URL navigation. Browser rendering used set_content on actual standalone HTML, with a test-only in-memory localStorage double. Real origin navigation and real browser storage persistence were not validated; HTTP serving verified separately."
+}
