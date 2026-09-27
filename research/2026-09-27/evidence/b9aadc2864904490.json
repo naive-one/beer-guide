@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/56e13dad8b15e6e6e1d46754.html",
+  "title": "圣伯纳 12号 修道院四料-St. Bernardus Abt 12 Quadrupel",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:47:40.265849+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 3.55,
+  "count": 377,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "3.55 / 5; 377 reviews",
+  "rawEvidenceSha256": "11e26654b2113c98b5f0a53d4f41cc0c1e39ac1ce486f361f589756351c954f8"
+}

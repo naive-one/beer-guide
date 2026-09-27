@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/5d596b30526c60119e5ae426.html",
+  "title": "燕京 U8 拉格-Yanjing U8 Lager",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:51:32.146051+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 2.57,
+  "count": 67,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "2.57 / 5; 67 reviews",
+  "rawEvidenceSha256": "79ba039bf7e5a54722b31273af6e6b8bfc9bfe75aa9de5a38cabf05d1e70fa28"
+}

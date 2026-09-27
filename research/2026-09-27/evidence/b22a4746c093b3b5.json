@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/57aa8c2b8ba5b05b6a8b457c.html",
+  "title": "捷克皇家 小麦啤酒-Primátor Weizenbier",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:49:24.026135+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 3.59,
+  "count": 108,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "3.59 / 5; 108 reviews",
+  "rawEvidenceSha256": "2c6d1b378e3579bac335fda297dee1ab5d854eb544595c513a28748b3188606a"
+}

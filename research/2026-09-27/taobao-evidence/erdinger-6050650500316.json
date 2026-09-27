@@ -1,0 +1,25 @@
+{
+  "id": "erdinger",
+  "url": "https://detail.tmall.com/item.htm?id=713122239497&skuId=6050650500316",
+  "itemId": "713122239497",
+  "skuId": "6050650500316",
+  "shop": "二狗酒馆旗舰店",
+  "title": "德国进口艾丁格ERDINGER小麦白啤黑啤传统小麦大麦500ml精酿啤酒",
+  "selectedSku": "12瓶：艾丁格白啤500ml",
+  "quantity": 12,
+  "volumeMl": 500,
+  "total": 162,
+  "availableSameBeerPacks": [
+    6,
+    12
+  ],
+  "evidenceText": "已选12瓶：艾丁格白啤500ml；￥162；免运费，有货。没有使用混合口味价格。页面未显示本SKU额外补贴。",
+  "currency": "CNY",
+  "checkedAt": "2026-09-27",
+  "largestSameBeerPack": true,
+  "mixedPack": false,
+  "startingPrice": false,
+  "displayedPromotion": null,
+  "status": "verified-selected-page",
+  "priceBasis": "displayed-page-snapshot"
+}

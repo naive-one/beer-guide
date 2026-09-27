@@ -128,6 +128,39 @@
           }
         }
       }
+    },
+    "catalogScope": {
+      "type": "object",
+      "required": [
+        "id",
+        "approvedAt",
+        "reason",
+        "activeIds"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "approvedAt": {
+          "type": "string",
+          "format": "date"
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        },
+        "activeIds": {
+          "type": "array",
+          "uniqueItems": true,
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
     }
   },
   "$defs": {
@@ -154,7 +187,10 @@
           "minimum": 1
         },
         "volumeMl": {
-          "type": "number",
+          "type": [
+            "number",
+            "null"
+          ],
           "exclusiveMinimum": 0
         },
         "currency": {
@@ -174,6 +210,12 @@
         },
         "checkedAt": {
           "type": "string"
+        },
+        "variantNote": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 400,
+          "pattern": "^[^<>\\u0000-\\u001f\\u007f]*\\S[^<>\\u0000-\\u001f\\u007f]*$"
         }
       }
     },
@@ -206,7 +248,7 @@
         },
         "count": {
           "type": "integer",
-          "minimum": 1
+          "minimum": 0
         },
         "sourceId": {
           "type": "string"

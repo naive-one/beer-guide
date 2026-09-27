@@ -1,0 +1,25 @@
+{
+  "id": "orval",
+  "url": "https://detail.tmall.com/item.htm?id=545595876286&skuId=5826001573875",
+  "itemId": "545595876286",
+  "skuId": "5826001573875",
+  "shop": "晨妙酒类专营店",
+  "title": "比利时原装进口奥威啤酒ORVAL330ml*6瓶精酿啤酒修道院精酿啤酒",
+  "selectedSku": "奥威啤酒330ml*6瓶",
+  "quantity": 6,
+  "volumeMl": 330,
+  "total": 222,
+  "availableSameBeerPacks": [
+    1,
+    6
+  ],
+  "evidenceText": "已选奥威330ml*6瓶；￥222，免运费，有货；未使用单瓶43元起价。未显示额外补贴。",
+  "currency": "CNY",
+  "checkedAt": "2026-09-27",
+  "largestSameBeerPack": true,
+  "mixedPack": false,
+  "startingPrice": false,
+  "displayedPromotion": null,
+  "status": "verified-selected-page",
+  "priceBasis": "displayed-page-snapshot"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "tsingtao-white",
+  "url": "https://detail.tmall.com/item.htm?id=643020818013",
+  "itemId": "643020818013",
+  "skuId": null,
+  "shop": "青岛啤酒官方旗舰店",
+  "title": "青岛啤酒全麦白啤500ml*12听整箱装醇香麦芽精酿啤酒",
+  "selectedSku": "全麦白啤500ml*12听（商品页唯一包装）",
+  "quantity": 12,
+  "volumeMl": 500,
+  "total": 96,
+  "displayedPromotion": 79.8,
+  "priceBasis": "displayed-subsidy",
+  "availableSameBeerPacks": [
+    12
+  ],
+  "evidenceText": "同itemId搜索卡补贴后79.8元并标4.1度；详情唯一500ml*12听包装、标价96元、免运费。限购3件是订单上限，未误当一份含36听。评分仍保留旧版相关性质。",
+  "currency": "CNY",
+  "checkedAt": "2026-09-27",
+  "largestSameBeerPack": true,
+  "mixedPack": false,
+  "startingPrice": false,
+  "status": "verified-selected-page"
+}

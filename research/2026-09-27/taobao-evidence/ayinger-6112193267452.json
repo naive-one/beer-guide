@@ -1,0 +1,28 @@
+{
+  "id": "ayinger",
+  "url": "https://detail.tmall.com/item.htm?id=846013178601&skuId=6112193267452",
+  "itemId": "846013178601",
+  "skuId": "6112193267452",
+  "shop": "艾英格啤酒旗舰店",
+  "title": "德国进口艾英格小麦白啤老巴伐利亚传统小麦精酿啤酒500ml",
+  "selectedSku": "24瓶小麦白啤【代表作】",
+  "quantity": 24,
+  "volumeMl": 500,
+  "total": 539.9,
+  "availableSameBeerPacks": [
+    4,
+    6,
+    12,
+    20,
+    24
+  ],
+  "evidenceText": "已选24瓶小麦白啤【代表作】；单瓶500ml；￥539.9；有货；免运费。页面未显示额外补贴，未下单。",
+  "currency": "CNY",
+  "checkedAt": "2026-09-27",
+  "largestSameBeerPack": true,
+  "mixedPack": false,
+  "startingPrice": false,
+  "displayedPromotion": null,
+  "status": "verified-selected-page",
+  "priceBasis": "displayed-page-snapshot"
+}

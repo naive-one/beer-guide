@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/56e13d908b15e6e6e1d46640.html",
+  "title": "福佳 白 比利时小麦啤酒-Hoegaarden Witbier",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:47:58.758901+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 3.21,
+  "count": 1131,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "3.21 / 5; 1131 reviews",
+  "rawEvidenceSha256": "b105ca14c8a8b763df840d5a7a8fc560758673208faafc11bf85133138fcab81"
+}

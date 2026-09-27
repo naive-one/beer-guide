@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/5b865034526c604eb7fc2648.html",
+  "title": "青岛啤酒 经典 淡色拉格-Tsingtao Classic Pale Lager",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:50:56.841927+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 2.66,
+  "count": 36,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "2.66 / 5; 36 reviews",
+  "rawEvidenceSha256": "4a8381dcb1662e39948db1d4b20ff7ca47cf7727ec5883151efadf562e63bfb2"
+}

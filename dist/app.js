@@ -3,12 +3,14 @@
 'use strict';
 const D=window.BEER_DATA,C=window.BeerCore,$=id=>document.getElementById(id);
 if(!D||!C){document.body.textContent='数据文件未加载。请保留 data/data.js 与 core.js，或打开 standalone.html。';return;}
+const V=C.catalogView(D),activeIds=new Set(V.beers.map(b=>b.id));
+const visibleShortlist=()=>C.currentShortlist(D,state.shortlist);
 const ids=new Set(D.beers.map(b=>b.id)),KEY='beer-frontier.personal.v1';
 let state=C.defaults(),analysis,visibleLimit=42,lastDialogId=null,toastTimer,pickerOpener=null,pickerDialogOpener=null;
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const money=v=>Number.isFinite(v)?v.toFixed(2):'—';
-const units=()=>state.unit==='order'?'整单':state.unit==='unit'?'瓶 / 罐':'500ml';
-const unitLong=()=>state.unit==='order'?'元 / 整单':state.unit==='unit'?'元 / 瓶或罐':'元 / 500ml';
+const money=C.formatMoney;
+const units=()=>state.unit==='order'?'整单':state.unit==='unit'?'件':'500ml';
+const unitLong=()=>state.unit==='order'?'元 / 整单':state.unit==='unit'?'元 / 件':'元 / 500ml';
 const labelScore=b=>state.scoreMode==='personal'?'我的评分':((b?.activeRating||b?.relatedRating)?.platform||'原平台均分');
 const countLabel=r=>!r?'未找到匹配分':r.platform==='个人口味'?'个人记录':r.count?.toLocaleString()+(r.countType==='reviews'?'条文字评论 · 评分人数未知':'个评分');
 const platformColor=p=>({'BeerAdvocate':'#b95530','酒花儿':'#657d57','Untappd':'#497986','个人口味':'#b95530'}[p]||'#72766c');
@@ -17,79 +19,81 @@ function toast(message){$('toast').textContent=message;$('toast').hidden=false;c
 function load(){try{const raw=localStorage.getItem(KEY);if(raw){const p=C.validateImport(JSON.parse(raw),ids);state={...state,...p};}}catch(e){toast('未能读取本地记录，已保留默认研究数据。');}}
 function personalExport(){return {schemaVersion:1,exportedAt:new Date().toISOString(),datasetVersion:D.meta.version,overrides:state.overrides,personalScores:state.personalScores,shortlist:state.shortlist};}
 function save(){try{localStorage.setItem(KEY,JSON.stringify(personalExport()));}catch(e){toast('浏览器禁止本地保存，请导出JSON备份。');}}
-function qStatus(b){if(b.activeQuote?.personal)return '个人实付价 · 仅本地';if(!b.activeQuote)return b.purchaseGuide?'未核实市场报价 · 有编辑预算条件':'价格待补 · 不编造报价';if(b.activeQuote.historical)return '旧价 · '+(D.sources[b.activeQuote.sourceId]?.publishedAt||'年份待核对');if(b.activeQuote.ambiguous)return '参考起价 · 版本有歧义';return '参考样本 · 不是实时售价';}
+function qStatus(b){if(b.activeQuote?.priceBasis==='taobao-displayed-snapshot')return (b.activeQuote.provenance?.inputPriceBasis==='calculated-page-promotion'?'淘宝所选页面优惠计算快照':'淘宝显示／补贴价快照')+(b.activeQuote.ambiguous?' · 版本未确认':'');if(b.activeQuote?.personal)return '个人实付价 · 仅本地';if(!b.activeQuote)return b.purchaseGuide?'未核实市场报价 · 有编辑预算条件':'价格待补 · 不编造报价';if(b.activeQuote.historical)return '旧价 · '+(D.sources[b.activeQuote.sourceId]?.publishedAt||'年份待核对');if(b.activeQuote.ambiguous)return '参考起价 · 版本有歧义';return '参考样本 · 不是实时售价';}
 function sourceLinks(sourceIds){return [...new Set(sourceIds.filter(Boolean))].map(id=>{const s=D.sources[id];return s?`<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title)} ↗</a>`:'';}).join('');}
-function rowById(id){const b=D.beers.find(x=>x.id===id);return b?C.resolve(b,state):null;}
+function rowById(id){const b=V.beers.find(x=>x.id===id);return b?C.resolve(b,state):null;}
 function syncControls(){
  $('budget').value=state.budget;$('budget-unit').textContent=unitLong();
  const max=state.unit==='order'?Math.max(500,state.budget):Math.max(80,state.budget);
  $('budget-range').max=max;$('budget-range').value=state.budget;$('range-max').textContent='¥'+max;
- for(const [id,key]of [['unit','unit'],['mode','mode'],['score-mode','scoreMode'],['score-platform','scorePlatform'],['map-mode','mapMode'],['min-ratings','minRatings'],['max-abv','maxAbv'],['library-mode','libraryMode'],['tier-filter','tierFilter'],['sort','sort']])$(id).value=state[key];
+ for(const [id,key]of [['price-scope','priceScope'],['unit','unit'],['mode','mode'],['score-mode','scoreMode'],['score-platform','scorePlatform'],['map-mode','mapMode'],['min-ratings','minRatings'],['max-abv','maxAbv'],['library-mode','libraryMode'],['tier-filter','tierFilter'],['sort','sort']])$(id).value=state[key];
  for(const [id,key]of [['historic','includeHistoric'],['ambiguous','includeAmbiguous'],['personal-prices','onlyPersonalPrices']])$(id).checked=state[key];
  $('min-ratings').disabled=state.scoreMode==='personal';$('score-platform').disabled=state.scoreMode==='personal';
- $('unit-note').textContent=state.unit==='order'?'使用原报价整组总额；包装数量不同，不是等量比价。':state.unit==='unit'?'不同瓶罐容量仍可能不同。整箱的折合单件价，不保证可以只买一件。':'只作价格换算，不是建议饮用量。整箱折合价不代表能按单瓶买到。';
- const styleNames=[...new Set(D.beers.filter(b=>state.family==='all'||b.family===state.family).map(b=>b.style))].filter(s=>s!=='待确认');
+ $('unit-note').textContent=state.unit==='order'?'使用原报价整组总额；包装数量不同，不是等量比价。':state.unit==='unit'?'每件包括瓶、罐、桶；5L桶也算一件，容量仍可能不同。整箱的折合单件价，不保证可以只买一件。':'只作价格换算，不是建议饮用量。整箱折合价不代表能按单瓶买到。';
+ const styleNames=[...new Set(V.beers.filter(b=>state.family==='all'||b.family===state.family).map(b=>b.style))].filter(s=>s!=='待确认');
  $('style').innerHTML='<option value="all">所有具体风格</option>'+styleNames.map(s=>`<option value="${esc(s)}">${esc(s)}</option>`).join('');$('style').value=state.style;
  $('family-tabs').innerHTML=Object.entries(D.families).filter(([k])=>k!=='unresolved').map(([k,v])=>`<button data-family="${k}" class="${state.family===k?'active':''}" aria-pressed="${state.family===k}">${esc(v.name)}</button>`).join('');
- $('shortlist-count').textContent=state.shortlist.length;
+ $('shortlist-count').textContent=visibleShortlist().length;
  const presets=state.unit==='order'?[50,100,150,250]:[8,15,25,40];$('budget-presets').innerHTML=presets.map(v=>`<button data-budget="${v}">${v}元</button>`).join('');
 }
 function render(){analysis=C.analyze(D,state);syncControls();renderChart();renderRecommendation();renderLadder();renderOpportunities();renderLibrary();renderTierBoard();}
-function niceMax(v){const base=Math.pow(10,Math.floor(Math.log10(Math.max(v,1))));const mult=v/base;return Math.ceil(mult*2)/2*base;}
+function chartAxes(m){
+ const {W,H,L,R,T,B,x,y,xmax}=m;
+ let svg=`<title id="plot-title">价格与评分 · 共享坐标</title><desc id="plot-desc">横轴${esc(unitLong())}，纵轴0至5分。各平台共用坐标，但评分体系不等价；前沿只连接同平台、同一比较组的证据。圆点为证据，菱形为参考，完整名称与相邻点入口位于图外。</desc>`;
+ svg+=`<rect x="${L}" y="${T}" width="${Math.max(0,x(Math.min(xmax,state.budget))-L)}" height="${H-T-B}" fill="#eff2e9"/>`;
+ const ticks=W<420?3:5;
+ for(let i=0;i<=ticks;i++){
+  const v=xmax*i/ticks;
+  svg+=`<line x1="${x(v)}" x2="${x(v)}" y1="${T}" y2="${H-B}" class="chart-grid-line"/><text class="axis-text x-tick" x="${x(v)}" y="${H-B+20}" text-anchor="${i===ticks?'end':i===0?'start':'middle'}">${v===0?'0':v<10?v.toFixed(1):Math.round(v)}</text>`;
+ }
+ for(let v=0;v<=5;v++)svg+=`<line x1="${L}" x2="${W-R}" y1="${y(v)}" y2="${y(v)}" class="chart-grid-line"/><text class="axis-text y-tick" x="${L-9}" y="${y(v)+4}" text-anchor="end">${v}</text>`;
+ svg+=`<text class="axis-text axis-rating" x="${L}" y="14">${state.scoreMode==='personal'?'个人':'社区'}评分 / 5</text><text class="axis-text axis-price" x="${W-R}" y="${H-3}" text-anchor="end">${esc(unitLong())} →</text>`;
+ if(state.budget<xmax)svg+=`<line x1="${x(state.budget)}" x2="${x(state.budget)}" y1="${T}" y2="${H-B}" class="budget-line"/>`;
+ return svg;
+}
+function chartFrontiers(m){
+ return m.groups.filter(g=>g.points.length>1).map(g=>{
+  const [first,...rest]=g.points;
+  const path=`M${first.x},${first.y}`+rest.map(b=>` H${b.x} V${b.y}`).join('');
+  return `<path d="${path}" class="frontier-path" stroke="${platformColor(g.platform)}" data-platform="${esc(g.platform)}" data-cohort="${esc(g.key)}" data-ids="${g.points.map(b=>b.id).join(',')}"/>`;
+ }).join('');
+}
+function chartPoints(m){
+ return m.placed.map(b=>{
+  const {x:cx,y:cy,edge}=b,color=platformColor(b.plotRating.platform),label=pointLabel(b,edge);
+  const mark=b.reference?`<path d="M${cx},${cy-6} L${cx+6},${cy} L${cx},${cy+6} L${cx-6},${cy} Z" fill="#fffefa" stroke="${color}" stroke-width="1.5"/>`:`<circle cx="${cx}" cy="${cy}" r="${edge?6.5:4.5}" fill="${b.plotPrice<=state.budget?color:'#fffefa'}" stroke="${color}" stroke-width="1.8"/>`;
+  return `<g class="point" tabindex="0" role="button" data-point="${b.id}" data-platform="${esc(b.plotRating.platform)}" data-neighbours="${b.neighbours.join(',')}" data-reference="${b.reference}" aria-label="${esc(label)}"><circle class="point-hit" cx="${cx}" cy="${cy}" r="12" fill="transparent"/>${mark}<title>${esc(label)}</title></g>`;
+ }).join('');
+}
+function chartKeys(m){
+ const clusters=m.clusters.length?`<div class="cluster-controls"><span>相邻点</span>${m.clusters.map((c,i)=>`<button data-cluster="${c.ids.join(',')}" aria-label="展开相邻的 ${c.ids.length} 款酒，第 ${i+1} 组" title="${esc(c.ids.map(id=>m.placed.find(b=>b.id===id).name).join(' / '))}">${i+1}组 · ${c.ids.length}款 ↗</button>`).join('')}</div>`:'';
+ const keys=m.groups.map(g=>`<div class="frontier-list-title" style="--platform:${platformColor(g.platform)}">${esc(g.key)} · 前沿酒款 · 按价格从低到高</div><div class="frontier-key" style="--platform:${platformColor(g.platform)}">${g.points.map((b,i)=>`<button data-open="${b.id}"><span class="frontier-number">${i+1}</span><span><strong>${esc(b.name)}</strong><small>¥${money(b.price)} · ${b.activeRating.value.toFixed(2)} 分</small></span></button>`).join('')}</div>`).join('');
+ return clusters+(keys||'<p class="frontier-list-title">当前暂无可比较的前沿节点。</p>');
+}
+function chartUnplaced(points){
+ return points.length?`<section class="unplaced-points"><div><h4>待补坐标 <span>${points.length}</span></h4><p>缺价格或评分，留在这里；不画在 ¥0 或 0 分上。</p></div><div class="unplaced-grid">${points.map(b=>`<button data-point="${b.id}" data-reference="true" aria-label="${esc(pointLabel(b,false))}"><span>${esc(b.name)}</span><small>${!Number.isFinite(b.plotPrice)?'价格待补':!b.plotRating?'评分未知':''}${!Number.isFinite(b.plotPrice)&&!b.plotRating?' · 评分未知':''}</small></button>`).join('')}</div></section>`:'';
+}
+function chartOffscreen(m){
+ return m.offscreen.length?`<section class="offscreen-points unplaced-points" aria-label="范围外酒款"><h4>范围外酒款 <span>${m.offscreen.length}</span></h4><p>价格超过当前横轴上限，未移到边界；选择「恢复完整范围」可查看实际坐标。</p><div class="unplaced-grid">${m.offscreen.map(b=>`<button data-point="${b.id}" aria-label="${esc(pointLabel(b,false))}"><span>${esc(b.name)}</span><small>¥${money(b.plotPrice)} / ${units()} · ${esc(b.plotRating.platform)} ${b.plotRating.value.toFixed(2)}分${b.reference?' · 仅参考':''}</small></button>`).join('')}</div></section>`:'';
+}
+function sharedChart(m){
+ if(!m.placed.length)return '';
+ const legend=`<div class="platform-legend" aria-label="评分平台图例">${m.platforms.map(p=>`<span data-platform="${esc(p)}" style="--platform:${platformColor(p)}"><i></i>${esc(p)}</span>`).join('')}<p>同图展示 ≠ 评分体系等价；前沿按平台独立计算，不设跨平台总冠军。</p></div>`;
+ return `<section class="shared-chart" data-xmax="${m.xmax}">${legend}<div class="chart-range" role="group" aria-label="横轴范围"><button data-chart-range="focus" aria-pressed="${state.chartRange==='focus'}">聚焦全部前沿</button><button data-chart-range="full" aria-pressed="${state.chartRange==='full'}">恢复完整范围</button><p role="status">当前 ¥0–${money(m.xmax)} / ${units()} · 范围外 ${m.offscreen.length} 款 · 保留全部前沿</p></div><svg viewBox="0 0 ${m.W} ${m.H}" data-ymin="0" data-ymax="5" role="group" aria-labelledby="plot-title plot-desc">${chartAxes(m)}${chartFrontiers(m)}${chartPoints(m)}</svg>${chartOffscreen(m)}${chartKeys(m)}</section>`;
+}
 function renderChart(){
- const rows=(state.mapMode==='evidence'?analysis.eligible:analysis.rows).map(b=>C.displayPoint(b,state)),edgeIds=analysis.edgeIds;
+ const m=C.chartModel(analysis,state,$('chart-wrap').clientWidth-32),edgeIds=analysis.edgeIds;
  const restorePicker=!$('point-picker').hidden&&$('point-picker').contains(document.activeElement);
  $('tooltip').hidden=true;
  $('point-picker').hidden=true;
- $('chart-subtitle').textContent=`${rows.length} 款展示 · ${analysis.eligible.length} 款有可比证据 · ${analysis.edge.length} 个前沿节点`;
- $('chart-empty').hidden=rows.length>0;
+ $('chart-subtitle').textContent=`${m.rows.length} 款展示 · ${analysis.eligible.length} 款有可比证据 · ${analysis.edge.length} 个前沿节点`;
+ $('chart-empty').hidden=m.rows.length>0;
  $('chart-empty').textContent='暂无满足证据条件的酒款。切换「全部酒款」可查看待补资料的候选。';
- const placed=rows.filter(b=>Number.isFinite(b.plotPrice)&&b.plotRating),unplaced=rows.filter(b=>!Number.isFinite(b.plotPrice)||!b.plotRating);
- const platforms=[...new Set(placed.map(b=>b.plotRating.platform))];
- const availableWidth=Math.max(240,$('chart-wrap').clientWidth-32);
- const W=Math.min(950,availableWidth),H=260,L=44,R=20,T=28,B=44,PW=W-L-R,PH=H-T-B;
- $('scatter').innerHTML=platforms.map((platform,panelIndex)=>{
-  const points=placed.filter(b=>b.plotRating.platform===platform),edges=analysis.edge.filter(b=>b.activeRating.platform===platform),color=platformColor(platform);
-  const xmax=niceMax(Math.max(5,...points.map(b=>b.plotPrice*1.12)));
-  const scores=points.map(b=>b.plotRating.value),ymin=Math.max(0,Math.floor((Math.min(...scores)-.2)*2)/2),ymax=Math.min(5,Math.ceil((Math.max(...scores)+.2)*2)/2);
-  const x=v=>L+v/xmax*PW,y=v=>T+(ymax-v)/(ymax-ymin||1)*PH;
-  let plot=`<title id="plot-title-${panelIndex}">${esc(platform)}价格与口碑</title><desc id="plot-desc-${panelIndex}">横轴${esc(unitLong())}，纵轴${ymin}至${ymax}分。各平台坐标独立，不跨图比较。圆点为证据，菱形为参考。前沿酒款在图下按价格列出。</desc>`;
-  plot+=`<rect x="${L}" y="${T}" width="${Math.max(0,x(Math.min(xmax,state.budget))-L)}" height="${PH}" fill="#eff2e9"/>`;
-  const ticks=W<420?3:5;
-  for(let i=0;i<=ticks;i++){
-   const v=xmax*i/ticks;
-   plot+=`<line x1="${x(v)}" x2="${x(v)}" y1="${T}" y2="${H-B}" class="chart-grid-line"/><text class="axis-text" x="${x(v)}" y="${H-B+20}" text-anchor="${i===ticks?'end':i===0?'start':'middle'}">${v===0?'0':v<10?v.toFixed(1):Math.round(v)}</text>`;
-  }
-  for(let i=0;i<=4;i++){
-   const v=ymin+(ymax-ymin)*i/4;
-   plot+=`<line x1="${L}" x2="${W-R}" y1="${y(v)}" y2="${y(v)}" class="chart-grid-line"/><text class="axis-text" x="${L-9}" y="${y(v)+4}" text-anchor="end">${v.toFixed(2)}</text>`;
-  }
-  plot+=`<text class="axis-text" x="${L}" y="14">评分 / 5</text><text class="axis-text" x="${W-R}" y="${H-3}" text-anchor="end">${esc(unitLong())} →</text>`;
-  if(state.budget<xmax)plot+=`<line x1="${x(state.budget)}" x2="${x(state.budget)}" y1="${T}" y2="${H-B}" class="budget-line"/>`;
-  const groups={};for(const b of edges)(groups[C.cohort(b,state.mode)]||=[]).push(b);
-  for(const group of Object.values(groups)){
-   if(group.length<2)continue;
-   let path=`M${x(group[0].price)},${y(group[0].activeRating.value)}`;
-   for(const b of group.slice(1))path+=` H${x(b.price)} V${y(b.activeRating.value)}`;
-   plot+=`<path d="${path}" class="frontier-path" stroke="${color}"/>`;
-  }
-  // Coincident/near-coincident points share an explicit chooser, not invented coordinates.
-  const clusters=[];
-  for(const b of points.slice().sort((a,b)=>Number(edgeIds.has(a.id))-Number(edgeIds.has(b.id)))){
-   const cx=x(b.plotPrice),cy=y(b.plotRating.value),edge=edgeIds.has(b.id),r=edge?6.5:4.5;
-   const label=pointLabel(b,edge),markerColor=b.reference?'#8b8d82':color;
-   const mark=b.reference?`<path d="M${cx},${cy-6} L${cx+6},${cy} L${cx},${cy+6} L${cx-6},${cy} Z" fill="#fffefa" stroke="${markerColor}" stroke-width="1.5"/>`:`<circle cx="${cx}" cy="${cy}" r="${r}" fill="${b.plotPrice<=state.budget?color:'#fffefa'}" stroke="${color}" stroke-width="1.8"/>`;
-   const neighbours=points.filter(p=>Math.hypot(x(p.plotPrice)-cx,y(p.plotRating.value)-cy)<18).map(p=>p.id);
-   if(neighbours.length>1&&!clusters.some(c=>c.ids.includes(b.id)))clusters.push({x:cx,y:cy,ids:neighbours});
-   plot+=`<g class="point" tabindex="0" role="button" data-point="${b.id}" data-neighbours="${neighbours.join(',')}" data-reference="${b.reference}" aria-label="${esc(label)}"><circle class="point-hit" cx="${cx}" cy="${cy}" r="12" fill="transparent"/>${mark}<title>${esc(label)}</title></g>`;
-  }
-
-  return `<section class="platform-chart" data-platform="${esc(platform)}" data-xmax="${xmax}" data-natural-max="${xmax}" style="--platform:${color}"><div class="platform-heading"><h4><i></i>${esc(platform)}</h4><span>${points.length} 款 · ${edges.length} 个前沿节点</span></div><svg viewBox="0 0 ${W} ${H}" role="group" aria-labelledby="plot-title-${panelIndex} plot-desc-${panelIndex}">${plot}</svg>${clusters.length?`<div class="cluster-controls"><span>相邻点</span>${clusters.map((c,i)=>`<button data-cluster="${c.ids.join(',')}" aria-label="展开相邻的 ${c.ids.length} 款酒，第 ${i+1} 组" title="${esc(c.ids.map(id=>points.find(b=>b.id===id).name).join(' / '))}">${i+1}组 · ${c.ids.length}款 ↗</button>`).join('')}</div>`:''}<div class="frontier-list-title">前沿酒款 · 按价格从低到高</div><div class="frontier-key">${edges.length?edges.map((b,i)=>`<button data-open="${b.id}"><span class="frontier-number">${i+1}</span><span><strong>${esc(b.name)}</strong><small>¥${money(b.price)} · ${b.activeRating.value.toFixed(2)} 分</small></span></button>`).join(''):'<p>本平台暂无可比较的前沿节点。</p>'}</div></section>`;
- }).join('')+(unplaced.length?`<section class="unplaced-points"><div><h4>待补坐标 <span>${unplaced.length}</span></h4><p>缺价格或评分，留在这里；不画在 ¥0 或 0 分上。</p></div><div class="unplaced-grid">${unplaced.map(b=>`<button data-point="${b.id}" data-reference="true" aria-label="${esc(pointLabel(b,false))}"><span>${esc(b.name)}</span><small>${!Number.isFinite(b.plotPrice)?'价格待补':!b.plotRating?'评分未知':''}${!Number.isFinite(b.plotPrice)&&!b.plotRating?' · 评分未知':''}</small></button>`).join('')}</div></section>`:'');
- $('map-note').innerHTML='<strong>分平台读图，不把不同评分体系排成总榜。</strong> 每张图使用独立坐标；浅绿区域在预算内，虚线为预算边界。前沿酒款按价格列在图下；“相邻点”入口可展开重叠酒款。菱形仅供参考，缺坐标条目单列。';
- $('chart-table').innerHTML=`<table><caption>完整明细：当前筛选范围内 ${analysis.rows.length} 款。</caption><thead><tr><th>酒款</th><th>价格 / 预算条件</th><th>评价与样本口径</th><th>计算状态</th></tr></thead><tbody>${analysis.rows.map(b=>{const r=b.activeRating||(state.scoreMode==='community'?b.relatedRating:null);return `<tr><td><button data-open="${b.id}">${esc(b.name)}</button></td><td>${priceLabel(b)}<small>${esc(qStatus(b))}</small></td><td>${r?esc(r.platform)+' '+r.value.toFixed(2)+'/5'+(!b.activeRating?'（相关版）':''):'未找到匹配分'}<small>${esc(countLabel(r))}</small></td><td>${edgeIds.has(b.id)?'分平台前沿':b.eligible?'非前沿':esc(b.reasons.join('；'))}</td></tr>`;}).join('')}</tbody></table>`;
+ $('scatter').innerHTML=sharedChart(m)+chartUnplaced(m.unplaced);
+ $('map-note').innerHTML='<strong>共享价格与 0–5 分坐标，前沿仍按平台独立计算。</strong> 社区均分不是专家评审，同图不代表评分体系等价。浅绿区域在预算内，虚线为预算边界。默认聚焦全部前沿，可恢复完整范围；范围外条目列于图下，切换范围不改变比较结果。前沿全名和相邻点入口在图外；菱形仅供参考，缺坐标条目单列。';
+ $('chart-table').innerHTML=`<table><caption>完整明细：当前筛选范围内 ${analysis.rows.length} 款。</caption><thead><tr><th>酒款</th><th>价格 / 当前范围</th><th>评价与样本口径</th><th>计算状态</th></tr></thead><tbody>${analysis.rows.map(b=>{const r=b.activeRating||(state.scoreMode==='community'?b.relatedRating:null);return `<tr><td><button data-open="${b.id}">${esc(b.name)}</button></td><td>${priceLabel(b)}<small>${esc(qStatus(b))}</small></td><td>${r?esc(r.platform)+' '+r.value.toFixed(2)+'/5'+(!b.activeRating?'（相关版）':''):'未找到匹配分'}<small>${esc(countLabel(r))}</small></td><td>${edgeIds.has(b.id)?'分平台前沿':b.eligible?'非前沿':esc(b.reasons.join('；'))}</td></tr>`;}).join('')}</tbody></table>`;
  $('all-index').innerHTML=analysis.rows.map((b,i)=>`<button data-open="${b.id}" class="index-chip ${edgeIds.has(b.id)?'is-edge':''}"><small>${String(i+1).padStart(2,'0')}</small>${esc(b.name)}</button>`).join('');
- $('evidence-strip').innerHTML=`<span><b>${analysis.rows.length}</b> 款保留展示</span><span><b>${analysis.eligible.length}</b> 款参与证据比较</span><span><b>${analysis.edge.length}</b> 个分平台前沿节点</span><span>${state.includeHistoric?'含历史价格快照 · 非实时行情':'历史报价不参与计算'}</span>`;
+ $('evidence-strip').innerHTML=`<span><b>${analysis.rows.length}</b> 款保留展示</span><span><b>${analysis.eligible.length}</b> 款参与证据比较</span><span><b>${analysis.edge.length}</b> 个分平台前沿节点</span><span>${state.priceScope==='taobao'?'仅本轮淘宝快照 · 缺价待补':'含旧来源样本 · 非本轮淘宝核验'}</span>`;
  if(restorePicker)dismissPointPicker();
 }
 function pointLabel(b,edge){
@@ -97,7 +101,7 @@ function pointLabel(b,edge){
  const rating=b.plotRating?`${b.plotRating.platform} ${b.plotRating.value.toFixed(2)}分${b.scoreBasis==='related'?'，相关版本，不是本款评分':''}`:'评分未知，不按零分处理';
  return `${b.name}，${price}，${rating}，${edge?'分平台前沿':b.reference?'仅展示不参与前沿':'可比但非前沿'}。`;
 }
-function priceLabel(b){const g=C.guideCost(b,state);return b.price!==null?`报价 ¥${money(b.price)} / ${units()}`:g!==null?`编辑预算 ≤¥${money(g)} / ${units()}`:'价格待补 · 不估价';}
+function priceLabel(b){return b.price!==null?`报价 ¥${money(b.price)} / ${units()}`:'价格待补 · 不估价';}
 function restorePickerFocus(opener){
  if(!opener)return;
  const {node,cluster,point}=opener;
@@ -123,7 +127,7 @@ function showPointPicker(ids,opener){
 function tierBadge(b){const tier=D.tierList?.tiers.find(t=>t.id===b.userTier);return tier?`<span class="tier-badge" data-tier="${esc(tier.id)}">用户榜单 · ${esc(tier.label)}</span>`:'';}
 function tierDetail(b){const tier=D.tierList?.tiers.find(t=>t.id===b.userTier),entry=tier?.entries.find(e=>e.beerId===b.id);return tier?`<div class="tier-detail">${tierBadge(b)}<p>原清单名称：${esc(entry.name)}。这是用户提供的主观档位，不是社区评分，也不参与价格—评分前沿。</p>${entry.note?`<p>${esc(entry.note)}</p>`:''}</div>`:'';}
 function renderTierBoard(){
- const tiers=D.tierList?.tiers||[];
+ const tiers=V.tierList?.tiers||[];
  $('tier-board').innerHTML=tiers.map(t=>`<div class="tier-row" data-tier="${esc(t.id)}"><div class="tier-label"><strong>${esc(t.label)}</strong><span>${t.entries.length} 款</span></div><div class="tier-entries">${t.entries.map(e=>`<button data-open="${esc(e.beerId)}" title="${esc(e.note||'查看资料与价格状态')}">${esc(e.name)}${e.note?'<span class="tier-note-mark" aria-label="有名称或版本说明">*</span>':''}</button>`).join('')}</div></div>`).join('');
  $('tier-total').textContent=tiers.reduce((n,t)=>n+t.entries.length,0);
 }
@@ -148,7 +152,7 @@ function renderOpportunities(){
 }
 function renderLibrary(){
  let rows=analysis.rows.filter(b=>state.tierFilter==='all'||b.userTier===state.tierFilter);const q=state.query.trim().toLowerCase();if(q)rows=rows.filter(b=>[b.name,b.english,b.style,...b.tags,...b.aliases].join(' ').toLowerCase().includes(q));
- switch(state.libraryMode){case 'budget':rows=rows.filter(b=>Number.isFinite(b.price??C.guideCost(b,state))&&(b.price??C.guideCost(b,state))<=state.budget);break;case 'eligible':rows=rows.filter(b=>b.eligible);break;case 'edge':rows=rows.filter(b=>analysis.edgeIds.has(b.id));break;case 'pending':rows=rows.filter(b=>!b.eligible);break;case 'new':rows=rows.filter(b=>!b.originalList);break;case 'saved':rows=rows.filter(b=>state.shortlist.includes(b.id));break;}
+ switch(state.libraryMode){case 'budget':rows=rows.filter(b=>Number.isFinite(b.price)&&b.price<=state.budget);break;case 'eligible':rows=rows.filter(b=>b.eligible);break;case 'edge':rows=rows.filter(b=>analysis.edgeIds.has(b.id));break;case 'pending':rows=rows.filter(b=>!b.eligible);break;case 'new':rows=rows.filter(b=>!b.originalList);break;case 'saved':rows=rows.filter(b=>state.shortlist.includes(b.id));break;}
  const score=b=>b.activeRating?.value??-1;
  rows.sort((a,b)=>state.sort==='score'?(labelScore(a).localeCompare(labelScore(b))||score(b)-score(a)):state.sort==='samples'?(labelScore(a).localeCompare(labelScore(b))||String(a.activeRating?.countType).localeCompare(String(b.activeRating?.countType))||(b.activeRating?.count||0)-(a.activeRating?.count||0)):state.sort==='name'?a.name.localeCompare(b.name,'zh'):(a.price??Infinity)-(b.price??Infinity));
  $('library-total').textContent=rows.length;
@@ -157,7 +161,7 @@ function renderLibrary(){
  $('show-more').hidden=true;$('show-more').textContent=`再显示 ${Math.min(12,rows.length-visibleLimit)} 个条目 ↓`;
 }
 function card(b){const color=D.families[b.family].color,edge=analysis.edgeIds.has(b.id),saved=state.shortlist.includes(b.id),r=b.activeRating||(state.scoreMode==='community'?b.relatedRating:null),g=b.purchaseGuide;
- return `<article class="beer-card" data-beer-id="${b.id}" style="--beer-color:${color}"><div class="card-top"><span class="style-badge">${esc(D.families[b.family].name)}</span><button class="save-btn ${saved?'saved':''}" data-save="${b.id}" aria-label="${saved?'从对比移除':'加入对比'} ${esc(b.name)}" aria-pressed="${saved}">${saved?'★':'☆'}</button></div>${tierBadge(b)}<h3>${esc(b.name)}</h3><p class="english">${esc(b.english)}</p><div class="card-meta">${esc(b.country)} · ${b.abv!==null?b.abv+'% ABV':'ABV未核实'} · ${b.volumeMl||'—'}ml${b.representative?' · 明确选取的代表款':''}</div><p class="card-review">${esc(b.review.positive)}</p><div class="tag-row">${b.tags.map(t=>`<span class="taste-tag">${esc(t)}</span>`).join('')}</div><div class="card-numbers"><div class="card-price">${b.price!==null?'¥'+money(b.price):g?'≤¥'+money(C.guideCost(b,state)):'价格待补'}<small> / ${esc(units())}</small></div><div class="card-rating">${r?r.value.toFixed(2):'未评分'}<small>${r?' / 5':''}</small></div></div><div class="number-labels"><span>${b.price!==null?'可追溯报价样本':g?'编辑试饮预算 · 非报价':'不以缺价冒充低价'}</span><span>${r?esc(r.platform)+(b.activeRating?'':' · 相关版'):'不编造分数'}</span></div><p class="sample-note">${esc(countLabel(r))}${r&&!b.activeRating?'；不参与证据前沿':''}</p><div class="price-status ${b.activeQuote?.personal?'price-personal':''}">${esc(qStatus(b))}${b.activeQuote?`<br>原包装 ¥${money(b.activeQuote.total)} / ${b.activeQuote.quantity}件 × ${b.activeQuote.volumeMl}ml`:''}</div>${g?`<div class="budget-guide"><span>编辑买入条件 · 不是行情</span><strong>≤ ¥${money(g.ceiling)} / ${g.volumeMl}ml</strong><p>${esc(b.review.fit)}</p></div>`:'<div class="budget-guide"><span>暂无已核验报价或预算建议</span><p>仅记录用户榜单；价格、规格与公开评价待补。</p></div>'}<div class="card-bottom">${edge?'<span class="edge-badge">↗ 分平台前沿</span>':`<span class="pending-badge">${b.reasons.length?esc(b.reasons[0]):'有证据 · 非前沿'}</span>`}<button class="inline-link" data-open="${b.id}">完整评价 / 改价 ↗</button></div></article>`;
+ return `<article class="beer-card" data-beer-id="${b.id}" style="--beer-color:${color}"><div class="card-top"><span class="style-badge">${esc(D.families[b.family].name)}</span><button class="save-btn ${saved?'saved':''}" data-save="${b.id}" aria-label="${saved?'从对比移除':'加入对比'} ${esc(b.name)}" aria-pressed="${saved}">${saved?'★':'☆'}</button></div>${tierBadge(b)}<h3>${esc(b.name)}</h3><p class="english">${esc(b.english)}</p><div class="card-meta">${esc(b.country)} · ${b.abv!==null?b.abv+'% ABV':'ABV未核实'} · ${b.volumeMl||'—'}ml${b.representative?' · 明确选取的代表款':''}</div><p class="card-review">${esc(b.review.positive)}</p><div class="tag-row">${b.tags.map(t=>`<span class="taste-tag">${esc(t)}</span>`).join('')}</div><div class="card-numbers"><div class="card-price">${b.price!==null?'¥'+money(b.price):'价格待补'}<small> / ${esc(units())}</small></div><div class="card-rating">${r?r.value.toFixed(2):'未评分'}<small>${r?' / 5':''}</small></div></div><div class="number-labels"><span>${b.price!==null?'可追溯报价样本':'不以缺价冒充低价'}</span><span>${r?esc(r.platform)+(b.activeRating?'':' · 相关版'):'不编造分数'}</span></div><p class="sample-note">${esc(countLabel(r))}${r&&!b.activeRating?'；不参与证据前沿':''}</p><div class="price-status ${b.activeQuote?.personal?'price-personal':''}">${esc(qStatus(b))}${b.activeQuote?`<br>原包装 ¥${money(b.activeQuote.total)} / ${b.activeQuote.quantity}件 × ${b.activeQuote.volumeMl==null?'容量待补':b.activeQuote.volumeMl+'ml'}`:''}</div>${g?`<div class="budget-guide"><span>编辑买入条件 · 不是行情</span><strong>≤ ¥${money(g.ceiling)} / ${g.volumeMl}ml</strong><p>${esc(b.review.fit)}</p></div>`:'<div class="budget-guide"><span>暂无已核验报价或预算建议</span><p>仅记录用户榜单；价格、规格与公开评价待补。</p></div>'}<div class="card-bottom">${edge?'<span class="edge-badge">↗ 分平台前沿</span>':`<span class="pending-badge">${b.reasons.length?esc(b.reasons[0]):'有证据 · 非前沿'}</span>`}<button class="inline-link" data-open="${b.id}">完整评价 / 改价 ↗</button></div></article>`;
 }
 
 function detail(id){const b=rowById(id);if(!b)return;lastDialogId=id;
@@ -166,18 +170,18 @@ function detail(id){const b=rowById(id);if(!b)return;lastDialogId=id;
  const q=b.activeQuote,underlying=b.quote,r=b.activeRating||(state.scoreMode==='community'?b.relatedRating:null);
  const seed=q||{quantity:1,volumeMl:b.volumeMl||'',total:''};
  const source=q?.sourceId?D.sources[q.sourceId]:null;
- $('dialog-content').innerHTML=`<div class="dialog-top"><div style="--beer-color:${D.families[b.family].color}"><span class="style-badge">${esc(b.style)}</span><h2 id="dialog-title">${esc(b.name)}</h2><p class="english">${esc(b.english)}</p></div><button class="icon-btn" data-close="beer-dialog" aria-label="关闭详情">×</button></div><div class="dialog-body">${tierDetail(b)}<div class="detail-stats"><div class="detail-stat"><strong>${b.price!==null?'¥'+money(b.price):'待补'}</strong><span>${esc(units())} · ${q?.personal?'个人价':'参考价'}</span></div><div class="detail-stat"><strong>${r?r.value.toFixed(2):'—'} <small>/ 5</small></strong><span>${esc(labelScore(b))}${r&&!b.activeRating?' · 相关版':''}<br>${esc(countLabel(r))}</span></div><div class="detail-stat"><strong>${b.abv!==null?b.abv+'%':'待核对'}</strong><span>ABV · ${esc(b.country)} · 实物优先</span></div></div>${b.identityNote?`<div class="detail-caution">${esc(b.identityNote)}</div>`:''}<section class="detail-section"><h3>公开评价 / 资料归纳</h3><p>${esc(b.review.positive)}</p><h3>需要知道的取舍</h3><p>${esc(b.review.caution)}</p><h3>什么人更可能喜欢 · 编辑判断</h3><p>${esc(b.review.fit)}</p><p class="helper">${esc(b.review.type)}</p><div class="source-links">${sourceLinks(b.review.sourceIds)}</div></section><section class="detail-section"><h3>价格证据与原包装</h3>${q?`<p class="quote-breakdown">¥${money(q.total)} ÷ ${q.quantity}件；每件 ${q.volumeMl}ml</p><p>每件 ¥${money(C.cost(q,'unit'))}；折合500ml ¥${money(C.cost(q,'500ml'))}；整单需付 ¥${money(q.total)}。整箱折合价格不是单瓶购买承诺。</p><p>${esc(q.note||'个人填写的总价；请确认已经包含运费。')}</p><p>${esc(qStatus(b))}。记录核对日：${esc(q.checkedAt||'待补')}；来源发布日期：${esc(source?.publishedAt||'未能完整核实')}。</p><div class="source-links">${sourceLinks([q.sourceId])}</div>`:'<p>未取得可同时确认总价、件数与容量的价格。没有用猜测价补齐；也没有把网页的0.00占位符当作免费。</p>'}${q?.personal&&underlying?`<p class="helper">原始参考样本仍保留：¥${money(underlying.total)} / ${underlying.quantity}件 × ${underlying.volumeMl}ml。清除个人价即可恢复。${sourceLinks([underlying.sourceId])}</p>`:''}</section><div class="detail-notice">${esc(reason)}<br>前沿只反映价格与评分，不是对个人口味、渠道或新鲜度的保证。</div><section class="detail-section"><h3>选购预算 · 编辑判断，不是市场价</h3>${b.purchaseGuide?`<p class="guide-detail">建议先以 <strong>≤ ¥${money(b.purchaseGuide.ceiling)} / ${b.purchaseGuide.volumeMl}ml</strong> 作为试饮买入条件。</p><p>${esc(b.purchaseGuide.note)}</p>`:'<p>暂无预算建议；不以猜测补齐价格。</p>'}<h3>评分出处与版本</h3><p>${r?esc(r.platform)+' '+r.value.toFixed(2)+'/5；'+esc(countLabel(r)):'未查到与此版本匹配的独立平台均分；不以销量、原麦汁浓度或品牌奖项造分。'}</p>${r&&!b.activeRating?`<p class="detail-caution">仅相关版本评价：${esc(r.note)} 不参与本款证据前沿。</p>`:''}<div class="source-links">${sourceLinks([r?.sourceId,...(b.extraSourceIds||[])])}</div><p class="helper">${esc(b.researchNote)}</p></section><form id="price-form" class="edit-form" data-id="${id}"><h3>用我的实际报价重新计算</h3><p>确认是这一款酒；总支出请包含运费。只写在你的浏览器里。</p><div class="form-grid"><div><label class="field-label" for="edit-total">总支出 / 元</label><input id="edit-total" name="total" type="number" min="0.01" max="1000000" step="0.01" value="${seed.total}" required></div><div><label class="field-label" for="edit-qty">包装件数</label><input id="edit-qty" name="quantity" type="number" min="1" max="10000" step="1" value="${seed.quantity}" required></div><div><label class="field-label" for="edit-volume">每件容量 / ml</label><input id="edit-volume" name="volume" type="number" min="1" max="100000" step="0.1" value="${seed.volumeMl}" required></div></div><p id="live-price" class="form-feedback"></p><div class="form-actions"><button class="primary" type="submit" ${b.identityPending?'disabled':''}>保存实付价并重算</button><button type="button" class="inline-link" data-clear-price="${id}">清除个人价</button></div>${b.identityPending?'<p class="identity-flag">名称或版本未确认，不能通过填价格绕过身份核对。请让维护者先确认具体SKU。</p>':''}<div class="personal-score-row"><div><label for="personal-score">我的口味分 · 0–5</label><p>只和其他个人分一起计算，不与任何社区分混合。</p></div><input class="score-input" id="personal-score" type="number" min="0" max="5" step="0.01" value="${state.personalScores[id]??''}" placeholder="未评分"><button type="button" class="outline" data-save-score="${id}">保存口味分</button></div></form></div>`;
+ $('dialog-content').innerHTML=`<div class="dialog-top"><div style="--beer-color:${D.families[b.family].color}"><span class="style-badge">${esc(b.style)}</span><h2 id="dialog-title">${esc(b.name)}</h2><p class="english">${esc(b.english)}</p></div><button class="icon-btn" data-close="beer-dialog" aria-label="关闭详情">×</button></div><div class="dialog-body">${tierDetail(b)}<div class="detail-stats"><div class="detail-stat"><strong>${b.price!==null?'¥'+money(b.price):'待补'}</strong><span>${esc(units())} · ${q?.personal?'个人价':'参考价'}</span></div><div class="detail-stat"><strong>${r?r.value.toFixed(2):'—'} <small>/ 5</small></strong><span>${esc(labelScore(b))}${r&&!b.activeRating?' · 相关版':''}<br>${esc(countLabel(r))}</span></div><div class="detail-stat"><strong>${b.abv!==null?b.abv+'%':'待核对'}</strong><span>ABV · ${esc(b.country)} · 实物优先</span></div></div><p class="helper">本轮评分审计：${esc(b.researchAudit?.rating?.status||'待补')}；淘宝：${esc(b.researchAudit?.taobao?.status||'待补')}。${esc(b.researchAudit?.rating?.identityDecision||'')}</p>${b.identityNote?`<div class="detail-caution">${esc(b.identityNote)}</div>`:''}<section class="detail-section"><h3>公开评价 / 资料归纳</h3><p>${esc(b.review.positive)}</p><h3>需要知道的取舍</h3><p>${esc(b.review.caution)}</p><h3>什么人更可能喜欢 · 编辑判断</h3><p>${esc(b.review.fit)}</p><p class="helper">${esc(b.review.type)}</p><div class="source-links">${sourceLinks(b.review.sourceIds)}</div></section><section class="detail-section"><h3>价格证据与原包装</h3>${q?`<p class="quote-breakdown">¥${money(q.total)} ÷ ${q.quantity}件；每件 ${q.volumeMl==null?'容量待补':q.volumeMl+'ml'}</p><p>每件 ¥${money(C.cost(q,'unit'))}；折合500ml ¥${money(C.cost(q,'500ml'))}；整单${q.provenance?.inputPriceBasis==='calculated-page-promotion'?'按所选页面计算':'显示'} ¥${money(q.total)}。整箱折合价格不是单瓶购买承诺。</p><p>${q.selectedSku?`SKU：${esc(q.selectedSku)} · ${q.quantity}件包装。`:''}</p>${q.variantNote?`<p class="detail-caution">版本说明：${esc(q.variantNote)}</p>`:''}<p>${esc(q.note||'个人填写的总价；请确认已经包含运费。')}</p><p>${esc(qStatus(b))}。记录核对日：${esc(q.checkedAt||'待补')}；来源发布日期：${esc(source?.publishedAt||'未能完整核实')}。</p><div class="source-links">${sourceLinks([q.sourceId])}</div>`:'<p>当前价格范围暂无可用报价（本轮淘宝可能尚未采集）。没有用猜测价补齐；也没有把网页的0.00占位符当作免费。</p>'}${q?.personal&&underlying?`<p class="helper">原始参考样本仍保留：¥${money(underlying.total)} / ${underlying.quantity}件 × ${underlying.volumeMl}ml。清除个人价即可恢复。${sourceLinks([underlying.sourceId])}</p>`:''}</section><div class="detail-notice">${esc(reason)}<br>前沿只反映价格与评分，不是对个人口味、渠道或新鲜度的保证。</div><section class="detail-section"><h3>选购预算 · 编辑判断，不是市场价</h3>${b.purchaseGuide?`<p class="guide-detail">建议先以 <strong>≤ ¥${money(b.purchaseGuide.ceiling)} / ${b.purchaseGuide.volumeMl}ml</strong> 作为试饮买入条件。</p><p>${esc(b.purchaseGuide.note)}</p>`:'<p>暂无预算建议；不以猜测补齐价格。</p>'}<h3>评分出处与版本</h3><p>${r?esc(r.platform)+' '+r.value.toFixed(2)+'/5；'+esc(countLabel(r)):'未查到与此版本匹配的独立平台均分；不以销量、原麦汁浓度或品牌奖项造分。'}</p>${r&&!b.activeRating?`<p class="detail-caution">仅相关版本评价：${esc(r.note)} 不参与本款证据前沿。</p>`:''}<div class="source-links">${sourceLinks([r?.sourceId,...(b.extraSourceIds||[])])}</div><p class="helper">${esc(b.researchNote)}</p></section><form id="price-form" class="edit-form" data-id="${id}"><h3>用我的实际报价重新计算</h3><p>确认是这一款酒；总支出请包含运费。只写在你的浏览器里。</p><div class="form-grid"><div><label class="field-label" for="edit-total">总支出 / 元</label><input id="edit-total" name="total" type="number" min="0.01" max="1000000" step="0.01" value="${seed.total}" required></div><div><label class="field-label" for="edit-qty">包装件数</label><input id="edit-qty" name="quantity" type="number" min="1" max="10000" step="1" value="${seed.quantity}" required></div><div><label class="field-label" for="edit-volume">每件容量 / ml</label><input id="edit-volume" name="volume" type="number" min="1" max="100000" step="0.1" value="${seed.volumeMl??''}" required></div></div><p id="live-price" class="form-feedback"></p><div class="form-actions"><button class="primary" type="submit" ${b.identityPending?'disabled':''}>保存实付价并重算</button><button type="button" class="inline-link" data-clear-price="${id}">清除个人价</button></div>${b.identityPending?'<p class="identity-flag">名称或版本未确认，不能通过填价格绕过身份核对。请让维护者先确认具体SKU。</p>':''}<div class="personal-score-row"><div><label for="personal-score">我的口味分 · 0–5</label><p>只和其他个人分一起计算，不与任何社区分混合。</p></div><input class="score-input" id="personal-score" type="number" min="0" max="5" step="0.01" value="${state.personalScores[id]??''}" placeholder="未评分"><button type="button" class="outline" data-save-score="${id}">保存口味分</button></div></form></div>`;
  if(!$('beer-dialog').open)$('beer-dialog').showModal();
  $('price-form').addEventListener('submit',onPriceSubmit);
  for(const fid of ['edit-total','edit-qty','edit-volume'])$(fid).addEventListener('input',livePrice);
  livePrice();
 }
-function livePrice(){const q={total:Number($('edit-total').value),quantity:Number($('edit-qty').value),volumeMl:Number($('edit-volume').value)};$('live-price').textContent=C.validQuote(q)?`即时换算：每件 ¥${money(C.cost(q,'unit'))} · 每500ml ¥${money(C.cost(q,'500ml'))}`:'请填写有效的总价、整数件数和容量。';}
+function livePrice(){const q={total:Number($('edit-total').value),quantity:Number($('edit-qty').value),volumeMl:Number($('edit-volume').value)};$('live-price').textContent=C.validQuote(q)&&Number.isFinite(q.volumeMl)&&q.volumeMl>0?`即时换算：每件 ¥${money(C.cost(q,'unit'))} · 每500ml ¥${money(C.cost(q,'500ml'))}`:'请填写有效的总价、整数件数和容量。';}
 function onPriceSubmit(e){e.preventDefault();const id=e.currentTarget.dataset.id;if(D.beers.find(b=>b.id===id)?.identityPending)return;
  const q={total:Number($('edit-total').value),quantity:Number($('edit-qty').value),volumeMl:Number($('edit-volume').value),checkedAt:new Date().toISOString().slice(0,10),note:'用户自行填写的总支出；商品身份与运费由用户核对。'};
  if(!C.validQuote(q)){toast('价格无效，请检查总价、件数和毫升数。');return;}state.overrides[id]=q;save();render();detail(id);toast('已保存个人报价，前沿已重新计算。');}
-function toggleSave(id){if(state.shortlist.includes(id)){state.shortlist=state.shortlist.filter(x=>x!==id);}else if(state.shortlist.length<3)state.shortlist.push(id);else {toast('最多对比3款，请先移除一款。');return;}save();renderLibrary();$('shortlist-count').textContent=state.shortlist.length;if($('compare-dialog').open)renderCompare();}
-function renderCompare(){const rows=state.shortlist.map(rowById).filter(Boolean);$('compare-content').innerHTML=rows.length?`<div class="compare-grid">${rows.map(b=>`<article class="compare-cell" style="--beer-color:${D.families[b.family].color}"><span class="style-badge">${esc(D.families[b.family].name)}</span><h3>${esc(b.name)}</h3><p>${esc(b.style)} · ${b.abv??'—'}% ABV</p><div class="card-price">${b.price!==null?'¥'+money(b.price):'价格待补'} <small>/ ${esc(units())}</small></div><p>${esc(labelScore(b))}：${b.activeRating?b.activeRating.value.toFixed(2)+'/5':'缺数据'}</p><p>${esc(qStatus(b))}</p><p>${esc(b.review.positive)}</p><p><strong>取舍：</strong>${esc(b.review.caution)}</p><p><button class="inline-link" data-compare-open="${b.id}">查看证据 / 改价 ↗</button></p><p><button class="inline-link" data-save="${b.id}">从清单移除</button></p></article>`).join('')}</div><p class="compare-tip">这里可以跨风格对照，但不会把不同口味自动评为高低。价格口径沿用主页面。</p>`:'<div class="compare-body empty-panel">点击资料卡右上角 ☆，最多添加3款进行并排对比。</div>';}
+function toggleSave(id){if(!activeIds.has(id))return;if(state.shortlist.includes(id)){state.shortlist=state.shortlist.filter(x=>x!==id);}else if(visibleShortlist().length<3)state.shortlist.push(id);else {toast('最多对比3款，请先移除一款。');return;}save();renderLibrary();$('shortlist-count').textContent=visibleShortlist().length;if($('compare-dialog').open)renderCompare();}
+function renderCompare(){const rows=visibleShortlist().map(rowById).filter(Boolean);$('compare-content').innerHTML=rows.length?`<div class="compare-grid">${rows.map(b=>`<article class="compare-cell" style="--beer-color:${D.families[b.family].color}"><span class="style-badge">${esc(D.families[b.family].name)}</span><h3>${esc(b.name)}</h3><p>${esc(b.style)} · ${b.abv??'—'}% ABV</p><div class="card-price">${b.price!==null?'¥'+money(b.price):'价格待补'} <small>/ ${esc(units())}</small></div><p>${esc(labelScore(b))}：${b.activeRating?b.activeRating.value.toFixed(2)+'/5':'缺数据'}</p><p>${esc(qStatus(b))}</p><p>${esc(b.review.positive)}</p><p><strong>取舍：</strong>${esc(b.review.caution)}</p><p><button class="inline-link" data-compare-open="${b.id}">查看证据 / 改价 ↗</button></p><p><button class="inline-link" data-save="${b.id}">从清单移除</button></p></article>`).join('')}</div><p class="compare-tip">这里可以跨风格对照，但不会把不同口味自动评为高低。价格口径沿用主页面。</p>`:'<div class="compare-body empty-panel">点击资料卡右上角 ☆，最多添加3款进行并排对比。</div>';}
 function renderSources(){const list=Object.values(D.sources);$('sources-list').innerHTML=list.map(s=>`<div class="source-item"><span class="source-type">${sourceKind[s.kind]}<br>${s.evidence==='search-index'?'搜索索引':'页面读取'}</span><div><a class="source-name" href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title)} ↗</a><p>${esc(s.note||'仅用于本页对应酒款、规格或公开评价；不是实时报价。')}</p></div><span>核对 ${esc(s.checkedAt)}<br>发布 ${esc(s.publishedAt||'日期未完整核实')}</span></div>`).join('');}
 function update(key,value){state[key]=value;visibleLimit=42;render();}
 function closeDialog(id){$(id).close();}
@@ -185,6 +189,7 @@ function closeDialog(id){$(id).close();}
 document.addEventListener('click',e=>{
  const t=e.target.closest('button');if(!t)return;
  if(t.hasAttribute('data-dismiss-picker'))dismissPointPicker();
+ if(t.dataset.chartRange){state.chartRange=t.dataset.chartRange;renderChart();$('scatter').querySelector(`[data-chart-range="${state.chartRange}"]`).focus();}
  if(t.dataset.open){
   if($('point-picker').contains(t)){
    pickerDialogOpener=pickerOpener;
@@ -203,7 +208,7 @@ document.addEventListener('click',e=>{
 $('budget').addEventListener('input',e=>{if(e.target.value==='')return;const n=Number(e.target.value);if(Number.isFinite(n)&&n>=0&&n<=1000000){state.budget=n;analysis=C.analyze(D,state);$('budget-range').max=Math.max(Number($('budget-range').max),n);$('budget-range').value=n;renderChart();renderRecommendation();renderLadder();renderOpportunities();}});
 $('budget').addEventListener('change',()=>render());
 $('budget-range').addEventListener('input',e=>update('budget',Number(e.target.value)));
-for(const [id,key,isNumber]of [['unit','unit'],['mode','mode'],['score-mode','scoreMode'],['score-platform','scorePlatform'],['map-mode','mapMode'],['min-ratings','minRatings',true],['max-abv','maxAbv',true],['style','style'],['sort','sort'],['library-mode','libraryMode'],['tier-filter','tierFilter']])$(id).addEventListener('change',e=>{if(key==='unit'){state.budget=e.target.value==='order'?150:20;}update(key,isNumber?Number(e.target.value):e.target.value);});
+for(const [id,key,isNumber]of [['price-scope','priceScope'],['unit','unit'],['mode','mode'],['score-mode','scoreMode'],['score-platform','scorePlatform'],['map-mode','mapMode'],['min-ratings','minRatings',true],['max-abv','maxAbv',true],['style','style'],['sort','sort'],['library-mode','libraryMode'],['tier-filter','tierFilter']])$(id).addEventListener('change',e=>{if(key==='unit'){state.budget=e.target.value==='order'?150:20;}update(key,isNumber?Number(e.target.value):e.target.value);});
 for(const [id,key]of [['historic','includeHistoric'],['ambiguous','includeAmbiguous'],['personal-prices','onlyPersonalPrices']])$(id).addEventListener('change',e=>update(key,e.target.checked));
 $('switch-real').addEventListener('click',()=>{update('onlyPersonalPrices',true);$('explore').scrollIntoView({behavior:'smooth'});});
 $('search').addEventListener('input',e=>{state.query=e.target.value;visibleLimit=42;renderLibrary();});
@@ -214,8 +219,8 @@ $('toggle-table').addEventListener('click',()=>{const open=$('chart-table').hidd
 $('toggle-sources').addEventListener('click',()=>{const open=$('sources-list').hidden;$('sources-list').hidden=!open;$('toggle-sources').setAttribute('aria-expanded',String(open));$('toggle-sources').textContent=open?'收起全部来源':'展开全部来源';if(open)renderSources();});
 $('nav-shortlist').addEventListener('click',()=>{renderCompare();$('compare-dialog').showModal();});
 for(const id of ['beer-dialog','compare-dialog'])$(id).addEventListener('click',e=>{if(e.target===$(id)){const r=$(id).getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)$(id).close();}});
-$('scatter').addEventListener('click',e=>{const cluster=e.target.closest('[data-cluster]'),p=e.target.closest('[data-point]');if(cluster)showPointPicker(cluster.dataset.cluster,cluster);else if(p){if(p.dataset.neighbours?.includes(','))showPointPicker(p.dataset.neighbours,p);else detail(p.dataset.point);}});
-$('scatter').addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){const cluster=e.target.closest('[data-cluster]'),p=e.target.closest('[data-point]');if(cluster||p){e.preventDefault();if(cluster)showPointPicker(cluster.dataset.cluster,cluster);else detail(p.dataset.point);}}});
+$('scatter').addEventListener('click',e=>{const cluster=e.target.closest('[data-cluster]'),p=e.target.closest('[data-point]');if(cluster)showPointPicker(cluster.dataset.cluster,cluster);else if(p){if(p.dataset.neighbours?.includes(','))showPointPicker(p.dataset.neighbours,p);else {pickerDialogOpener={node:p,point:p.dataset.point};detail(p.dataset.point);}}});
+$('scatter').addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){const cluster=e.target.closest('[data-cluster]'),p=e.target.closest('[data-point]');if(cluster||p){e.preventDefault();if(cluster)showPointPicker(cluster.dataset.cluster,cluster);else {pickerDialogOpener={node:p,point:p.dataset.point};detail(p.dataset.point);}}}});
 $('point-picker').addEventListener('keydown',e=>{if(e.key==='Escape'){e.preventDefault();dismissPointPicker();}});
 $('beer-dialog').addEventListener('close',()=>{
  const dialog=$('beer-dialog');
@@ -230,7 +235,7 @@ $('import-data').addEventListener('click',()=>$('import-file').click());
 $('import-file').addEventListener('change',async e=>{const file=e.target.files?.[0];if(!file)return;try{if(file.size>1000000)throw Error('文件超过1MB，请检查是否是个人数据JSON。');const p=C.validateImport(JSON.parse(await file.text()),ids);if(!confirm('导入会替换本浏览器的个人报价、口味分与对比清单。是否继续？'))return;state={...state,...p};save();render();toast('导入完成，前沿已重算。');}catch(err){toast('导入失败：'+err.message);}finally{e.target.value='';}});
 $('reset-personal').addEventListener('click',()=>{if(!confirm('确定清空本浏览器的实付价、个人评分与对比清单？研究数据不受影响。'))return;state.overrides={};state.personalScores={};state.shortlist=[];save();render();toast('个人数据已清空。');});
 let resizeTimer;window.addEventListener('resize',()=>{clearTimeout(resizeTimer);resizeTimer=setTimeout(()=>{if(analysis)renderChart();},100);});
-load();$('stat-total').textContent=D.beers.length;$('stat-rated').textContent=D.beers.filter(b=>b.rating).length;$('stat-prices').textContent=D.beers.filter(b=>b.quote).length;render();
+load();$('stat-total').textContent=V.beers.length;$('stat-rated').textContent=V.beers.filter(b=>b.rating).length;$('stat-prices').textContent=V.beers.filter(b=>b.quote?.priceBasis==='taobao-displayed-snapshot').length;$('scope-note').textContent=`当前展示 ${V.beers.length} 款：全部夯档及已采价其它款。主库 ${D.beers.length} 款，${D.beers.length-V.beers.length} 款归档；历史证据与个人记录保留。`;render();
 // Test hook exposes read-only snapshots, not a writable state reference.
 window.BeerFrontier={getState:()=>JSON.parse(JSON.stringify(state)),getAnalysis:()=>({eligible:analysis.eligible.map(b=>b.id),frontier:analysis.edge.map(b=>b.id),best:analysis.best?.id||null,bestByCohort:analysis.bestByCohort.map(x=>({name:x.name,id:x.beer.id})),displayed:analysis.rows.length})};
 })();

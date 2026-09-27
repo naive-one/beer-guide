@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/56e13daa8b15e6e6e1d46735.html",
+  "title": "内华达山脉 鱼雷 IPA-Sierra Nevada Torpedo Extra IPA",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:48:09.077115+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 3.56,
+  "count": 369,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "3.56 / 5; 369 reviews",
+  "rawEvidenceSha256": "b5b76347bdd6f73561db3764d031f967ad453ba296eccd62390139625784a25f"
+}

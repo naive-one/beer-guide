@@ -1,0 +1,29 @@
+{
+  "id": "vitus",
+  "status": "verified-selected-page-calculation",
+  "url": "https://item.taobao.com/item.htm?id=705785062940&skuId=6140916821611",
+  "itemId": "705785062940",
+  "skuId": "6140916821611",
+  "shop": "醉爱精酿馆",
+  "title": "德国进口维森啤酒唯森小麦白啤酒黑啤水晶/圣维特/拉格精酿500ml",
+  "selectedSku": "20瓶 · 唯森圣维特白啤500ml【26.7.15产】",
+  "quantity": 20,
+  "volumeMl": 500,
+  "listedTotal": 438,
+  "discountAmount": 60,
+  "minimumSpend": 400,
+  "total": 378,
+  "displayedPromotion": null,
+  "currency": "CNY",
+  "priceBasis": "calculated-page-promotion",
+  "largestSameBeerPack": true,
+  "availableSameBeerPacks": [
+    1,
+    5,
+    20
+  ],
+  "mixedPack": false,
+  "startingPrice": false,
+  "checkedAt": "2026-09-27",
+  "evidenceText": "已选20瓶 · 唯森圣维特白啤500ml【26.7.15产】；￥438；券满400减60"
+}

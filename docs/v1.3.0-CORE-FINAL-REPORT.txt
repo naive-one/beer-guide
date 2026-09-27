@@ -1,0 +1,81 @@
+> beer-guide@1.3.0 check
+> npm run build && npm test
+
+
+> beer-guide@1.3.0 build
+> node scripts/build.mjs
+
+Built 67 entries, 185 sources; standalone.html 408028 bytes.
+dist/ is ready: six application files plus 404.html, _headers, and robots.txt.
+
+> beer-guide@1.3.0 test
+> node --test tests/core.test.cjs tests/chart.test.cjs tests/tier-data.test.cjs tests/deploy.test.cjs tests/publish.test.cjs tests/research.test.cjs tests/scope.test.cjs
+
+✔ missing price and guide stay unknown, never an editorial or zero-price point (1.202257ms)
+✔ shared chart model preserves inventory, nulls and independent platform frontiers (6.740522ms)
+✔ shared geometry is budget independent in every price unit (8.264336ms)
+✔ chart model handles platform filters, style cohorts, empty and personal zero scores (19.529231ms)
+✔ overlap detection includes coincident points from different platforms without joining frontiers (0.757408ms)
+✔ editorial coordinates require explicit legacy scope, never personal-only or an unconvertible quote (1.319788ms)
+✔ focus retains every frontier; full restores coordinates without changing analysis (48.116974ms)
+✔ focus expands for expensive frontier changes and safely falls back without frontiers (2.563404ms)
+✔ normalize volume and pack; never infer null as free (4.462075ms)
+✔ exact Pareto: lower price AND >=score dominates; tradeoffs survive (1.408997ms)
+✔ ties, equal price/equal score, duplicate points (12.60937ms)
+✔ cross-style dominance disabled only in same-style mode (0.219014ms)
+✔ empty and invalid rows excluded (0.384064ms)
+✔ fresh-only defaults retain current beers and exclude every old shopping snapshot (1.873734ms)
+✔ ambiguous prices require explicit opt-in; historical reference is visible by default (1.633292ms)
+✔ manual price overrides and replaces historical restrictions (0.20091ms)
+✔ budget below minimum returns no recommendation, not automatic upsell (0.430742ms)
+✔ personal score mode never fills missing personal scores from BA (1.652777ms)
+✔ minimum sample and ABV filters: unknowns excluded under restrictive limit (0.369566ms)
+✔ identity placeholders never become comparable through manual input (0.161595ms)
+✔ personal import rejects bad shapes/unknown ids/infinity and retains only allowed keys (0.578902ms)
+✔ data integrity and traceable ratings/quotes/review sources (0.654294ms)
+✔ quote entry threshold is not a fabricated market price (0.755865ms)
+✔ scores from different platforms never dominate each other (0.201089ms)
+✔ all 40 current beers have chart entries; unscored coordinates stay null; A3 aggregate remains related (2.698249ms)
+✔ editorial ceilings and related scores do not create evidence eligibility (0.245672ms)
+✔ written comments are not a rating sample count (0.46683ms)
+✔ historical toggle excludes expired fixture prices without hiding inventory (3.957845ms)
+✔ coverage is computed from evidence and historic source registry retained (1.013161ms)
+✔ platform filter and personal mode use independent correct scopes (0.569975ms)
+✔ reference metadata never changes Pareto results (6.098271ms)
+✔ Workers config uses only dist, a matching name, and actual 404s (1.345578ms)
+✔ build is deterministic, purges stale dist files, and publishes only allowlisted files (137.145183ms)
+✔ committed dist assets match current sources and include non-sticky cache headers (2.238151ms)
+✔ local preview serves the application, not repository files, and returns real 404 (198.576786ms)
+✔ publisher rejects traversal paths, credentials, and other hidden runtime data (1.825563ms)
+✔ manifest verifies regular files and prevents silently publishing a modified package (3.537121ms)
+✔ remote protection permits only identical files or the known initial README (4.378087ms)
+✔ per bottle default; absent volume allows unit/order but never 500ml or zero (2.592589ms)
+✔ import preserves ids tiers histories and is idempotent; representatives use actual selected scores (14.261115ms)
+✔ related stays related and failed search cannot erase evidence (0.9385ms)
+✔ reject unknown duplicate ids, bad source/currency/date/numeric evidence and mixed or starting prices (4.718198ms)
+✔ unconfirmed largest pack remains pending; fresh-only scope excludes old prices (1.011539ms)
+✔ unknown volume excluded from 500ml frontier; personal imports still require volume (1.334608ms)
+✔ ledger values cannot be replaced by title guesses; N/A retains good old evidence (0.647261ms)
+✔ new matched identity gets sourced English style country ABV and family (0.570716ms)
+✔ ledger also binds platform and count semantics (0.871744ms)
+✔ calculated page promotion preserves original operands and evidence without claiming displayed total (2.257207ms)
+✔ calculated page promotion rejects invalid operands, unmet threshold, conflicting display and inexact total (10.845033ms)
+✔ directly displayed promotion still takes precedence and retains its original listed total (0.422025ms)
+✔ currency half-cent display rounds up without changing costs or Pareto comparisons (0.289796ms)
+✔ observed variant quote preserves identity/history and separates version-match coverage (1.257381ms)
+✔ optional ambiguity is boolean and variant note is bounded plain product text (2.857038ms)
+✔ imported observed variant price is visible but frontier requires explicit scenario opt-in (0.572409ms)
+✔ frozen current scope retains hang21 and captured others while archiving master67 (2.644377ms)
+✔ archived personal evidence survives validation but never participates or uses compare slots (1.92995ms)
+✔ later imports preserve frozen scope, master audit support and idempotence (34.513809ms)
+✔ all supplied tiers and original names are preserved in original order (4.025362ms)
+✔ user-only additions do not invent specifications, ratings, prices, budgets or citations (0.785933ms)
+✔ subjective tiers never affect community evidence and do not assert imported versions (5.78482ms)
+ℹ tests 60
+ℹ suites 0
+ℹ pass 60
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 433.994501

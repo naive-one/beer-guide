@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/56e13d768b15e6e6e1d46536.html",
+  "title": "福禾 勃艮第女公爵-Verhaeghe Duchesse De Bourgogne",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:50:53.272470+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 3.74,
+  "count": 1006,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "3.74 / 5; 1006 reviews",
+  "rawEvidenceSha256": "2f6d1b26dfdcb4d01b2d6bfcc7f54f5bfbcf7fff4d4fb7020cd9e71503562e90"
+}

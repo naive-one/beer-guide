@@ -1,0 +1,65 @@
+[
+  {
+    "id": "abt12",
+    "checkedAt": "2026-09-27",
+    "status": "no-verified-standard-sku-price",
+    "queries": [
+      "圣伯纳12号 330ml"
+    ],
+    "attempts": [
+      {
+        "url": "https://item.taobao.com/item.htm?id=551329090709",
+        "result": "页面明确显示商品已经下架，未采用15元起价。"
+      },
+      {
+        "url": "https://item.taobao.com/item.htm?id=554796977442",
+        "result": "普通6瓶12号未能选定有效SKU；可见包含大容量纪念版，不把418元泛价当作常规款。"
+      },
+      {
+        "url": "https://detail.tmall.com/item.htm?id=638284121918",
+        "result": "6瓶12号未能选定；同链接杯子选项可以选定skuId=4996993646710。80元/70.4元展示价可能对应酒具，绝不除以6冒充酒价。"
+      }
+    ],
+    "note": "仅说明本次候选未取得可核验在售报价，不宣称全淘宝无货。"
+  },
+  {
+    "id": "karmeliet",
+    "checkedAt": "2026-09-27",
+    "status": "no-matching-finished-beer-offer",
+    "queries": [
+      "卡麦利特 三料 330ml",
+      "Tripel Karmeliet"
+    ],
+    "attempts": [
+      {
+        "url": "https://s.taobao.com/search?q=卡麦利特%20三料%20330ml",
+        "result": "当前可见结果为西麦尔、卡尔斯特、督威等其他酒款，未替代本款。"
+      },
+      {
+        "url": "https://s.taobao.com/search?q=Tripel%20Karmeliet",
+        "result": "精确品牌结果为克隆卡美里特三料20L自酿原料套餐（商品651719912240），不是成品啤酒，排除。"
+      }
+    ],
+    "note": "本次检索未取得可核验成品酒报价；不是全市场无货结论。"
+  },
+  {
+    "id": "rasputin",
+    "checkedAt": "2026-09-27",
+    "status": "no-matching-standard-version-offer",
+    "queries": [
+      "北岸 老拉斯普京 啤酒",
+      "Old Rasputin"
+    ],
+    "note": "两种语言检索的当前可见结果未找到匹配的Old Rasputin常规款，不采用其他世涛或老挝啤酒价格。 仅表示本轮未取得可核验报价，不是全市场无货结论。"
+  },
+  {
+    "id": "breakfast",
+    "checkedAt": "2026-09-27",
+    "status": "no-matching-standard-version-offer",
+    "queries": [
+      "创始者 早餐 世涛",
+      "Founders Breakfast Stout"
+    ],
+    "note": "当前检索找到KBS肯塔基过波本桶款和其他品牌世涛，没有核验到8.3%普通Breakfast Stout；不以KBS价格代替。 仅表示本轮未取得可核验报价，不是全市场无货结论。"
+  }
+]

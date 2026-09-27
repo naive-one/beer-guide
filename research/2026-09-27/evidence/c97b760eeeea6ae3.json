@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/5b39f10e8ba5b0f82f8b456b.html",
+  "title": "教士 小麦 -Franziskaner Weissbier",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:50:31.544551+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 3.41,
+  "count": 88,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "3.41 / 5; 88 reviews",
+  "rawEvidenceSha256": "49d50a65d1366e7cd7f3547aec72992120915ff70cff98ba4065810ae88c8091"
+}

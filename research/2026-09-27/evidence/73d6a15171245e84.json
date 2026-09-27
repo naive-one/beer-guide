@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/56e13d818b15e6e6e1d465bf.html",
+  "title": "督威 比利时烈性金色艾尔-Duvel Belgian Strong Golden Ale",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:47:43.777661+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 3.45,
+  "count": 759,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "3.45 / 5; 759 reviews",
+  "rawEvidenceSha256": "f3bcd7194f9beacb02e560415c109f1fd0637898857a44edb24c5eb1f62f2bd6"
+}

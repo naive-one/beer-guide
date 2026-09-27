@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/56e13d828b15e6e6e1d465c2.html",
+  "title": "督威 白熊啤酒 比利时小麦-Duvel Vedett Extra White",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:51:25.031417+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 3.12,
+  "count": 861,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "3.12 / 5; 861 reviews",
+  "rawEvidenceSha256": "7a2426f8b234035dae6caeb1f4645c6f568a296a34204371f9e7cf729c60b99f"
+}

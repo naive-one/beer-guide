@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/5f8e9696526c60767318ee3f.html",
+  "title": "喜力 星银 拉格（易拉罐）-Heineken Silver Lager (Can)",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:52:08.072011+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 3.02,
+  "count": 45,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "3.02 / 5; 45 reviews",
+  "rawEvidenceSha256": "be7a59434bbc6adbc84e897347144a1da3bb5f83039f09da25042e070e142047"
+}

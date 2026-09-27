@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/5b5ae2eb8ba5b0d9168b456c.html",
+  "title": "朝日 超爽-Asahi Super Dry",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:49:42.530351+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 3.1,
+  "count": 84,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "3.1 / 5; 84 reviews",
+  "rawEvidenceSha256": "ffc10062a7f65956aac549d1801f5de23b8f341b10c212d562ed423f42008179"
+}

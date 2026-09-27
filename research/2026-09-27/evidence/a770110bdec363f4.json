@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/56e13daa8b15e6e6e1d46739.html",
+  "title": "内华达山脉 淡色艾尔-Sierra Nevada Pale Ale",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:48:02.201707+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 3.41,
+  "count": 272,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "3.41 / 5; 272 reviews",
+  "rawEvidenceSha256": "feaf5dc0828abecd0a14935b8bfc033325dee6f46c7695cf04c7140dc8c7cc17"
+}

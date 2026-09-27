@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/5b34a33b8ba5b041628b4570.html",
+  "title": "福佳 白 -Hoegaarden Witbier",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:51:11.323677+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 3.29,
+  "count": 142,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "3.29 / 5; 142 reviews",
+  "rawEvidenceSha256": "be7415530e5f11ad1e86d363ed10435077282a6d10c4813faaa4d41a22b037f2"
+}

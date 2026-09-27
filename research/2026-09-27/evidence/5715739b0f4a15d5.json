@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/572079f3526c6059219f16e5.html",
+  "title": "艾英格 小麦啤酒-Ayinger Bräu-Weisse",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:46:56.287396+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 3.71,
+  "count": 197,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "3.71 / 5; 197 reviews",
+  "rawEvidenceSha256": "5e683ec536e0061c8362ef5b53b618f564fb81b130dd9f917068935fe523d392"
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/57e48b2c526c60193de0ead9.html",
+  "title": "乐堡 绿 8°P 淡色拉格-Tuborg Green 8°P Pale Lager",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:52:49.858201+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 1.88,
+  "count": 73,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "1.88 / 5; 73 reviews",
+  "rawEvidenceSha256": "ca68f80244f2d7e490ba89b2ed89e3774f77a1dc10855f2909b0af18ed64757c"
+}

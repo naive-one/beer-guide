@@ -1,0 +1,24 @@
+{
+  "id": "chimay",
+  "url": "https://item.taobao.com/item.htm?id=935945294358&skuId=5829353457775",
+  "itemId": "935945294358",
+  "skuId": "5829353457775",
+  "shop": "醉爱精酿馆",
+  "title": "智美啤酒 比利时原装进口精酿330ml小瓶装红帽蓝帽啤酒正品整箱装",
+  "selectedSku": "智美蓝帽330ml*24瓶",
+  "quantity": 24,
+  "volumeMl": 330,
+  "total": 361.8,
+  "availableSameBeerPacks": [
+    24
+  ],
+  "evidenceText": "已选智美蓝帽330ml*24瓶，￥361.8，免运费；没有使用其他颜色帽款或混装起价。未显示额外补贴。",
+  "currency": "CNY",
+  "checkedAt": "2026-09-27",
+  "largestSameBeerPack": true,
+  "mixedPack": false,
+  "startingPrice": false,
+  "displayedPromotion": null,
+  "status": "verified-selected-page",
+  "priceBasis": "displayed-page-snapshot"
+}

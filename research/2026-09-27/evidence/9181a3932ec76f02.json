@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/5768f356526c6036b1c6dc64.html",
+  "title": "蓝带 美式优质拉格（易拉罐）-Pabst Blue Ribbon American Style Premium Lager (Can)",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:51:57.036217+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 2.12,
+  "count": 36,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "2.12 / 5; 36 reviews",
+  "rawEvidenceSha256": "b06e999a418e8248445e45c939c4e133a0283bbe50f6de7f91f6690757f8d0ff"
+}

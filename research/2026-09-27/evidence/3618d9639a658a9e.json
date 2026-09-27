@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/5731b581526c60171a5c295e.html",
+  "title": "百威 淡色拉格-Budweiser Pale Lager",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:52:56.669291+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 2.29,
+  "count": 167,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "2.29 / 5; 167 reviews",
+  "rawEvidenceSha256": "8516e0f1bba657f51a5e9762a1c3a987202233c1a4027bcdf28d8a1526f4dc63"
+}

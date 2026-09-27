@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/571f3aca526c6059219f0101.html",
+  "title": "健力士 世涛（易拉罐）-Guinness Draught (Can)",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:48:44.801163+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 2.92,
+  "count": 625,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "2.92 / 5; 625 reviews",
+  "rawEvidenceSha256": "99e142d58834a88fbcf17aaf0655ff6b024a063bfded852ca26164afb2a4c0e1"
+}

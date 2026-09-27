@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/56e13da18b15e6e6e1d466dd.html",
+  "title": "罗斯福 8号 比利时深色烈性艾尔-Rochefort Trappistes 8 Belgian Strong Dark Ale",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:47:32.467405+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 3.72,
+  "count": 881,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "3.72 / 5; 881 reviews",
+  "rawEvidenceSha256": "b373261dbe009ccda66a728f403c9dbb9d17296b38ec7b6a48a5849cf64196d3"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "paulaner",
+  "url": "https://item.taobao.com/item.htm?id=660715326570&skuId=6107502237883",
+  "itemId": "660715326570",
+  "skuId": "6107502237883",
+  "shop": "醉爱精酿馆",
+  "title": "德国进口啤酒保拉纳柏龙啤酒Paulaner小麦白啤500ml5/20瓶精酿黑",
+  "selectedSku": "柏龙白啤500ml*20瓶",
+  "quantity": 20,
+  "volumeMl": 500,
+  "listedTotal": 238.7,
+  "discountAmount": 40,
+  "minimumSpend": 200,
+  "evidenceText": "已选柏龙白啤500ml*20瓶；￥238.7；券满200减40",
+  "availableSameBeerPacks": [
+    5,
+    12,
+    20
+  ],
+  "total": 198.7,
+  "currency": "CNY",
+  "priceBasis": "calculated-page-promotion",
+  "displayedPromotion": null,
+  "largestSameBeerPack": true,
+  "mixedPack": false,
+  "startingPrice": false,
+  "status": "verified-selected-page-calculation",
+  "checkedAt": "2026-09-27"
+}

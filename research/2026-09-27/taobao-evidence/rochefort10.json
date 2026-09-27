@@ -1,0 +1,29 @@
+{
+  "id": "rochefort10",
+  "url": "https://item.taobao.com/item.htm?id=659596625200&skuId=5105390999215",
+  "itemId": "659596625200",
+  "skuId": "5105390999215",
+  "shop": "二狗酒馆",
+  "title": "罗斯福10号8号6号单瓶装Rochefort修道院认证比利时进口精酿啤酒",
+  "selectedSku": "4瓶：罗斯福10号",
+  "quantity": 4,
+  "volumeMl": null,
+  "listedTotal": 124,
+  "discountAmount": 31,
+  "minimumSpend": 0,
+  "evidenceText": "已选4瓶：罗斯福10号；￥124；立减31元",
+  "availableSameBeerPacks": [
+    1,
+    2,
+    4
+  ],
+  "total": 93,
+  "currency": "CNY",
+  "priceBasis": "calculated-page-promotion",
+  "displayedPromotion": null,
+  "largestSameBeerPack": true,
+  "mixedPack": false,
+  "startingPrice": false,
+  "status": "verified-selected-page-calculation",
+  "checkedAt": "2026-09-27"
+}

@@ -914,3 +914,1125 @@ Untappd · 胖东来 DL Market Wheat Beer
 - 核对日: 2026-09-27
 - 发布日: 未完整核实
 - 说明: 检索片段只明确规格与优惠金额，未可靠取得总价；不做可换算报价。
+
+## research-rating-13e8a0cb1de1e897
+
+维森 酵母型小麦白啤酒-Weihenstephaner Hefe Weissbier
+
+- URL: https://www.jiuhuar.com/craftbeer/56e13db88b15e6e6e1d467b3.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-aeff26a3a8d25ab2
+
+保拉纳 小麦白（易拉罐）-Paulaner Hefe Weissbier Naturtrüb(Can)
+
+- URL: https://www.jiuhuar.com/craftbeer/57677d04526c600e0f42fd3f.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-51ece353ef7e48b5
+
+艾英格 小麦啤酒-Ayinger Bräu-Weisse
+
+- URL: https://www.jiuhuar.com/craftbeer/572079f3526c6059219f16e5.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-783624a5b046b26a
+
+百帝王 小麦-Benediktiner Weissbier
+
+- URL: https://www.jiuhuar.com/craftbeer/57e893f9526c60193de15568.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-7ac0ee7b7785e2c3
+
+教士 优质小麦啤酒-Franziskaner Premium Weissbier Naturtrüb
+
+- URL: https://www.jiuhuar.com/craftbeer/56e13d888b15e6e6e1d46602.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-78d4a8b2ce39037c
+
+爱尔丁格 小麦白啤-Erdinger Weissbier
+
+- URL: https://www.jiuhuar.com/craftbeer/56e13d858b15e6e6e1d465d9.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-25f8fa8677cc4f37
+
+维森 维特 小麦博克-Weihenstephaner Vitus Weizenbock
+
+- URL: https://www.jiuhuar.com/craftbeer/5938ef4a7901125a3c42f98a.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-13e9d88efdc8a53d
+
+施耐德 6号 我们的阿文提诺山 小麦博克-Schneider Weisse TAP 6 Unser Aventinus Weizenbock
+
+- URL: https://www.jiuhuar.com/craftbeer/573967ee8ba5b094358b45c0.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-d207dc64ccd62452
+
+罗斯福 10号 修道院四料-Rochefort Trappistes 10 Abbey Quadrupel
+
+- URL: https://www.jiuhuar.com/craftbeer/56e13da18b15e6e6e1d466df.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-51ce55c91eb8eb6a
+
+罗斯福 8号 比利时深色烈性艾尔-Rochefort Trappistes 8 Belgian Strong Dark Ale
+
+- URL: https://www.jiuhuar.com/craftbeer/56e13da18b15e6e6e1d466dd.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-5dc7e3b0ddc93af9
+
+智美 蓝帽 修道院四料-Chimay Bleue Abbey Quadrupel
+
+- URL: https://www.jiuhuar.com/craftbeer/56e13d798b15e6e6e1d4654c.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-18b9f3986c6b01ce
+
+圣伯纳 12号 修道院四料-St. Bernardus Abt 12 Quadrupel
+
+- URL: https://www.jiuhuar.com/craftbeer/56e13dad8b15e6e6e1d46754.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-696c2c1dbedcbe1a
+
+督威 比利时烈性金色艾尔-Duvel Belgian Strong Golden Ale
+
+- URL: https://www.jiuhuar.com/craftbeer/56e13d818b15e6e6e1d465bf.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-62e9ac3be7e5381f
+
+卡麦利特 修道院风格三料-Bosteels Tripel Karmeliet
+
+- URL: https://www.jiuhuar.com/craftbeer/56e13d928b15e6e6e1d46650.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-9c86d1e61060c737
+
+西麦尔 修道院三料-Westmalle Trappist Triple
+
+- URL: https://www.jiuhuar.com/craftbeer/56e13db88b15e6e6e1d467b7.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-3d45769bf3d50086
+
+奥威修道院 比利时淡色艾尔-Orval Belgian Pale Ale
+
+- URL: https://www.jiuhuar.com/craftbeer/56e13d9f8b15e6e6e1d466c8.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-b43eb2a0e6d2d433
+
+福佳 白 比利时小麦啤酒-Hoegaarden Witbier
+
+- URL: https://www.jiuhuar.com/craftbeer/56e13d908b15e6e6e1d46640.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-f1bd79b1e30ad41d
+
+内华达山脉 淡色艾尔-Sierra Nevada Pale Ale
+
+- URL: https://www.jiuhuar.com/craftbeer/56e13daa8b15e6e6e1d46739.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-a92ebd13349f1048
+
+内华达山脉 鱼雷 IPA-Sierra Nevada Torpedo Extra IPA
+
+- URL: https://www.jiuhuar.com/craftbeer/56e13daa8b15e6e6e1d46735.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-a65f5d7d643d2b57
+
+击倒巨人 暴龙苏 美式淡色艾尔（易拉罐）-Toppling Goliath Pseudo Sue American Pale Ale (Can)
+
+- URL: https://www.jiuhuar.com/craftbeer/5777a02e526c6036b1c83427.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-e90ef1b4bcc5724f
+
+击倒巨人 暴龙之王苏 双倍新英格兰IPA（易拉罐）-Toppling Goliath King Sue Double NE IPA (Can)
+
+- URL: https://www.jiuhuar.com/craftbeer/5b514e408ba5b0577b8b4568.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-34556bbfa854d327
+
+北岸 旧拉斯普京 俄罗斯帝国世涛-North Coast Old Rasputin Russian Imperial Stout
+
+- URL: https://www.jiuhuar.com/craftbeer/56e13d9d8b15e6e6e1d466b7.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-ecb8fcd89eaaa461
+
+创始者 早餐 燕麦世涛-Founders Breakfast Oatmeal Stout
+
+- URL: https://www.jiuhuar.com/craftbeer/570b72448b15e66b6e24bb96.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-0d127c827cc36aac
+
+健力士 世涛（易拉罐）-Guinness Draught (Can)
+
+- URL: https://www.jiuhuar.com/craftbeer/571f3aca526c6059219f0101.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-4cf2283f05cdae54
+
+打嗝海狸 海狸万岁 墨西哥巧克力花生酱世涛-Belching Beaver ¡Viva La Beaver! Mexican Chocolate Peanut Butter Stout
+
+- URL: https://www.jiuhuar.com/craftbeer/5e76e324526c602053aa3862.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-c9c7e265299ce3d3
+
+比尔斯基 乌奎尔 皮尔森 -Plzeňský Prazdroj Pilsner Urquell Czech Pilsner
+
+- URL: https://www.jiuhuar.com/craftbeer/5dd6a3fb8ba5b085748b456b.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-2d0a52fa1d46f02b
+
+喜力-Heineken
+
+- URL: https://www.jiuhuar.com/craftbeer/572b0c5b526c6054e3b11e1e.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-3ed9075b686e1945
+
+施耐德 5号 我们的酒花 小麦啤酒-Schneider Weisse Tap 5 Meine Hopfen-Weisse
+
+- URL: https://www.jiuhuar.com/craftbeer/5b4c6ddd8ba5b0c4548b456f.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-de74e7076fe90283
+
+大九酿造 降临 浑浊IPA（易拉罐）-Maha Nine Arrival Hazy IPA (Can)
+
+- URL: https://www.jiuhuar.com/craftbeer/68307d54fdbf070d8902b2bb.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-8582db015df513a7
+
+牛啤堂 帝都海盐 古斯（易拉罐）-NBeer Beijing GOSE Modern (Can)
+
+- URL: https://www.jiuhuar.com/craftbeer/5a27c3988ba5b025558b4578.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-8e9b50c06fc2343b
+
+捷克皇家 小麦啤酒-Primátor Weizenbier
+
+- URL: https://www.jiuhuar.com/craftbeer/57aa8c2b8ba5b05b6a8b457c.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-f6b1ecc0eaea7aa9
+
+雪花 1964经典啤酒-Xue hua Pijiu Lager
+
+- URL: https://www.jiuhuar.com/craftbeer/5e957087526c6008969b7fbe.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-e5c3da725c9b6a72
+
+Wheat Beer (精酿小麦啤酒) - Pang Donglai DL Market (胖东来超市) - Untappd
+
+- URL: https://untappd.com/b/pang-donglai-dl-market-wheat-beer/5702703
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-5ebbfc4f8cec358a
+
+朝日 超爽-Asahi Super Dry
+
+- URL: https://www.jiuhuar.com/craftbeer/5b5ae2eb8ba5b0d9168b456c.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-430ed14a0686ef9a
+
+青岛 全麦白啤 浑浊型小麦啤酒-Tsingtao Hefeweizen
+
+- URL: https://www.jiuhuar.com/craftbeer/578f1ee38ba5b00d538b4635.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-9114fe5addb554ca
+
+Augerta A3 - Tsingtao (青岛啤酒) Brewery - Untappd
+
+- URL: https://untappd.com/b/tsingtao-brewery-augerta-a3/6103285
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-af5c45cc9a31b12b
+
+喜力（易拉罐）-Heineken (Can)
+
+- URL: https://www.jiuhuar.com/craftbeer/578740378ba5b04a368b47e6.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-0a38ed905aea8afd
+
+喜力 铁金刚拉格（5升）-Heineken Lager (5L)
+
+- URL: https://www.jiuhuar.com/craftbeer/57fa1516526c600401f07853.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-b2d743d55b148c29
+
+施耐德 7号 经典 小麦啤酒 -Schneider Weisse Tap 7 Unser Original
+
+- URL: https://www.jiuhuar.com/craftbeer/573968f78ba5b095358b45c2.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-034b02006bb4dcb3
+
+沙坡尾 梦小姐 果汁酸浑浊IPA（易拉罐）-Shapowei Miss Dream Juicy Sour Hazy IPA (Can)
+
+- URL: https://www.jiuhuar.com/craftbeer/60d113ac790112168c642066.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-300351db965aa6f5
+
+珀亚拉 黑夜 帝国世涛-Põhjala Pime Öö Imperial Stout
+
+- URL: https://www.jiuhuar.com/craftbeer/58be6f1b8ba5b0c6288b4584.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-c7e1db823f03cc67
+
+麒麟 一番榨-Kirin Ichiban Shibori Premium
+
+- URL: https://www.jiuhuar.com/craftbeer/5733df138ba5b095358b45b6.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-cb7ddf8140ec998a
+
+青岛 金质 淡色拉格-Tsingtao Premium Pale Lager
+
+- URL: https://www.jiuhuar.com/craftbeer/57298e9b526c60451f6718c1.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-ebc1eaabec4706da
+
+燕京 V10 精酿白啤（易拉罐）-Yanjing Beer V10 Wheat Beer (Can)
+
+- URL: https://www.jiuhuar.com/craftbeer/626cdd617901122dc401cd45.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-b690aa1fa280394c
+
+教士 小麦 -Franziskaner Weissbier
+
+- URL: https://www.jiuhuar.com/craftbeer/5b39f10e8ba5b0f82f8b456b.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-0d598c722dbbfbbd
+
+青岛 原浆-Tsingtao Original Beer
+
+- URL: https://www.jiuhuar.com/craftbeer/57d7667c526c6055834c205f.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-91569f21fc0fb43e
+
+或不凡 黄河之水 新英格兰IPA（易拉罐）-Hop Fan Liquor of the Yellow River NE IPA (Can)
+
+- URL: https://www.jiuhuar.com/craftbeer/5a31dffb8ba5b0f0268b4567.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-6158774d95142761
+
+福禾 勃艮第女公爵-Verhaeghe Duchesse De Bourgogne
+
+- URL: https://www.jiuhuar.com/craftbeer/56e13d768b15e6e6e1d46536.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-b4847011eb51a317
+
+青岛啤酒 经典 淡色拉格-Tsingtao Classic Pale Lager
+
+- URL: https://www.jiuhuar.com/craftbeer/5b865034526c604eb7fc2648.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-697f1c16be279573
+
+雪花 勇闯天涯-Snow Beer Trekker
+
+- URL: https://www.jiuhuar.com/craftbeer/570df6e5526c6014e42244f0.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-ead5b01b6d66ad86
+
+福佳 白 -Hoegaarden Witbier
+
+- URL: https://www.jiuhuar.com/craftbeer/5b34a33b8ba5b041628b4570.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-8b4652be574eded2
+
+漓泉 1998+大度加料 淡色拉格-Liquan 1998Plus Dadu Pale Lager
+
+- URL: https://www.jiuhuar.com/craftbeer/64d0e43a526c60317433698c.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-9e681d7ee02920b5
+
+督威 白熊啤酒 比利时小麦-Duvel Vedett Extra White
+
+- URL: https://www.jiuhuar.com/craftbeer/56e13d828b15e6e6e1d465c2.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-127d5a7651d120f4
+
+燕京 U8 拉格-Yanjing U8 Lager
+
+- URL: https://www.jiuhuar.com/craftbeer/5d596b30526c60119e5ae426.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-0ee403bf787885b3
+
+哈尔滨啤酒 冰纯白啤 比利时小麦（易拉罐）-Harbin Beer Bingchun Baipi Witbier (Can)
+
+- URL: https://www.jiuhuar.com/craftbeer/599e38227901122960b585c9.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-4870f4d853b455cd
+
+凯旋克伦堡1664 小麦-Kronenbourg 1664 BLANC
+
+- URL: https://www.jiuhuar.com/craftbeer/56e13d958b15e6e6e1d4665d.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-8954798748e0e390
+
+蓝带 美式优质拉格（易拉罐）-Pabst Blue Ribbon American Style Premium Lager (Can)
+
+- URL: https://www.jiuhuar.com/craftbeer/5768f356526c6036b1c6dc64.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-e6a8b4b9a3406de0
+
+喜力 星银 拉格（易拉罐）-Heineken Silver Lager (Can)
+
+- URL: https://www.jiuhuar.com/craftbeer/5f8e9696526c60767318ee3f.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-df469a1ea09c058b
+
+乌苏啤酒 小麦白啤酒-Wusu Wheat white beer
+
+- URL: https://www.jiuhuar.com/craftbeer/5b5577a27901125157706dbe.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-50ed213e59ebc002
+
+乌苏 红-Wusu Red
+
+- URL: https://www.jiuhuar.com/craftbeer/571989f5526c606c3a7dbed9.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-425757cd0baab89c
+
+科罗娜-Corona Extra
+
+- URL: https://www.jiuhuar.com/craftbeer/57162f89526c6058938dc04e.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-6cc3ae5b29021e2e
+
+乐堡 绿 8°P 淡色拉格-Tuborg Green 8°P Pale Lager
+
+- URL: https://www.jiuhuar.com/craftbeer/57e48b2c526c60193de0ead9.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-c5cf519193499471
+
+百威 淡色拉格-Budweiser Pale Lager
+
+- URL: https://www.jiuhuar.com/craftbeer/5731b581526c60171a5c295e.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-rating-070ca5e2339ce97e
+
+崂山啤酒 8º-Laoshan Beer 8º
+
+- URL: https://www.jiuhuar.com/craftbeer/5775e0e0526c6036b1c7e650.html
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 专业啤酒网站社区均分；保留原平台样本口径。
+
+## research-price-f747172554393b46
+
+Heineken/喜力经典啤酒罐装500ml*24罐整箱装全麦酿造官方正品
+
+- URL: https://detail.tmall.com/item.htm?id=45576808971&skuId=6109063184758
+- 类型: price
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 淘宝选定SKU最大同款包装的页面显示／补贴价快照；不是保证结算价。
+
+## research-price-1391b94c554e2945
+
+Heineken/喜力啤酒 瓶装500ml*12瓶整箱装全麦酿造啤酒 官方正品
+
+- URL: https://detail.tmall.com/item.htm?id=45488683887&skuId=6109138036292
+- 类型: price
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 淘宝选定SKU最大同款包装的页面显示／补贴价快照；不是保证结算价。
+
+## research-price-c8a77fb631287a73
+
+【荷兰进口】Heineken/喜力经典啤酒500ml*24罐整箱 全麦酿造
+
+- URL: https://detail.tmall.com/item.htm?id=1001684498474&skuId=6168426430813
+- 类型: price
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 淘宝选定SKU最大同款包装的页面显示／补贴价快照；不是保证结算价。
+
+## research-price-151a3c2394d200f0
+
+德国进口维森啤酒唯森小麦白啤酒黑啤水晶/圣维特/拉格精酿500ml
+
+- URL: https://item.taobao.com/item.htm?id=705785062940&skuId=6140916821606
+- 类型: price
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 按所选页面标价及明确优惠计算的快照；最大同款包装折合单件，不保证普遍现金结算价或单件可购。
+
+## research-price-e663b810be998adb
+
+德国进口维森啤酒唯森小麦白啤酒黑啤水晶/圣维特/拉格精酿500ml
+
+- URL: https://item.taobao.com/item.htm?id=705785062940&skuId=6140916821611
+- 类型: price
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 按所选页面标价及明确优惠计算的快照；最大同款包装折合单件，不保证普遍现金结算价或单件可购。
+
+## research-price-364041cad424256b
+
+罗斯福10号8号6号单瓶装Rochefort修道院认证比利时进口精酿啤酒
+
+- URL: https://item.taobao.com/item.htm?id=659596625200&skuId=5105390999215
+- 类型: price
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 按所选页面标价及明确优惠计算的快照；最大同款包装折合单件，不保证普遍现金结算价或单件可购。
+
+## research-price-d05dd174adb741a2
+
+罗斯福10号8号6号单瓶装Rochefort修道院认证比利时进口精酿啤酒
+
+- URL: https://item.taobao.com/item.htm?id=659596625200&skuId=5105390999216
+- 类型: price
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 按所选页面标价及明确优惠计算的快照；最大同款包装折合单件，不保证普遍现金结算价或单件可购。
+
+## research-price-171ff12c0cedcd1a
+
+德国进口啤酒保拉纳柏龙啤酒Paulaner小麦白啤500ml5/20瓶精酿黑
+
+- URL: https://item.taobao.com/item.htm?id=660715326570&skuId=6107502237883
+- 类型: price
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 按所选页面标价及明确优惠计算的快照；最大同款包装折合单件，不保证普遍现金结算价或单件可购。
+
+## research-price-fa7ca84463abd5f5
+
+德国进口艾英格小麦白啤老巴伐利亚传统小麦精酿啤酒500ml
+
+- URL: https://detail.tmall.com/item.htm?id=846013178601&skuId=6112193267452
+- 类型: price
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 淘宝选定SKU最大同款包装的页面显示／补贴价快照；不是保证结算价。
+
+## research-price-937167d0b20f1f91
+
+百帝王Benediktine德国原装进口小麦精酿啤酒500ml*24白啤酒整箱
+
+- URL: https://item.taobao.com/item.htm?id=646056056216&skuId=6134912628528
+- 类型: price
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 淘宝选定SKU最大同款包装的页面显示／补贴价快照；不是保证结算价。
+
+## research-price-bd0144bedefe3cf2
+
+德国原装进口范佳乐/教士精酿小麦白啤酒500ml/6/12/24瓶/罐整箱
+
+- URL: https://detail.tmall.com/item.htm?id=628115492988&skuId=5932035411887
+- 类型: price
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 淘宝选定SKU最大同款包装的页面显示／补贴价快照；不是保证结算价。
+
+## research-price-8d50b3ed62baa563
+
+德国进口艾丁格ERDINGER小麦白啤黑啤传统小麦大麦500ml精酿啤酒
+
+- URL: https://detail.tmall.com/item.htm?id=713122239497&skuId=6050650500316
+- 类型: price
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 淘宝选定SKU最大同款包装的页面显示／补贴价快照；不是保证结算价。
+
+## research-price-257a2fb2676cc7fd
+
+德国进口施纳德施耐德1245号6号7号多花小麦白啤黑啤精酿啤酒整箱
+
+- URL: https://detail.tmall.com/item.htm?id=886384027802&skuId=5897942035875
+- 类型: price
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 淘宝选定SKU最大同款包装的页面显示／补贴价快照；不是保证结算价。
+
+## research-price-ffd49a02e2805ffe
+
+德国进口施纳德施耐德1245号6号7号多花小麦白啤黑啤精酿啤酒整箱
+
+- URL: https://detail.tmall.com/item.htm?id=886384027802&skuId=5897942035876
+- 类型: price
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 淘宝选定SKU最大同款包装的页面显示／补贴价快照；不是保证结算价。
+
+## research-price-f6527036e5f6dde6
+
+德国进口施纳德施耐德1245号6号7号多花小麦白啤黑啤精酿啤酒整箱
+
+- URL: https://detail.tmall.com/item.htm?id=886384027802&skuId=5897942035877
+- 类型: price
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 淘宝选定SKU最大同款包装的页面显示／补贴价快照；不是保证结算价。
+
+## research-price-7d024388f4707658
+
+智美啤酒 比利时原装进口精酿330ml小瓶装红帽蓝帽啤酒正品整箱装
+
+- URL: https://item.taobao.com/item.htm?id=935945294358&skuId=5829353457775
+- 类型: price
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 淘宝选定SKU最大同款包装的页面显示／补贴价快照；不是保证结算价。
+
+## research-price-130f5506f02232b1
+
+督威啤酒艾尔小麦啤酒比利时进口精酿啤酒原浆330ml*24瓶整箱
+
+- URL: https://detail.tmall.com/item.htm?id=586081129275&skuId=5908835807887
+- 类型: price
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 淘宝选定SKU最大同款包装的页面显示／补贴价快照；不是保证结算价。
+
+## research-price-af5bd01994fe1482
+
+比利时进口Westmalle西麦尔双料三料精酿啤酒330ml小瓶装组合装
+
+- URL: https://item.taobao.com/item.htm?id=937045876489&skuId=5994491586186
+- 类型: price
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 淘宝选定SKU最大同款包装的页面显示／补贴价快照；不是保证结算价。
+
+## research-price-a076ec07a75ee410
+
+比利时原装进口奥威啤酒ORVAL330ml*6瓶精酿啤酒修道院精酿啤酒
+
+- URL: https://detail.tmall.com/item.htm?id=545595876286&skuId=5826001573875
+- 类型: price
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 淘宝选定SKU最大同款包装的页面显示／补贴价快照；不是保证结算价。
+
+## research-price-4cc4bc82a3075141
+
+福佳白啤酒比利时原装进口330ml*24瓶一整箱装Hoegaarden小麦白啤
+
+- URL: https://item.taobao.com/item.htm?id=601633387041&skuId=5670569072104
+- 类型: price
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 淘宝选定SKU最大同款包装的页面显示／补贴价快照；不是保证结算价。
+
+## research-price-7ef98470b29d16cb
+
+美国进口内华达山脉淡色艾尔精酿啤酒Sierra Nevada 355ml*6罐装
+
+- URL: https://item.taobao.com/item.htm?id=577932636727&skuId=4897422793540
+- 类型: price
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 淘宝选定SKU最大同款包装的页面显示／补贴价快照；不是保证结算价。
+
+## research-price-8e124490f7fd6617
+
+美国进口内华达山脉淡色艾尔精酿啤酒Sierra Nevada 355ml*6罐装
+
+- URL: https://item.taobao.com/item.htm?id=577932636727&skuId=6137645816718
+- 类型: price
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 淘宝选定SKU最大同款包装的页面显示／补贴价快照；不是保证结算价。
+
+## research-price-6a2ddad16162116d
+
+美国进口击倒巨人暴龙之王精酿啤酒双倍浑浊IPA酒暴龙苏
+
+- URL: https://item.taobao.com/item.htm?id=666746482031&skuId=4913544109168
+- 类型: price
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 淘宝选定SKU最大同款包装的页面显示／补贴价快照；不是保证结算价。
+
+## research-price-dd9bbe487b12b0be
+
+美国进口击倒巨人暴龙之王精酿啤酒双倍浑浊IPA酒暴龙苏
+
+- URL: https://item.taobao.com/item.htm?id=666746482031&skuId=4913544109167
+- 类型: price
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 淘宝选定SKU最大同款包装的页面显示／补贴价快照；不是保证结算价。
+
+## research-price-f29326c0b9694ed1
+
+进口健力士世涛黑啤司陶特精酿啤酒440ml罐爱尔兰健力士氮气世涛
+
+- URL: https://detail.tmall.com/item.htm?id=689279648584&skuId=6117806763999
+- 类型: price
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 淘宝选定SKU最大同款包装的页面显示／补贴价快照；不是保证结算价。
+
+## research-price-df95cf7867d1ed5d
+
+美国进口打嗝海狸精酿啤酒花生酱世涛/浑浊代言人浑浊IPA海狸万岁
+
+- URL: https://detail.tmall.com/item.htm?id=830421011107&skuId=5567378828071
+- 类型: price
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 淘宝选定SKU最大同款包装的页面显示／补贴价快照；不是保证结算价。
+
+## research-price-17ce4a998e00a16d
+
+【进口】博世纳啤酒捷克进口皮尔森330ml*24瓶黄啤
+
+- URL: https://detail.tmall.com/item.htm?id=755447120556
+- 类型: price
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 淘宝选定SKU最大同款包装的页面显示／补贴价快照；不是保证结算价。
+
+## research-price-8211fe6f83aa9d6f
+
+捷皇Primator捷克进口麦芽精酿啤酒整箱500ml*12瓶装
+
+- URL: https://detail.tmall.com/item.htm?id=646594478084&skuId=4833258919081
+- 类型: price
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 淘宝选定SKU最大同款包装的页面显示／补贴价快照；不是保证结算价。
+
+## research-price-0aee0bc0e3394c6d
+
+【26.7月产】大九酿造降临浑浊IPA啤酒降临全开盖精酿啤酒500ml
+
+- URL: https://item.taobao.com/item.htm?id=951425172159&skuId=6135911421930
+- 类型: price
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 淘宝选定SKU最大同款包装的页面显示／补贴价快照；不是保证结算价。
+
+## research-price-8f33ffb08b4c2777
+
+国产精酿啤酒牛啤堂果味啤酒 帝都海盐古斯啤酒 欺骗餐系列330ml
+
+- URL: https://item.taobao.com/item.htm?id=971117944840&skuId=5918628116049
+- 类型: price
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 淘宝选定SKU最大同款包装的页面显示／补贴价快照；不是保证结算价。
+
+## research-price-8af79cee43c91f87
+
+沙坡尾官方酿造 梦小姐 果汁酸艾尔芒果果泥水果酒精酿啤酒组合
+
+- URL: https://detail.tmall.com/item.htm?id=970980257950&skuId=6222561983377
+- 类型: price
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 淘宝选定SKU最大同款包装的页面显示／补贴价快照；不是保证结算价。 报价版本未确认匹配评分；价格已观察，仅作版本情景参考。
+
+## research-price-03f4a1c94bfd1ea7
+
+珀亚拉啤酒黑金黑夜夜晚棉花糖岛椰子班诺菲爆竹波罗海之日波特
+
+- URL: https://item.taobao.com/item.htm?id=714931802277&skuId=5170435450930
+- 类型: price
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 淘宝选定SKU最大同款包装的页面显示／补贴价快照；不是保证结算价。
+
+## research-price-5873133ea6159657
+
+东北沈阳老雪花啤酒高度大棒子烈性12瓶500ml闷倒驴瓶装整箱特价
+
+- URL: https://item.taobao.com/item.htm?id=44083810041&skuId=4637593604675
+- 类型: price
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 淘宝选定SKU最大同款包装的页面显示／补贴价快照；不是保证结算价。 报价版本未确认匹配评分；价格已观察，仅作版本情景参考。
+
+## research-price-71c4cbfbf5bda636
+
+胖东来啤酒精酿白啤小麦啤500mL330ml许昌超市官方正品整箱现货
+
+- URL: https://item.taobao.com/item.htm?id=794556292974&skuId=5864311902558
+- 类型: price
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 淘宝选定SKU最大同款包装的页面显示／补贴价快照；不是保证结算价。
+
+## research-price-10e220093dd75c50
+
+国产Asahi/朝日啤酒超爽生啤 整箱330ml*24瓶装日式生啤
+
+- URL: https://item.taobao.com/item.htm?id=960827676774&skuId=5890894049330
+- 类型: price
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 淘宝选定SKU最大同款包装的页面显示／补贴价快照；不是保证结算价。
+
+## research-price-6bcf2d161d3cd6a8
+
+青岛啤酒全麦白啤500ml*12听整箱装醇香麦芽精酿啤酒
+
+- URL: https://detail.tmall.com/item.htm?id=643020818013
+- 类型: price
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 淘宝选定SKU最大同款包装的页面显示／补贴价快照；不是保证结算价。
+
+## research-price-31dc8e197c549fe8
+
+奥古特啤酒「A3」系列500ml*12听层次馥郁 罐啤整箱包邮高端甄选
+
+- URL: https://detail.tmall.com/item.htm?id=599354874499
+- 类型: price
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 淘宝选定SKU最大同款包装的页面显示／补贴价快照；不是保证结算价。
+
+## research-price-be78a06e70fc5f9e
+
+Heineken/喜力啤酒 铁金刚 5L*2桶 铁桶装 官方正品全麦酿造（C）
+
+- URL: https://detail.tmall.com/item.htm?id=1054561845731&skuId=6093738140424
+- 类型: price
+- 读取方式: 页面内容
+- 核对日: 2026-09-27
+- 发布日: 未完整核实
+- 说明: 淘宝选定SKU最大同款包装的页面显示／补贴价快照；不是保证结算价。

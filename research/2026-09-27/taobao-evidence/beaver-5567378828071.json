@@ -1,0 +1,24 @@
+{
+  "id": "beaver",
+  "url": "https://detail.tmall.com/item.htm?id=830421011107&skuId=5567378828071",
+  "itemId": "830421011107",
+  "skuId": "5567378828071",
+  "shop": "打嗝海狸啤酒旗舰店",
+  "title": "美国进口打嗝海狸精酿啤酒花生酱世涛/浑浊代言人浑浊IPA海狸万岁",
+  "selectedSku": "6瓶海狸万岁巧克力世涛【品牌新星】",
+  "quantity": 6,
+  "volumeMl": null,
+  "total": 134.9,
+  "availableSameBeerPacks": [
+    6
+  ],
+  "evidenceText": "已选6瓶海狸万岁巧克力世涛，￥134.9，免运费。未选择普通花生酱、氮气版或混装；页面可见文字未写本款容量，保持null。未显示本SKU额外补贴。",
+  "currency": "CNY",
+  "checkedAt": "2026-09-27",
+  "largestSameBeerPack": true,
+  "mixedPack": false,
+  "startingPrice": false,
+  "displayedPromotion": null,
+  "status": "verified-selected-page",
+  "priceBasis": "displayed-page-snapshot"
+}

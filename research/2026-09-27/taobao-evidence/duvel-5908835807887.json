@@ -1,0 +1,24 @@
+{
+  "id": "duvel",
+  "url": "https://detail.tmall.com/item.htm?id=586081129275&skuId=5908835807887",
+  "itemId": "586081129275",
+  "skuId": "5908835807887",
+  "shop": "督威旗舰店",
+  "title": "督威啤酒艾尔小麦啤酒比利时进口精酿啤酒原浆330ml*24瓶整箱",
+  "selectedSku": "督威啤酒 330mI*24瓶",
+  "quantity": 24,
+  "volumeMl": 330,
+  "total": 338,
+  "displayedPromotion": 278,
+  "priceBasis": "displayed-subsidy",
+  "availableSameBeerPacks": [
+    24
+  ],
+  "evidenceText": "同一商品搜索卡优惠后￥278；详情唯一规格督威330ml*24瓶、skuId=5908835807887、标价￥338，免运费，即将售罄。仅有一个SKU，不是多规格起价。",
+  "currency": "CNY",
+  "checkedAt": "2026-09-27",
+  "largestSameBeerPack": true,
+  "mixedPack": false,
+  "startingPrice": false,
+  "status": "verified-selected-page"
+}

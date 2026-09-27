@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/56e13d9f8b15e6e6e1d466c8.html",
+  "title": "奥威修道院 比利时淡色艾尔-Orval Belgian Pale Ale",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:47:54.500211+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 3.69,
+  "count": 355,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "3.69 / 5; 355 reviews",
+  "rawEvidenceSha256": "2b13a912bcde47c0604eb892448aa2b0274eb30bc82354d042af9e41994d8518"
+}

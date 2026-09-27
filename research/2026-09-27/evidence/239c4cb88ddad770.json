@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/56e13d798b15e6e6e1d4654c.html",
+  "title": "智美 蓝帽 修道院四料-Chimay Bleue Abbey Quadrupel",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:47:36.688275+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 3.79,
+  "count": 957,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "3.79 / 5; 957 reviews",
+  "rawEvidenceSha256": "767dc2ab5260872b2e56f79630e658249c05cd46476458daca5ce3c344849dde"
+}

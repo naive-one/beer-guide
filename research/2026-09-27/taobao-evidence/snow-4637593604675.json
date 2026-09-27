@@ -1,0 +1,27 @@
+{
+  "id": "snow",
+  "url": "https://item.taobao.com/item.htm?id=44083810041&skuId=4637593604675",
+  "itemId": "44083810041",
+  "skuId": "4637593604675",
+  "shop": "沈阳津汁御液酒水",
+  "title": "东北沈阳老雪花啤酒高度大棒子烈性12瓶500ml闷倒驴瓶装整箱特价",
+  "selectedSku": "24瓶：老雪花瓶500ml",
+  "quantity": 24,
+  "volumeMl": 500,
+  "total": 114,
+  "availableSameBeerPacks": [
+    12,
+    24
+  ],
+  "ambiguous": true,
+  "variantNote": "当前报价为商家标注的500ml瓶装老雪；尚未核定与资料库原640ml、4.7%研究规格完全同版。原平台评价本就只作为相关版参考。",
+  "evidenceText": "保持当前预览活动后成功选中24瓶500ml，工具读回skuId=4637593604675、￥114、免运费。未使用330ml罐、干啤或普通沈阳啤酒价格。",
+  "currency": "CNY",
+  "checkedAt": "2026-09-27",
+  "largestSameBeerPack": true,
+  "mixedPack": false,
+  "startingPrice": false,
+  "displayedPromotion": null,
+  "status": "verified-selected-page",
+  "priceBasis": "displayed-page-snapshot"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "hoegaarden-user",
+  "url": "https://item.taobao.com/item.htm?id=601633387041&skuId=5670569072104",
+  "itemId": "601633387041",
+  "skuId": "5670569072104",
+  "shop": "谁与共酒业企业店",
+  "title": "福佳白啤酒比利时原装进口330ml*24瓶一整箱装Hoegaarden小麦白啤",
+  "selectedSku": "330ml*24瓶比利时进口 · 27年5月到期",
+  "quantity": 24,
+  "volumeMl": 330,
+  "total": 165,
+  "availableSameBeerPacks": [
+    24
+  ],
+  "evidenceText": "页面唯一SKU：330ml*24瓶比利时进口，标价165元，免运费，有货。泛称福佳白按已授权的比利时常规代表款，与进口原版条目对应同一报价，并非两个独立SKU。",
+  "currency": "CNY",
+  "checkedAt": "2026-09-27",
+  "largestSameBeerPack": true,
+  "mixedPack": false,
+  "startingPrice": false,
+  "displayedPromotion": null,
+  "status": "verified-selected-page",
+  "priceBasis": "displayed-page-snapshot"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "primator",
+  "url": "https://detail.tmall.com/item.htm?id=646594478084&skuId=4833258919081",
+  "itemId": "646594478084",
+  "skuId": "4833258919081",
+  "shop": "捷皇啤酒旗舰店",
+  "title": "捷皇Primator捷克进口麦芽精酿啤酒整箱500ml*12瓶装",
+  "selectedSku": "小麦啤酒（生产日期26.5） · 500ml*12瓶",
+  "quantity": 12,
+  "volumeMl": 500,
+  "total": 248,
+  "displayedPromotion": 218,
+  "priceBasis": "same-pack-search-subsidy",
+  "availableSameBeerPacks": [
+    12
+  ],
+  "evidenceText": "同一12瓶商品搜索卡显示优惠后218元、官方立减12%；详情已选小麦SKU，标价248元，与该链接起始标价一致，包装均500ml*12瓶，免运费。优惠额来源搜索卡，不是已成交或下单验证。",
+  "currency": "CNY",
+  "checkedAt": "2026-09-27",
+  "largestSameBeerPack": true,
+  "mixedPack": false,
+  "startingPrice": false,
+  "status": "verified-selected-page"
+}

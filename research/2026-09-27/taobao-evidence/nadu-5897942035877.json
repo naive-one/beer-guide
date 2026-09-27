@@ -1,0 +1,25 @@
+{
+  "id": "nadu",
+  "url": "https://detail.tmall.com/item.htm?id=886384027802&skuId=5897942035877",
+  "itemId": "886384027802",
+  "skuId": "5897942035877",
+  "shop": "举杯酒类专营店",
+  "title": "德国进口施纳德施耐德1245号6号7号多花小麦白啤黑啤精酿啤酒整箱",
+  "selectedSku": "【20瓶】 · 7号经典小麦",
+  "quantity": 20,
+  "volumeMl": null,
+  "total": 424,
+  "availableSameBeerPacks": [
+    6,
+    20
+  ],
+  "evidenceText": "已选【20瓶】 · 7号经典小麦；￥424；免运费，有货。可见文字未载明单瓶容量，不假填500ml；未显示本SKU实际补贴金额。",
+  "currency": "CNY",
+  "checkedAt": "2026-09-27",
+  "largestSameBeerPack": true,
+  "mixedPack": false,
+  "startingPrice": false,
+  "displayedPromotion": null,
+  "status": "verified-selected-page",
+  "priceBasis": "displayed-page-snapshot"
+}

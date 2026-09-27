@@ -1,0 +1,24 @@
+{
+  "id": "pohjala",
+  "url": "https://item.taobao.com/item.htm?id=714931802277&skuId=5170435450930",
+  "itemId": "714931802277",
+  "skuId": "5170435450930",
+  "shop": "上海前红酒类品牌",
+  "title": "珀亚拉啤酒黑金黑夜夜晚棉花糖岛椰子班诺菲爆竹波罗海之日波特",
+  "selectedSku": "珀亚拉黑夜*6瓶",
+  "quantity": 6,
+  "volumeMl": null,
+  "total": 220.8,
+  "availableSameBeerPacks": [
+    6
+  ],
+  "evidenceText": "用户协助手动选中普通黑夜6瓶，工具读回skuId和当前价格220.8元，免运费。有别于黑金、夜晚和混装；可见文字未标容量，不假填330ml。没有套用搜索中其他组合的优惠价格。",
+  "currency": "CNY",
+  "checkedAt": "2026-09-27",
+  "largestSameBeerPack": true,
+  "mixedPack": false,
+  "startingPrice": false,
+  "displayedPromotion": null,
+  "status": "verified-selected-page",
+  "priceBasis": "displayed-page-snapshot"
+}

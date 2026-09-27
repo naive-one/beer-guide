@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/57162f89526c6058938dc04e.html",
+  "title": "科罗娜-Corona Extra",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:52:25.320452+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 2.24,
+  "count": 523,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "2.24 / 5; 523 reviews",
+  "rawEvidenceSha256": "4a5bb6fa080abb00ccc1e6e082ebd2602f0c54a2bae769ca9d9a710e17fee8b7"
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/5775e0e0526c6036b1c7e650.html",
+  "title": "崂山啤酒 8º-Laoshan Beer 8º",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:53:00.077205+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 2.09,
+  "count": 39,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "2.09 / 5; 39 reviews",
+  "rawEvidenceSha256": "b9fc7a2288e53aeffcf6ee865be5048e6470d976d249cfb4acbd25971a84303f"
+}

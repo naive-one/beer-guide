@@ -1,0 +1,24 @@
+{
+  "id": "heineken-bottle",
+  "status": "verified-selected-subsidy",
+  "url": "https://detail.tmall.com/item.htm?id=45488683887&skuId=6109138036292",
+  "itemId": "45488683887",
+  "skuId": "6109138036292",
+  "shop": "喜力啤酒官方旗舰店",
+  "title": "Heineken/喜力啤酒 瓶装500ml*12瓶整箱装全麦酿造啤酒 官方正品",
+  "selectedSku": "喜力经典瓶装500ml*12瓶",
+  "total": 120,
+  "quantity": 12,
+  "volumeMl": 500,
+  "currency": "CNY",
+  "priceBasis": "displayed-subsidy",
+  "displayedPromotion": 85.8,
+  "checkedAt": "2026-09-27",
+  "largestSameBeerPack": true,
+  "availableSameBeerPacks": [
+    12
+  ],
+  "mixedPack": false,
+  "startingPrice": false,
+  "method": "Read logged-in product page through visible preview; no order placed; identity/cart/address omitted."
+}

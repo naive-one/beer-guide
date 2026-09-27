@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/578f1ee38ba5b00d538b4635.html",
+  "title": "青岛 全麦白啤 浑浊型小麦啤酒-Tsingtao Hefeweizen",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:49:45.946319+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 2.72,
+  "count": 88,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "2.72 / 5; 88 reviews",
+  "rawEvidenceSha256": "8eb990f0e31abe6d9694f540d184203ab0754424e9bc92fd281bbaa3b34837dd"
+}

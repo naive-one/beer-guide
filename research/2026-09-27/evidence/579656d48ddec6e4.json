@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/56e13db88b15e6e6e1d467b3.html",
+  "title": "维森 酵母型小麦白啤酒-Weihenstephaner Hefe Weissbier",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:46:42.789778+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 3.64,
+  "count": 227,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "3.64 / 5; 227 reviews",
+  "rawEvidenceSha256": "ddbfd203b14066a8f08da2640620fb09ea99893b69ec19188034cde23f325f1f"
+}

@@ -1,0 +1,20 @@
+{
+  "master": 67,
+  "current": 40,
+  "archived": 27,
+  "hang": 21,
+  "other": 19,
+  "hangPrices": 21,
+  "hangScoreRecords": 21,
+  "currentPrices": 40,
+  "mainScores": 34,
+  "relatedOnly": 6,
+  "ambiguousPrices": 2,
+  "unknownVolumes": 9,
+  "eligible": 33,
+  "frontier": 11,
+  "visibleRanked": 26,
+  "uniquePriceSkus": 38,
+  "fullSources": 185,
+  "hangMissing": []
+}

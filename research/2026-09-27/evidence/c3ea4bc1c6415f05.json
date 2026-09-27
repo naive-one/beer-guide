@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/57fa1516526c600401f07853.html",
+  "title": "喜力 铁金刚拉格（5升）-Heineken Lager (5L)",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:49:52.872528+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 3.0,
+  "count": 45,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "3.0 / 5; 45 reviews",
+  "rawEvidenceSha256": "a00e125304645e1dc8ce9d61b3d6de711cd92bf4f288cd145df3f2182f0d4221"
+}

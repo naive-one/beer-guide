@@ -1,0 +1,25 @@
+{
+  "id": "pang",
+  "url": "https://item.taobao.com/item.htm?id=794556292974&skuId=5864311902558",
+  "itemId": "794556292974",
+  "skuId": "5864311902558",
+  "shop": "许昌啤酒代购",
+  "title": "胖东来啤酒精酿白啤小麦啤500mL330ml许昌超市官方正品整箱现货",
+  "selectedSku": "胖东来精酿白啤330ml*24罐【原箱整箱】",
+  "quantity": 24,
+  "volumeMl": 330,
+  "total": 79.8,
+  "availableSameBeerPacks": [
+    6,
+    24
+  ],
+  "evidenceText": "已选精酿小麦/白啤330ml*24罐，￥79.8，免运费；没有选择另列的比利时啤酒或黑啤。这是淘宝第三方代购报价，不是胖东来店内价或经证实的官方线上价。",
+  "currency": "CNY",
+  "checkedAt": "2026-09-27",
+  "largestSameBeerPack": true,
+  "mixedPack": false,
+  "startingPrice": false,
+  "displayedPromotion": null,
+  "status": "verified-selected-page",
+  "priceBasis": "displayed-page-snapshot"
+}

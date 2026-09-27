@@ -1,6 +1,6 @@
 {
   "name": "beer-guide",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "private": true,
   "description": "啤酒前沿：可追溯价格与口碑的本地优先帕累托探索网站",
   "license": "MIT",
@@ -10,7 +10,7 @@
   },
   "scripts": {
     "build": "node scripts/build.mjs",
-    "test": "node --test tests/core.test.cjs tests/chart.test.cjs tests/tier-data.test.cjs tests/deploy.test.cjs tests/publish.test.cjs",
+    "test": "node --test tests/core.test.cjs tests/chart.test.cjs tests/tier-data.test.cjs tests/deploy.test.cjs tests/publish.test.cjs tests/research.test.cjs tests/scope.test.cjs",
     "check": "npm run build && npm test",
     "preview": "node scripts/serve.mjs",
     "dev": "npm run build && node scripts/serve.mjs",

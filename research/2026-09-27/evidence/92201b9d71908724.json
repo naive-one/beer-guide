@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/56e13d958b15e6e6e1d4665d.html",
+  "title": "凯旋克伦堡1664 小麦-Kronenbourg 1664 BLANC",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:51:46.770636+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 2.98,
+  "count": 653,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "2.98 / 5; 653 reviews",
+  "rawEvidenceSha256": "82e998915e75c8dd66909adfbcf635d76c26b6d0e2555149cd4cc60f61e6b45d"
+}

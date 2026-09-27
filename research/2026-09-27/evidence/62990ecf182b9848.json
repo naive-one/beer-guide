@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/5b5577a27901125157706dbe.html",
+  "title": "乌苏啤酒 小麦白啤酒-Wusu Wheat white beer",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:52:18.247321+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 2.93,
+  "count": 27,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "2.93 / 5; 27 reviews",
+  "rawEvidenceSha256": "e77731520de17a5a981d1aaeb3ae89b8aa0379df92142759c099dcb7a1c653aa"
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/578740378ba5b04a368b47e6.html",
+  "title": "喜力（易拉罐）-Heineken (Can)",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:49:49.483415+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 2.75,
+  "count": 189,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "2.75 / 5; 189 reviews",
+  "rawEvidenceSha256": "486bff5b2ae0712ebb8d1430588900bdef3c98b18844f77fbd2f48d80956cd29"
+}

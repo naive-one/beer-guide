@@ -1,0 +1,24 @@
+{
+  "id": "heineken-keg",
+  "url": "https://detail.tmall.com/item.htm?id=1054561845731&skuId=6093738140424",
+  "itemId": "1054561845731",
+  "skuId": "6093738140424",
+  "shop": "Heineken喜力酒类旗舰店",
+  "title": "Heineken/喜力啤酒 铁金刚 5L*2桶 铁桶装 官方正品全麦酿造（C）",
+  "selectedSku": "5L*2桶（商品页唯一规格）",
+  "quantity": 2,
+  "volumeMl": 5000,
+  "total": 368,
+  "displayedPromotion": 305,
+  "priceBasis": "displayed-subsidy",
+  "availableSameBeerPacks": [
+    2
+  ],
+  "evidenceText": "同itemId搜索卡显示优惠后305元；详情唯一5L*2桶规格，skuId=6093738140424、标价368元、免运费、有货。没有用香槟1.5L、500ml罐装或单桶起价。每件是一个5L桶。",
+  "currency": "CNY",
+  "checkedAt": "2026-09-27",
+  "largestSameBeerPack": true,
+  "mixedPack": false,
+  "startingPrice": false,
+  "status": "verified-selected-page"
+}

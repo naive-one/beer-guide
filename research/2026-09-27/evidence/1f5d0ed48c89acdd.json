@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/570df6e5526c6014e42244f0.html",
+  "title": "雪花 勇闯天涯-Snow Beer Trekker",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:51:00.789536+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 1.39,
+  "count": 308,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "1.39 / 5; 308 reviews",
+  "rawEvidenceSha256": "31a65a926e6153391fd67c13904f79e0e57119bf54f61fe141856a9114ad58bd"
+}

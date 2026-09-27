@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/571989f5526c606c3a7dbed9.html",
+  "title": "乌苏 红-Wusu Red",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:52:21.653902+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 2.4,
+  "count": 233,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "2.4 / 5; 233 reviews",
+  "rawEvidenceSha256": "a476269d2eed94c4da3925296472f841d885daeaccd4b7f9d5d5f0d0192c1528"
+}

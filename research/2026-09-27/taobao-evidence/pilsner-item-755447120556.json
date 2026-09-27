@@ -1,0 +1,24 @@
+{
+  "id": "pilsner",
+  "url": "https://detail.tmall.com/item.htm?id=755447120556",
+  "itemId": "755447120556",
+  "skuId": null,
+  "shop": "asahi朝日啤酒旗舰店",
+  "title": "【进口】博世纳啤酒捷克进口皮尔森330ml*24瓶黄啤",
+  "selectedSku": "博世纳捷克进口330ml*24瓶（商品页无其他规格选项）",
+  "quantity": 24,
+  "volumeMl": 330,
+  "total": 348,
+  "displayedPromotion": 245,
+  "priceBasis": "displayed-subsidy",
+  "availableSameBeerPacks": [
+    24
+  ],
+  "evidenceText": "同itemId搜索卡优惠后245元、官方立减103元；商品详情仅330ml*24瓶一种包装，标价348元，免运费、有货。不采用另一商家12瓶125元来冒充24瓶价格。",
+  "currency": "CNY",
+  "checkedAt": "2026-09-27",
+  "largestSameBeerPack": true,
+  "mixedPack": false,
+  "startingPrice": false,
+  "status": "verified-selected-page"
+}

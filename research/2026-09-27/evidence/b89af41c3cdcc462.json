@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/57d7667c526c6055834c205f.html",
+  "title": "青岛 原浆-Tsingtao Original Beer",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:50:34.912556+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 2.88,
+  "count": 96,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "2.88 / 5; 96 reviews",
+  "rawEvidenceSha256": "7c7574a6c92a97d4b29bcdfd779733c6252154d7ad065afc06c90c31c089331d"
+}

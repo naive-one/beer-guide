@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/5733df138ba5b095358b45b6.html",
+  "title": "麒麟 一番榨-Kirin Ichiban Shibori Premium",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:50:10.526785+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 2.98,
+  "count": 170,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "2.98 / 5; 170 reviews",
+  "rawEvidenceSha256": "046ed3b5d8dc39b641295ae804e1b413eee70a2b737b51bc8fa92391031d2248"
+}

@@ -1,0 +1,39 @@
+[
+  {
+    "id": "rochefort10",
+    "url": "https://item.taobao.com/item.htm?id=659596625200&skuId=5105390999215",
+    "shop": "二狗酒馆",
+    "selectedSku": "4瓶：罗斯福10号",
+    "quantity": 4,
+    "volumeMl": null,
+    "largestSameBeerPack": true,
+    "observedListedTotal": 124,
+    "observedInstantReduction": 31,
+    "status": "pending-subsidy-and-volume-verification",
+    "checkedAt": "2026-09-27"
+  },
+  {
+    "id": "rochefort8",
+    "url": "https://item.taobao.com/item.htm?id=659596625200&skuId=5105390999216",
+    "shop": "二狗酒馆",
+    "selectedSku": "4瓶：罗斯福8号",
+    "quantity": 4,
+    "volumeMl": null,
+    "largestSameBeerPack": true,
+    "observedListedTotal": 99,
+    "observedInstantReduction": 24.75,
+    "status": "pending-subsidy-and-volume-verification",
+    "checkedAt": "2026-09-27"
+  },
+  {
+    "id": "paulaner",
+    "url": "https://detail.tmall.com/item.htm?id=616402024991",
+    "shop": "保拉纳啤酒旗舰店",
+    "candidateSku": "小麦500ml×20瓶【27年5月到期】",
+    "quantity": 20,
+    "volumeMl": 500,
+    "observedListedTotal": 369,
+    "status": "selected-sku-and-subsidy-unconfirmed",
+    "checkedAt": "2026-09-27"
+  }
+]

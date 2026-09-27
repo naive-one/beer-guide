@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/572b0c5b526c6054e3b11e1e.html",
+  "title": "喜力-Heineken",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:49:02.117680+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 2.68,
+  "count": 214,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "2.68 / 5; 214 reviews",
+  "rawEvidenceSha256": "b3e7448269102535de003be8fa7362531b371fad45787c7995f8de6f074dad64"
+}

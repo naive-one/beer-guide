@@ -1,0 +1,24 @@
+{
+  "id": "sierra",
+  "url": "https://item.taobao.com/item.htm?id=577932636727&skuId=4897422793540",
+  "itemId": "577932636727",
+  "skuId": "4897422793540",
+  "shop": "BeerHub啤酒王国",
+  "title": "美国进口内华达山脉淡色艾尔精酿啤酒Sierra Nevada 355ml*6罐装",
+  "selectedSku": "内华达淡色艾尔355ml*6瓶",
+  "quantity": 6,
+  "volumeMl": 355,
+  "total": 122,
+  "availableSameBeerPacks": [
+    6
+  ],
+  "evidenceText": "已选内华达淡色艾尔355ml*6瓶，￥122，免运费。355ml同款最大6件；不同容量568ml的4罐规格未混算，也未采用12罐全家福混装价。未显示本SKU额外补贴。",
+  "currency": "CNY",
+  "checkedAt": "2026-09-27",
+  "largestSameBeerPack": true,
+  "mixedPack": false,
+  "startingPrice": false,
+  "displayedPromotion": null,
+  "status": "verified-selected-page",
+  "priceBasis": "displayed-page-snapshot"
+}

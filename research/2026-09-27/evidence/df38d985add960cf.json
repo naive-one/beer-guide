@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/5938ef4a7901125a3c42f98a.html",
+  "title": "维森 维特 小麦博克-Weihenstephaner Vitus Weizenbock",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:47:17.795634+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 3.73,
+  "count": 37,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "3.73 / 5; 37 reviews",
+  "rawEvidenceSha256": "802d4b11f07eb2af349acd5ef9d80685cb984b30f067b89942e3fa7241aed4e5"
+}

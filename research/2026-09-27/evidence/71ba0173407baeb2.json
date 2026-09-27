@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/56e13d858b15e6e6e1d465d9.html",
+  "title": "爱尔丁格 小麦白啤-Erdinger Weissbier",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:47:14.412936+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 3.13,
+  "count": 215,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "3.13 / 5; 215 reviews",
+  "rawEvidenceSha256": "6ab8509b19c671d2b620cd3e416ebc56e287c2be875a24caf4a8940dd9304cb9"
+}

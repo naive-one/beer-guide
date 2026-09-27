@@ -1,0 +1,29 @@
+{
+  "id": "dream",
+  "url": "https://detail.tmall.com/item.htm?id=970980257950&skuId=6222561983377",
+  "itemId": "970980257950",
+  "skuId": "6222561983377",
+  "shop": "沙坡尾旗舰店",
+  "title": "沙坡尾官方酿造 梦小姐 果汁酸艾尔芒果果泥水果酒精酿啤酒组合",
+  "selectedSku": "梦小姐-芒果果泥酸艾尔 · 24罐装500ml*24罐",
+  "quantity": 24,
+  "volumeMl": 500,
+  "total": 696,
+  "availableSameBeerPacks": [
+    2,
+    4,
+    6,
+    24
+  ],
+  "ambiguous": true,
+  "variantNote": "当前在售页为梦小姐芒果果泥酸艾尔，未确认与研究条目的6%果汁酸浑浊IPA为同一版本；该价格仅作为相关版本参考，不参与默认证据前沿。",
+  "evidenceText": "用户手动选中24罐，工具读回skuId=6222561983377和价格696元；用户再次确认当前显示价格为696元。最大500ml*24罐，免运费。可见页没有ABV，不能套用6%版的评分作已确认匹配。",
+  "currency": "CNY",
+  "checkedAt": "2026-09-27",
+  "largestSameBeerPack": true,
+  "mixedPack": false,
+  "startingPrice": false,
+  "displayedPromotion": null,
+  "status": "verified-selected-page",
+  "priceBasis": "displayed-page-snapshot"
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://untappd.com/b/pang-donglai-dl-market-wheat-beer/5702703",
+  "title": "Wheat Beer (精酿小麦啤酒) - Pang Donglai DL Market (胖东来超市) - Untappd",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:49:37.831279+00:00",
+  "httpStatus": 200,
+  "platform": "Untappd",
+  "scale": 5,
+  "value": 3.04,
+  "count": 153,
+  "countType": "ratings",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "3.04 / 5; 153 ratings",
+  "rawEvidenceSha256": "aa5ce9edda6a95aa9ac34f36ac73b66c437364bb7bf57efb6dffe3fcd1848d3d"
+}

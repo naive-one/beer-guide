@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/5b4c6ddd8ba5b0c4548b456f.html",
+  "title": "施耐德 5号 我们的酒花 小麦啤酒-Schneider Weisse Tap 5 Meine Hopfen-Weisse",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:49:09.066888+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 3.9,
+  "count": 101,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "3.9 / 5; 101 reviews",
+  "rawEvidenceSha256": "b0bd73cc8a24725d38562920499514b84002d6cd4864929aa96d67bdfde66912"
+}

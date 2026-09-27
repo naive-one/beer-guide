@@ -1,0 +1,25 @@
+{
+  "id": "asahi",
+  "url": "https://item.taobao.com/item.htm?id=960827676774&skuId=5890894049330",
+  "itemId": "960827676774",
+  "skuId": "5890894049330",
+  "shop": "吨吨吨研酒所",
+  "title": "国产Asahi/朝日啤酒超爽生啤 整箱330ml*24瓶装日式生啤",
+  "selectedSku": "朝日330ml*24瓶（页面明确国产）",
+  "quantity": 24,
+  "volumeMl": 330,
+  "total": 115,
+  "availableSameBeerPacks": [
+    6,
+    24
+  ],
+  "evidenceText": "已选国产超爽330ml*24瓶，￥115，免运费；没有选日本进口马克杯全开盖或明确3.5度0糖新品。专业站评分仍保留相关版本性质。",
+  "currency": "CNY",
+  "checkedAt": "2026-09-27",
+  "largestSameBeerPack": true,
+  "mixedPack": false,
+  "startingPrice": false,
+  "displayedPromotion": null,
+  "status": "verified-selected-page",
+  "priceBasis": "displayed-page-snapshot"
+}

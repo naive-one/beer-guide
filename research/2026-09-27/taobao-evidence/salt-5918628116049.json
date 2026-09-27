@@ -1,0 +1,25 @@
+{
+  "id": "salt",
+  "url": "https://item.taobao.com/item.htm?id=971117944840&skuId=5918628116049",
+  "itemId": "971117944840",
+  "skuId": "5918628116049",
+  "shop": "吨吨吨研酒所",
+  "title": "国产精酿啤酒牛啤堂果味啤酒 帝都海盐古斯啤酒 欺骗餐系列330ml",
+  "selectedSku": "帝都海盐 · 牛啤堂6听330ml",
+  "quantity": 6,
+  "volumeMl": 330,
+  "total": 78,
+  "availableSameBeerPacks": [
+    1,
+    6
+  ],
+  "evidenceText": "已选原味帝都海盐、6听330ml，￥78，免运费。有别于双倍、芒果等衍生款；没有将海盐全家福混装价分摊为原味价。未显示额外补贴。",
+  "currency": "CNY",
+  "checkedAt": "2026-09-27",
+  "largestSameBeerPack": true,
+  "mixedPack": false,
+  "startingPrice": false,
+  "displayedPromotion": null,
+  "status": "verified-selected-page",
+  "priceBasis": "displayed-page-snapshot"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "heineken-can",
+  "status": "verified-selected-subsidy",
+  "url": "https://detail.tmall.com/item.htm?id=45576808971&skuId=6109063184758",
+  "itemId": "45576808971",
+  "skuId": "6109063184758",
+  "shop": "喜力啤酒官方旗舰店",
+  "title": "Heineken/喜力经典啤酒罐装500ml*24罐整箱装全麦酿造官方正品",
+  "selectedSku": "喜力经典500ml*24罐",
+  "total": 228,
+  "quantity": 24,
+  "volumeMl": 500,
+  "currency": "CNY",
+  "priceBasis": "displayed-subsidy",
+  "displayedPromotion": 167.72,
+  "checkedAt": "2026-09-27",
+  "largestSameBeerPack": true,
+  "availableSameBeerPacks": [
+    12,
+    24
+  ],
+  "mixedPack": false,
+  "startingPrice": false,
+  "method": "Read logged-in product page through visible preview; no order placed; identity/cart/address omitted."
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/56e13db88b15e6e6e1d467b7.html",
+  "title": "西麦尔 修道院三料-Westmalle Trappist Triple",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:47:50.970363+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 3.7,
+  "count": 667,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "3.7 / 5; 667 reviews",
+  "rawEvidenceSha256": "dbfdd7946c52aa95e653e322f8a8db6d96d57d4224b0d05ed6ab7f05038cc334"
+}

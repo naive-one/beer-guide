@@ -1,0 +1,24 @@
+{
+  "id": "augerta",
+  "url": "https://detail.tmall.com/item.htm?id=599354874499",
+  "itemId": "599354874499",
+  "skuId": null,
+  "shop": "青岛啤酒官方旗舰店",
+  "title": "奥古特啤酒「A3」系列500ml*12听层次馥郁 罐啤整箱包邮高端甄选",
+  "selectedSku": "奥古特A3系列500ml*12听（商品页唯一包装）",
+  "quantity": 12,
+  "volumeMl": 500,
+  "total": 129,
+  "displayedPromotion": 103.55,
+  "priceBasis": "displayed-subsidy",
+  "availableSameBeerPacks": [
+    12
+  ],
+  "evidenceText": "同itemId搜索卡补贴后103.55元，详情唯一500ml*12听包装、标价129元、免运费。明确为A3，不是1903；原料/实物ABV未读取，不擅自修改研究字段。A3产品聚合评分保留已声明的口径。",
+  "currency": "CNY",
+  "checkedAt": "2026-09-27",
+  "largestSameBeerPack": true,
+  "mixedPack": false,
+  "startingPrice": false,
+  "status": "verified-selected-page"
+}

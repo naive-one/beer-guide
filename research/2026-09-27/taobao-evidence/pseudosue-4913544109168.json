@@ -1,0 +1,24 @@
+{
+  "id": "pseudosue",
+  "url": "https://item.taobao.com/item.htm?id=666746482031&skuId=4913544109168",
+  "itemId": "666746482031",
+  "skuId": "4913544109168",
+  "shop": "微醺精酿酒馆",
+  "title": "美国进口击倒巨人暴龙之王精酿啤酒双倍浑浊IPA酒暴龙苏",
+  "selectedSku": "单罐暴龙苏淡色艾尔",
+  "quantity": 1,
+  "volumeMl": null,
+  "total": 32.9,
+  "availableSameBeerPacks": [
+    1
+  ],
+  "evidenceText": "本链接只提供单罐规格，已选单罐暴龙苏淡色艾尔，￥32.9，免运费。不是DDH/双重奏等衍生款。可见文字未载明容量，保持null；未显示本SKU额外补贴。",
+  "currency": "CNY",
+  "checkedAt": "2026-09-27",
+  "largestSameBeerPack": true,
+  "mixedPack": false,
+  "startingPrice": false,
+  "displayedPromotion": null,
+  "status": "verified-selected-page",
+  "priceBasis": "displayed-page-snapshot"
+}

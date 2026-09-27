@@ -1,0 +1,3135 @@
+[
+  {
+    "id": "weihen",
+    "name": "维森原味小麦",
+    "status": "matched",
+    "identityDecision": "Hefe Weissbier、德国、5.4%一致；排除Kristall水晶白。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 原BeerAdvocate评分本轮未验证，选取的是另一平台当前页面，不能解读为原平台分数涨跌。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/56e13db88b15e6e6e1d467b3.html",
+      "title": "维森 酵母型小麦白啤酒-Weihenstephaner Hefe Weissbier",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 3.64,
+      "count": 227,
+      "countType": "reviews",
+      "abv": 5.4,
+      "style": "小麦啤酒  德式小麦啤酒",
+      "country": "德国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/579656d48ddec6e4.json"
+    },
+    "candidateSources": [
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/news/5ce288f88ba5b002358b4570.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/59f02b868ba5b05f378b45e2.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/57198f4d526c606c3a7dbef1.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5a1cfe308ba5b07f368b4567.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5938ef4a7901125a3c42f98a.html",
+        "value": null
+      },
+      {
+        "title": "维森 酵母型小麦白啤酒-Weihenstephaner Hefe Weissbier",
+        "url": "https://www.jiuhuar.com/craftbeer/56e13db88b15e6e6e1d467b3.html",
+        "value": 3.64
+      },
+      {
+        "title": null,
+        "url": "https://www.beeradvocate.com/beer/profile/252/731/",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "paulaner",
+    "name": "保拉纳小麦白啤",
+    "status": "matched",
+    "identityDecision": "Naturtrüb、德国、5.5%一致；按既有500ml×24听选择明确易拉罐页，瓶装另留候选。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 原BeerAdvocate评分本轮未验证，选取的是另一平台当前页面，不能解读为原平台分数涨跌。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/57677d04526c600e0f42fd3f.html",
+      "title": "保拉纳 小麦白（易拉罐）-Paulaner Hefe Weissbier Naturtrüb(Can)",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 3.22,
+      "count": 113,
+      "countType": "reviews",
+      "abv": 5.5,
+      "style": "小麦啤酒  德式小麦啤酒",
+      "country": "德国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/91b6f86077d78ee5.json"
+    },
+    "candidateSources": [
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/57f9b8ad526c600401f06c2c.html",
+        "value": null
+      },
+      {
+        "title": "保拉纳 浑浊型小麦啤酒-Paulaner Hefe Weissbier Naturtrüb",
+        "url": "https://www.jiuhuar.com/craftbeer/56e13d9f8b15e6e6e1d466cd.html",
+        "value": 3.22
+      },
+      {
+        "title": "保拉纳 小麦白（易拉罐）-Paulaner Hefe Weissbier Naturtrüb(Can)",
+        "url": "https://www.jiuhuar.com/craftbeer/57677d04526c600e0f42fd3f.html",
+        "value": 3.22
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/66dd60e87901120fdaa1dd80.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/676552892d084b7568983442.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.beeradvocate.com/beer/profile/124/1256/",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "ayinger",
+    "name": "艾英格小麦白啤",
+    "status": "matched",
+    "identityDecision": "Bräu-Weisse、德国、5.1%一致；不是Erdinger或Ur-Weisse深色款。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 原BeerAdvocate评分本轮未验证，选取的是另一平台当前页面，不能解读为原平台分数涨跌。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/572079f3526c6059219f16e5.html",
+      "title": "艾英格 小麦啤酒-Ayinger Bräu-Weisse",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 3.71,
+      "count": 197,
+      "countType": "reviews",
+      "abv": 5.1,
+      "style": "小麦啤酒  德式小麦啤酒",
+      "country": "德国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/5715739b0f4a15d5.json"
+    },
+    "candidateSources": [
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/578f1ee38ba5b00d538b4635.html",
+        "value": null
+      },
+      {
+        "title": "艾英格 小麦啤酒-Ayinger Bräu-Weisse",
+        "url": "https://www.jiuhuar.com/craftbeer/572079f3526c6059219f16e5.html",
+        "value": 3.71
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/57fb08fa8ba5b01d148b458b.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/59534590526c6026e330d392.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/59393afd7901125a3c433646.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.beeradvocate.com/beer/profile/39/132/",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "benediktiner",
+    "name": "百帝王小麦白啤",
+    "status": "matched",
+    "identityDecision": "Benediktiner Weissbier、德国、5.4%一致；采用未标罐装的常规条目，罐装单独保留；不合并两条评论数。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 原BeerAdvocate评分本轮未验证，选取的是另一平台当前页面，不能解读为原平台分数涨跌。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/57e893f9526c60193de15568.html",
+      "title": "百帝王 小麦-Benediktiner Weissbier",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 2.98,
+      "count": 62,
+      "countType": "reviews",
+      "abv": 5.4,
+      "style": "小麦啤酒  德式小麦啤酒",
+      "country": "德国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/e0576416caab9c57.json"
+    },
+    "candidateSources": [
+      {
+        "title": "百帝王 小麦（易拉罐）-Benediktiner Weissbier (Can)",
+        "url": "https://www.jiuhuar.com/craftbeer/57e88a24526c60193de153ac.html",
+        "value": 2.97
+      },
+      {
+        "title": "百帝王 小麦-Benediktiner Weissbier",
+        "url": "https://www.jiuhuar.com/craftbeer/57e893f9526c60193de15568.html",
+        "value": 2.98
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5732d7ca526c6027de58ffdf.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/576a3e968ba5b093358b4650.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/57d139b38ba5b0fb398b4586.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.beeradvocate.com/beer/profile/2432/55287/",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "franziskaner",
+    "name": "教士进口小麦白啤",
+    "status": "matched",
+    "identityDecision": "Premium Weissbier Naturtrüb、德国、5.0%对应进口研究酒款；不用国产教士小麦替代。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 原BeerAdvocate评分本轮未验证，选取的是另一平台当前页面，不能解读为原平台分数涨跌。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/56e13d888b15e6e6e1d46602.html",
+      "title": "教士 优质小麦啤酒-Franziskaner Premium Weissbier Naturtrüb",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 3.28,
+      "count": 473,
+      "countType": "reviews",
+      "abv": 5.0,
+      "style": "小麦啤酒  德式小麦啤酒",
+      "country": "德国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/0f1c8a1d23344384.json"
+    },
+    "candidateSources": [
+      {
+        "title": "教士 小麦白啤（易拉罐）-Franziskaner Hefe-Weissbier(Can)",
+        "url": "https://www.jiuhuar.com/craftbeer/5768a2c0526c6036b1c6d4fe.html",
+        "value": 3.04
+      },
+      {
+        "title": "教士 优质小麦啤酒-Franziskaner Premium Weissbier Naturtrüb",
+        "url": "https://www.jiuhuar.com/craftbeer/56e13d888b15e6e6e1d46602.html",
+        "value": 3.28
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5b39f10e8ba5b0f82f8b456b.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/576b57d2526c6036b1c71794.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/56e13d888b15e6e6e1d46601.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.beeradvocate.com/beer/profile/142/1946/",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "erdinger",
+    "name": "艾丁格小麦白啤",
+    "status": "matched",
+    "identityDecision": "Erdinger Weissbier、德国、5.3%一致；排除无醇款。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 原BeerAdvocate评分本轮未验证，选取的是另一平台当前页面，不能解读为原平台分数涨跌。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/56e13d858b15e6e6e1d465d9.html",
+      "title": "爱尔丁格 小麦白啤-Erdinger Weissbier",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 3.13,
+      "count": 215,
+      "countType": "reviews",
+      "abv": 5.3,
+      "style": "小麦啤酒  德式小麦啤酒",
+      "country": "德国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/71ba0173407baeb2.json"
+    },
+    "candidateSources": [
+      {
+        "title": "爱尔丁格 小麦白啤-Erdinger Weissbier",
+        "url": "https://www.jiuhuar.com/craftbeer/56e13d858b15e6e6e1d465d9.html",
+        "value": 3.13
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/572079f3526c6059219f16e5.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/57300345526c606f2ea419af.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.beeradvocate.com/beer/profile/703/2434/",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "vitus",
+    "name": "维森维特 · Vitus",
+    "status": "matched",
+    "identityDecision": "Vitus Weizenbock、德国、7.7%一致；不与原味小麦合并。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 原BeerAdvocate评分本轮未验证，选取的是另一平台当前页面，不能解读为原平台分数涨跌。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/5938ef4a7901125a3c42f98a.html",
+      "title": "维森 维特 小麦博克-Weihenstephaner Vitus Weizenbock",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 3.73,
+      "count": 37,
+      "countType": "reviews",
+      "abv": 7.7,
+      "style": "小麦啤酒  小麦博克",
+      "country": "德国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/df38d985add960cf.json"
+    },
+    "candidateSources": [
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/",
+        "value": null
+      },
+      {
+        "title": "维森 维特 小麦博克-Weihenstephaner Vitus Weizenbock",
+        "url": "https://www.jiuhuar.com/craftbeer/5938ef4a7901125a3c42f98a.html",
+        "value": 3.73
+      },
+      {
+        "title": null,
+        "url": "https://www.beeradvocate.com/beer/profile/252/35625/",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "tap6",
+    "name": "施纳德6号",
+    "status": "matched",
+    "identityDecision": "TAP6 Unser Aventinus、德国、8.2%一致；另一Aventinus双博克页独立保留，不合并或挑高分。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 原BeerAdvocate评分本轮未验证，选取的是另一平台当前页面，不能解读为原平台分数涨跌。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/573967ee8ba5b094358b45c0.html",
+      "title": "施耐德 6号 我们的阿文提诺山 小麦博克-Schneider Weisse TAP 6 Unser Aventinus Weizenbock",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 3.74,
+      "count": 156,
+      "countType": "reviews",
+      "abv": 8.2,
+      "style": "小麦啤酒  小麦博克",
+      "country": "德国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/fecff4d98753328f.json"
+    },
+    "candidateSources": [
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5b4c6ddd8ba5b0c4548b456f.html",
+        "value": null
+      },
+      {
+        "title": "施耐德 6号 阿文提诺山 小麦双倍博克-Schneider Weisse TAP 6 Aventinus Weizen-Doppelbock",
+        "url": "https://www.jiuhuar.com/craftbeer/5a3b29a77901124fe09f281d.html",
+        "value": 3.82
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5938ed3f7901125a3c42f894.html",
+        "value": null
+      },
+      {
+        "title": "施耐德 6号 我们的阿文提诺山 小麦博克-Schneider Weisse TAP 6 Unser Aventinus Weizenbock",
+        "url": "https://www.jiuhuar.com/craftbeer/573967ee8ba5b094358b45c0.html",
+        "value": 3.74
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/573968f78ba5b095358b45c2.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.beeradvocate.com/beer/profile/72/224/",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "rochefort10",
+    "name": "罗斯福10号",
+    "status": "matched",
+    "identityDecision": "Rochefort 10、比利时、11.3%一致；排除8号与Triple Extra。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 原BeerAdvocate评分本轮未验证，选取的是另一平台当前页面，不能解读为原平台分数涨跌。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/56e13da18b15e6e6e1d466df.html",
+      "title": "罗斯福 10号 修道院四料-Rochefort Trappistes 10 Abbey Quadrupel",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 4.11,
+      "count": 2010,
+      "countType": "reviews",
+      "abv": 11.3,
+      "style": "修道院啤酒  修道院风格四料",
+      "country": "比利时",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/99d616910e6119c7.json"
+    },
+    "candidateSources": [
+      {
+        "title": "罗斯福 10号 修道院四料-Rochefort Trappistes 10 Abbey Quadrupel",
+        "url": "https://www.jiuhuar.com/craftbeer/56e13da18b15e6e6e1d466df.html",
+        "value": 4.11
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5fd6dae1526c6076736b76b6.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/56e13daf8b15e6e6e1d46765.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/56e13da18b15e6e6e1d466dd.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.beeradvocate.com/beer/profile/207/645/",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "rochefort8",
+    "name": "罗斯福8号",
+    "status": "matched",
+    "identityDecision": "Rochefort 8、比利时、9.2%一致。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 原BeerAdvocate评分本轮未验证，选取的是另一平台当前页面，不能解读为原平台分数涨跌。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/56e13da18b15e6e6e1d466dd.html",
+      "title": "罗斯福 8号 比利时深色烈性艾尔-Rochefort Trappistes 8 Belgian Strong Dark Ale",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 3.72,
+      "count": 881,
+      "countType": "reviews",
+      "abv": 9.2,
+      "style": "比利时啤酒  比利时深色艾尔",
+      "country": "比利时",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/6d8b805b78752769.json"
+    },
+    "candidateSources": [
+      {
+        "title": "罗斯福 8号 比利时深色烈性艾尔-Rochefort Trappistes 8 Belgian Strong Dark Ale",
+        "url": "https://www.jiuhuar.com/craftbeer/56e13da18b15e6e6e1d466dd.html",
+        "value": 3.72
+      },
+      {
+        "title": null,
+        "url": "https://www.beeradvocate.com/beer/profile/207/1696/",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "chimay",
+    "name": "智美蓝帽",
+    "status": "matched",
+    "identityDecision": "常规Bleue蓝帽、比利时、9%一致；排除各年份纪念与过桶款。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 原BeerAdvocate评分本轮未验证，选取的是另一平台当前页面，不能解读为原平台分数涨跌。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/56e13d798b15e6e6e1d4654c.html",
+      "title": "智美 蓝帽 修道院四料-Chimay Bleue Abbey Quadrupel",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 3.79,
+      "count": 957,
+      "countType": "reviews",
+      "abv": 9.0,
+      "style": "修道院啤酒  修道院风格四料",
+      "country": "比利时",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/239c4cb88ddad770.json"
+    },
+    "candidateSources": [
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5bc45ed779011276235a026b.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5809dc36526c600a0c136cc4.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/576765c4526c600e0f42fbaa.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/news/6383617b8ba5b097198b4568.html",
+        "value": null
+      },
+      {
+        "title": "智美 蓝帽 修道院四料-Chimay Bleue Abbey Quadrupel",
+        "url": "https://www.jiuhuar.com/craftbeer/56e13d798b15e6e6e1d4654c.html",
+        "value": 3.79
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5a97a87e8ba5b0710a8b4568.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5742d057526c602d7f8e73f7.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5881c3aa7901126cc6a530dd.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.beeradvocate.com/beer/profile/215/2512/",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "abt12",
+    "name": "圣伯纳12号",
+    "status": "matched",
+    "identityDecision": "常规Abt12、比利时、10%一致；排除周年及年份纪念款。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 原BeerAdvocate评分本轮未验证，选取的是另一平台当前页面，不能解读为原平台分数涨跌。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/56e13dad8b15e6e6e1d46754.html",
+      "title": "圣伯纳 12号 修道院四料-St. Bernardus Abt 12 Quadrupel",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 3.55,
+      "count": 377,
+      "countType": "reviews",
+      "abv": 10.0,
+      "style": "修道院啤酒  修道院风格四料",
+      "country": "比利时",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/b9aadc2864904490.json"
+    },
+    "candidateSources": [
+      {
+        "title": "圣伯纳 12号 修道院四料-St. Bernardus Abt 12 Quadrupel",
+        "url": "https://www.jiuhuar.com/craftbeer/56e13dad8b15e6e6e1d46754.html",
+        "value": 3.55
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5b6a4ff57901125157daea6f.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5f98f2bb526c607673962dd9.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5b83ae9c526c604eb7e88f17.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/57bbb14a8ba5b0c8498b456a.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.beeradvocate.com/beer/profile/259/1708/",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "duvel",
+    "name": "督威经典款",
+    "status": "matched",
+    "identityDecision": "经典Duvel、比利时、8.5%一致；不是6.66%、三花或过桶款。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 原BeerAdvocate评分本轮未验证，选取的是另一平台当前页面，不能解读为原平台分数涨跌。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/56e13d818b15e6e6e1d465bf.html",
+      "title": "督威 比利时烈性金色艾尔-Duvel Belgian Strong Golden Ale",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 3.45,
+      "count": 759,
+      "countType": "reviews",
+      "abv": 8.5,
+      "style": "比利时啤酒  比利时金色烈性艾尔",
+      "country": "比利时",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/73d6a15171245e84.json"
+    },
+    "candidateSources": [
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/6073c137526c6068f4f5014c.html",
+        "value": null
+      },
+      {
+        "title": "督威 比利时烈性金色艾尔-Duvel Belgian Strong Golden Ale",
+        "url": "https://www.jiuhuar.com/craftbeer/56e13d818b15e6e6e1d465bf.html",
+        "value": 3.45
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/56e13d828b15e6e6e1d465c2.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/news/596768bd8ba5b0bc4f8b4dc3.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5c2daf588ba5b03d298b4576.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.beeradvocate.com/beer/profile/222/695/",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "karmeliet",
+    "name": "卡美里特三料",
+    "status": "matched",
+    "identityDecision": "Bosteels Tripel Karmeliet、比利时、8.4%一致。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 原BeerAdvocate评分本轮未验证，选取的是另一平台当前页面，不能解读为原平台分数涨跌。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/56e13d928b15e6e6e1d46650.html",
+      "title": "卡麦利特 修道院风格三料-Bosteels Tripel Karmeliet",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 3.91,
+      "count": 561,
+      "countType": "reviews",
+      "abv": 8.4,
+      "style": "修道院啤酒  修道院风格三料",
+      "country": "比利时",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/0b1d0b8604bdc2c9.json"
+    },
+    "candidateSources": [
+      {
+        "title": "卡麦利特 修道院风格三料-Bosteels Tripel Karmeliet",
+        "url": "https://www.jiuhuar.com/craftbeer/56e13d928b15e6e6e1d46650.html",
+        "value": 3.91
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5b6810718ba5b043048b4567.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/56e13db88b15e6e6e1d467b7.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/56e13d7a8b15e6e6e1d46562.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/56e13d928b15e6e6e1d46656.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.beeradvocate.com/beer/profile/202/656/",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "westmalle",
+    "name": "西麦尔三料",
+    "status": "matched",
+    "identityDecision": "Westmalle Trappist Triple、比利时、9.5%一致。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 原BeerAdvocate评分本轮未验证，选取的是另一平台当前页面，不能解读为原平台分数涨跌。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/56e13db88b15e6e6e1d467b7.html",
+      "title": "西麦尔 修道院三料-Westmalle Trappist Triple",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 3.7,
+      "count": 667,
+      "countType": "reviews",
+      "abv": 9.5,
+      "style": "修道院啤酒  修道院风格三料",
+      "country": "比利时",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/9d4fa34d8d97f6d2.json"
+    },
+    "candidateSources": [
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/571de76e526c60342dbfb3db.html",
+        "value": null
+      },
+      {
+        "title": "西麦尔 修道院三料-Westmalle Trappist Triple",
+        "url": "https://www.jiuhuar.com/craftbeer/56e13db88b15e6e6e1d467b7.html",
+        "value": 3.7
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/news/596768bc8ba5b0bc4f8b4c01.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/news/596768bc8ba5b0bc4f8b4ad9.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.beeradvocate.com/beer/profile/208/646/",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "orval",
+    "name": "奥威",
+    "status": "matched",
+    "identityDecision": "Orval Belgian Pale Ale、比利时、6.2%一致。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 原BeerAdvocate评分本轮未验证，选取的是另一平台当前页面，不能解读为原平台分数涨跌。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/56e13d9f8b15e6e6e1d466c8.html",
+      "title": "奥威修道院 比利时淡色艾尔-Orval Belgian Pale Ale",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 3.69,
+      "count": 355,
+      "countType": "reviews",
+      "abv": 6.2,
+      "style": "比利时啤酒  比利时淡色艾尔",
+      "country": "比利时",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/9fe38faf5d0a6f49.json"
+    },
+    "candidateSources": [
+      {
+        "title": "奥威修道院 比利时淡色艾尔-Orval Belgian Pale Ale",
+        "url": "https://www.jiuhuar.com/craftbeer/56e13d9f8b15e6e6e1d466c8.html",
+        "value": 3.69
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/news/606c4af38ba5b098638b4597.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5c70ecd8526c605624c77a25.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/news/596768bd8ba5b0bc4f8b4e39.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.beeradvocate.com/beer/profile/37/129/",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "hoegaarden",
+    "name": "福佳白比利时原版",
+    "status": "matched",
+    "identityDecision": "Hoegaarden Witbier、比利时、4.9%对应指定原版；国产及罐装候选不混入。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 原BeerAdvocate评分本轮未验证，选取的是另一平台当前页面，不能解读为原平台分数涨跌。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/56e13d908b15e6e6e1d46640.html",
+      "title": "福佳 白 比利时小麦啤酒-Hoegaarden Witbier",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 3.21,
+      "count": 1131,
+      "countType": "reviews",
+      "abv": 4.9,
+      "style": "小麦啤酒  比利时小麦啤酒",
+      "country": "比利时",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/a19d2c33f5c7a2a4.json"
+    },
+    "candidateSources": [
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5a1cfe308ba5b07f368b4567.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/57198f4d526c606c3a7dbef1.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/57fca579526c602e41b723e3.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/59f02b868ba5b05f378b45e2.html",
+        "value": null
+      },
+      {
+        "title": "福佳 白 比利时小麦啤酒-Hoegaarden Witbier",
+        "url": "https://www.jiuhuar.com/craftbeer/56e13d908b15e6e6e1d46640.html",
+        "value": 3.21
+      },
+      {
+        "title": null,
+        "url": "https://www.beeradvocate.com/beer/profile/83/248/",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "sierra",
+    "name": "内华达山脉淡色艾尔",
+    "status": "matched",
+    "identityDecision": "Sierra Nevada Pale Ale、美国、5.6%一致；常规与罐装独立留存。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 原BeerAdvocate评分本轮未验证，选取的是另一平台当前页面，不能解读为原平台分数涨跌。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/56e13daa8b15e6e6e1d46739.html",
+      "title": "内华达山脉 淡色艾尔-Sierra Nevada Pale Ale",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 3.41,
+      "count": 272,
+      "countType": "reviews",
+      "abv": 5.6,
+      "style": "美式啤酒  美式淡色艾尔",
+      "country": "美国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/a770110bdec363f4.json"
+    },
+    "candidateSources": [
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/576765c4526c600e0f42fbaa.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/571de76e526c60342dbfb3db.html",
+        "value": null
+      },
+      {
+        "title": "内华达山脉 淡色艾尔-Sierra Nevada Pale Ale",
+        "url": "https://www.jiuhuar.com/craftbeer/56e13daa8b15e6e6e1d46739.html",
+        "value": 3.41
+      },
+      {
+        "title": "内华达山脉 淡色艾尔（易拉罐）-Sierra Nevada Pale Ale (Can)",
+        "url": "https://www.jiuhuar.com/craftbeer/578dec928ba5b095358b46bd.html",
+        "value": 3.41
+      },
+      {
+        "title": null,
+        "url": "https://www.beeradvocate.com/beer/profile/140/276/",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "torpedo",
+    "name": "内华达山脉鱼雷",
+    "status": "matched",
+    "identityDecision": "Torpedo Extra IPA、美国、7.2%一致；不是Atomic Torpedo，罐装分另存。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 原BeerAdvocate评分本轮未验证，选取的是另一平台当前页面，不能解读为原平台分数涨跌。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/56e13daa8b15e6e6e1d46735.html",
+      "title": "内华达山脉 鱼雷 IPA-Sierra Nevada Torpedo Extra IPA",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 3.56,
+      "count": 369,
+      "countType": "reviews",
+      "abv": 7.2,
+      "style": "IPA  美式IPA",
+      "country": "美国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/06636011c9c0784f.json"
+    },
+    "candidateSources": [
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/news/5c3ada478ba5b0ab0b8b4569.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/641d7e4c526c603174c19b2d.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/news/596768bc8ba5b0bc4f8b4c07.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/56e13daa8b15e6e6e1d46737.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/588440187901126cc6a5e7f8.html",
+        "value": null
+      },
+      {
+        "title": "内华达山脉 鱼雷 IPA-Sierra Nevada Torpedo Extra IPA",
+        "url": "https://www.jiuhuar.com/craftbeer/56e13daa8b15e6e6e1d46735.html",
+        "value": 3.56
+      },
+      {
+        "title": "内华达山脉 鱼雷 IPA（易拉罐）-Sierra Nevada Torpedo Extra IPA (Can)",
+        "url": "https://www.jiuhuar.com/craftbeer/57b3c44a8ba5b067548b4569.html",
+        "value": 3.7
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/news/596768bd8ba5b0bc4f8b4d53.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.beeradvocate.com/beer/profile/140/30420/",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "pseudosue",
+    "name": "暴龙苏 · Pseudo Sue",
+    "status": "matched",
+    "identityDecision": "Pseudo Sue普通罐装、美国、5.8%对应研究规格；不是双倍干投或Galaxy；其他条目独立。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 原BeerAdvocate评分本轮未验证，选取的是另一平台当前页面，不能解读为原平台分数涨跌。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/5777a02e526c6036b1c83427.html",
+      "title": "击倒巨人 暴龙苏 美式淡色艾尔（易拉罐）-Toppling Goliath Pseudo Sue American Pale Ale (Can)",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 4.14,
+      "count": 611,
+      "countType": "reviews",
+      "abv": 5.8,
+      "style": "美式啤酒  美式淡色艾尔",
+      "country": "美国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/fc0358ad4d033ce2.json"
+    },
+    "candidateSources": [
+      {
+        "title": "击倒巨人 暴龙苏 美式淡色艾尔（易拉罐）-Toppling Goliath Pseudo Sue American Pale Ale (Can)",
+        "url": "https://www.jiuhuar.com/craftbeer/5777a02e526c6036b1c83427.html",
+        "value": 4.14
+      },
+      {
+        "title": "击倒巨人 暴龙苏 美式淡色艾尔 -Toppling Goliath Pseudo Sue American Pale Ale",
+        "url": "https://www.jiuhuar.com/craftbeer/5b7bc77a8ba5b0544a8b4569.html",
+        "value": 4.04
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5da5c2df8ba5b00e438b4568.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/67067184fdbf070d89a32ab8.html",
+        "value": null
+      },
+      {
+        "title": "击倒巨人 暴龙苏 美式淡色艾尔-Toppling Goliath Pseudo Sue American Pale Ale",
+        "url": "https://www.jiuhuar.com/craftbeer/57779e3a526c6036b1c83408.html",
+        "value": 3.76
+      },
+      {
+        "title": null,
+        "url": "https://www.beeradvocate.com/beer/profile/23222/72170/",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "kingsue",
+    "name": "暴龙王",
+    "status": "matched",
+    "identityDecision": "King Sue普通罐装、美国、8.2%对应研究款；另两页为8.0%与7.8%，不替代。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 原BeerAdvocate评分本轮未验证，选取的是另一平台当前页面，不能解读为原平台分数涨跌。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/5b514e408ba5b0577b8b4568.html",
+      "title": "击倒巨人 暴龙之王苏 双倍新英格兰IPA（易拉罐）-Toppling Goliath King Sue Double NE IPA (Can)",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 4.23,
+      "count": 680,
+      "countType": "reviews",
+      "abv": 8.2,
+      "style": "IPA  新英格兰IPA",
+      "country": "美国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/fc530158d8d6b7e4.json"
+    },
+    "candidateSources": [
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/6178e3f77901123239fee56a.html",
+        "value": null
+      },
+      {
+        "title": "击倒巨人 暴龙之王苏 双倍新英格兰IPA（易拉罐）-Toppling Goliath King Sue Double NE IPA (Can)",
+        "url": "https://www.jiuhuar.com/craftbeer/5b514e408ba5b0577b8b4568.html",
+        "value": 4.23
+      },
+      {
+        "title": "击倒巨人 暴龙之王苏 帝国IPA-Toppling Goliath King Sue Imperial IPA",
+        "url": "https://www.jiuhuar.com/craftbeer/578494c4526c6036b1c9bac0.html",
+        "value": 4.12
+      },
+      {
+        "title": "击倒巨人 暴龙之王苏 双倍新英格兰IPA-Toppling Goliath King Sue Double NE IPA",
+        "url": "https://www.jiuhuar.com/craftbeer/60a234da526c60388ffab407.html",
+        "value": 4.06
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/64da12ad7901120fdad4741d.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.beeradvocate.com/beer/profile/23222/113674/",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "rasputin",
+    "name": "北岸老拉斯普京",
+    "status": "matched",
+    "identityDecision": "Old Rasputin、美国、9%常规款一致；不选2018独立页或过桶款。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 原BeerAdvocate评分本轮未验证，选取的是另一平台当前页面，不能解读为原平台分数涨跌。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/56e13d9d8b15e6e6e1d466b7.html",
+      "title": "北岸 旧拉斯普京 俄罗斯帝国世涛-North Coast Old Rasputin Russian Imperial Stout",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 3.97,
+      "count": 339,
+      "countType": "reviews",
+      "abv": 9.0,
+      "style": "世涛/波特啤酒  帝国世涛",
+      "country": "美国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/61ec9ad2cfd6e65a.json"
+    },
+    "candidateSources": [
+      {
+        "title": "北岸 旧拉斯普京 俄罗斯帝国世涛-North Coast Old Rasputin Russian Imperial Stout",
+        "url": "https://www.jiuhuar.com/craftbeer/56e13d9d8b15e6e6e1d466b7.html",
+        "value": 3.97
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5b74ec088ba5b05f128b456d.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/news/5c330ba28ba5b09d5a8b456a.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.beeradvocate.com/beer/profile/112/412/",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "breakfast",
+    "name": "创始者早餐世涛",
+    "status": "matched",
+    "identityDecision": "Founders Breakfast Oatmeal Stout、美国、8.3%一致；不是CBS或KBS。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 原BeerAdvocate评分本轮未验证，选取的是另一平台当前页面，不能解读为原平台分数涨跌。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/570b72448b15e66b6e24bb96.html",
+      "title": "创始者 早餐 燕麦世涛-Founders Breakfast Oatmeal Stout",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 3.95,
+      "count": 739,
+      "countType": "reviews",
+      "abv": 8.3,
+      "style": "世涛/波特啤酒  燕麦世涛",
+      "country": "美国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/65e0167f28012616.json"
+    },
+    "candidateSources": [
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/news/59f836088ba5b05f378b45ed.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5bee8c0c8ba5b048018b4568.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/59f924cf8ba5b0ea678b45e7.html",
+        "value": null
+      },
+      {
+        "title": "创始者 早餐 燕麦世涛-Founders Breakfast Oatmeal Stout",
+        "url": "https://www.jiuhuar.com/craftbeer/570b72448b15e66b6e24bb96.html",
+        "value": 3.95
+      },
+      {
+        "title": null,
+        "url": "https://www.beeradvocate.com/beer/profile/1199/11757/",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "guinness",
+    "name": "健力士氮气世涛",
+    "status": "matched",
+    "identityDecision": "Guinness Draught罐装、爱尔兰、4.2%对应氮气罐研究规格；不混用Foreign Extra或非罐装页。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 原BeerAdvocate评分本轮未验证，选取的是另一平台当前页面，不能解读为原平台分数涨跌。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/571f3aca526c6059219f0101.html",
+      "title": "健力士 世涛（易拉罐）-Guinness Draught (Can)",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 2.92,
+      "count": 625,
+      "countType": "reviews",
+      "abv": 4.2,
+      "style": "世涛/波特啤酒  爱尔兰世涛",
+      "country": "爱尔兰",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/407e05865ff0a319.json"
+    },
+    "candidateSources": [
+      {
+        "title": "健力士 世涛（易拉罐）-Guinness Draught (Can)",
+        "url": "https://www.jiuhuar.com/craftbeer/571f3aca526c6059219f0101.html",
+        "value": 2.92
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/57198f4d526c606c3a7dbef1.html",
+        "value": null
+      },
+      {
+        "title": "健力士 生世涛-Guinness Draught Stout",
+        "url": "https://www.jiuhuar.com/craftbeer/56e13d8c8b15e6e6e1d4662c.html",
+        "value": 2.93
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.beeradvocate.com/beer/profile/209/754/",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "beaver",
+    "name": "海狸万岁",
+    "status": "matched",
+    "identityDecision": "Viva La Beaver普通墨西哥巧克力花生酱世涛、美国、7.5%一致；排除过桶帝国版；页面未给355ml专属统计。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 原BeerAdvocate评分本轮未验证，选取的是另一平台当前页面，不能解读为原平台分数涨跌。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/5e76e324526c602053aa3862.html",
+      "title": "打嗝海狸 海狸万岁 墨西哥巧克力花生酱世涛-Belching Beaver ¡Viva La Beaver! Mexican Chocolate Peanut Butter Stout",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 3.97,
+      "count": 102,
+      "countType": "reviews",
+      "abv": 7.5,
+      "style": "世涛/波特啤酒  牛奶世涛",
+      "country": "美国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/9f514bedd6464c4d.json"
+    },
+    "candidateSources": [
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5ef178d5790112773651a899.html",
+        "value": null
+      },
+      {
+        "title": "打嗝海狸 海狸万岁 墨西哥巧克力花生酱世涛-Belching Beaver ¡Viva La Beaver! Mexican Chocolate Peanut Butter Stout",
+        "url": "https://www.jiuhuar.com/craftbeer/5e76e324526c602053aa3862.html",
+        "value": 3.97
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/57198f4d526c606c3a7dbef1.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/64858c54526c603174ced5ff.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.beeradvocate.com/beer/profile/30923/235819/",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "pilsner",
+    "name": "博世纳乌奎尔",
+    "status": "matched",
+    "identityDecision": "Plzeňský Prazdroj Pilsner Urquell、捷克、4.4%一致；采用完整酒厂/酒款页，另一同名条目独立保留，不合并。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 原BeerAdvocate评分本轮未验证，选取的是另一平台当前页面，不能解读为原平台分数涨跌。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/5dd6a3fb8ba5b085748b456b.html",
+      "title": "比尔斯基 乌奎尔 皮尔森 -Plzeňský Prazdroj Pilsner Urquell Czech Pilsner",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 3.56,
+      "count": 273,
+      "countType": "reviews",
+      "abv": 4.4,
+      "style": "拉格啤酒  皮尔森",
+      "country": "捷克",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/543f5f58a74395e6.json"
+    },
+    "candidateSources": [
+      {
+        "title": "乌奎尔 皮尔森-Pilsner Urquell",
+        "url": "https://www.jiuhuar.com/craftbeer/5b9f4c638ba5b07b348b4567.html",
+        "value": 3.71
+      },
+      {
+        "title": "比尔斯基 乌奎尔 皮尔森 -Plzeňský Prazdroj Pilsner Urquell Czech Pilsner",
+        "url": "https://www.jiuhuar.com/craftbeer/5dd6a3fb8ba5b085748b456b.html",
+        "value": 3.56
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/6741e0ff2d084b756895ea52.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.beeradvocate.com/beer/profile/1/429/",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "heineken",
+    "name": "喜力经典款 · 进口原版",
+    "status": "matched",
+    "identityDecision": "Heineken常规、荷兰、5%符合国际经典口碑记录；不向国产绿瓶绿罐移植，Pure Malt另页保留。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 原BeerAdvocate评分本轮未验证，选取的是另一平台当前页面，不能解读为原平台分数涨跌。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/572b0c5b526c6054e3b11e1e.html",
+      "title": "喜力-Heineken",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 2.68,
+      "count": 214,
+      "countType": "reviews",
+      "abv": 5.0,
+      "style": "拉格啤酒  淡色拉格",
+      "country": "荷兰",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/d225ffc2252cce35.json"
+    },
+    "candidateSources": [
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/",
+        "value": null
+      },
+      {
+        "title": "喜力-Heineken",
+        "url": "https://www.jiuhuar.com/craftbeer/572b0c5b526c6054e3b11e1e.html",
+        "value": 2.68
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/57fa1516526c600401f07853.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/578740378ba5b04a368b47e6.html",
+        "value": null
+      },
+      {
+        "title": "喜力 纯麦 拉格-Heineken Pure Malt Lager",
+        "url": "https://www.jiuhuar.com/craftbeer/5fabfc36526c60767365567a.html",
+        "value": 3.19
+      },
+      {
+        "title": null,
+        "url": "https://www.beeradvocate.com/beer/profile/81/246/",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "tap5",
+    "name": "施耐德5号",
+    "status": "matched",
+    "identityDecision": "TAP5 Meine Hopfen-Weisse、德国、8.2%一致；联名页另存，未将较高分自动替换。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 原BeerAdvocate评分本轮未验证，选取的是另一平台当前页面，不能解读为原平台分数涨跌。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/5b4c6ddd8ba5b0c4548b456f.html",
+      "title": "施耐德 5号 我们的酒花 小麦啤酒-Schneider Weisse Tap 5 Meine Hopfen-Weisse",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 3.9,
+      "count": 101,
+      "countType": "reviews",
+      "abv": 8.2,
+      "style": "小麦啤酒  小麦博克",
+      "country": "德国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/7def05536263a09a.json"
+    },
+    "candidateSources": [
+      {
+        "title": "施耐德 5号 我们的酒花 小麦啤酒-Schneider Weisse Tap 5 Meine Hopfen-Weisse",
+        "url": "https://www.jiuhuar.com/craftbeer/5b4c6ddd8ba5b0c4548b456f.html",
+        "value": 3.9
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/573968f78ba5b095358b45c2.html",
+        "value": null
+      },
+      {
+        "title": "施耐德 / 布鲁克林 5号 我们的酒花 淡色小麦双倍博克-Schneider Weisse / Brooklyn Tap 5 Meine HopfenWeisse Pale Wheat Doppelbock",
+        "url": "https://www.jiuhuar.com/craftbeer/5cbc021779011245699969ec.html",
+        "value": 3.93
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5938ed3f7901125a3c42f894.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.beeradvocate.com/beer/profile/72/37774/",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "dajiu",
+    "name": "大九酿造·降临",
+    "status": "matched",
+    "identityDecision": "Maha Nine Arrival罐装浑浊IPA、中国、6.5%对应降临。原英文Advent与来源Arrival译名差异记录，中文酒款一致。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/68307d54fdbf070d8902b2bb.html",
+      "title": "大九酿造 降临 浑浊IPA（易拉罐）-Maha Nine Arrival Hazy IPA (Can)",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 3.71,
+      "count": 24,
+      "countType": "reviews",
+      "abv": 6.5,
+      "style": "IPA  新英格兰IPA",
+      "country": "中国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/3b3d9722e562da5e.json"
+    },
+    "candidateSources": [
+      {
+        "title": "大九酿造 降临 浑浊IPA（易拉罐）-Maha Nine Arrival Hazy IPA (Can)",
+        "url": "https://www.jiuhuar.com/craftbeer/68307d54fdbf070d8902b2bb.html",
+        "value": 3.71
+      }
+    ]
+  },
+  {
+    "id": "salt",
+    "name": "牛啤堂·帝都海盐",
+    "status": "matched",
+    "identityDecision": "帝都海盐原味古斯罐装、中国、4%一致；来源英文Beijing GOSE Modern与库存Imperial City Gose为译名差异，非水果衍生版。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/5a27c3988ba5b025558b4578.html",
+      "title": "牛啤堂 帝都海盐 古斯（易拉罐）-NBeer Beijing GOSE Modern (Can)",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 3.72,
+      "count": 774,
+      "countType": "reviews",
+      "abv": 4.0,
+      "style": "酸啤酒 / 水果啤酒  古斯",
+      "country": "中国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/bdf5436889bf77f3.json"
+    },
+    "candidateSources": [
+      {
+        "title": "牛啤堂 帝都海盐 古斯（易拉罐）-NBeer Beijing GOSE Modern (Can)",
+        "url": "https://www.jiuhuar.com/craftbeer/5a27c3988ba5b025558b4578.html",
+        "value": 3.72
+      }
+    ]
+  },
+  {
+    "id": "primator",
+    "name": "捷皇小麦白啤",
+    "status": "related",
+    "identityDecision": "同名Primátor Weizenbier页面为4.8%，库存研究款为5.0%；未证明相同版本。补查Untappd Weizen亦为4.8%，仅相关评分。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 原BeerAdvocate评分本轮未验证，选取的是另一平台当前页面，不能解读为原平台分数涨跌。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/57aa8c2b8ba5b05b6a8b457c.html",
+      "title": "捷克皇家 小麦啤酒-Primátor Weizenbier",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 3.59,
+      "count": 108,
+      "countType": "reviews",
+      "abv": 4.8,
+      "style": "小麦啤酒  德式小麦啤酒",
+      "country": "捷克",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/b22a4746c093b3b5.json"
+    },
+    "candidateSources": [
+      {
+        "title": "捷克皇家 小麦啤酒-Primátor Weizenbier",
+        "url": "https://www.jiuhuar.com/craftbeer/57aa8c2b8ba5b05b6a8b457c.html",
+        "value": 3.59
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/57207c4e526c6059219f1761.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/59f02b868ba5b05f378b45e2.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5f105a938ba5b058078b4568.html",
+        "value": null
+      },
+      {
+        "title": "Weizen - Primátor - Untappd",
+        "url": "https://untappd.com/b/primator-weizen/30947",
+        "value": 3.48
+      },
+      {
+        "title": null,
+        "url": "https://www.beeradvocate.com/beer/profile/707/14962/",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "snow",
+    "name": "沈阳老雪花",
+    "status": "related",
+    "identityDecision": "原目标640ml、4.7%/12°P；1964、醇生、浓色醇香候选均标4.1%，不能升级为匹配。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/5e957087526c6008969b7fbe.html",
+      "title": "雪花 1964经典啤酒-Xue hua Pijiu Lager",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 3.37,
+      "count": 8,
+      "countType": "reviews",
+      "abv": 4.1,
+      "style": "拉格啤酒  淡色拉格",
+      "country": "中国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/caad8e44e8a3cf2c.json"
+    },
+    "candidateSources": [
+      {
+        "title": "雪花啤酒 醇生-Snow Beer Chunsheng",
+        "url": "https://www.jiuhuar.com/craftbeer/57ce662b526c603cb39c5599.html",
+        "value": 2.44
+      },
+      {
+        "title": "雪花 浓色醇香 拉格-Snow Beer Nongsechunxiang Lager",
+        "url": "https://www.jiuhuar.com/craftbeer/5f939431526c60767351f2c2.html",
+        "value": 3.11
+      },
+      {
+        "title": "雪花 1964经典啤酒-Xue hua Pijiu Lager",
+        "url": "https://www.jiuhuar.com/craftbeer/5e957087526c6008969b7fbe.html",
+        "value": 3.37
+      }
+    ]
+  },
+  {
+    "id": "pang",
+    "name": "胖东来精酿小麦啤酒",
+    "status": "matched",
+    "identityDecision": "Pang Donglai DL Market Wheat Beer精酿小麦啤酒、4.7%、Hefeweizen一致；不是另一个Belgian Wit条目。页面评分次数与Total/Unique打卡数分开。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 Untappd count取Ratings，不取Total/Unique打卡数；国家未在所存页首明示，保留null。",
+    "selected": {
+      "url": "https://untappd.com/b/pang-donglai-dl-market-wheat-beer/5702703",
+      "title": "Wheat Beer (精酿小麦啤酒) - Pang Donglai DL Market (胖东来超市) - Untappd",
+      "platform": "Untappd",
+      "scale": 5,
+      "value": 3.04,
+      "count": 153,
+      "countType": "ratings",
+      "abv": 4.7,
+      "style": "Wheat Beer - Hefeweizen",
+      "country": null,
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/22e1f6a6a2dc307f.json"
+    },
+    "candidateSources": [
+      {
+        "title": "Wheat Beer (精酿小麦啤酒) - Pang Donglai DL Market (胖东来超市) - Untappd",
+        "url": "https://untappd.com/b/pang-donglai-dl-market-wheat-beer/5702703",
+        "value": 3.04
+      }
+    ]
+  },
+  {
+    "id": "asahi",
+    "name": "朝日超爽 · 国产经典",
+    "status": "related",
+    "identityDecision": "研究目标为国产经典5%；两个Super Dry候选都标日本。5%相同不足以证明国产SKU独立评分。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/5b5ae2eb8ba5b0d9168b456c.html",
+      "title": "朝日 超爽-Asahi Super Dry",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 3.1,
+      "count": 84,
+      "countType": "reviews",
+      "abv": 5.0,
+      "style": "拉格啤酒  淡色拉格",
+      "country": "日本",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/409191c4055109bd.json"
+    },
+    "candidateSources": [
+      {
+        "title": "朝日 超爽-Asahi Super Dry",
+        "url": "https://www.jiuhuar.com/craftbeer/5b5ae2eb8ba5b0d9168b456c.html",
+        "value": 3.1
+      },
+      {
+        "title": "朝日 超干（易拉罐）-Asahi Super Dry (Can)",
+        "url": "https://www.jiuhuar.com/craftbeer/57f889df526c601b255ba71b.html",
+        "value": 2.72
+      }
+    ]
+  },
+  {
+    "id": "tsingtao-white",
+    "name": "青岛全麦白啤",
+    "status": "related",
+    "identityDecision": "来源中文虽为全麦白，ABV仍为3.7%；目标4.1%/11°P。只保留旧版相关评分。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/578f1ee38ba5b00d538b4635.html",
+      "title": "青岛 全麦白啤 浑浊型小麦啤酒-Tsingtao Hefeweizen",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 2.72,
+      "count": 88,
+      "countType": "reviews",
+      "abv": 3.7,
+      "style": "小麦啤酒  德式小麦啤酒",
+      "country": "中国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/556a98eec23d1c91.json"
+    },
+    "candidateSources": [
+      {
+        "title": "青岛 全麦白啤 浑浊型小麦啤酒-Tsingtao Hefeweizen",
+        "url": "https://www.jiuhuar.com/craftbeer/578f1ee38ba5b00d538b4635.html",
+        "value": 2.72
+      }
+    ]
+  },
+  {
+    "id": "augerta",
+    "name": "青岛奥古特 A3 全麦",
+    "status": "related",
+    "identityDecision": "找到明确名为Augerta A3的Untappd页，已排除Augerta1903。该页为产品聚合，未证明500ml全麦罐装专属样本；2.86分/80次为A3候选当前值。平台4.2%不是实物标签证据，库存ABV应继续null。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 Untappd count取Ratings，不取Total/Unique打卡数；国家未在所存页首明示，保留null。",
+    "selected": {
+      "url": "https://untappd.com/b/tsingtao-brewery-augerta-a3/6103285",
+      "title": "Augerta A3 - Tsingtao (青岛啤酒) Brewery - Untappd",
+      "platform": "Untappd",
+      "scale": 5,
+      "value": 2.86,
+      "count": 80,
+      "countType": "ratings",
+      "abv": 4.2,
+      "style": "Lager - Pale",
+      "country": null,
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/5a9223133a20911d.json"
+    },
+    "candidateSources": [
+      {
+        "title": "Augerta A3 - Tsingtao (青岛啤酒) Brewery - Untappd",
+        "url": "https://untappd.com/b/tsingtao-brewery-augerta-a3/6103285",
+        "value": 2.86
+      },
+      {
+        "title": "青岛 奥古特1903-Tsingtao Augerta 1903",
+        "url": "https://www.jiuhuar.com/craftbeer/5711e762526c6028ca0a7634.html",
+        "value": 2.61
+      }
+    ]
+  },
+  {
+    "id": "heineken-can",
+    "name": "喜力绿罐 · 国产经典",
+    "status": "related",
+    "identityDecision": "易拉罐包装一致，但公开页产地为荷兰；目标是中国国产经典，故仍为相关评价。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/578740378ba5b04a368b47e6.html",
+      "title": "喜力（易拉罐）-Heineken (Can)",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 2.75,
+      "count": 189,
+      "countType": "reviews",
+      "abv": 5.0,
+      "style": "拉格啤酒  淡色拉格",
+      "country": "荷兰",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/1272224feb650bda.json"
+    },
+    "candidateSources": [
+      {
+        "title": "喜力（易拉罐）-Heineken (Can)",
+        "url": "https://www.jiuhuar.com/craftbeer/578740378ba5b04a368b47e6.html",
+        "value": 2.75
+      }
+    ]
+  },
+  {
+    "id": "heineken-bottle",
+    "name": "喜力绿瓶 · 国产经典",
+    "status": "related",
+    "identityDecision": "经典Heineken公开页产地为荷兰；未取得中国国产500ml玻璃瓶的独立样本。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/572b0c5b526c6054e3b11e1e.html",
+      "title": "喜力-Heineken",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 2.68,
+      "count": 214,
+      "countType": "reviews",
+      "abv": 5.0,
+      "style": "拉格啤酒  淡色拉格",
+      "country": "荷兰",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/d225ffc2252cce35.json"
+    },
+    "candidateSources": [
+      {
+        "title": "喜力-Heineken",
+        "url": "https://www.jiuhuar.com/craftbeer/572b0c5b526c6054e3b11e1e.html",
+        "value": 2.68
+      }
+    ]
+  },
+  {
+    "id": "heineken-keg",
+    "name": "喜力金刚桶 5L",
+    "status": "matched",
+    "identityDecision": "找到明确5L铁金刚拉格、荷兰、5%的独立页，可替代旧瓶罐总体相关分；另一5L皮尔森页单独保留，不合并。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 原BeerAdvocate评分本轮未验证，选取的是另一平台当前页面，不能解读为原平台分数涨跌。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/57fa1516526c600401f07853.html",
+      "title": "喜力 铁金刚拉格（5升）-Heineken Lager (5L)",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 3.0,
+      "count": 45,
+      "countType": "reviews",
+      "abv": 5.0,
+      "style": "拉格啤酒  淡色拉格",
+      "country": "荷兰",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/c3ea4bc1c6415f05.json"
+    },
+    "candidateSources": [
+      {
+        "title": "喜力 铁金刚拉格（5升）-Heineken Lager (5L)",
+        "url": "https://www.jiuhuar.com/craftbeer/57fa1516526c600401f07853.html",
+        "value": 3.0
+      },
+      {
+        "title": "喜力 铁金刚皮尔森（5升）-Heineken Pilsener (5L)",
+        "url": "https://www.jiuhuar.com/craftbeer/57faf07c526c600401f08ebf.html",
+        "value": 3.07
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/572b0c5b526c6054e3b11e1e.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.beeradvocate.com/beer/profile/81/246/",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "nadu",
+    "name": "施纳德7号 · “纳德”临时代表款",
+    "status": "matched",
+    "identityDecision": "仅匹配既定临时代表Schneider TAP7、德国、5.4%；绝不表示已确认原始“纳德”就是施纳德7号。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/573968f78ba5b095358b45c2.html",
+      "title": "施耐德 7号 经典 小麦啤酒 -Schneider Weisse Tap 7 Unser Original",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 3.46,
+      "count": 183,
+      "countType": "reviews",
+      "abv": 5.4,
+      "style": "小麦啤酒  德式深色小麦",
+      "country": "德国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/f66f80c21f9ac6d4.json"
+    },
+    "candidateSources": [
+      {
+        "title": "施耐德 7号 经典 小麦啤酒 -Schneider Weisse Tap 7 Unser Original",
+        "url": "https://www.jiuhuar.com/craftbeer/573968f78ba5b095358b45c2.html",
+        "value": 3.46
+      }
+    ]
+  },
+  {
+    "id": "dream",
+    "name": "沙坡尾梦小姐 · 6%酸浑浊款",
+    "status": "matched",
+    "identityDecision": "仅匹配既定代表梦小姐6%果汁酸浑浊IPA罐装；不是3%超级芒果或5%贵妃芒芒。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/60d113ac790112168c642066.html",
+      "title": "沙坡尾 梦小姐 果汁酸浑浊IPA（易拉罐）-Shapowei Miss Dream Juicy Sour Hazy IPA (Can)",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 3.74,
+      "count": 69,
+      "countType": "reviews",
+      "abv": 6.0,
+      "style": "酸啤酒 / 水果啤酒  酸啤酒",
+      "country": "中国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/fe2be695889b657f.json"
+    },
+    "candidateSources": [
+      {
+        "title": "沙坡尾 梦小姐 果汁酸浑浊IPA（易拉罐）-Shapowei Miss Dream Juicy Sour Hazy IPA (Can)",
+        "url": "https://www.jiuhuar.com/craftbeer/60d113ac790112168c642066.html",
+        "value": 3.74
+      }
+    ]
+  },
+  {
+    "id": "pohjala",
+    "name": "珀亚拉 · 黑夜 Pime Öö",
+    "status": "matched",
+    "identityDecision": "仅匹配既定代表Pime Öö常规黑夜、爱沙尼亚、13.6%；非PX或其他桶陈，不代表全品牌。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/58be6f1b8ba5b0c6288b4584.html",
+      "title": "珀亚拉 黑夜 帝国世涛-Põhjala Pime Öö Imperial Stout",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 4.13,
+      "count": 327,
+      "countType": "reviews",
+      "abv": 13.6,
+      "style": "世涛/波特啤酒  帝国世涛",
+      "country": "爱沙尼亚",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/0a118bb1e600d166.json"
+    },
+    "candidateSources": [
+      {
+        "title": "珀亚拉 黑夜 帝国世涛-Põhjala Pime Öö Imperial Stout",
+        "url": "https://www.jiuhuar.com/craftbeer/58be6f1b8ba5b0c6288b4584.html",
+        "value": 4.13
+      }
+    ]
+  },
+  {
+    "id": "kirin-ichiban",
+    "name": "一番榨",
+    "status": "ambiguous",
+    "identityDecision": "“一番榨”未指明产地、罐瓶与配方；5%普通、5%罐与4.5%均有独立页。展示日本5%常规作具名候选。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/5733df138ba5b095358b45b6.html",
+      "title": "麒麟 一番榨-Kirin Ichiban Shibori Premium",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 2.98,
+      "count": 170,
+      "countType": "reviews",
+      "abv": 5.0,
+      "style": "拉格啤酒  淡色拉格",
+      "country": "日本",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/c712711bda96323d.json"
+    },
+    "candidateSources": [
+      {
+        "title": "麒麟 一番榨-Kirin Ichiban",
+        "url": "https://www.jiuhuar.com/craftbeer/65dc6897526c6031746ddc68.html",
+        "value": 3.66
+      },
+      {
+        "title": "麒麟 一番榨（易拉罐）-Kirin Ichiban Shibori Premium (Can)",
+        "url": "https://www.jiuhuar.com/craftbeer/57b2e1098ba5b04b6a8b458a.html",
+        "value": 2.84
+      },
+      {
+        "title": "麒麟 一番榨-Kirin Ichiban Shibori Premium",
+        "url": "https://www.jiuhuar.com/craftbeer/5733df138ba5b095358b45b6.html",
+        "value": 2.98
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/573154b3526c606f2ea449de.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5b56c2bf526c604c9e699849.html",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "tsingtao-small-brown",
+    "name": "青岛小棕瓶",
+    "status": "ambiguous",
+    "identityDecision": "“小棕瓶”不足以唯一定位配方；列金质与普通淡色拉格候选，不能仅凭瓶色确认金质。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/57298e9b526c60451f6718c1.html",
+      "title": "青岛 金质 淡色拉格-Tsingtao Premium Pale Lager",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 2.72,
+      "count": 148,
+      "countType": "reviews",
+      "abv": 4.3,
+      "style": "拉格啤酒  淡色拉格",
+      "country": "中国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/880f048eab8dea70.json"
+    },
+    "candidateSources": [
+      {
+        "title": "青岛 淡色拉格-Tsingtao Pale Lager",
+        "url": "https://www.jiuhuar.com/craftbeer/599fcf8779011247652fb109.html",
+        "value": 3.14
+      },
+      {
+        "title": "青岛 金质 淡色拉格-Tsingtao Premium Pale Lager",
+        "url": "https://www.jiuhuar.com/craftbeer/57298e9b526c60451f6718c1.html",
+        "value": 2.72
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/56e13db58b15e6e6e1d467a0.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/579970d0526c6001c3f3a13d.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/571989f5526c606c3a7dbed9.html",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "yanjing-craft",
+    "name": "燕京精酿",
+    "status": "ambiguous",
+    "identityDecision": "“燕京精酿”是宽泛名称；V10精酿白啤罐装仅为具名候选，不代表整个品牌或八景系列。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/626cdd617901122dc401cd45.html",
+      "title": "燕京 V10 精酿白啤（易拉罐）-Yanjing Beer V10 Wheat Beer (Can)",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 3.43,
+      "count": 2,
+      "countType": "reviews",
+      "abv": 3.3,
+      "style": "小麦啤酒  德式小麦啤酒",
+      "country": "中国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/5c67b72b247d055a.json"
+    },
+    "candidateSources": [
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/news/5f0585608ba5b0095b8b4567.html",
+        "value": null
+      },
+      {
+        "title": "燕京 V10 精酿白啤（易拉罐）-Yanjing Beer V10 Wheat Beer (Can)",
+        "url": "https://www.jiuhuar.com/craftbeer/626cdd617901122dc401cd45.html",
+        "value": 3.43
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5829728e526c606d56015d27.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/57c52bdf526c60137346471a.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5d596b30526c60119e5ae426.html",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "fan-jia-le",
+    "name": "范佳乐",
+    "status": "ambiguous",
+    "identityDecision": "原文未指定产地及包装；已读教士小麦与Premium页都标德国，不能据此确认用户所指产地或将旧进口记录自动等同。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/5b39f10e8ba5b0f82f8b456b.html",
+      "title": "教士 小麦 -Franziskaner Weissbier",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 3.41,
+      "count": 88,
+      "countType": "reviews",
+      "abv": 5.0,
+      "style": "小麦啤酒  德式小麦啤酒",
+      "country": "德国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/c97b760eeeea6ae3.json"
+    },
+    "candidateSources": [
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/571de76e526c60342dbfb3db.html",
+        "value": null
+      },
+      {
+        "title": "教士 小麦 -Franziskaner Weissbier",
+        "url": "https://www.jiuhuar.com/craftbeer/5b39f10e8ba5b0f82f8b456b.html",
+        "value": 3.41
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5bf62a79526c6044c7d90746.html",
+        "value": null
+      },
+      {
+        "title": "教士 优质小麦啤酒-Franziskaner Premium Weissbier Naturtrüb",
+        "url": "https://www.jiuhuar.com/craftbeer/56e13d888b15e6e6e1d46602.html",
+        "value": 3.28
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/59081ed28ba5b0a77f8b456c.html",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "tsingtao-unfiltered",
+    "name": "青岛原浆",
+    "status": "ambiguous",
+    "identityDecision": "原浆存在常规、淡色拉格及7天1L等条目；用户未指定包装和版本，不能确认。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/57d7667c526c6055834c205f.html",
+      "title": "青岛 原浆-Tsingtao Original Beer",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 2.88,
+      "count": 96,
+      "countType": "reviews",
+      "abv": 5.4,
+      "style": "拉格啤酒  淡色拉格",
+      "country": "中国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/b89af41c3cdcc462.json"
+    },
+    "candidateSources": [
+      {
+        "title": "青岛 原浆-Tsingtao Original Beer",
+        "url": "https://www.jiuhuar.com/craftbeer/57d7667c526c6055834c205f.html",
+        "value": 2.88
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/57f9c1b6526c600401f06d63.html",
+        "value": null
+      },
+      {
+        "title": "青岛 原浆 淡色拉格-Tsingtao Original Beer Pale Lager",
+        "url": "https://www.jiuhuar.com/craftbeer/5b32059d8ba5b0430e8b4568.html",
+        "value": 3.32
+      },
+      {
+        "title": "青岛 7天原浆（1升）-Tsingtao 7 Days Original Beer (1L)",
+        "url": "https://www.jiuhuar.com/craftbeer/5d6e8737526c60226e39aa78.html",
+        "value": 3.71
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5a2649238ba5b0e5418b456c.html",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "he-bu-fan-yellow-river",
+    "name": "或不凡黄河之水",
+    "status": "ambiguous",
+    "identityDecision": "中文酒名吻合Hop Fan Liquor of the Yellow River，但罐装与非罐装分列；用户包装不明，保留歧义。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/5a31dffb8ba5b0f0268b4567.html",
+      "title": "或不凡 黄河之水 新英格兰IPA（易拉罐）-Hop Fan Liquor of the Yellow River NE IPA (Can)",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 4.0,
+      "count": 610,
+      "countType": "reviews",
+      "abv": 8.2,
+      "style": "IPA  新英格兰IPA",
+      "country": "中国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/f292e84cdb661cbf.json"
+    },
+    "candidateSources": [
+      {
+        "title": "或不凡 黄河之水 新英格兰IPA -Hop Fan Liquor of the Yellow River NE IPA",
+        "url": "https://www.jiuhuar.com/craftbeer/5b56c7b18ba5b032218b4567.html",
+        "value": 4.03
+      },
+      {
+        "title": "或不凡 黄河之水 新英格兰IPA（易拉罐）-Hop Fan Liquor of the Yellow River NE IPA (Can)",
+        "url": "https://www.jiuhuar.com/craftbeer/5a31dffb8ba5b0f0268b4567.html",
+        "value": 4.0
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5f7a8cbb7901121eceeea8e2.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/60826919526c6068f44852dd.html",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "duchesse",
+    "name": "勃艮第女公爵",
+    "status": "matched",
+    "identityDecision": "“勃艮第女公爵”直接对应Duchesse de Bourgogne常规款，足以在酒款层面定位；未指定车厘子等衍生名，不把衍生款纳入。包装容量仍未核验。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/56e13d768b15e6e6e1d46536.html",
+      "title": "福禾 勃艮第女公爵-Verhaeghe Duchesse De Bourgogne",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 3.74,
+      "count": 1006,
+      "countType": "reviews",
+      "abv": 6.2,
+      "style": "酸啤酒 / 水果啤酒  法兰德斯红艾尔",
+      "country": "比利时",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/7a88aaa173178da5.json"
+    },
+    "candidateSources": [
+      {
+        "title": "福禾 勃艮第女公爵-Verhaeghe Duchesse De Bourgogne",
+        "url": "https://www.jiuhuar.com/craftbeer/56e13d768b15e6e6e1d46536.html",
+        "value": 3.74
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/61e42161526c606b73b00cdd.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/news/5993e7e58ba5b0fa7a8b469a.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/news/5a77b7b88ba5b08c708b4568.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5d9b3ae9526c604108105430.html",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "tsingtao-green",
+    "name": "绿瓶青岛",
+    "status": "ambiguous",
+    "identityDecision": "“绿瓶青岛”不能区分经典、1903及其他版本；经典淡色拉格仅作代表候选。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/5b865034526c604eb7fc2648.html",
+      "title": "青岛啤酒 经典 淡色拉格-Tsingtao Classic Pale Lager",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 2.66,
+      "count": 36,
+      "countType": "reviews",
+      "abv": 3.1,
+      "style": "拉格啤酒  淡色拉格",
+      "country": "中国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/cb19b04b8ac32936.json"
+    },
+    "candidateSources": [
+      {
+        "title": "青岛啤酒 经典 淡色拉格-Tsingtao Classic Pale Lager",
+        "url": "https://www.jiuhuar.com/craftbeer/5b865034526c604eb7fc2648.html",
+        "value": 2.66
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/58df65c979011231555dc99d.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5b56f7a479011251577a61a1.html",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "snow-brave",
+    "name": "雪花勇闯",
+    "status": "ambiguous",
+    "identityDecision": "“勇闯”未区分普通勇闯天涯、罐装及Super X；只列普通版候选，不视为已确认SKU。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/570df6e5526c6014e42244f0.html",
+      "title": "雪花 勇闯天涯-Snow Beer Trekker",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 1.39,
+      "count": 308,
+      "countType": "reviews",
+      "abv": 2.5,
+      "style": "拉格啤酒  美式淡拉格",
+      "country": "中国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/1f5d0ed48c89acdd.json"
+    },
+    "candidateSources": [
+      {
+        "title": "雪花 勇闯天涯-Snow Beer Trekker",
+        "url": "https://www.jiuhuar.com/craftbeer/570df6e5526c6014e42244f0.html",
+        "value": 1.39
+      },
+      {
+        "title": "雪花啤酒 勇闯天涯 淡色拉格（易拉罐）-Snow Beer Trekker Pale Lager (Can)",
+        "url": "https://www.jiuhuar.com/craftbeer/5b6ab20d7901125157e07250.html",
+        "value": 2.17
+      },
+      {
+        "title": "雪花啤酒 勇闯天涯 Super X 淡色拉格-Snow Beer Brave Super X Pale Lager",
+        "url": "https://www.jiuhuar.com/craftbeer/5b45a9a1790112348ce88534.html",
+        "value": 2.29
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5deb329e526c60045b3b3295.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/57ad92ce526c601ef7ff8c3f.html",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "hoegaarden-user",
+    "name": "福佳白啤",
+    "status": "ambiguous",
+    "identityDecision": "“福佳白啤”未指定产地与包装；三个已读候选都标比利时，但名称相近不证明用户买的是进口版；所选具名页仅供候选。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/5b34a33b8ba5b041628b4570.html",
+      "title": "福佳 白 -Hoegaarden Witbier",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 3.29,
+      "count": 142,
+      "countType": "reviews",
+      "abv": 4.9,
+      "style": "小麦啤酒  比利时小麦啤酒",
+      "country": "比利时",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/5cd9ea435cbaff1d.json"
+    },
+    "candidateSources": [
+      {
+        "title": "福佳 白 -Hoegaarden Witbier",
+        "url": "https://www.jiuhuar.com/craftbeer/5b34a33b8ba5b041628b4570.html",
+        "value": 3.29
+      },
+      {
+        "title": "福佳 白（易拉罐）-Hoegaarden (Can)",
+        "url": "https://www.jiuhuar.com/craftbeer/57860912526c6063de987782.html",
+        "value": 2.81
+      },
+      {
+        "title": "福佳 白 比利时小麦啤酒-Hoegaarden Witbier",
+        "url": "https://www.jiuhuar.com/craftbeer/56e13d908b15e6e6e1d46640.html",
+        "value": 3.21
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/56e13d8f8b15e6e6e1d4663f.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/59f02b868ba5b05f378b45e2.html",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "liquan-1998-plus",
+    "name": "漓泉1998++",
+    "status": "ambiguous",
+    "identityDecision": "“1998++”不等于已确认的1998+；大度加料与小度加料分别存在，不能删除第二个+或擅自确定其一。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/64d0e43a526c60317433698c.html",
+      "title": "漓泉 1998+大度加料 淡色拉格-Liquan 1998Plus Dadu Pale Lager",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 3.33,
+      "count": 5,
+      "countType": "reviews",
+      "abv": 3.6,
+      "style": "拉格啤酒  淡色拉格",
+      "country": "中国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/e6f4fcf204e6684a.json"
+    },
+    "candidateSources": [
+      {
+        "title": "漓泉 1998+大度加料 淡色拉格-Liquan 1998Plus Dadu Pale Lager",
+        "url": "https://www.jiuhuar.com/craftbeer/64d0e43a526c60317433698c.html",
+        "value": 3.33
+      },
+      {
+        "title": "漓泉 1998+小度加料 淡色拉格-Liquan 1998Plus Xiaodu Pale Lager",
+        "url": "https://www.jiuhuar.com/craftbeer/64c7ad0d7901120fdaa32bca.html",
+        "value": 3.64
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/64b51a287901120fdaffbb3b.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5fd84c96526c60767378d6fa.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/62b9777a526c604edae3fbb8.html",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "vedett-white",
+    "name": "白熊啤酒",
+    "status": "ambiguous",
+    "identityDecision": "发现两个标比利时的常规Extra White同名页，另有宝石蓝/接骨木花检索线索；用户未指定版本或包装，常规Extra White仅为代表候选。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/56e13d828b15e6e6e1d465c2.html",
+      "title": "督威 白熊啤酒 比利时小麦-Duvel Vedett Extra White",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 3.12,
+      "count": 861,
+      "countType": "reviews",
+      "abv": 4.7,
+      "style": "小麦啤酒  比利时小麦啤酒",
+      "country": "比利时",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/dc05898c1d4bc0f2.json"
+    },
+    "candidateSources": [
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/658ab7bd7901120fdaf9c0b6.html",
+        "value": null
+      },
+      {
+        "title": "督威 白熊啤酒 比利时小麦-Duvel Vedett Extra White",
+        "url": "https://www.jiuhuar.com/craftbeer/56e13d828b15e6e6e1d465c2.html",
+        "value": 3.12
+      },
+      {
+        "title": "白熊啤酒 比利时小麦-Vedett Extra White",
+        "url": "https://www.jiuhuar.com/craftbeer/5a654bdc8ba5b0807f8b4567.html",
+        "value": 3.36
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/60f24d08526c60360394a53f.html",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "yanjing-u8",
+    "name": "燕京u8",
+    "status": "ambiguous",
+    "identityDecision": "U8名称明确，但包装未定且罐瓶来源独立；瓶装页仅作为具名候选，不合并罐装评价。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/5d596b30526c60119e5ae426.html",
+      "title": "燕京 U8 拉格-Yanjing U8 Lager",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 2.57,
+      "count": 67,
+      "countType": "reviews",
+      "abv": 2.8,
+      "style": "拉格啤酒  淡色拉格",
+      "country": "中国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/5b7e8e3dbf178595.json"
+    },
+    "candidateSources": [
+      {
+        "title": "燕京 U8 拉格-Yanjing U8 Lager",
+        "url": "https://www.jiuhuar.com/craftbeer/5d596b30526c60119e5ae426.html",
+        "value": 2.57
+      },
+      {
+        "title": "燕京 U8 拉格（易拉罐）-Yanjing U8 Lager (Can)",
+        "url": "https://www.jiuhuar.com/craftbeer/5f617cb7526c6007b3327704.html",
+        "value": 2.94
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/6576f76f7901120fda0c593f.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5786f72d526c6063de9889d1.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/57b2e1098ba5b04b6a8b458a.html",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "harbin-white-can",
+    "name": "哈皮白罐",
+    "status": "ambiguous",
+    "identityDecision": "保留“哈皮白罐”原文；未确认是否指哈尔滨小麦王、全麦小麦王或冰纯白啤。冰纯白啤罐装仅是候选，不能靠“白”自动改名。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/599e38227901122960b585c9.html",
+      "title": "哈尔滨啤酒 冰纯白啤 比利时小麦（易拉罐）-Harbin Beer Bingchun Baipi Witbier (Can)",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 2.39,
+      "count": 36,
+      "countType": "reviews",
+      "abv": 3.6,
+      "style": "小麦啤酒  比利时小麦啤酒",
+      "country": "中国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/db00f320746e137f.json"
+    },
+    "candidateSources": [
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5c0e161a8ba5b0d4578b4567.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/616918e2526c603341c2b3e4.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5f852d17526c6007b3950ac3.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/news/63528d1e8ba5b03c758b456c.html",
+        "value": null
+      },
+      {
+        "title": "哈尔滨 小麦王 10°（易拉罐）-Harbin Wheat King 10° (Can)",
+        "url": "https://www.jiuhuar.com/craftbeer/5795c320526c6063de999179.html",
+        "value": 1.86
+      },
+      {
+        "title": "哈尔滨啤酒 冰纯白啤 比利时小麦（易拉罐）-Harbin Beer Bingchun Baipi Witbier (Can)",
+        "url": "https://www.jiuhuar.com/craftbeer/599e38227901122960b585c9.html",
+        "value": 2.39
+      },
+      {
+        "title": "哈尔滨 全麦 小麦王（易拉罐）-Harbin All Malt Wheat King (Can)",
+        "url": "https://www.jiuhuar.com/craftbeer/5f617e9c7901121ececa816c.html",
+        "value": 3.43
+      }
+    ]
+  },
+  {
+    "id": "kronenbourg-1664",
+    "name": "1664",
+    "status": "ambiguous",
+    "identityDecision": "1664是系列简称，法国BLANC、法国金琥珀拉格及丹麦Carlsberg白存在不同条目；BLANC只作代表。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/56e13d958b15e6e6e1d4665d.html",
+      "title": "凯旋克伦堡1664 小麦-Kronenbourg 1664 BLANC",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 2.98,
+      "count": 653,
+      "countType": "reviews",
+      "abv": 5.0,
+      "style": "小麦啤酒  比利时小麦啤酒",
+      "country": "法国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/92201b9d71908724.json"
+    },
+    "candidateSources": [
+      {
+        "title": "凯旋克伦堡1664 小麦-Kronenbourg 1664 BLANC",
+        "url": "https://www.jiuhuar.com/craftbeer/56e13d958b15e6e6e1d4665d.html",
+        "value": 2.98
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/64def404526c6031743e2786.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/597ef67b7901126dc318f269.html",
+        "value": null
+      },
+      {
+        "title": "嘉士伯 1664 白 水果啤酒-Carlsberg 1664 Blanc Fruit Beer",
+        "url": "https://www.jiuhuar.com/craftbeer/5be3b452526c601b85eb93f2.html",
+        "value": 2.96
+      },
+      {
+        "title": "凯旋克伦堡1664 金 琥珀拉格-Kronenbourg 1664 Gold Amber Lager",
+        "url": "https://www.jiuhuar.com/craftbeer/56e13d938b15e6e6e1d4665b.html",
+        "value": 2.71
+      }
+    ]
+  },
+  {
+    "id": "blue-ribbon",
+    "name": "蓝带",
+    "status": "ambiguous",
+    "identityDecision": "“蓝带”未指定产地、配方或包装；Pabst Blue Ribbon美式优质拉格罐装是具名候选，不是蓝妹。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/5768f356526c6036b1c6dc64.html",
+      "title": "蓝带 美式优质拉格（易拉罐）-Pabst Blue Ribbon American Style Premium Lager (Can)",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 2.12,
+      "count": 36,
+      "countType": "reviews",
+      "abv": 4.3,
+      "style": "拉格啤酒  美式淡拉格",
+      "country": "中国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/9181a3932ec76f02.json"
+    },
+    "candidateSources": [
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/",
+        "value": null
+      },
+      {
+        "title": "蓝带 美式优质拉格（易拉罐）-Pabst Blue Ribbon American Style Premium Lager (Can)",
+        "url": "https://www.jiuhuar.com/craftbeer/5768f356526c6036b1c6dc64.html",
+        "value": 2.12
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/58a27b74790112105f2343d3.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/576367fd526c605890accd0a.html",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "heineken-silver",
+    "name": "喜力银星（白罐）",
+    "status": "ambiguous",
+    "identityDecision": "Silver星银罐装与白罐描述接近；来源分地区/版本且原文银星、产地未核实，仍保留歧义。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/5f8e9696526c60767318ee3f.html",
+      "title": "喜力 星银 拉格（易拉罐）-Heineken Silver Lager (Can)",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 3.02,
+      "count": 45,
+      "countType": "reviews",
+      "abv": 4.0,
+      "style": "拉格啤酒  淡色拉格",
+      "country": "中国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/03e957db704e4d62.json"
+    },
+    "candidateSources": [
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/572b0c5b526c6054e3b11e1e.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer",
+        "value": null
+      },
+      {
+        "title": "喜力 星银-Heineken Silver",
+        "url": "https://www.jiuhuar.com/craftbeer/629c7564526c606d9be39c7b.html",
+        "value": 3.28
+      },
+      {
+        "title": "喜力 银星 淡色拉格-Heineken Sliver Pale Lager",
+        "url": "https://www.jiuhuar.com/craftbeer/5eb6c74e526c600896941ce4.html",
+        "value": 3.13
+      },
+      {
+        "title": "喜力 星银 拉格（易拉罐）-Heineken Silver Lager (Can)",
+        "url": "https://www.jiuhuar.com/craftbeer/5f8e9696526c60767318ee3f.html",
+        "value": 3.02
+      }
+    ]
+  },
+  {
+    "id": "wusu-white",
+    "name": "乌苏白啤",
+    "status": "ambiguous",
+    "identityDecision": "乌苏白啤有非罐装和多个罐装条目，用户未指定包装/配方；普通小麦白仅作候选。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/5b5577a27901125157706dbe.html",
+      "title": "乌苏啤酒 小麦白啤酒-Wusu Wheat white beer",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 2.93,
+      "count": 27,
+      "countType": "reviews",
+      "abv": 3.6,
+      "style": "小麦啤酒  小麦酒",
+      "country": "中国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/62990ecf182b9848.json"
+    },
+    "candidateSources": [
+      {
+        "title": "乌苏 白啤（易拉罐）-Wusu white beer (Can)",
+        "url": "https://www.jiuhuar.com/craftbeer/6592827b526c603174115d95.html",
+        "value": 3.58
+      },
+      {
+        "title": "乌苏啤酒 小麦白啤酒（易拉罐）-Wusu Wheat white beer (Can)",
+        "url": "https://www.jiuhuar.com/craftbeer/5e7c685479011206d6d68b80.html",
+        "value": 3.35
+      },
+      {
+        "title": "乌苏啤酒 小麦白啤酒-Wusu Wheat white beer",
+        "url": "https://www.jiuhuar.com/craftbeer/5b5577a27901125157706dbe.html",
+        "value": 2.93
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/571989f5526c606c3a7dbed9.html",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "wusu",
+    "name": "乌苏",
+    "status": "ambiguous",
+    "identityDecision": "宽泛品牌名“乌苏”不足以确定红乌苏，红版仅作代表候选，不等同所有乌苏。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/571989f5526c606c3a7dbed9.html",
+      "title": "乌苏 红-Wusu Red",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 2.4,
+      "count": 233,
+      "countType": "reviews",
+      "abv": 4.0,
+      "style": "拉格啤酒  美式淡拉格",
+      "country": "中国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/9c5d490c49568a3d.json"
+    },
+    "candidateSources": [
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/6592827b526c603174115d95.html",
+        "value": null
+      },
+      {
+        "title": "乌苏 红-Wusu Red",
+        "url": "https://www.jiuhuar.com/craftbeer/571989f5526c606c3a7dbed9.html",
+        "value": 2.4
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5b5577a27901125157706dbe.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/594a14768ba5b0bd7a8b456d.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/57e888cd526c60193de15373.html",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "corona-user",
+    "name": "卡罗娜",
+    "status": "ambiguous",
+    "identityDecision": "严格保留“卡罗娜”；Corona Extra科罗娜是可能的拼写对应，仅候选，没有确认用户本意及SKU。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/57162f89526c6058938dc04e.html",
+      "title": "科罗娜-Corona Extra",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 2.24,
+      "count": 523,
+      "countType": "reviews",
+      "abv": 4.5,
+      "style": "拉格啤酒  美式淡拉格",
+      "country": "墨西哥",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/ca1bb5ad1d07cf7f.json"
+    },
+    "candidateSources": [
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/",
+        "value": null
+      },
+      {
+        "title": "科罗娜-Corona Extra",
+        "url": "https://www.jiuhuar.com/craftbeer/57162f89526c6058938dc04e.html",
+        "value": 2.24
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "pearl-river-green",
+    "name": "珠江绿罐",
+    "status": "ambiguous",
+    "identityDecision": "“珠江绿罐”未指明8°P、12°或经典老珠江；颜色不能确定配方。8°P罐装页简介写绿金罐，仅为较贴近的候选；虽有1条评论，均分明确显示N/A，不填0。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 已读候选页未显示有效0–5均分，value保持null；身份歧义仍优先标ambiguous。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/676c07782d084b7568989a5a.html",
+      "title": "珠江 8度 淡色拉格（易拉罐）-Pearl River 8°P Pale Lager（Can）",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": null,
+      "count": 1,
+      "countType": "reviews",
+      "abv": 2.5,
+      "style": "拉格啤酒  淡色拉格",
+      "country": "中国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/65c90d9f74be0279.json"
+    },
+    "candidateSources": [
+      {
+        "title": "珠江 8度 淡色拉格（易拉罐）-Pearl River 8°P Pale Lager（Can）",
+        "url": "https://www.jiuhuar.com/craftbeer/676c07782d084b7568989a5a.html",
+        "value": null
+      },
+      {
+        "title": "珠江 经典老珠江啤酒（易拉罐）-Pearl River Classic Old Zhujiang Beer (Can)",
+        "url": "https://www.jiuhuar.com/craftbeer/683add942d084b7568a99f90.html",
+        "value": 3.56
+      },
+      {
+        "title": "珠江 12° （易拉罐）-Pearl River 12° (Can)",
+        "url": "https://www.jiuhuar.com/craftbeer/57ad3d97526c601ef7ff869c.html",
+        "value": 2.47
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/606171367901124c0bc28113.html",
+        "value": null
+      },
+      {
+        "title": "珠江啤酒 12度原麦 淡色拉格（易拉罐）-Pearl River 12°P Pale Lager (Can)",
+        "url": "https://www.jiuhuar.com/craftbeer/5d81f28b7901123a43bba763.html",
+        "value": 3.45
+      }
+    ]
+  },
+  {
+    "id": "tuborg",
+    "name": "乐堡",
+    "status": "ambiguous",
+    "identityDecision": "“乐堡”未区分Classic、Green 8°P或纯生；Green 8°P只作常见代表，不以品牌名确定版本。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/57e48b2c526c60193de0ead9.html",
+      "title": "乐堡 绿 8°P 淡色拉格-Tuborg Green 8°P Pale Lager",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 1.88,
+      "count": 73,
+      "countType": "reviews",
+      "abv": 3.1,
+      "style": "拉格啤酒  淡色拉格",
+      "country": "中国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/e9374ba95fa8c6cc.json"
+    },
+    "candidateSources": [
+      {
+        "title": "乐堡 经典款-Tuborg Classic",
+        "url": "https://www.jiuhuar.com/craftbeer/5732c850526c6027de58fe24.html",
+        "value": 2.41
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5943824c7901121f10f13ed0.html",
+        "value": null
+      },
+      {
+        "title": "乐堡 8°P（易拉罐）-Tuborg Green 8°P (Can)",
+        "url": "https://www.jiuhuar.com/craftbeer/57e48fce526c60193de0eb73.html",
+        "value": 1.96
+      },
+      {
+        "title": "乐堡 绿 8°P 淡色拉格-Tuborg Green 8°P Pale Lager",
+        "url": "https://www.jiuhuar.com/craftbeer/57e48b2c526c60193de0ead9.html",
+        "value": 1.88
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/68513ba52d084b7568ab669b.html",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "budweiser",
+    "name": "百威",
+    "status": "ambiguous",
+    "identityDecision": "“百威”未区分产地、罐瓶、经典/黑金/淡爽；普通淡色拉格只是代表候选。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/5731b581526c60171a5c295e.html",
+      "title": "百威 淡色拉格-Budweiser Pale Lager",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 2.29,
+      "count": 167,
+      "countType": "reviews",
+      "abv": 3.6,
+      "style": "拉格啤酒  淡色拉格",
+      "country": "美国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/3618d9639a658a9e.json"
+    },
+    "candidateSources": [
+      {
+        "title": "百威（易拉罐）-Budweiser beer (Can)",
+        "url": "https://www.jiuhuar.com/craftbeer/579975ea526c6001c3f3a1c6.html",
+        "value": 2.0
+      },
+      {
+        "title": "百威 淡色拉格-Budweiser Pale Lager",
+        "url": "https://www.jiuhuar.com/craftbeer/5731b581526c60171a5c295e.html",
+        "value": 2.29
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/6050b944526c602050b0ec47.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/611cbbad526c60360368afd0.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5768fa39526c6036b1c6dd1b.html",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "strong-user",
+    "name": "强爽",
+    "status": "ambiguous",
+    "identityDecision": "未发现可对应原词的专业啤酒评分页。公开品牌页显示RIO强爽，集团公开可见文字将RIO归为预调鸡尾酒；未进入年龄验证后的区域。可能是预调酒，具体口味未定，不给啤酒分。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。",
+    "selected": null,
+    "candidateSources": [
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/576765c4526c600e0f42fbaa.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/613466c779011279e299ba8a.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/600e42fa790112110b7f342b.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5b6966e0526c604c9ec5e95d.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/56e13d6f8b15e6e6e1d464f5.html",
+        "value": null
+      },
+      {
+        "title": "RIO强爽",
+        "url": "https://www.rioalc.com/r-i-oqiangshuang.html",
+        "value": null
+      },
+      {
+        "title": "上海巴克斯酒业_RIO锐澳鸡尾酒_百润投资控股集团",
+        "url": "https://www.bairun.net/RIO.html",
+        "value": null
+      }
+    ]
+  },
+  {
+    "id": "laoshan",
+    "name": "崂山啤酒",
+    "status": "ambiguous",
+    "identityDecision": "“崂山啤酒”有8°、11°P、金麦、精品等条目；普通8°只是代表候选，不能视为所有崂山的评分。",
+    "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。",
+    "selected": {
+      "url": "https://www.jiuhuar.com/craftbeer/5775e0e0526c6036b1c7e650.html",
+      "title": "崂山啤酒 8º-Laoshan Beer 8º",
+      "platform": "酒花儿",
+      "scale": 5,
+      "value": 2.09,
+      "count": 39,
+      "countType": "reviews",
+      "abv": 3.1,
+      "style": "拉格啤酒  淡色拉格",
+      "country": "中国",
+      "checkedAt": "2026-09-27",
+      "evidenceFile": "evidence/de222407bd4dabf5.json"
+    },
+    "candidateSources": [
+      {
+        "title": "崂山啤酒 8º-Laoshan Beer 8º",
+        "url": "https://www.jiuhuar.com/craftbeer/5775e0e0526c6036b1c7e650.html",
+        "value": 2.09
+      },
+      {
+        "title": "崂山啤酒 11°P（易拉罐）-Laoshan 4.7% 11°P (Can)",
+        "url": "https://www.jiuhuar.com/craftbeer/5734270a526c6027de5936e5.html",
+        "value": 2.68
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/598804527901122e1c2c950f.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5b6407af526c604c9eafa609.html",
+        "value": null
+      },
+      {
+        "title": null,
+        "url": "https://www.jiuhuar.com/craftbeer/5b64057c7901125157c14c68.html",
+        "value": null
+      }
+    ]
+  }
+]

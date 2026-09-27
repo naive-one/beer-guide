@@ -1,0 +1,35 @@
+{
+  "version": "1.3.0",
+  "checkedAt": "2026-09-27",
+  "checksPassed": 22,
+  "checks": [
+    "all cards + map entries + index buttons + table rows, no pagination",
+    "fresh-only per-unit default excludes legacy snapshots",
+    "coverage counters match dataset",
+    "all detail dialogs contain evaluations, quote status, budget guidance and score provenance",
+    "calculated page label and half-cent display preserve unrounded price",
+    "unknown score, editorial budget, and related-version score have distinct accessible labels",
+    "evidence-only chart toggle does not hide the other cards",
+    "platform filter and restore-all button",
+    "comment count never masquerades as rating sample size",
+    "historical exclusion changes calculation, not full-view visibility",
+    "same-style frontiers retain distinct styles",
+    "budget library filter uses only scope-selected quotes",
+    "actual quote overrides ambiguous source and recalculates frontier",
+    "personal quote and score serialize and round-trip using native localStorage after reload",
+    "personal mode does not backfill missing personal scores with community scores",
+    "three-item comparison cap and dialog",
+    "accessible complete data table",
+    "all registered source links and safe external-link attributes",
+    "personal JSON export produces expected contents",
+    "personal JSON import validates and restores records",
+    "390/768/1440px responsive layouts retain all entries with no page horizontal overflow",
+    "no JavaScript runtime errors across all exercised flows"
+  ],
+  "jsErrors": [],
+  "limitations": [
+    "Verified on a local HTTP origin with native localStorage, not a deployed production site.",
+    "Screenshots captured; visual review is a separate independent review, not an automated pixel assertion.",
+    "No Cloudflare account or deployment changed."
+  ]
+}

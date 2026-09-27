@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/5dd6a3fb8ba5b085748b456b.html",
+  "title": "比尔斯基 乌奎尔 皮尔森 -Plzeňský Prazdroj Pilsner Urquell Czech Pilsner",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:48:58.579895+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 3.56,
+  "count": 273,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "3.56 / 5; 273 reviews",
+  "rawEvidenceSha256": "c17f7c15cd967109cbdff86b2f30d304cd11d11577db09e09eb61b50c9daf89d"
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://www.jiuhuar.com/craftbeer/57e893f9526c60193de15568.html",
+  "title": "百帝王 小麦-Benediktiner Weissbier",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:46:59.990508+00:00",
+  "httpStatus": 200,
+  "platform": "酒花儿",
+  "scale": 5,
+  "value": 2.98,
+  "count": 62,
+  "countType": "reviews",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "2.98 / 5; 62 reviews",
+  "rawEvidenceSha256": "83260dd5060de913e1250d7d3e02979f08526ddfe1a169e471063701ac177b3d"
+}

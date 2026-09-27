@@ -1,0 +1,15 @@
+{
+  "url": "https://untappd.com/b/tsingtao-brewery-augerta-a3/6103285",
+  "title": "Augerta A3 - Tsingtao (青岛啤酒) Brewery - Untappd",
+  "checkedAt": "2026-09-27",
+  "fetchedAt": "2026-09-27T09:49:08.496858+00:00",
+  "httpStatus": 200,
+  "platform": "Untappd",
+  "scale": 5,
+  "value": 2.86,
+  "count": 80,
+  "countType": "ratings",
+  "evidenceType": "Primary page numerical fields; long descriptions and reviews omitted",
+  "scoreExcerpt": "2.86 / 5; 80 ratings",
+  "rawEvidenceSha256": "c6ad47836459f391b9bd5484c9fb5d04b870f5ac4e1a718d97684b9e9fdc5e21"
+}
