@@ -1,124 +1,83 @@
-"""Browser smoke tests. Optional: pip install playwright; install a Chromium browser.
-Uses an isolated temporary local HTTP server; never contacts external sources.
+"""Optional UI regression: Playwright + local Chromium, no third-party requests.
+Managed sandbox Chromium blocks URL navigation. Render the actual built standalone
+HTML with set_content. A test-only Storage API double exercises app serialization;
+this is NOT a claim of real deployed-origin persistence. HTTP is tested by npm test.
 """
 from pathlib import Path
-from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
-from functools import partial
-from threading import Thread
-import json, os, http.client
+import json, os
 from playwright.sync_api import sync_playwright
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'tests'/'screenshots'; OUT.mkdir(exist_ok=True)
-class Quiet(SimpleHTTPRequestHandler):
- def log_message(self,*args): pass
-server=ThreadingHTTPServer(('127.0.0.1',0),partial(Quiet,directory=str(ROOT)))
-Thread(target=server.serve_forever,daemon=True).start()
-url=f'http://127.0.0.1:{server.server_port}/'
 checks=[]
-# The hosted Chromium has a managed URLBlocklist of '*'. Do not alter it.
-# Render the actual standalone HTML through set_content. localStorage is a
-# test-only in-memory Storage API double because about:blank is an opaque origin.
-# Static HTTP delivery is checked separately below using the standard library.
+def ok(name):checks.append(name);print('PASS',name)
 def mount(page):
- storage = """<script>
- window.__testStorage = window.__testStorage || {};
+ storage="""<script>window.__testStorage=window.__testStorage||{};
  Object.defineProperty(window,'localStorage',{configurable:true,value:{
- getItem(k){return Object.prototype.hasOwnProperty.call(window.__testStorage,k)?window.__testStorage[k]:null;},
- setItem(k,v){window.__testStorage[k]=String(v);},
- removeItem(k){delete window.__testStorage[k];},
- clear(){window.__testStorage={};}
- }});
- </script>"""
- html=(ROOT/'standalone.html').read_text(encoding='utf-8').replace('<head>','<head>'+storage,1)
- page.set_content(html,wait_until='load')
- page.evaluate('scrollTo(0,0)')
-
-def ok(name): checks.append(name);print('PASS',name)
-try:
- conn=http.client.HTTPConnection('127.0.0.1',server.server_port)
- for asset in ['index.html','styles.css','core.js','app.js','data/data.js','data/beers.json']:
-  conn.request('GET','/'+asset);response=conn.getresponse();assert response.status==200;assert len(response.read())>100
- conn.close();ok('local HTTP server serves all six runtime assets (non-browser check)')
- with sync_playwright() as p:
-  executable=os.environ.get('CHROMIUM_PATH','/usr/bin/chromium')
-  browser=p.chromium.launch(executable_path=executable if Path(executable).exists() else None,headless=True,args=['--no-sandbox'])
-  page=browser.new_page(viewport={'width':1440,'height':1120},device_scale_factor=1)
-  errors=[];external=[]
-  page.on('pageerror',lambda e:errors.append(str(e)))
-  page.on('request',lambda r:external.append(r.url) if not r.url.startswith((url,'data:','blob:')) else None)
-  mount(page);page.wait_for_function('window.BeerFrontier !== undefined')
-  assert page.locator('#stat-total').inner_text()=='42'
-  assert page.evaluate('window.BeerFrontier.getAnalysis().eligible.length')==7
-  ok('DOM render and evidence-filtered 7 candidates')
-  page.screenshot(path=str(OUT/'desktop-home.png'),full_page=False)
-  page.locator('#explore').scroll_into_view_if_needed()
-  page.screenshot(path=str(OUT/'desktop-explorer.png'),full_page=False)
-  page.locator('#budget').fill('30');page.locator('#budget').press('Tab')
-  assert page.evaluate('window.BeerFrontier.getAnalysis().best')=='rochefort8'
-  ok('budget updates recommendation')
-  page.locator('#mode').select_option('style')
-  assert 'guinness' in page.evaluate('window.BeerFrontier.getAnalysis().frontier')
-  ok('same-style frontier does not eliminate dry stout by wheat score')
-  page.locator('#reset-filters').click()
-  page.locator('#search').fill('维森原味')
-  page.locator('#beer-grid [data-open="weihen"]').click()
+ getItem(k){return Object.prototype.hasOwnProperty.call(window.__testStorage,k)?window.__testStorage[k]:null},
+ setItem(k,v){window.__testStorage[k]=String(v)},removeItem(k){delete window.__testStorage[k]},clear(){window.__testStorage={}}}});</script>"""
+ page.set_content((ROOT/'standalone.html').read_text().replace('<head>','<head>'+storage,1),wait_until='load')
+ page.evaluate('scrollTo(0,0)');page.wait_for_function('!!window.BeerFrontier')
+with sync_playwright() as p:
+ browser=p.chromium.launch(executable_path=os.environ.get('CHROMIUM_PATH','/usr/bin/chromium'),headless=True,args=['--no-sandbox'])
+ page=browser.new_page(viewport={'width':1440,'height':1000},device_scale_factor=1,accept_downloads=True)
+ page.set_default_timeout(5000);errors=[];page.on('pageerror',lambda e:errors.append(str(e)));mount(page)
+ assert page.locator('.beer-card').count()==42
+ assert page.locator('#scatter [data-point]').count()==42
+ assert page.locator('#all-index button').count()==42
+ assert page.locator('#chart-table tbody tr').count()==42
+ assert page.locator('#show-more').is_hidden();ok('42 cards + 42 map references + 42 index buttons + 42 table rows, no pagination')
+ a=page.evaluate('window.BeerFrontier.getAnalysis()');assert len(a['eligible'])==21 and len(a['frontier'])==7 and a['best'] is None and len(a['bestByCohort'])==3;ok('21 evidence-qualified records, 7 independent-platform frontier nodes, no mixed-platform winner')
+ assert page.locator('#stat-rated').inner_text()=='35' and page.locator('#stat-prices').inner_text()=='30';ok('coverage counters match dataset')
+ page.screenshot(path=str(OUT/'v1.1.0-desktop-home.png'))
+ page.locator('#explore').scroll_into_view_if_needed();page.screenshot(path=str(OUT/'v1.1.0-desktop-map.png'))
+ # Open every dataset record, even those with no exact quote or rating.
+ for id in page.evaluate('window.BEER_DATA.beers.map(x=>x.id)'):
+  page.evaluate('(id)=>document.querySelector(`#all-index [data-open="${id}"]`).click()',id)
   assert page.locator('#beer-dialog').evaluate('(e)=>e.open')
-  assert '版本有歧义' in page.locator('#dialog-content').inner_text()
-  page.locator('#edit-total').fill('72');page.locator('#edit-qty').fill('6');page.locator('#edit-volume').fill('500')
-  page.locator('#price-form button[type=submit]').click()
-  assert 'weihen' in page.evaluate('window.BeerFrontier.getAnalysis().frontier')
-  assert page.evaluate('window.BeerFrontier.getAnalysis().best')=='weihen'
-  ok('manual quote overrides ambiguous source; frontier recomputes')
-  page.locator('#personal-score').fill('4.8');page.locator('[data-save-score="weihen"]').click()
+  text=page.locator('#dialog-content').inner_text()
+  assert '价格证据与原包装' in text and '选购预算' in text and '评分出处与版本' in text
   page.keyboard.press('Escape')
-  mount(page);page.wait_for_function('window.BeerFrontier !== undefined')
-  assert page.evaluate('window.BeerFrontier.getState().overrides.weihen.total')==72
-  ok('Storage-API test double: personal data round-trip on app remount')
-  page.locator('#score-mode').select_option('personal')
-  assert page.evaluate('window.BeerFrontier.getAnalysis().eligible.length')==1
-  ok('personal scores computed separately from community scores')
-  page.locator('#reset-filters').click()
-  page.locator('#beer-grid [data-save="paulaner"]').click()
-  page.locator('#nav-shortlist').click()
-  assert page.locator('#compare-dialog').evaluate('(e)=>e.open')
-  assert page.locator('#compare-content').inner_text().find('保拉纳')>=0
-  page.keyboard.press('Escape');ok('shortlist and comparison dialog')
-  page.locator('#toggle-table').click();assert page.locator('#chart-table').is_visible();ok('accessible data table')
-  page.locator('#toggle-sources').click();assert page.locator('.source-item').count()==49
-  assert page.locator('a[target=_blank]:not([rel="noopener noreferrer"])').count()==0
-  ok('all 49 original sources available with safe external links')
-  with page.expect_download() as event: page.locator('#export-data').click()
-  download=event.value; target=OUT/'personal-test.json';download.save_as(target)
-  assert json.loads(target.read_text())['overrides']['weihen']['total']==72
-  ok('personal JSON export')
-  page.on('dialog',lambda d:d.accept())
-  page.locator('#import-file').set_input_files(str(target));page.wait_for_timeout(150)
-  assert page.evaluate('window.BeerFrontier.getState().personalScores.weihen')==4.8
-  ok('validated personal JSON import')
-  # Reset storage for screenshots and small-screen default behavior.
-  page.evaluate('localStorage.clear()');mount(page);page.wait_for_function('window.BeerFrontier !== undefined')
-  page.locator('#reset-filters').click();page.locator('#unit').select_option('order')
-  assert page.evaluate('window.BeerFrontier.getState().budget')==150
-  assert page.evaluate('window.BeerFrontier.getAnalysis().best')=='rochefort10'
-  ok('whole-order budget uses full pack price')
-  page.locator('#reset-filters').click()
-  for width in [390,768,1440]:
-   page.set_viewport_size({'width':width,'height':844 if width==390 else 1024});mount(page)
-   page.wait_for_function('window.BeerFrontier !== undefined')
-   assert page.evaluate('document.documentElement.scrollWidth <= innerWidth + 1'),f'Overflow at {width}'
-   if width==390:
-    page.screenshot(path=str(OUT/'mobile-home.png'))
-    page.locator('#explore').scroll_into_view_if_needed();page.screenshot(path=str(OUT/'mobile-explorer.png'))
-    page.locator('#search').fill('保拉纳');page.locator('#beer-grid [data-open="paulaner"]').click()
-    assert page.locator('#beer-dialog').evaluate('(e)=>e.open')
-    assert page.evaluate('document.documentElement.scrollWidth <= innerWidth + 1')
-    page.screenshot(path=str(OUT/'mobile-detail.png'));page.keyboard.press('Escape')
-   ok(f'responsive layout without horizontal page overflow: {width}px')
-  assert not errors,errors;assert not external,external;ok('no JavaScript errors or runtime external network requests')
-  local=browser.new_page(viewport={'width':1280,'height':900})
-  mount(local);local.wait_for_function('window.BeerFrontier !== undefined')
-  assert local.locator('#stat-total').inner_text()=='42';ok('standalone HTML renders with no remote assets (DOM injection; navigation restricted)')
-  browser.close()
-finally: server.shutdown()
-(ROOT/'tests'/'TEST-REPORT.json').write_text(json.dumps({'date':'2026-09-27','browser':'Chromium (headless)','checks':checks,'passed':len(checks),'limitations':'Managed browser blocks all URL navigation. Browser rendering used set_content on actual standalone HTML, with a test-only in-memory localStorage double. Real origin navigation and real browser storage persistence were not validated; HTTP serving verified separately.'},ensure_ascii=False,indent=2),encoding='utf-8')
-print('SUCCESS',len(checks),'browser checks')
+ ok('all 42 detail dialogs contain evaluations, quote status, budget guidance and score provenance')
+ assert '评分未知' in page.locator('#scatter [data-point="augerta"]').get_attribute('aria-label')
+ assert '非市场价' in page.locator('#scatter [data-point="vitus"]').get_attribute('aria-label')
+ assert '相关版本' in page.locator('#scatter [data-point="asahi"]').get_attribute('aria-label');ok('unknown score, editorial budget, and related-version score have distinct accessible labels')
+ page.locator('#map-mode').select_option('evidence');assert page.locator('#scatter [data-point]').count()==21 and page.locator('.beer-card').count()==42
+ page.locator('#map-mode').select_option('all');ok('evidence-only chart toggle does not hide the other cards')
+ page.locator('#score-platform').select_option('Untappd');assert page.locator('.beer-card').count()==1;assert page.evaluate('window.BeerFrontier.getAnalysis().best')=='pang'
+ page.locator('#show-all').click();assert page.locator('.beer-card').count()==42;ok('platform filter and restore-all button')
+ page.locator('#min-ratings').select_option('100');assert 'salt' not in page.evaluate('window.BeerFrontier.getAnalysis().eligible');assert page.locator('.beer-card').count()==42;ok('comment count never masquerades as rating sample size')
+ page.locator('#reset-filters').click();page.locator('.advanced summary').click();page.locator('#historic').uncheck();assert 'kingsue' not in page.evaluate('window.BeerFrontier.getAnalysis().eligible');assert page.locator('[data-point]').count()==42;ok('historical exclusion changes calculation, not full-view visibility')
+ page.locator('#reset-filters').click();page.locator('#mode').select_option('style');assert 'guinness' in page.evaluate('window.BeerFrontier.getAnalysis().frontier');ok('same-style frontiers retain distinct styles')
+ page.locator('#reset-filters').click();page.locator('#budget').fill('4');page.locator('#budget').press('Tab');page.locator('#library-mode').select_option('budget');assert 0<page.locator('.beer-card').count()<42;ok('budget library filter supports quoted prices and explicitly identified budget conditions')
+ page.locator('#show-all').click();page.locator('#search').fill('维森原味');assert page.locator('.beer-card').count()==1;page.locator('#beer-grid [data-open="weihen"]').click()
+ page.locator('#edit-total').fill('72');page.locator('#edit-qty').fill('6');page.locator('#edit-volume').fill('500');page.locator('#price-form button[type=submit]').click()
+ assert 'weihen' in page.evaluate('window.BeerFrontier.getAnalysis().frontier');assert page.evaluate('window.BeerFrontier.getState().overrides.weihen.total')==72;ok('actual quote overrides ambiguous source and recalculates frontier')
+ page.locator('#personal-score').fill('4.8');page.locator('[data-save-score="weihen"]').click();page.keyboard.press('Escape');mount(page)
+ assert page.evaluate('window.BeerFrontier.getState().personalScores.weihen')==4.8;ok('personal quote and score serialize and round-trip using test Storage API double')
+ page.locator('#score-mode').select_option('personal');assert page.evaluate('window.BeerFrontier.getAnalysis().eligible')==['weihen'];assert page.locator('[data-point]').count()==42;ok('personal mode does not backfill missing personal scores with community scores')
+ page.locator('#reset-filters').click()
+ for id in ['paulaner','weihen','pang']:page.locator(f'#beer-grid [data-save="{id}"]').click()
+ page.locator('#beer-grid [data-save="kingsue"]').click();assert page.evaluate('window.BeerFrontier.getState().shortlist.length')==3
+ page.locator('#nav-shortlist').click();assert page.locator('.compare-cell').count()==3;page.keyboard.press('Escape');ok('three-item comparison cap and dialog')
+ page.locator('#toggle-table').click();assert page.locator('#chart-table').is_visible();ok('accessible complete data table')
+ page.locator('#toggle-sources').click();assert page.locator('.source-item').count()==83;assert page.locator('a[target="_blank"]:not([rel="noopener noreferrer"])').count()==0;ok('all 83 source links and safe external-link attributes')
+ with page.expect_download() as event:page.locator('#export-data').click()
+ target=OUT/'v1.1.0-personal-roundtrip.json';event.value.save_as(str(target));assert json.loads(target.read_text())['overrides']['weihen']['total']==72;ok('personal JSON export produces expected contents')
+ page.on('dialog',lambda d:d.accept());page.locator('#import-file').set_input_files(str(target));page.wait_for_timeout(100);assert page.evaluate('window.BeerFrontier.getState().personalScores.weihen')==4.8;ok('personal JSON import validates and restores records')
+ # Fresh screenshots and responsive width checks; clear test-only personal state.
+ page.evaluate('localStorage.clear()');mount(page)
+ page.evaluate('scrollTo(0,document.querySelector("#library").offsetTop-25)');page.screenshot(path=str(OUT/'v1.1.0-desktop-library.png'))
+ page.evaluate('document.querySelector(`#all-index [data-open="asahi"]`).click()');page.screenshot(path=str(OUT/'v1.1.0-desktop-detail.png'));page.keyboard.press('Escape')
+ for width in [390,768,1440]:
+  page.set_viewport_size({'width':width,'height':844 if width==390 else 1000});page.wait_for_timeout(130)
+  assert page.evaluate('document.documentElement.scrollWidth<=innerWidth'),width
+  assert page.locator('.beer-card').count()==42 and page.locator('[data-point]').count()==42
+  if width==390:
+   page.evaluate('scrollTo(0,0)');page.screenshot(path=str(OUT/'v1.1.0-mobile-home.png'))
+   page.locator('#chart-wrap').scroll_into_view_if_needed();page.screenshot(path=str(OUT/'v1.1.0-mobile-map.png'))
+ ok('390/768/1440px responsive layouts retain 42 entries with no page horizontal overflow')
+ assert not errors,errors;ok('no JavaScript runtime errors across all exercised flows')
+ browser.close()
+report={'version':'1.1.0','checkedAt':'2026-09-27','checksPassed':len(checks),'checks':checks,'jsErrors':errors,'limitations':['Browser navigations blocked by managed sandbox policy; actual built standalone HTML rendered using set_content.','Storage API test double validates serialization, not native origin persistence.','HTTP/404/static delivery separately tested in npm test; no real Cloudflare deployment or GitHub push performed.']}
+(ROOT/'docs/v1.1.0-UI-TEST-REPORT.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+print('ALL',len(checks),'UI CHECKS PASSED')

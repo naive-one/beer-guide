@@ -1,6 +1,6 @@
 {
   "name": "beer-guide",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "private": true,
   "description": "啤酒前沿：可追溯价格与口碑的本地优先帕累托探索网站",
   "license": "MIT",

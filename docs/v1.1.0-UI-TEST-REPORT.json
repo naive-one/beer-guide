@@ -1,0 +1,34 @@
+{
+  "version": "1.1.0",
+  "checkedAt": "2026-09-27",
+  "checksPassed": 21,
+  "checks": [
+    "42 cards + 42 map references + 42 index buttons + 42 table rows, no pagination",
+    "21 evidence-qualified records, 7 independent-platform frontier nodes, no mixed-platform winner",
+    "coverage counters match dataset",
+    "all 42 detail dialogs contain evaluations, quote status, budget guidance and score provenance",
+    "unknown score, editorial budget, and related-version score have distinct accessible labels",
+    "evidence-only chart toggle does not hide the other cards",
+    "platform filter and restore-all button",
+    "comment count never masquerades as rating sample size",
+    "historical exclusion changes calculation, not full-view visibility",
+    "same-style frontiers retain distinct styles",
+    "budget library filter supports quoted prices and explicitly identified budget conditions",
+    "actual quote overrides ambiguous source and recalculates frontier",
+    "personal quote and score serialize and round-trip using test Storage API double",
+    "personal mode does not backfill missing personal scores with community scores",
+    "three-item comparison cap and dialog",
+    "accessible complete data table",
+    "all 83 source links and safe external-link attributes",
+    "personal JSON export produces expected contents",
+    "personal JSON import validates and restores records",
+    "390/768/1440px responsive layouts retain 42 entries with no page horizontal overflow",
+    "no JavaScript runtime errors across all exercised flows"
+  ],
+  "jsErrors": [],
+  "limitations": [
+    "Browser navigations blocked by managed sandbox policy; actual built standalone HTML rendered using set_content.",
+    "Storage API test double validates serialization, not native origin persistence.",
+    "HTTP/404/static delivery separately tested in npm test; no real Cloudflare deployment or GitHub push performed."
+  ]
+}

@@ -1,25 +1,9 @@
-# 1.0.1 本地验收记录
+# v1.1.0 验收
 
-日期：2026-09-27。Node.js 22.16.0，Linux 本地执行。
+运行npm run build && npm test：30项通过。运行python tests/ui_smoke.py：21项检查通过。详情见v1.1.0-CORE-TEST-REPORT.txt、v1.1.0-UI-TEST-REPORT.json。
 
-## 本次实际完成
+界面检查涵盖42条目四处完整展示、所有弹窗、平台/样本/历史过滤、真实报价覆盖、个人分、导入导出、对比与390/768/1440px宽度。构建测试另检验部署文件白名单、404和静态HTTP响应。
 
-- `npm run check`：构建成功，22 项 Node 测试通过、0 失败。
-- 前沿算法与数据口径：15 项原有测试通过。
-- 部署相关：Workers 配置、干净构建、构建确定性、dist 文件白名单、源码与产物一致性、本机 HTTP 响应与 404 检查通过。
-- 发布保护：路径/敏感文件排除、交付校验和、远端内容冲突保护测试通过。
-- 对 5 个 JavaScript 文件执行 `node --check`，语法检查通过。
-- `index.html`、`styles.css`、`app.js`、`core.js`、两份研究数据和 `standalone.html` 与原版逐字节一致。此次未重写界面、改变评价数据或调整前沿算法。
+受管Chromium禁止URL导航，本轮UI用实际构建后的standalone.html在set_content中渲染；Storage替身仅在测试中用于检查序列化。没有绕过策略，没有把替身加入生产代码。测试不证明已验证真实域名持久化或完成Cloudflare/GitHub部署。
 
-完整本次 Node 测试输出见 `TEST-REPORT.txt`。原版界面截图和旧报告仍保留，旧报告另有 `v1.0.0-` 前缀，不冒充本次重新运行的 UI 测试。
-
-## 尚未完成，不能宣称成功
-
-- GitHub 远程提交：本次连接可读取仓库，但可用连接器没有写入操作；命令行 Git 克隆失败，错误为 `Could not resolve host: github.com`。没有向远端写入任何文件，也没有提交 SHA。
-- `publish-github.mjs` 的联网克隆/认证/提交/推送端到端流程，需在具有 GitHub 写入认证的用户环境执行。当前只验证其本地保护逻辑。
-- 未执行 Wrangler 的真实部署或 Cloudflare 账户写入；纯静态配置依照官方文档准备，尚未在用户账户构建验收。
-- 未重新运行浏览器 UI 测试。原版 UI 未变，但真实 Cloudflare URL、HTTPS、响应头、浏览器 localStorage 跨会话持久化仍须上线后验收。
-
-## 用户部署后最小验收
-
-打开首页和一个酒款弹窗；修改预算；保存一个自定义价格后刷新；导出/导入 JSON；手机宽度检查；确认不存在的 JS 路径返回 HTTP 404。换域名时手动导出导入个人数据。
+旧v1.0.0报告只作历史记录，不代表新版基线。

@@ -27,7 +27,7 @@
           "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
         },
         "scorePlatform": {
-          "const": "BeerAdvocate"
+          "type": "string"
         },
         "scoreScale": {
           "const": 5
@@ -121,11 +121,16 @@
         "value",
         "count",
         "sourceId",
-        "checkedAt"
+        "checkedAt",
+        "countType"
       ],
       "properties": {
         "platform": {
-          "const": "BeerAdvocate"
+          "enum": [
+            "BeerAdvocate",
+            "酒花儿",
+            "Untappd"
+          ]
         },
         "scale": {
           "const": 5
@@ -144,6 +149,12 @@
         },
         "checkedAt": {
           "type": "string"
+        },
+        "countType": {
+          "enum": [
+            "ratings",
+            "reviews"
+          ]
         }
       }
     },
@@ -176,7 +187,8 @@
             "review",
             "price",
             "official",
-            "report"
+            "report",
+            "spec"
           ]
         },
         "evidence": {
@@ -217,7 +229,10 @@
         "originalList",
         "aliases",
         "identityNote",
-        "identityPending"
+        "identityPending",
+        "purchaseGuide",
+        "coverage",
+        "researchNote"
       ],
       "properties": {
         "id": {
@@ -330,6 +345,32 @@
               "items": {
                 "type": "string"
               }
+            }
+          }
+        },
+        "relatedRating": {
+          "$ref": "#/$defs/rating"
+        },
+        "purchaseGuide": {
+          "type": "object",
+          "required": [
+            "ceiling",
+            "volumeMl",
+            "type",
+            "label",
+            "note"
+          ],
+          "properties": {
+            "ceiling": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "volumeMl": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "type": {
+              "const": "editorial-ceiling"
             }
           }
         }

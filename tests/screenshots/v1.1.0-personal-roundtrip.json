@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-09-27T08:27:42.088Z",
+  "datasetVersion": "1.1.0",
+  "overrides": {
+    "weihen": {
+      "total": 72,
+      "quantity": 6,
+      "volumeMl": 500,
+      "checkedAt": "2026-09-27",
+      "note": "用户自行填写的总支出；商品身份与运费由用户核对。"
+    }
+  },
+  "personalScores": {
+    "weihen": 4.8
+  },
+  "shortlist": [
+    "paulaner",
+    "weihen",
+    "pang"
+  ]
+}
