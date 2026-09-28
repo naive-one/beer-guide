@@ -220,9 +220,12 @@ window.BEER_META = {
     pointInfo.forEach(p=>{
       html += `<circle class="point ${frontierIds.has(p.b.id)?'frontier-point':'normal-point'}" data-id="${p.b.id}" cx="${p.cx}" cy="${p.cy}" r="${p.r}"/>`;
     });
-    const labelWidth=name=>{
-      const units=[...name].reduce((n,ch)=>n+(ch.charCodeAt(0)>255?1.75:1),0);
-      return Math.max(66,Math.min(142,20+units*5.8));
+    const labelWidth=b=>{
+      const textUnits=s=>[...String(s)].reduce((n,ch)=>n+(ch.charCodeAt(0)>255?1.75:1),0);
+      const metric=`¥${b.unit500.toFixed(2)} /500ml · ${b.rating.toFixed(2)}`;
+      const nameW=20+textUnits(b.name)*5.8;
+      const metricW=20+textUnits(metric)*5.2;
+      return Math.max(78,Math.min(178,Math.max(nameW,metricW)));
     };
     const intersects=(a,b,gap=2)=>!(a.x+a.w+gap<=b.x||b.x+b.w+gap<=a.x||a.y+a.h+gap<=b.y||b.y+b.h+gap<=a.y);
     const circleHitsBox=(p,b,gap=3)=>{
@@ -240,7 +243,7 @@ window.BEER_META = {
     let shown=0;
     for(const p of ordered){
       if(shown>=maxLabels && !frontierIds.has(p.b.id)) continue;
-      const lw=labelWidth(p.b.name), lh=31, off=p.r+7;
+      const lw=labelWidth(p.b), lh=31, off=p.r+7;
       const candidates=[
         {x:p.cx+off,y:p.cy-lh-4},{x:p.cx+off,y:p.cy+4},
         {x:p.cx-off-lw,y:p.cy-lh-4},{x:p.cx-off-lw,y:p.cy+4},
