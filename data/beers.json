@@ -3,28 +3,28 @@
   "meta": {
     "title": "啤酒前沿",
     "english": "BEER FRONTIER",
-    "snapshotDate": "2026-09-27",
+    "snapshotDate": "2026-09-28",
     "currency": "CNY",
     "market": "中国大陆零售参考样本",
     "scorePlatform": "分平台：BeerAdvocate / 酒花儿 / Untappd",
     "scoreScale": 5,
-    "scope": "主库67款，当前展示40款；原始榜单归档保留，具名代表款不等于原始名称已确认。",
-    "pricePolicy": "默认每件（瓶／罐／桶），仅使用已核对最大同款包装的淘宝显示／补贴价快照。旧样本单独切换，未采集价格保持待补。",
+    "scope": "主库70款；网站只展示价格、容量、评分都齐全且无明显规格歧义的条目。",
+    "pricePolicy": "默认按瓶／罐／桶记录；价格来源包括已核对的电商快照与用户明确提供的购买价格。",
     "reviewPolicy": "保留原平台均分与样本口径；不同平台之间不相互支配。版本未匹配的相关评价只供阅读，不进入前沿。",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "coverage": {
-      "entries": 67,
-      "matchedRatings": 59,
+      "entries": 70,
+      "matchedRatings": 39,
       "relatedOnlyRatings": 6,
       "priceSnapshots": 41,
       "editorialBudgetGuides": 42,
-      "sources": 218,
+      "sources": 226,
       "rankedEntries": 49,
       "freshTaobaoQuotes": 40,
       "versionMatchedTaobaoQuotes": 38,
       "ambiguousTaobaoQuotes": 2,
       "representatives": 25,
-      "ratingAudited": 67,
+      "ratingAudited": 70,
       "relatedAudits": 7,
       "missingActiveRatings": 8,
       "taobaoPending": 27
@@ -4357,56 +4357,61 @@
     },
     {
       "id": "tsingtao-white",
-      "name": "青岛全麦白啤",
-      "english": "Tsingtao Wheat Beer",
+      "name": "青岛白啤",
+      "english": "Tsingtao White Beer",
       "family": "wheat",
-      "style": "小麦白啤",
+      "style": "小麦啤酒 Hefeweizen",
       "country": "中国",
       "abv": 4.1,
       "volumeMl": 500,
-      "rating": null,
+      "rating": {
+        "platform": "Untappd",
+        "scale": 5,
+        "value": 3.14,
+        "count": 132,
+        "countType": "ratings",
+        "sourceId": "rating-untappd-tsingtao-white-20260928",
+        "checkedAt": "2026-09-28",
+        "note": "Untappd同名“白啤”条目，4.1% ABV；页面显示3.14/5、132 Ratings。"
+      },
       "tags": [
         "小麦",
-        "国产白啤"
+        "香蕉",
+        "清爽"
       ],
       "review": {
-        "positive": "本页收录青岛全麦白啤500ml、4.1%／11°P版本。",
-        "caution": "旧版3.7%与新找到的4.1%白啤页面都未确认匹配这一全麦规格，评分仅供参考。",
-        "fit": "想尝试国产白啤，先核对包装与规格。",
+        "positive": "小麦和香蕉香比较明显，整体顺口，属于容易喝的白啤路线。",
+        "caution": "这里按4.1%版本记录；青岛白啤还有其他历史版本，别把不同酒精度的评分混在一起。",
+        "fit": "喜欢小麦香、口感柔和，又想控制预算。",
         "sourceIds": [
-          "spec-tsing",
-          "jh-tsing-white"
+          "rating-untappd-tsingtao-white-20260928",
+          "user-price-tsingtao-white-20260928"
         ],
-        "type": "风味整理自公开资料，非本站试饮。"
+        "type": "风味为公开评价的简要整理。"
       },
       "quote": {
-        "total": 79.8,
+        "total": 59,
         "quantity": 12,
         "volumeMl": 500,
         "currency": "CNY",
-        "sourceId": "research-price-6bcf2d161d3cd6a8",
-        "checkedAt": "2026-09-27",
+        "sourceId": "user-price-tsingtao-white-20260928",
+        "checkedAt": "2026-09-28",
         "historical": false,
         "ambiguous": false,
-        "priceBasis": "taobao-displayed-snapshot",
-        "selectedSku": "全麦白啤500ml*12听（商品页唯一包装）",
-        "skuId": null,
-        "itemId": "643020818013",
-        "largestSameBeerPack": true,
-        "note": "淘宝页面显示／补贴价快照；最大同款包装折合单件，不保证结算价或单件可购。",
+        "priceBasis": "user-provided-current-price",
+        "selectedSku": "12听 × 500ml",
+        "largestSameBeerPack": false,
+        "note": "用户明确提供的当前购买价格；未另行核验优惠、运费或地区条件。",
         "provenance": {
-          "inputStatus": "verified-selected-page",
-          "inputPriceBasis": "displayed-subsidy",
-          "listedTotal": 96,
-          "displayedPromotion": 79.8,
-          "evidenceFile": "taobao-evidence/tsingtao-white-item-643020818013.json"
+          "inputStatus": "user-provided",
+          "inputPriceBasis": "user-provided-current-price"
         }
       },
       "originalList": true,
       "aliases": [
         "青岛白啤"
       ],
-      "identityNote": "全麦白500ml、4.1%／11°P版，和旧3.7%版本分开记录。",
+      "identityNote": "本次按4.1%青岛白啤记录。",
       "identityPending": false,
       "relatedRating": {
         "platform": "酒花儿",
@@ -4429,27 +4434,32 @@
       },
       "coverage": {
         "identity": "defined",
-        "price": "observed-snapshot",
-        "rating": "related",
-        "abv": "reference-label"
+        "price": "user-provided",
+        "rating": "matched",
+        "abv": "reference-page"
       },
-      "researchNote": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。",
+      "researchNote": "社区评分来自公开评分平台，只代表该平台用户样本；不同平台样本不能当作严格等价的盲测。",
       "extraSourceIds": [
         "jh-tsing-white"
       ],
       "userTier": "hang",
       "researchAudit": {
         "rating": {
-          "status": "related",
-          "checkedAt": "2026-09-27",
-          "url": "https://www.jiuhuar.com/craftbeer/578f1ee38ba5b00d538b4635.html",
-          "identityDecision": "来源中文虽为全麦白，ABV仍为3.7%；目标4.1%/11°P。只保留旧版相关评分。",
-          "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。"
+          "status": "matched",
+          "checkedAt": "2026-09-28",
+          "url": "https://untappd.com/b/tsingtao-brewery/4229247",
+          "identityDecision": "同名白啤，4.1% ABV，与本次记录版本一致。",
+          "note": "社区评分来自公开评分平台，只代表该平台用户样本；不同平台样本不能当作严格等价的盲测。"
         },
         "taobao": {
           "status": "verified",
           "checkedAt": "2026-09-27",
           "url": "https://detail.tmall.com/item.htm?id=643020818013"
+        },
+        "userPrice": {
+          "status": "user-provided",
+          "checkedAt": "2026-09-28",
+          "note": "12听×500ml，59元。"
         }
       },
       "relatedRatingHistory": [
@@ -4475,6 +4485,24 @@
           "ambiguous": false,
           "note": "旧文标价参考；不采用混装赠品促销摊分价。",
           "checkedAt": "2026-09-27"
+        },
+        {
+          "total": 59,
+          "quantity": 12,
+          "volumeMl": 500,
+          "currency": "CNY",
+          "sourceId": "user-price-tsingtao-white-20260928",
+          "checkedAt": "2026-09-28",
+          "historical": false,
+          "ambiguous": false,
+          "priceBasis": "user-provided-current-price",
+          "selectedSku": "12听 × 500ml",
+          "largestSameBeerPack": false,
+          "note": "用户明确提供的当前购买价格；未另行核验优惠、运费或地区条件。",
+          "provenance": {
+            "inputStatus": "user-provided",
+            "inputPriceBasis": "user-provided-current-price"
+          }
         }
       ],
       "communityRatings": [
@@ -4489,6 +4517,18 @@
           "note": "页面为青岛白啤4.1%，未明确全麦500ml／11°P规格，暂作相关版本参考。",
           "evidenceFile": "research/2026-09-28/evidence/e152eef28fd2e921.json",
           "match": "related"
+        }
+      ],
+      "ratingHistory": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.14,
+          "count": 132,
+          "countType": "ratings",
+          "sourceId": "rating-untappd-tsingtao-white-20260928",
+          "checkedAt": "2026-09-28",
+          "note": "Untappd同名“白啤”条目，4.1% ABV；页面显示3.14/5、132 Ratings。"
         }
       ]
     },
@@ -6998,6 +7038,349 @@
         }
       },
       "representative": true
+    },
+    {
+      "id": "augerta-1903",
+      "name": "青岛啤酒 奥古特1903",
+      "english": "Tsingtao Augerta 1903 12° (Can)",
+      "family": "lager",
+      "style": "淡色拉格",
+      "country": "中国",
+      "abv": 4.7,
+      "volumeMl": 500,
+      "rating": {
+        "platform": "酒花儿",
+        "scale": 5,
+        "value": 2.35,
+        "count": 155,
+        "countType": "reviews",
+        "sourceId": "rating-jiuhuar-augerta1903-20260928",
+        "checkedAt": "2026-09-28",
+        "note": "酒花儿“奥古特1903 12°（易拉罐）”页面显示2.35/5、155条评论。"
+      },
+      "quote": {
+        "total": 129,
+        "quantity": 18,
+        "volumeMl": 500,
+        "currency": "CNY",
+        "sourceId": "user-price-augerta-1903-20260928",
+        "checkedAt": "2026-09-28",
+        "historical": false,
+        "ambiguous": false,
+        "priceBasis": "user-provided-current-price",
+        "selectedSku": "18听 × 500ml",
+        "largestSameBeerPack": false,
+        "note": "用户明确提供的当前购买价格；未另行核验优惠、运费或地区条件。",
+        "provenance": {
+          "inputStatus": "user-provided",
+          "inputPriceBasis": "user-provided-current-price"
+        }
+      },
+      "tags": [
+        "麦香",
+        "微苦",
+        "清爽"
+      ],
+      "review": {
+        "positive": "麦芽香比较明显，入口有一点苦味，整体比普通淡拉格更有味道。",
+        "caution": "这是奥古特1903 12°易拉罐，不是奥古特A3。",
+        "fit": "喜欢工业拉格，但希望麦香和苦味更明显。",
+        "sourceIds": [
+          "rating-jiuhuar-augerta1903-20260928",
+          "user-price-augerta-1903-20260928"
+        ],
+        "type": "风味为公开评价的简要整理。"
+      },
+      "originalList": true,
+      "aliases": [
+        "奥古特1903",
+        "奥古特 1903"
+      ],
+      "identityNote": "本次明确为1903 12°易拉罐。",
+      "identityPending": false,
+      "coverage": {
+        "identity": "defined",
+        "price": "user-provided",
+        "rating": "matched",
+        "abv": "reference-page"
+      },
+      "researchNote": "社区评分来自公开评分平台，只代表该平台用户样本；不同平台样本不能当作严格等价的盲测。",
+      "extraSourceIds": [],
+      "userTier": "hang",
+      "researchAudit": {
+        "rating": {
+          "status": "matched",
+          "checkedAt": "2026-09-28",
+          "url": "https://www.jiuhuar.com/craftbeer/57a31506526c60135b7e6641.html",
+          "identityDecision": "奥古特1903 12°易拉罐，4.7% ABV，名称与包装类型吻合。",
+          "note": "社区评分来自公开评分平台，只代表该平台用户样本；不同平台样本不能当作严格等价的盲测。"
+        },
+        "userPrice": {
+          "status": "user-provided",
+          "checkedAt": "2026-09-28",
+          "note": "18听×500ml，129元。"
+        }
+      },
+      "ratingHistory": [
+        {
+          "platform": "酒花儿",
+          "scale": 5,
+          "value": 2.35,
+          "count": 155,
+          "countType": "reviews",
+          "sourceId": "rating-jiuhuar-augerta1903-20260928",
+          "checkedAt": "2026-09-28",
+          "note": "酒花儿“奥古特1903 12°（易拉罐）”页面显示2.35/5、155条评论。"
+        }
+      ],
+      "quoteHistory": [
+        {
+          "total": 129,
+          "quantity": 18,
+          "volumeMl": 500,
+          "currency": "CNY",
+          "sourceId": "user-price-augerta-1903-20260928",
+          "checkedAt": "2026-09-28",
+          "historical": false,
+          "ambiguous": false,
+          "priceBasis": "user-provided-current-price",
+          "selectedSku": "18听 × 500ml",
+          "largestSameBeerPack": false,
+          "note": "用户明确提供的当前购买价格；未另行核验优惠、运费或地区条件。",
+          "provenance": {
+            "inputStatus": "user-provided",
+            "inputPriceBasis": "user-provided-current-price"
+          }
+        }
+      ]
+    },
+    {
+      "id": "snow-beer",
+      "name": "雪花啤酒",
+      "english": "Snow Beer",
+      "family": "lager",
+      "style": "淡色拉格",
+      "country": "中国",
+      "abv": 4.5,
+      "volumeMl": 500,
+      "rating": {
+        "platform": "Untappd",
+        "scale": 5,
+        "value": 2.65,
+        "count": 16152,
+        "countType": "ratings",
+        "sourceId": "rating-untappd-snow-beer-20260928",
+        "checkedAt": "2026-09-28",
+        "note": "Untappd同名“Snow Beer (雪花啤酒)”通用款，4.5% ABV；页面显示2.65/5、16,152 Ratings。"
+      },
+      "quote": {
+        "total": 70,
+        "quantity": 12,
+        "volumeMl": 500,
+        "currency": "CNY",
+        "sourceId": "user-price-snow-beer-20260928",
+        "checkedAt": "2026-09-28",
+        "historical": false,
+        "ambiguous": false,
+        "priceBasis": "user-provided-current-price",
+        "selectedSku": "12听 × 500ml",
+        "largestSameBeerPack": false,
+        "note": "用户明确提供的当前购买价格；未另行核验优惠、运费或地区条件。",
+        "provenance": {
+          "inputStatus": "user-provided",
+          "inputPriceBasis": "user-provided-current-price"
+        }
+      },
+      "tags": [
+        "清淡",
+        "拉格",
+        "易饮"
+      ],
+      "review": {
+        "positive": "口感清淡、容易喝，是典型的大众淡色拉格。",
+        "caution": "“雪花啤酒”下面版本很多；这里按Untappd同名4.5%通用款记分，不等同于勇闯天涯、纯生或老雪。",
+        "fit": "想要清爽、便宜、没太多负担的日常拉格。",
+        "sourceIds": [
+          "rating-untappd-snow-beer-20260928",
+          "user-price-snow-beer-20260928"
+        ],
+        "type": "风味为公开评价的简要整理。"
+      },
+      "originalList": false,
+      "aliases": [
+        "Snow Beer"
+      ],
+      "identityNote": "用户仅写“雪花啤酒”，按Untappd同名通用款记录，不套用勇闯或纯生评分。",
+      "identityPending": false,
+      "coverage": {
+        "identity": "defined-generic",
+        "price": "user-provided",
+        "rating": "matched-generic",
+        "abv": "reference-page"
+      },
+      "researchNote": "社区评分来自公开评分平台，只代表该平台用户样本；不同平台样本不能当作严格等价的盲测。",
+      "extraSourceIds": [],
+      "researchAudit": {
+        "rating": {
+          "status": "matched-generic",
+          "checkedAt": "2026-09-28",
+          "url": "https://untappd.com/b/china-resources-snow-breweries-snow-beer/229008",
+          "identityDecision": "用户名称与Untappd条目同名；因未给系列名，保留通用款口径。",
+          "note": "社区评分来自公开评分平台，只代表该平台用户样本；不同平台样本不能当作严格等价的盲测。"
+        },
+        "userPrice": {
+          "status": "user-provided",
+          "checkedAt": "2026-09-28",
+          "note": "12听×500ml，70元。"
+        }
+      },
+      "ratingHistory": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 2.65,
+          "count": 16152,
+          "countType": "ratings",
+          "sourceId": "rating-untappd-snow-beer-20260928",
+          "checkedAt": "2026-09-28",
+          "note": "Untappd同名“Snow Beer (雪花啤酒)”通用款，4.5% ABV；页面显示2.65/5、16,152 Ratings。"
+        }
+      ],
+      "quoteHistory": [
+        {
+          "total": 70,
+          "quantity": 12,
+          "volumeMl": 500,
+          "currency": "CNY",
+          "sourceId": "user-price-snow-beer-20260928",
+          "checkedAt": "2026-09-28",
+          "historical": false,
+          "ambiguous": false,
+          "priceBasis": "user-provided-current-price",
+          "selectedSku": "12听 × 500ml",
+          "largestSameBeerPack": false,
+          "note": "用户明确提供的当前购买价格；未另行核验优惠、运费或地区条件。",
+          "provenance": {
+            "inputStatus": "user-provided",
+            "inputPriceBasis": "user-provided-current-price"
+          }
+        }
+      ]
+    },
+    {
+      "id": "asahi-super-dry-can",
+      "name": "朝日 Super Dry · 易拉罐",
+      "english": "Asahi Super Dry (Can)",
+      "family": "lager",
+      "style": "淡色拉格",
+      "country": "日本",
+      "abv": 5,
+      "volumeMl": 500,
+      "rating": {
+        "platform": "酒花儿",
+        "scale": 5,
+        "value": 2.72,
+        "count": 192,
+        "countType": "reviews",
+        "sourceId": "rating-jiuhuar-asahi-superdry-can-20260928",
+        "checkedAt": "2026-09-28",
+        "note": "酒花儿“朝日 超干（易拉罐）”页面显示2.72/5、192条评论，5.0% ABV。"
+      },
+      "quote": {
+        "total": 164,
+        "quantity": 24,
+        "volumeMl": 500,
+        "currency": "CNY",
+        "sourceId": "user-price-asahi-super-dry-can-20260928",
+        "checkedAt": "2026-09-28",
+        "historical": false,
+        "ambiguous": false,
+        "priceBasis": "user-provided-current-price",
+        "selectedSku": "24听 × 500ml",
+        "largestSameBeerPack": false,
+        "note": "用户明确提供的当前购买价格；未另行核验优惠、运费或地区条件。",
+        "provenance": {
+          "inputStatus": "user-provided",
+          "inputPriceBasis": "user-provided-current-price"
+        }
+      },
+      "tags": [
+        "干爽",
+        "清脆",
+        "拉格"
+      ],
+      "review": {
+        "positive": "风格偏干爽，气泡和苦味都比较利落，收口干净。",
+        "caution": "这里按日本版Super Dry易拉罐评分记录；国产版本或其他包装不要直接混用。",
+        "fit": "喜欢干爽、清脆，不喜欢明显甜感的拉格。",
+        "sourceIds": [
+          "rating-jiuhuar-asahi-superdry-can-20260928",
+          "user-price-asahi-super-dry-can-20260928"
+        ],
+        "type": "风味为公开评价的简要整理。"
+      },
+      "originalList": true,
+      "aliases": [
+        "朝日",
+        "Asahi Super Dry"
+      ],
+      "identityNote": "本次按Super Dry 500ml易拉罐记录。",
+      "identityPending": false,
+      "coverage": {
+        "identity": "defined",
+        "price": "user-provided",
+        "rating": "matched",
+        "abv": "reference-page"
+      },
+      "researchNote": "社区评分来自公开评分平台，只代表该平台用户样本；不同平台样本不能当作严格等价的盲测。",
+      "extraSourceIds": [],
+      "userTier": "hang",
+      "researchAudit": {
+        "rating": {
+          "status": "matched",
+          "checkedAt": "2026-09-28",
+          "url": "https://www.jiuhuar.com/craftbeer/57f889df526c601b255ba71b.html",
+          "identityDecision": "Super Dry易拉罐，5.0% ABV；与本次听装口径一致。",
+          "note": "社区评分来自公开评分平台，只代表该平台用户样本；不同平台样本不能当作严格等价的盲测。"
+        },
+        "userPrice": {
+          "status": "user-provided",
+          "checkedAt": "2026-09-28",
+          "note": "24听×500ml，164元。"
+        }
+      },
+      "ratingHistory": [
+        {
+          "platform": "酒花儿",
+          "scale": 5,
+          "value": 2.72,
+          "count": 192,
+          "countType": "reviews",
+          "sourceId": "rating-jiuhuar-asahi-superdry-can-20260928",
+          "checkedAt": "2026-09-28",
+          "note": "酒花儿“朝日 超干（易拉罐）”页面显示2.72/5、192条评论，5.0% ABV。"
+        }
+      ],
+      "quoteHistory": [
+        {
+          "total": 164,
+          "quantity": 24,
+          "volumeMl": 500,
+          "currency": "CNY",
+          "sourceId": "user-price-asahi-super-dry-can-20260928",
+          "checkedAt": "2026-09-28",
+          "historical": false,
+          "ambiguous": false,
+          "priceBasis": "user-provided-current-price",
+          "selectedSku": "24听 × 500ml",
+          "largestSameBeerPack": false,
+          "note": "用户明确提供的当前购买价格；未另行核验优惠、运费或地区条件。",
+          "provenance": {
+            "inputStatus": "user-provided",
+            "inputPriceBasis": "user-provided-current-price"
+          }
+        }
+      ]
     }
   ],
   "sources": {
@@ -9384,6 +9767,86 @@
       "publishedAt": null,
       "checkedAt": "2026-09-28",
       "note": "Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。"
+    },
+    "rating-untappd-tsingtao-white-20260928": {
+      "id": "rating-untappd-tsingtao-white-20260928",
+      "url": "https://untappd.com/b/tsingtao-brewery/4229247",
+      "title": "白啤 - Tsingtao Brewery - Untappd",
+      "kind": "rating",
+      "evidence": "public-rating-page",
+      "publishedAt": null,
+      "note": "Untappd同名“白啤”条目，4.1% ABV；页面显示3.14/5、132 Ratings。",
+      "checkedAt": "2026-09-28"
+    },
+    "user-price-tsingtao-white-20260928": {
+      "id": "user-price-tsingtao-white-20260928",
+      "url": null,
+      "title": "青岛白啤：12听 × 500ml，59元",
+      "kind": "price",
+      "evidence": "user-provided",
+      "publishedAt": null,
+      "note": "价格由用户在本次对话中明确提供；不代表电商实时最低价。",
+      "checkedAt": "2026-09-28"
+    },
+    "rating-jiuhuar-augerta1903-20260928": {
+      "id": "rating-jiuhuar-augerta1903-20260928",
+      "url": "https://www.jiuhuar.com/craftbeer/57a31506526c60135b7e6641.html",
+      "title": "青岛 奥古特1903 12°（易拉罐）- 酒花儿",
+      "kind": "rating",
+      "evidence": "public-rating-page",
+      "publishedAt": null,
+      "note": "酒花儿“奥古特1903 12°（易拉罐）”页面显示2.35/5、155条评论。",
+      "checkedAt": "2026-09-28"
+    },
+    "user-price-augerta-1903-20260928": {
+      "id": "user-price-augerta-1903-20260928",
+      "url": null,
+      "title": "青岛啤酒 奥古特1903：18听 × 500ml，129元",
+      "kind": "price",
+      "evidence": "user-provided",
+      "publishedAt": null,
+      "note": "价格由用户在本次对话中明确提供；不代表电商实时最低价。",
+      "checkedAt": "2026-09-28"
+    },
+    "rating-untappd-snow-beer-20260928": {
+      "id": "rating-untappd-snow-beer-20260928",
+      "url": "https://untappd.com/b/china-resources-snow-breweries-snow-beer/229008",
+      "title": "Snow Beer (雪花啤酒) - Untappd",
+      "kind": "rating",
+      "evidence": "public-rating-page",
+      "publishedAt": null,
+      "note": "Untappd同名“Snow Beer (雪花啤酒)”通用款，4.5% ABV；页面显示2.65/5、16,152 Ratings。",
+      "checkedAt": "2026-09-28"
+    },
+    "user-price-snow-beer-20260928": {
+      "id": "user-price-snow-beer-20260928",
+      "url": null,
+      "title": "雪花啤酒：12听 × 500ml，70元",
+      "kind": "price",
+      "evidence": "user-provided",
+      "publishedAt": null,
+      "note": "价格由用户在本次对话中明确提供；不代表电商实时最低价。",
+      "checkedAt": "2026-09-28"
+    },
+    "rating-jiuhuar-asahi-superdry-can-20260928": {
+      "id": "rating-jiuhuar-asahi-superdry-can-20260928",
+      "url": "https://www.jiuhuar.com/craftbeer/57f889df526c601b255ba71b.html",
+      "title": "朝日 超干（易拉罐）- 酒花儿",
+      "kind": "rating",
+      "evidence": "public-rating-page",
+      "publishedAt": null,
+      "note": "酒花儿“朝日 超干（易拉罐）”页面显示2.72/5、192条评论，5.0% ABV。",
+      "checkedAt": "2026-09-28"
+    },
+    "user-price-asahi-super-dry-can-20260928": {
+      "id": "user-price-asahi-super-dry-can-20260928",
+      "url": null,
+      "title": "朝日 Super Dry：24听 × 500ml，164元",
+      "kind": "price",
+      "evidence": "user-provided",
+      "publishedAt": null,
+      "note": "价格由用户在本次对话中明确提供；不代表电商实时最低价。",
+      "checkedAt": "2026-09-28"
     }
   },
   "tierList": {
@@ -9396,7 +9859,8 @@
         "entries": [
           {
             "name": "奥古特",
-            "beerId": "augerta"
+            "beerId": "augerta-1903",
+            "note": "本次已明确为奥古特1903 500ml听装。"
           },
           {
             "name": "喜力绿瓶",
@@ -9416,7 +9880,8 @@
           },
           {
             "name": "朝日",
-            "beerId": "asahi"
+            "beerId": "asahi-super-dry-can",
+            "note": "本次按朝日 Super Dry 500ml易拉罐记录。"
           },
           {
             "name": "胖东来精酿小啤酒",
@@ -9680,7 +10145,10 @@
       "dream",
       "pohjala",
       "fan-jia-le",
-      "hoegaarden-user"
+      "hoegaarden-user",
+      "augerta-1903",
+      "snow-beer",
+      "asahi-super-dry-can"
     ]
   }
 }
