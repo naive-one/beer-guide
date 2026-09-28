@@ -2036,3 +2036,366 @@ Heineken/喜力啤酒 铁金刚 5L*2桶 铁桶装 官方正品全麦酿造（C�
 - 核对日: 2026-09-27
 - 发布日: 未完整核实
 - 说明: 淘宝选定SKU最大同款包装的页面显示／补贴价快照；不是保证结算价。
+
+## community-ut-8745-20260928
+
+Weihenstephaner Hefeweissbier - Bayerische Staatsbrauerei Weihenstephan - Untappd
+
+- URL: https://untappd.com/b/bayerische-staatsbrauerei-weihenstephan-weihenstephaner-hefeweissbier/8745
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-28
+- 发布日: 未完整核实
+- 说明: Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。
+
+## community-ut-15677-20260928
+
+Hefe-Weißbier / Hefe-Weizen / Weissbier - Paulaner Brauerei - Untappd
+
+- URL: https://untappd.com/b/paulaner-brauerei-paulaner-hefe-weissbier-hefe-weizen-weissbier/15677
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-28
+- 发布日: 未完整核实
+- 说明: Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。
+
+## community-ut-21768-20260928
+
+Bräuweisse - Ayinger Privatbrauerei - Untappd
+
+- URL: https://untappd.com/b/ayinger-privatbrauerei-ayinger-brauweisse/21768
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-28
+- 发布日: 未完整核实
+- 说明: Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。
+
+## community-ut-103362-20260928
+
+Benediktiner Weissbier - Benediktiner Weissbräu - Untappd
+
+- URL: https://untappd.com/b/benediktiner-weissbrau-benediktiner-weissbier/103362
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-28
+- 发布日: 未完整核实
+- 说明: Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。
+
+## community-ut-14564-20260928
+
+Franziskaner Premium Weissbier Naturtrüb - Spaten-Franziskaner-Löwenbräu-Gruppe - Untappd
+
+- URL: https://untappd.com/b/spaten-franziskaner-lowenbrau-gruppe-franziskaner-premium-weissbier/14564
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-28
+- 发布日: 未完整核实
+- 说明: Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。
+
+## community-ut-7420-20260928
+
+Erdinger Weißbier / Hefe-Weizen - Erdinger Weissbräu - Untappd
+
+- URL: https://untappd.com/b/erdinger-weissbrau-erdinger-weissbier-hefe-weizen/7420
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-28
+- 发布日: 未完整核实
+- 说明: Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。
+
+## community-ut-7408-20260928
+
+Weihenstephaner Vitus - Bayerische Staatsbrauerei Weihenstephan - Untappd
+
+- URL: https://untappd.com/b/bayerische-staatsbrauerei-weihenstephan-weihenstephaner-vitus/7408
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-28
+- 发布日: 未完整核实
+- 说明: Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。
+
+## community-ut-16851-20260928
+
+Aventinus (TAP06) - Schneider Weisse G. Schneider & Sohn - Untappd
+
+- URL: https://untappd.com/b/schneider-weisse-g-schneider-and-sohn-aventinus-tap06/16851
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-28
+- 发布日: 未完整核实
+- 说明: Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。
+
+## community-ut-6766-20260928
+
+Trappistes Rochefort 10 - Abbaye Notre-Dame de Saint-Rémy - Untappd
+
+- URL: https://untappd.com/b/abbaye-notre-dame-de-saint-remy-trappistes-rochefort-10/6766
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-28
+- 发布日: 未完整核实
+- 说明: Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。
+
+## community-ut-11473-20260928
+
+Trappistes Rochefort 8 - Abbaye Notre-Dame de Saint-Rémy - Untappd
+
+- URL: https://untappd.com/b/abbaye-notre-dame-de-saint-remy-trappistes-rochefort-8/11473
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-28
+- 发布日: 未完整核实
+- 说明: Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。
+
+## community-ut-34039-20260928
+
+Chimay Grande Réserve (Blue) - Bières de Chimay - Untappd
+
+- URL: https://untappd.com/b/bieres-de-chimay-chimay-grande-reserve-blue/34039
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-28
+- 发布日: 未完整核实
+- 说明: Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。
+
+## community-ut-6868-20260928
+
+Duvel - Duvel Moortgat - Untappd
+
+- URL: https://untappd.com/b/duvel-moortgat-duvel/6868
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-28
+- 发布日: 未完整核实
+- 说明: Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。
+
+## community-ut-487-20260928
+
+Westmalle Trappist Tripel - Brouwerij der Trappisten van Westmalle - Untappd
+
+- URL: https://untappd.com/b/brouwerij-der-trappisten-van-westmalle-westmalle-trappist-tripel/487
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-28
+- 发布日: 未完整核实
+- 说明: Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。
+
+## community-ut-851-20260928
+
+Orval - Brasserie d'Orval - Untappd
+
+- URL: https://untappd.com/b/brasserie-d-orval-orval/851
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-28
+- 发布日: 未完整核实
+- 说明: Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。
+
+## community-ut-6422-20260928
+
+Hoegaarden Wit / Blanche - Brouwerij Hoegaarden - Untappd
+
+- URL: https://untappd.com/b/brouwerij-hoegaarden-hoegaarden-wit-blanche/6422
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-28
+- 发布日: 未完整核实
+- 说明: Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。
+
+## community-ut-6284-20260928
+
+Pale Ale - Sierra Nevada Brewing Co. - Untappd
+
+- URL: https://untappd.com/b/sierra-nevada-brewing-co-pale-ale/6284
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-28
+- 发布日: 未完整核实
+- 说明: Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。
+
+## community-ut-4997-20260928
+
+Torpedo Extra IPA - Sierra Nevada Brewing Co. - Untappd
+
+- URL: https://untappd.com/b/sierra-nevada-brewing-co-torpedo-extra-ipa/4997
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-28
+- 发布日: 未完整核实
+- 说明: Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。
+
+## community-ut-65644-20260928
+
+Pseudo Sue - Toppling Goliath Brewing Co. - Untappd
+
+- URL: https://untappd.com/b/toppling-goliath-brewing-co-pseudo-sue/65644
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-28
+- 发布日: 未完整核实
+- 说明: Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。
+
+## community-ut-594015-20260928
+
+King Sue - Toppling Goliath Brewing Co. - Untappd
+
+- URL: https://untappd.com/b/toppling-goliath-brewing-co-king-sue/594015
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-28
+- 发布日: 未完整核实
+- 说明: Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。
+
+## community-ut-4473-20260928
+
+Guinness Draught - Guinness - Untappd
+
+- URL: https://untappd.com/b/guinness-guinness-draught/4473
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-28
+- 发布日: 未完整核实
+- 说明: Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。
+
+## community-ut-1033614-20260928
+
+¡Viva La Beaver! - Belching Beaver Brewery - Untappd
+
+- URL: https://untappd.com/b/belching-beaver-brewery-viva-la-beaver/1033614
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-28
+- 发布日: 未完整核实
+- 说明: Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。
+
+## community-ut-37936-20260928
+
+Pilsner Urquell - Plzeňský Prazdroj - Untappd
+
+- URL: https://untappd.com/b/plzensky-prazdroj-pilsner-urquell/37936
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-28
+- 发布日: 未完整核实
+- 说明: Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。
+
+## community-ut-5860-20260928
+
+Heineken - Heineken - Untappd
+
+- URL: https://untappd.com/b/heineken-heineken/5860
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-28
+- 发布日: 未完整核实
+- 说明: Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。
+
+## community-ut-11027-20260928
+
+Hopfenweisse (TAP05) - Schneider Weisse G. Schneider & Sohn - Untappd
+
+- URL: https://untappd.com/b/schneider-weisse-g-schneider-and-sohn-hopfenweisse-tap05/11027
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-28
+- 发布日: 未完整核实
+- 说明: Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。
+
+## community-ut-6360481-20260928
+
+Arrival 降临 - MAHANINE BREWING 大九酿造 - Untappd
+
+- URL: https://untappd.com/b/mahanine-brewing-arrival/6360481
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-28
+- 发布日: 未完整核实
+- 说明: Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。
+
+## community-ut-1883664-20260928
+
+Beijing Gose Modern 帝都海盐 - NBeer Craft Brewing Co. 牛啤堂 - Untappd
+
+- URL: https://untappd.com/b/nbeer-craft-brewing-co-beijing-gose-modern/1883664
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-28
+- 发布日: 未完整核实
+- 说明: Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。
+
+## community-ut-30947-20260928
+
+Weizen - Primátor - Untappd
+
+- URL: https://untappd.com/b/primator-weizen/30947
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-28
+- 发布日: 未完整核实
+- 说明: Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。
+
+## community-ut-4909071-20260928
+
+Snow 12°P (雪花 12°P) 4.7% - China Resources Snow Breweries (雪花啤酒) - Untappd
+
+- URL: https://untappd.com/b/china-resources-snow-breweries-snow-12-deg-p-12-deg-p-4-7/4909071
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-28
+- 发布日: 未完整核实
+- 说明: Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。
+
+## community-ut-5284196-20260928
+
+Asahi Super Dry (Chinese Version) - Tsingtao (青岛啤酒) Brewery - Untappd
+
+- URL: https://untappd.com/b/tsingtao-brewery-asahi-super-dry-chinese-version/5284196
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-28
+- 发布日: 未完整核实
+- 说明: Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。
+
+## community-ut-4229247-20260928
+
+白啤 - Tsingtao (青岛啤酒) Brewery - Untappd
+
+- URL: https://untappd.com/b/tsingtao-brewery/4229247
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-28
+- 发布日: 未完整核实
+- 说明: Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。
+
+## community-ut-11982-20260928
+
+Original (TAP07) - Schneider Weisse G. Schneider & Sohn - Untappd
+
+- URL: https://untappd.com/b/schneider-weisse-g-schneider-and-sohn-original-tap07/11982
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-28
+- 发布日: 未完整核实
+- 说明: Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。
+
+## community-ut-4338144-20260928
+
+梦小姐 Miss Dream - 沙坡尾 Shapowei (Suapobbe) - Untappd
+
+- URL: https://untappd.com/b/shapowei-suapobbe-miss-dream/4338144
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-28
+- 发布日: 未完整核实
+- 说明: Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。
+
+## community-ut-914232-20260928
+
+Pime Öö - Põhjala - Untappd
+
+- URL: https://untappd.com/b/pohjala-pime-oo/914232
+- 类型: review
+- 读取方式: 页面内容
+- 核对日: 2026-09-28
+- 发布日: 未完整核实
+- 说明: Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。

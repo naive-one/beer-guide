@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-09-28",
+  "auditedBeerCount": 40,
+  "newRatingRecords": 38,
+  "newDistinctSourcePages": 33,
+  "matchedRecords": 30,
+  "relatedRecords": 8,
+  "reverifiedExistingBeerIds": [
+    "pang",
+    "augerta"
+  ],
+  "newPlatformCoverage": {
+    "Untappd": 38
+  },
+  "observedUniquePages": 37,
+  "currentBeerCount": 40,
+  "unchangedPrimaryRatings": true,
+  "unchangedQuotes": true,
+  "limitations": [
+    "BeerAdvocate普通HTTP读取被拒绝，未绕过访问限制，也未把旧评分当作新采集。",
+    "页面名和ABV相同并不证明零售SKU完全相同；8条仅相关版本。",
+    "研究日期按采集环境本地时间2026-09-28，价格仍为2026-09-27的既有快照。",
+    "胖东来与A3原有Untappd分数、次数未变，不重复新增。"
+  ]
+}

@@ -21,6 +21,21 @@ class DatasetSchemaTests(unittest.TestCase):
             with self.subTest(dataset=name):
                 self.validator.validate(json.loads((ROOT / name).read_text()))
 
+    def test_community_rating_contract(self):
+        data = json.loads((ROOT / 'data/beers.json').read_text())
+        rating = dict(platform='Untappd', scale=5, value=0, count=0,
+                      countType='reviews', sourceId='fixture', checkedAt='2026-09-28',
+                      note='', evidenceFile='research/test.json', match='matched')
+        data['beers'][0]['communityRatings'] = [rating]
+        self.assertTrue(self.validator.is_valid(data))
+        for key, value in [('scale', 100), ('value', 5.1), ('value', None),
+                           ('count', -1), ('count', .5), ('match', 'unknown'),
+                           ('sourceId', {}), ('checkedAt', '2026-02-30'),
+                           ('evidenceFile', '../private')]:
+            with self.subTest(key=key, value=value):
+                data['beers'][0]['communityRatings'] = [{**rating, key: value}]
+                self.assertFalse(self.validator.is_valid(data))
+
     def test_frozen_scope_shape(self):
         data = json.loads((ROOT / 'data/beers.json').read_text())
         for ids in (['paulaner', 'paulaner'], [], [3]):

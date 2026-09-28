@@ -18,7 +18,7 @@
       "relatedOnlyRatings": 6,
       "priceSnapshots": 41,
       "editorialBudgetGuides": 42,
-      "sources": 185,
+      "sources": 218,
       "rankedEntries": 49,
       "freshTaobaoQuotes": 40,
       "versionMatchedTaobaoQuotes": 38,
@@ -91,14 +91,14 @@
         "面包"
       ],
       "review": {
-        "positive": "评价集中在香蕉与丁香香、细腻麦香和顺滑平衡，社区样本量较大。",
-        "caution": "清爽拉格爱好者可能觉得酒体偏厚；现有价格页有版本歧义，必须核对原味浑浊款。",
-        "fit": "希望从普通白啤升级、看重平衡而非极端浓烈的人。",
+        "positive": "香蕉、丁香和麦香，口感顺滑，风味比较均衡。",
+        "caution": "酒体比清爽拉格厚一些。购买时注意区分原味浑浊款和水晶白。",
+        "fit": "喜欢传统德式小麦的香蕉香和麦香。",
         "sourceIds": [
           "ba-weihen",
           "weihen-product"
         ],
-        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+        "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
         "total": 269,
@@ -132,7 +132,7 @@
         "维森 水晶白",
         "维森啤酒"
       ],
-      "identityNote": "此条仅 Hefeweissbier；Kristall 水晶白是不同酒款。",
+      "identityNote": "原味Hefeweissbier；Kristall水晶白是另一款酒。",
       "identityPending": false,
       "purchaseGuide": {
         "ceiling": 13,
@@ -188,6 +188,20 @@
           "note": "这是“起价”聚合记录；部分关联描述混用水晶白。必须确认买到 Hefeweissbier 原味浑浊小麦，而非 Kristall。未核对前不参与默认前沿。",
           "checkedAt": "2026-09-27"
         }
+      ],
+      "communityRatings": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.78,
+          "count": 479514,
+          "countType": "ratings",
+          "checkedAt": "2026-09-28",
+          "sourceId": "community-ut-8745-20260928",
+          "note": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。",
+          "evidenceFile": "research/2026-09-28/evidence/89bb08b5d22ba485.json",
+          "match": "matched"
+        }
       ]
     },
     {
@@ -216,13 +230,13 @@
         "麦香"
       ],
       "review": {
-        "positive": "麦香、香蕉与轻香料是典型反馈，泡沫和气泡感明显。",
-        "caution": "风味不是越浓越好；只喜欢干爽口感的人可能不偏爱麦芽甜感。",
-        "fit": "想用较低成本尝试德式小麦。",
+        "positive": "麦香和香蕉香明显，带一点香料味，气泡充足。",
+        "caution": "有一定麦芽甜感，偏好干爽口感的话可以先少量尝试。",
+        "fit": "想尝试常见的德式小麦白啤。",
         "sourceIds": [
           "ba-paulaner"
         ],
-        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+        "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
         "total": 198.7,
@@ -312,6 +326,20 @@
           "note": "页面报价样本；活动有效期、运费、税费、库存与账号条件均未现场结算核验。",
           "checkedAt": "2026-09-27"
         }
+      ],
+      "communityRatings": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.67,
+          "count": 511351,
+          "countType": "ratings",
+          "checkedAt": "2026-09-28",
+          "sourceId": "community-ut-15677-20260928",
+          "note": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。",
+          "evidenceFile": "research/2026-09-28/evidence/79318c3997ace89e.json",
+          "match": "matched"
+        }
       ]
     },
     {
@@ -340,13 +368,13 @@
         "柔和香料"
       ],
       "review": {
-        "positive": "口碑重点是柔和麦香、香蕉香与顺滑平衡，不以极端香气取胜。",
-        "caution": "已补国内报价样本，但发布日期年份未完整核实；当前价格仍须复查。仅品牌溢价不能证明更值。",
-        "fit": "偏好细腻传统小麦，愿意与维森对照的人。",
+        "positive": "柔和的麦香、香蕉香，口感顺滑，香气不算特别张扬。",
+        "caution": "风格偏细腻，和艾丁格是不同品牌。",
+        "fit": "喜欢温和的小麦香气，想和维森换着喝。",
         "sourceIds": [
           "ba-ayinger"
         ],
-        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+        "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
         "total": 539.9,
@@ -376,7 +404,7 @@
         "Ayinger",
         "艾英格"
       ],
-      "identityNote": "不要与艾丁格 Erdinger 混淆。",
+      "identityNote": "艾英格Ayinger与艾丁格Erdinger是不同品牌。",
       "identityPending": false,
       "purchaseGuide": {
         "ceiling": 18,
@@ -432,6 +460,20 @@
           "note": "",
           "checkedAt": "2026-09-27"
         }
+      ],
+      "communityRatings": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.71,
+          "count": 163171,
+          "countType": "ratings",
+          "checkedAt": "2026-09-28",
+          "sourceId": "community-ut-21768-20260928",
+          "note": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。",
+          "evidenceFile": "research/2026-09-28/evidence/e1194f97449dde25.json",
+          "match": "matched"
+        }
       ]
     },
     {
@@ -460,13 +502,13 @@
         "麦甜"
       ],
       "review": {
-        "positive": "典型香蕉与丁香风味，入口有麦甜，属于传统小麦路线。",
-        "caution": "有评价认为风味表达较收敛、酒体偏轻；样本量比维森小。",
-        "fit": "预算较紧，又想尝试进口小麦的人。",
+        "positive": "香蕉和丁香香气，入口带麦芽甜味。",
+        "caution": "风味相对收敛，酒体比一些小麦白啤轻。",
+        "fit": "喜欢传统小麦风味，又不想要太厚的酒体。",
         "sourceIds": [
           "ba-benediktiner"
         ],
-        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+        "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
         "total": 184,
@@ -550,6 +592,20 @@
           "note": "页面报价样本；活动有效期、运费、税费、库存与账号条件均未现场结算核验。",
           "checkedAt": "2026-09-27"
         }
+      ],
+      "communityRatings": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.56,
+          "count": 161167,
+          "countType": "ratings",
+          "checkedAt": "2026-09-28",
+          "sourceId": "community-ut-103362-20260928",
+          "note": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。",
+          "evidenceFile": "research/2026-09-28/evidence/18e96c7dbf18e56e.json",
+          "match": "matched"
+        }
       ]
     },
     {
@@ -578,13 +634,13 @@
         "泡沫"
       ],
       "review": {
-        "positive": "以传统小麦风味、浑浊外观与绵密泡沫受到认可。",
-        "caution": "保留的是2023年旧促销；国产范佳乐与德国进口版应分开比较。",
-        "fit": "传统白啤备选；有实际到手价再与保拉纳比较。",
+        "positive": "传统小麦风味，酒液浑浊，泡沫绵密。",
+        "caution": "这里收录德国进口版。国产范佳乐的包装和评分需另看。",
+        "fit": "喜欢常见的德式白啤口感。",
         "sourceIds": [
           "ba-franziskaner"
         ],
-        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+        "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
         "total": 167,
@@ -613,7 +669,7 @@
       "aliases": [
         "教士 范佳乐"
       ],
-      "identityNote": "本条为德国进口500ml；不把评分直接移植到国产450ml。",
+      "identityNote": "德国进口版，不适用于国产范佳乐的其他规格。",
       "identityPending": false,
       "purchaseGuide": {
         "ceiling": 9,
@@ -668,6 +724,20 @@
           "note": "2023年券后历史促销，默认排除。不能套用国产范佳乐450ml的价格。",
           "checkedAt": "2026-09-27"
         }
+      ],
+      "communityRatings": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.69,
+          "count": 469288,
+          "countType": "ratings",
+          "checkedAt": "2026-09-28",
+          "sourceId": "community-ut-14564-20260928",
+          "note": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。",
+          "evidenceFile": "research/2026-09-28/evidence/e93f0d3423faea18.json",
+          "match": "matched"
+        }
       ]
     },
     {
@@ -696,13 +766,13 @@
         "气泡"
       ],
       "review": {
-        "positive": "评价常见较轻的香蕉、丁香与活跃气泡，表达相对温和。",
-        "caution": "部分评价觉得薄、香气不够突出；不等于喜欢清淡的人会不喜欢。",
-        "fit": "偏温和口感，且到手价有优势的人。",
+        "positive": "香蕉和丁香香比较轻，气泡活跃，整体偏温和。",
+        "caution": "喜欢浓郁小麦香气的人可能觉得偏淡。",
+        "fit": "喜欢气泡感，口味偏清淡。",
         "sourceIds": [
           "ba-erdinger"
         ],
-        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+        "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
         "total": 162,
@@ -731,7 +801,7 @@
       "aliases": [
         "Erdinger"
       ],
-      "identityNote": "艾丁格与艾英格不是同一品牌。",
+      "identityNote": "艾丁格Erdinger与艾英格Ayinger是不同品牌。",
       "identityPending": false,
       "purchaseGuide": {
         "ceiling": 8,
@@ -786,6 +856,20 @@
           "note": "历史临期清仓，白啤规格已注明，但新鲜度与常规商品不等同；默认不算证据前沿。",
           "checkedAt": "2026-09-27"
         }
+      ],
+      "communityRatings": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.65,
+          "count": 419527,
+          "countType": "ratings",
+          "checkedAt": "2026-09-28",
+          "sourceId": "community-ut-7420-20260928",
+          "note": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。",
+          "evidenceFile": "research/2026-09-28/evidence/dff04425fed3247e.json",
+          "match": "matched"
+        }
       ]
     },
     {
@@ -814,13 +898,13 @@
         "丁香"
       ],
       "review": {
-        "positive": "杏果、柑橘和丁香香气，酒体较饱满，气泡与顺滑感并存。",
-        "caution": "7.7%酒精度，不应按普通清淡白啤理解。",
-        "fit": "喜欢小麦、想尝试更浓郁版本。",
+        "positive": "杏果、柑橘和丁香香气，酒体饱满，口感顺滑。",
+        "caution": "酒精度7.7%，比普通小麦白啤浓。",
+        "fit": "喜欢小麦风味，想试更浓郁的版本。",
         "sourceIds": [
           "ba-vitus"
         ],
-        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+        "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
         "total": 378,
@@ -898,6 +982,20 @@
           "checkedAt": "2026-09-27",
           "countType": "ratings"
         }
+      ],
+      "communityRatings": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.83,
+          "count": 168857,
+          "countType": "ratings",
+          "checkedAt": "2026-09-28",
+          "sourceId": "community-ut-7408-20260928",
+          "note": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。",
+          "evidenceFile": "research/2026-09-28/evidence/79798ec498700a08.json",
+          "match": "matched"
+        }
       ]
     },
     {
@@ -926,13 +1024,13 @@
         "深色水果"
       ],
       "review": {
-        "positive": "焦糖、丁香和深色果香叠在小麦底味上，浓郁而有层次。",
-        "caution": "深色果干与浓厚小麦并不适合所有人。参考为6瓶挂牌旧价，不是当前保证成交。",
-        "fit": "想体验深色浓郁小麦的人。",
+        "positive": "小麦底味上带有焦糖、丁香和深色果干香。",
+        "caution": "酒体浓厚，果干味明显，酒精度8.2%。",
+        "fit": "喜欢深色、浓郁的小麦啤酒。",
         "sourceIds": [
           "ba-tap6"
         ],
-        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+        "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
         "total": 487,
@@ -1016,6 +1114,20 @@
           "note": "页面参考标价138元/6瓶。旧促销另有会员条件，不保证现在复现。",
           "checkedAt": "2026-09-27"
         }
+      ],
+      "communityRatings": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.8,
+          "count": 167880,
+          "countType": "ratings",
+          "checkedAt": "2026-09-28",
+          "sourceId": "community-ut-16851-20260928",
+          "note": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。",
+          "evidenceFile": "research/2026-09-28/evidence/cfee7ba07b598c3b.json",
+          "match": "matched"
+        }
       ]
     },
     {
@@ -1044,14 +1156,14 @@
         "烘烤"
       ],
       "review": {
-        "positive": "深色果干、糖蜜与烘烤麦芽构成厚实风味，社区口碑稳定。",
-        "caution": "11.3%酒精度且偏浓厚；“10号”不是10%酒精度。适合人群不如淡啤广。",
-        "fit": "喜欢果干、焦糖和浓郁麦芽，能接受高酒精度。",
+        "positive": "果干、糖蜜和烘烤麦芽味，酒体厚实。",
+        "caution": "酒精度11.3%；“10号”是酒款名，不是酒精度。",
+        "fit": "喜欢果干、焦糖和浓郁麦芽味，能接受高酒精度。",
         "sourceIds": [
           "ba-rochefort10",
           "official-rochefort10"
         ],
-        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+        "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
         "total": 93,
@@ -1140,6 +1252,20 @@
           "note": "取页面价102.90元，不采用97.90元的条件优惠；页面月日显示09-21但年份未完整核实。运费与库存未核验。",
           "checkedAt": "2026-09-27"
         }
+      ],
+      "communityRatings": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 4.04,
+          "count": 274677,
+          "countType": "ratings",
+          "checkedAt": "2026-09-28",
+          "sourceId": "community-ut-6766-20260928",
+          "note": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。",
+          "evidenceFile": "research/2026-09-28/evidence/591026258658a0f2.json",
+          "match": "matched"
+        }
       ]
     },
     {
@@ -1168,13 +1294,13 @@
         "香料"
       ],
       "review": {
-        "positive": "以果干、深色麦芽和较有力气泡表现复杂度。",
-        "caution": "高酒精度与浓郁感未必适合清爽需求；聚合报价日期不完整。",
-        "fit": "想探索比利时深色艾尔，同时比较8号与10号差价。",
+        "positive": "深色麦芽和果干香，气泡感较强。",
+        "caution": "酒精度9.2%，口味浓，不是清淡型啤酒。",
+        "fit": "想尝试比利时深色艾尔，或对照8号和10号。",
         "sourceIds": [
           "ba-rochefort8"
         ],
-        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+        "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
         "total": 74.25,
@@ -1260,6 +1386,20 @@
           "note": "页面报价样本；活动有效期、运费、税费、库存与账号条件均未现场结算核验。",
           "checkedAt": "2026-09-27"
         }
+      ],
+      "communityRatings": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.84,
+          "count": 225805,
+          "countType": "ratings",
+          "checkedAt": "2026-09-28",
+          "sourceId": "community-ut-11473-20260928",
+          "note": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。",
+          "evidenceFile": "research/2026-09-28/evidence/83b1d7e15d3fe489.json",
+          "match": "matched"
+        }
       ]
     },
     {
@@ -1288,13 +1428,13 @@
         "香料"
       ],
       "review": {
-        "positive": "深色麦芽、果香与香料感是主要风味方向，口碑样本较大。",
-        "caution": "蓝、红、白帽不是同一酒；750ml与330ml也不能直接按瓶价比较。",
-        "fit": "喜欢浓郁果干麦芽型风味。",
+        "positive": "深色麦芽、果香和香料味，风格浓郁。",
+        "caution": "蓝帽、红帽、白帽是不同酒款；不同容量请按500ml折算比较。",
+        "fit": "喜欢果干和麦芽味。",
         "sourceIds": [
           "ba-chimay"
         ],
-        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+        "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
         "total": 361.8,
@@ -1379,6 +1519,20 @@
           "ambiguous": false,
           "note": "页面报价样本；活动有效期、运费、税费、库存与账号条件均未现场结算核验。",
           "checkedAt": "2026-09-27"
+        }
+      ],
+      "communityRatings": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.89,
+          "count": 334485,
+          "countType": "ratings",
+          "checkedAt": "2026-09-28",
+          "sourceId": "community-ut-34039-20260928",
+          "note": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。",
+          "evidenceFile": "research/2026-09-28/evidence/2ba965f616ef85dd.json",
+          "match": "matched"
         }
       ]
     },
@@ -1489,13 +1643,13 @@
         "干爽"
       ],
       "review": {
-        "positive": "柑橘与酵母香料，气泡充足，收口较干。",
-        "caution": "酒精度不低，也不是甜果汁型；6.66和三花是不同款。",
-        "fit": "喜欢香料、干爽和较明显苦味。",
+        "positive": "柑橘和酵母香料味，气泡充足，收口较干。",
+        "caution": "经典款酒精度8.5%，苦味明显；6.66和三花是另外的酒款。",
+        "fit": "喜欢香料味、干爽口感，也能接受苦味。",
         "sourceIds": [
           "ba-duvel"
         ],
-        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+        "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
         "total": 278,
@@ -1524,7 +1678,7 @@
       "aliases": [
         "Duvel"
       ],
-      "identityNote": "只对应经典8.5%；不套用6.66或三花Citra报价。",
+      "identityNote": "经典8.5%版，不是6.66或三花Citra。",
       "identityPending": false,
       "purchaseGuide": {
         "ceiling": 13,
@@ -1565,6 +1719,20 @@
           "sourceId": "ba-duvel",
           "checkedAt": "2026-09-27",
           "countType": "ratings"
+        }
+      ],
+      "communityRatings": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.71,
+          "count": 450142,
+          "countType": "ratings",
+          "checkedAt": "2026-09-28",
+          "sourceId": "community-ut-6868-20260928",
+          "note": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。",
+          "evidenceFile": "research/2026-09-28/evidence/e99ae7046f52f896.json",
+          "match": "matched"
         }
       ]
     },
@@ -1685,13 +1853,13 @@
         "酒花"
       ],
       "review": {
-        "positive": "香蕉、酵母香料与酒花结合，果香之外有干爽苦味。",
-        "caution": "酒精暖感与苦味更有存在感，不适合只追求甜柔。",
-        "fit": "喜欢比利时香料香，也接受干苦收口。",
+        "positive": "香蕉和酵母香料味之外，还有酒花香和干爽的苦味。",
+        "caution": "苦味和酒精暖感比较明显。",
+        "fit": "喜欢比利时酵母香气，偏好干苦收口。",
         "sourceIds": [
           "ba-westmalle"
         ],
-        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+        "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
         "total": 410,
@@ -1775,6 +1943,20 @@
           "note": "2024年优惠样本，不是现在的固定价格。",
           "checkedAt": "2026-09-27"
         }
+      ],
+      "communityRatings": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.81,
+          "count": 326144,
+          "countType": "ratings",
+          "checkedAt": "2026-09-28",
+          "sourceId": "community-ut-487-20260928",
+          "note": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。",
+          "evidenceFile": "research/2026-09-28/evidence/523f980cd74c672c.json",
+          "match": "matched"
+        }
       ]
     },
     {
@@ -1803,13 +1985,13 @@
         "酒花"
       ],
       "review": {
-        "positive": "果香、酒花和特别的酵母气息，风格干爽而有复杂感。",
-        "caution": "不同日期或市场标签酒精度可能不同；本页6.2%为BA记录，实物优先。",
-        "fit": "对干爽发酵风味好奇，而非只想喝甜麦香。",
+        "positive": "果香、酒花和酵母气息，整体偏干爽。",
+        "caution": "不同市场或日期的标签酒精度可能不同，以实物为准。",
+        "fit": "喜欢干爽、带明显发酵气息的啤酒。",
         "sourceIds": [
           "ba-orval"
         ],
-        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+        "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
         "total": 222,
@@ -1893,6 +2075,20 @@
           "note": "页面报价样本；活动有效期、运费、税费、库存与账号条件均未现场结算核验。",
           "checkedAt": "2026-09-27"
         }
+      ],
+      "communityRatings": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.67,
+          "count": 280719,
+          "countType": "ratings",
+          "checkedAt": "2026-09-28",
+          "sourceId": "community-ut-851-20260928",
+          "note": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。",
+          "evidenceFile": "research/2026-09-28/evidence/4977bd6505c4d3ce.json",
+          "match": "matched"
+        }
       ]
     },
     {
@@ -1921,13 +2117,13 @@
         "轻麦香"
       ],
       "review": {
-        "positive": "橙皮、芫荽与柔和麦香，风格轻盈、柑橘感明显。",
-        "caution": "部分评价觉得甜或薄；没有把进口原版评分直接套给国产包装。",
-        "fit": "喜欢轻香料、柑橘调而不追求强苦味。",
+        "positive": "橙皮、芫荽和柔和麦香，酒体轻盈。",
+        "caution": "这里收录比利时原版，国产版和玫瑰款需另看。",
+        "fit": "喜欢柑橘香和轻香料味，不想要很强的苦味。",
         "sourceIds": [
           "ba-hoegaarden"
         ],
-        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+        "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
         "total": 165,
@@ -1956,7 +2152,7 @@
       "aliases": [
         "福佳白"
       ],
-      "identityNote": "只记录比利时原版；国产版、玫瑰款需独立核验。",
+      "identityNote": "比利时4.9%原版，不是国产版或玫瑰款。",
       "identityPending": false,
       "purchaseGuide": {
         "ceiling": 8,
@@ -1998,6 +2194,20 @@
           "checkedAt": "2026-09-27",
           "countType": "ratings"
         }
+      ],
+      "communityRatings": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.54,
+          "count": 494589,
+          "countType": "ratings",
+          "checkedAt": "2026-09-28",
+          "sourceId": "community-ut-6422-20260928",
+          "note": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。",
+          "evidenceFile": "research/2026-09-28/evidence/ab02ad76408e0d3a.json",
+          "match": "matched"
+        }
       ]
     },
     {
@@ -2026,13 +2236,13 @@
         "麦芽"
       ],
       "review": {
-        "positive": "柑橘与香料类酒花叠在麦芽底味上，属于经典美式淡艾尔。",
-        "caution": "不是浑浊果汁型；苦味与麦芽同时存在。国内报价待补。",
-        "fit": "想尝试清晰酒花与麦芽平衡。",
+        "positive": "柑橘和香料类酒花香，麦芽底味也比较清楚。",
+        "caution": "这是经典美式淡艾尔，不是浑浊果汁型，苦味较明确。",
+        "fit": "想试酒花与麦芽比较均衡的淡艾尔。",
         "sourceIds": [
           "ba-sierra"
         ],
-        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+        "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
         "total": 122,
@@ -2105,6 +2315,20 @@
           "checkedAt": "2026-09-27",
           "countType": "ratings"
         }
+      ],
+      "communityRatings": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.62,
+          "count": 550755,
+          "countType": "ratings",
+          "checkedAt": "2026-09-28",
+          "sourceId": "community-ut-6284-20260928",
+          "note": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。",
+          "evidenceFile": "research/2026-09-28/evidence/6295d2f506dde73f.json",
+          "match": "matched"
+        }
       ]
     },
     {
@@ -2133,13 +2357,13 @@
         "草本"
       ],
       "review": {
-        "positive": "柑橘、松针与草本酒花，麦芽仍有存在感。",
-        "caution": "苦味比较明确，7.2%；不适合把IPA理解成纯果汁。",
-        "fit": "更喜欢干净苦味与松香的酒花爱好者。",
+        "positive": "柑橘、松针和草本酒花香，带有麦芽底味。",
+        "caution": "苦味明显，酒精度7.2%。",
+        "fit": "喜欢松香、草本和干爽苦味。",
         "sourceIds": [
           "ba-torpedo"
         ],
-        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+        "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
         "total": 128.9,
@@ -2210,6 +2434,20 @@
           "checkedAt": "2026-09-27",
           "countType": "ratings"
         }
+      ],
+      "communityRatings": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.72,
+          "count": 377624,
+          "countType": "ratings",
+          "checkedAt": "2026-09-28",
+          "sourceId": "community-ut-4997-20260928",
+          "note": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。",
+          "evidenceFile": "research/2026-09-28/evidence/8e6eda68a605c74f.json",
+          "match": "matched"
+        }
       ]
     },
     {
@@ -2238,13 +2476,13 @@
         "柑橘"
       ],
       "review": {
-        "positive": "以Citra带来的葡萄柚、芒果与柑橘香获得好评，酒体相对轻。",
-        "caution": "5.8%为平台记录，实际批次可能不同；现有2026促销要买12罐且已结束。",
-        "fit": "想探索美式浑浊香气，但不直接选择双倍IPA。",
+        "positive": "Citra酒花带来葡萄柚、芒果和柑橘香，酒体相对轻。",
+        "caution": "这里收录普通版，双倍干投和其他酒花版本需分开看。",
+        "fit": "喜欢浑浊啤酒的果香，但不想直接选双倍IPA。",
         "sourceIds": [
           "ba-pseudosue"
         ],
-        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+        "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
         "total": 32.9,
@@ -2330,6 +2568,20 @@
           "note": "要买2组共12罐才对应该样本；不是只买1罐能享的价格。",
           "checkedAt": "2026-09-27"
         }
+      ],
+      "communityRatings": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 4.1,
+          "count": 245356,
+          "countType": "ratings",
+          "checkedAt": "2026-09-28",
+          "sourceId": "community-ut-65644-20260928",
+          "note": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。",
+          "evidenceFile": "research/2026-09-28/evidence/51e11d6be7deb065.json",
+          "match": "matched"
+        }
       ]
     },
     {
@@ -2358,13 +2610,13 @@
         "浓酒花"
       ],
       "review": {
-        "positive": "Citra热带水果与柑橘香非常集中，社区评价突出。",
-        "caution": "也有酒花辛辣感反馈；8.2%为页面当前值，批次可变。旧促销价不代表现价。",
-        "fit": "专门探索浓郁浑浊双倍IPA，而非低预算日常选项。",
+        "positive": "热带水果和柑橘香浓，Citra酒花的存在感很强。",
+        "caution": "部分评价提到酒花辛辣感；酒精度8.2%，购买时核对批次标签。",
+        "fit": "喜欢浓郁的浑浊双倍IPA。",
         "sourceIds": [
           "ba-kingsue"
         ],
-        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+        "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
         "total": 38.9,
@@ -2449,6 +2701,20 @@
           "ambiguous": false,
           "note": "2024年促销历史记录，不能当作今天可买到的价格；默认排除。核对具体批次和规格。",
           "checkedAt": "2026-09-27"
+        }
+      ],
+      "communityRatings": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 4.3,
+          "count": 176054,
+          "countType": "ratings",
+          "checkedAt": "2026-09-28",
+          "sourceId": "community-ut-594015-20260928",
+          "note": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。",
+          "evidenceFile": "research/2026-09-28/evidence/d2f9c981df6bdd98.json",
+          "match": "matched"
         }
       ]
     },
@@ -2641,13 +2907,13 @@
         "干爽"
       ],
       "review": {
-        "positive": "口感顺滑、烘烤气息轻，身体感并非浓厚帝国世涛。",
-        "caution": "不喜欢的人会觉得偏薄；Draught不等于Foreign Extra。地区标签可略有变化。",
-        "fit": "想试轻巧干爽的黑啤，而不是甜品型世涛。",
+        "positive": "口感顺滑，带轻烘烤味，酒体不算厚。",
+        "caution": "喜欢浓厚世涛的人可能觉得偏薄；Draught和Foreign Extra不是同款。",
+        "fit": "想试轻盈、偏干爽的世涛。",
         "sourceIds": [
           "ba-guinness"
         ],
-        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+        "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
         "total": 337,
@@ -2733,6 +2999,20 @@
           "note": "保留活动标价44.9元；没有采用88VIP等优惠后的36.2元。不是Foreign Extra。活动是否仍可用未核验。",
           "checkedAt": "2026-09-27"
         }
+      ],
+      "communityRatings": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.77,
+          "count": 997788,
+          "countType": "ratings",
+          "checkedAt": "2026-09-28",
+          "sourceId": "community-ut-4473-20260928",
+          "note": "Guinness Draught总体评分，未单独统计本页氮气罐装；保留酒花儿罐装评分用于默认比较。",
+          "evidenceFile": "research/2026-09-28/evidence/07303f4a322ac137.json",
+          "match": "related"
+        }
       ]
     },
     {
@@ -2761,13 +3041,13 @@
         "肉桂"
       ],
       "review": {
-        "positive": "花生酱、巧克力、肉桂与咖啡感突出，是鲜明的甜品路线。",
-        "caution": "甜腻和花生酱存在感是争议点。规格为355ml瓶装；关注实物配料和过敏原。",
-        "fit": "喜欢甜点、咖啡与巧克力风味。",
+        "positive": "花生酱、巧克力、肉桂和咖啡味，像一款甜点。",
+        "caution": "甜感和花生酱味较重，购买前注意配料和过敏原。",
+        "fit": "喜欢甜点、巧克力和咖啡风味。",
         "sourceIds": [
           "ba-beaver"
         ],
-        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+        "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
         "total": 134.9,
@@ -2796,7 +3076,7 @@
       "aliases": [
         "海狸万岁"
       ],
-      "identityNote": "仍为Viva La Beaver同一酒款，本版报价规格改为355ml×6瓶；不能把瓶价与473ml罐价直接比较。",
+      "identityNote": "常规Viva La Beaver，不是过桶版。包装大小见报价。",
       "identityPending": false,
       "purchaseGuide": {
         "ceiling": 28,
@@ -2852,6 +3132,20 @@
           "note": "所选价格为355ml瓶装。不是473ml罐；容量已据报价更新。",
           "checkedAt": "2026-09-27"
         }
+      ],
+      "communityRatings": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 4.08,
+          "count": 39727,
+          "countType": "ratings",
+          "checkedAt": "2026-09-28",
+          "sourceId": "community-ut-1033614-20260928",
+          "note": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。",
+          "evidenceFile": "research/2026-09-28/evidence/a2bf41ba2606d9c5.json",
+          "match": "matched"
+        }
       ]
     },
     {
@@ -2880,13 +3174,13 @@
         "清苦"
       ],
       "review": {
-        "positive": "麦芽底味和萨兹酒花苦味的平衡，风格清晰而不过度浓厚。",
-        "caution": "社区分数不及烈性精酿，不代表清爽场景差；国内仅找到较旧参考报价。",
-        "fit": "希望拉格有麦香与苦味，而不是追求浓烈果香。",
+        "positive": "麦芽香和萨兹酒花苦味比较均衡，酒体不厚。",
+        "caution": "有明确苦味，和淡而甜的拉格不太一样。",
+        "fit": "喜欢有麦香、有苦味的清爽拉格。",
         "sourceIds": [
           "ba-pilsner"
         ],
-        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+        "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
         "total": 245,
@@ -2972,6 +3266,20 @@
           "note": "2023年资讯站参考价，不是实际成交或实时商家报价；默认排除。",
           "checkedAt": "2026-09-27"
         }
+      ],
+      "communityRatings": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.38,
+          "count": 461102,
+          "countType": "ratings",
+          "checkedAt": "2026-09-28",
+          "sourceId": "community-ut-37936-20260928",
+          "note": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。",
+          "evidenceFile": "research/2026-09-28/evidence/1ab2e64974cb713c.json",
+          "match": "matched"
+        }
       ]
     },
     {
@@ -3000,13 +3308,13 @@
         "干爽"
       ],
       "review": {
-        "positive": "轻麦芽与草本苦味，熟悉度高；评价分歧明显。",
-        "caution": "BA是国际经典款样本，不是国产绿瓶、绿罐的独立盲测；不按包装制造酒质高低。",
-        "fit": "已经喜欢经典喜力口味的人；先按自己的偏好，而不是只看社区低分。",
+        "positive": "轻麦芽味和草本苦味，是常见的经典拉格口感。",
+        "caution": "国际经典款的评分不等于国产绿瓶、绿罐的独立评分。",
+        "fit": "已经喜欢经典喜力口味，想比较同款价格。",
         "sourceIds": [
           "ba-heineken"
         ],
-        "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
+        "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
         "total": 176.72,
@@ -3035,7 +3343,7 @@
       "aliases": [
         "喜力 Heineken"
       ],
-      "identityNote": "此条只用于国际经典款口碑；你的国产绿瓶/绿罐在候选区单列，不自动移植评分。",
+      "identityNote": "国际经典5.0%款。国产绿罐、绿瓶与5L桶装分别收录。",
       "identityPending": false,
       "purchaseGuide": {
         "ceiling": 7,
@@ -3102,6 +3410,20 @@
             "evidenceFile": null
           }
         }
+      ],
+      "communityRatings": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 2.96,
+          "count": 730562,
+          "countType": "ratings",
+          "checkedAt": "2026-09-28",
+          "sourceId": "community-ut-5860-20260928",
+          "note": "对应国际经典5.0%酒款；平台未按销售地区或包装细分。 平台按酒款汇总，未按瓶罐或单个SKU细分。",
+          "evidenceFile": "research/2026-09-28/evidence/f6c925e29827cbbd.json",
+          "match": "matched"
+        }
       ]
     },
     {
@@ -3130,14 +3452,14 @@
         "浓郁"
       ],
       "review": {
-        "positive": "香蕉、丁香、花香和柑橘酒花在浓郁小麦底味上叠加；公开品饮中可见明显苦甜对照。",
-        "caution": "8.2%与40 IBU都比普通清淡白啤更有存在感；不适合仅追求低苦味。",
-        "fit": "喜欢小麦又想探索酒花香，接受更高强度的人。",
+        "positive": "香蕉、丁香、花香和柑橘酒花香，搭配浓郁的小麦底味。",
+        "caution": "酒精度8.2%，苦味比普通小麦白啤明显。",
+        "fit": "喜欢小麦风味，也喜欢酒花香。",
         "sourceIds": [
           "ba-tap5",
           "review-tap5"
         ],
-        "type": "公开资料与品饮记录的简短归纳；适合人群、预算和购买判断为编辑意见，不是亲自试饮或商家承诺。"
+        "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
         "total": 487,
@@ -3224,6 +3546,20 @@
           "note": "优惠记录，需以结算条件、物流和实物版本为准。",
           "checkedAt": "2026-09-27"
         }
+      ],
+      "communityRatings": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.77,
+          "count": 92547,
+          "countType": "ratings",
+          "checkedAt": "2026-09-28",
+          "sourceId": "community-ut-11027-20260928",
+          "note": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。",
+          "evidenceFile": "research/2026-09-28/evidence/2be7641c73a6711b.json",
+          "match": "matched"
+        }
       ]
     },
     {
@@ -3252,13 +3588,13 @@
         "酒花"
       ],
       "review": {
-        "positive": "公开评论常提柑橘、百香果和菠萝感；部分酒友认可较柔和酒体。",
-        "caution": "也有尾段涩、酒花辛辣或风味杂的反馈。24条是文字评论，不是评分人数。",
-        "fit": "想用较低试错成本进入国产浑浊IPA。",
+        "positive": "公开评价常提到柑橘、百香果和菠萝香，酒体较柔和。",
+        "caution": "也有尾段发涩、酒花辛辣的反馈。",
+        "fit": "想尝试国产浑浊IPA。",
         "sourceIds": [
           "review-dajiu"
         ],
-        "type": "公开资料与品饮记录的简短归纳；适合人群、预算和购买判断为编辑意见，不是亲自试饮或商家承诺。"
+        "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
         "total": 78,
@@ -3345,6 +3681,20 @@
           "note": "优惠静态样本；批次、新鲜度、到手运费另核对。",
           "checkedAt": "2026-09-27"
         }
+      ],
+      "communityRatings": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.89,
+          "count": 99,
+          "countType": "ratings",
+          "checkedAt": "2026-09-28",
+          "sourceId": "community-ut-6360481-20260928",
+          "note": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。",
+          "evidenceFile": "research/2026-09-28/evidence/c2f066d275b9e07d.json",
+          "match": "matched"
+        }
       ]
     },
     {
@@ -3373,14 +3723,14 @@
         "清爽"
       ],
       "review": {
-        "positive": "原味易拉罐条目的品饮方向为淡盐、乳酸、较低苦味与清爽感。",
-        "caution": "酸啤不能用普通拉格预期衡量；774条是文字评论，不是774次评分。与瓶装、水果变体分开。",
-        "fit": "喜欢微酸咸、对酸啤好奇的人。",
+        "positive": "淡盐味、乳酸感，苦味低，口感偏清爽。",
+        "caution": "这里收录原味，芒果等水果版和双倍版是不同酒款。",
+        "fit": "喜欢微酸、微咸的口感。",
         "sourceIds": [
           "jh-salt",
           "review-salt"
         ],
-        "type": "公开资料与品饮记录的简短归纳；适合人群、预算和购买判断为编辑意见，不是亲自试饮或商家承诺。"
+        "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
         "total": 78,
@@ -3468,6 +3818,20 @@
           "note": "原味古斯易拉罐；不套用于水果增味款。",
           "checkedAt": "2026-09-27"
         }
+      ],
+      "communityRatings": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.61,
+          "count": 1345,
+          "countType": "ratings",
+          "checkedAt": "2026-09-28",
+          "sourceId": "community-ut-1883664-20260928",
+          "note": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。",
+          "evidenceFile": "research/2026-09-28/evidence/b0a203680b5162fd.json",
+          "match": "matched"
+        }
       ]
     },
     {
@@ -3495,14 +3859,14 @@
         "小麦"
       ],
       "review": {
-        "positive": "公开品饮常见香蕉、丁香、果香和绵密泡沫的描述；也有轻薄、收口较干的反馈。",
-        "caution": "BA样本113不大；5%为平台记录，部分市场标签可能不同。不要为历史大奖无限加价。",
-        "fit": "愿意与维森、保拉纳横向试饮传统小麦的人。",
+        "positive": "香蕉、丁香和果香，泡沫绵密，收口偏干。",
+        "caution": "本页保留5.0%研究版本；新找到的4.8%评分单列为相关版本。",
+        "fit": "喜欢传统小麦，想和维森、保拉纳对照。",
         "sourceIds": [
           "ba-primator",
           "official-primator"
         ],
-        "type": "公开资料与品饮记录的简短归纳；适合人群、预算和购买判断为编辑意见，不是亲自试饮或商家承诺。"
+        "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
         "total": 218,
@@ -3575,7 +3939,21 @@
         "checkedAt": "2026-09-27",
         "note": "同名Primátor Weizenbier页面为4.8%，库存研究款为5.0%；未证明相同版本。补查Untappd Weizen亦为4.8%，仅相关评分。",
         "evidenceFile": "evidence/b22a4746c093b3b5.json"
-      }
+      },
+      "communityRatings": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.48,
+          "count": 36515,
+          "countType": "ratings",
+          "checkedAt": "2026-09-28",
+          "sourceId": "community-ut-30947-20260928",
+          "note": "页面为4.8% Weizen；本页收录的是5.0%版本，仅作相关版本参考。",
+          "evidenceFile": "research/2026-09-28/evidence/07fb0f3dce883419.json",
+          "match": "related"
+        }
+      ]
     },
     {
       "id": "snow",
@@ -3592,15 +3970,15 @@
         "拉格"
       ],
       "review": {
-        "positive": "640ml大瓶和较低样本价是可确认的购买特点；规格页标示4.7%与12°P。",
-        "caution": "未找到与当前版本匹配的大样本独立口碑分。老雪1964条目不能冒充此版，“劲大”也不是质量结论。",
-        "fit": "已熟悉这一口味、以较低成本为先的人。",
+        "positive": "本页收录640ml、4.7%／12°P的沈阳老雪。",
+        "caution": "已找到的1964、盒马1L和4.4%条目都不能直接当成这一版本的评分；报价版本也仍待确认。",
+        "fit": "熟悉老雪口味，想比较这一规格的价格。",
         "sourceIds": [
           "spec-snow",
           "jh-snow1964",
           "price-snow"
         ],
-        "type": "公开资料与品饮记录的简短归纳；适合人群、预算和购买判断为编辑意见，不是亲自试饮或商家承诺。"
+        "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
         "total": 114,
@@ -3631,7 +4009,7 @@
         "老雪 老雪花",
         "老雪花"
       ],
-      "identityNote": "本条选择沈阳老雪640ml、4.7%/12°P版。老雪1964平台条目的4.1%不能当作本款独立评分；价格页未完整确认批次。",
+      "identityNote": "研究对象为640ml、4.7%／12°P沈阳老雪。现有报价版本未完全确认。",
       "identityPending": false,
       "relatedRating": {
         "platform": "酒花儿",
@@ -3701,6 +4079,20 @@
           "note": "页面报价样本；活动有效期、运费、税费、库存与账号条件均未现场结算核验。",
           "checkedAt": "2026-09-27"
         }
+      ],
+      "communityRatings": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.08,
+          "count": 382,
+          "countType": "ratings",
+          "checkedAt": "2026-09-28",
+          "sourceId": "community-ut-4909071-20260928",
+          "note": "页面为4.7%／12°P雪花，介绍对应盒马1L装，不是已确认的640ml沈阳老雪同款。",
+          "evidenceFile": "research/2026-09-28/evidence/5a836c02d0b4053d.json",
+          "match": "related"
+        }
       ]
     },
     {
@@ -3728,14 +4120,14 @@
         "原渠道价格"
       ],
       "review": {
-        "positive": "已有小麦款独立社区条目，均分3.04/5；价格报道显示原渠道与转售价应分开判断。",
-        "caution": "口碑并没有证明它胜过所有进口小麦。低价优势主要取决于能否按原渠道价购得。",
-        "fit": "预算优先、喜欢小麦口感，且不愿为代购溢价付费的人。",
+        "positive": "胖东来精酿小麦款，酒精度4.7%，已有独立社区评分。",
+        "caution": "原渠道与代购的售价可能差很多，比较时以实际到手价为准。",
+        "fit": "喜欢小麦口感，比较在意购买成本。",
         "sourceIds": [
           "ut-pang",
           "price-pang-2026"
         ],
-        "type": "公开资料与品饮记录的简短归纳；适合人群、预算和购买判断为编辑意见，不是亲自试饮或商家承诺。"
+        "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
         "total": 79.8,
@@ -3840,14 +4232,14 @@
         "配餐"
       ],
       "review": {
-        "positive": "经典Super Dry资料偏向清爽、干爽的拉格定位；相关平台有口碑记录，但产地匹配仍不足。",
-        "caution": "国产经典、进口、食彩、低度新版不能混价混分。缺独立SKU分不等于差评。",
-        "fit": "优先清爽干净的配餐感，而不追求浓厚麦香的人。",
+        "positive": "经典Super Dry以干爽、清爽的拉格风格为主。",
+        "caution": "本页收录国产5%经典款；进口、食彩和低度版需分开看。新找到的国产评分条目酒厂归属有冲突，暂作参考。",
+        "fit": "喜欢清爽的配餐啤酒。",
         "sourceIds": [
           "jh-asahi",
           "price-asahi"
         ],
-        "type": "公开资料与品饮记录的简短归纳；适合人群、预算和购买判断为编辑意见，不是亲自试饮或商家承诺。"
+        "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
         "total": 115,
@@ -3877,7 +4269,7 @@
         "朝日 Asahi",
         "朝日"
       ],
-      "identityNote": "本条选择国产经典超爽500ml、5%标签版本；近年另有低度和无糖等版本。5%为经典系列参考，购买须核对实物，不套用食彩或全开盖版。",
+      "identityNote": "国产500ml、5%经典超爽。食彩、全开盖和低度版不在此条范围内。",
       "identityPending": false,
       "relatedRating": {
         "platform": "酒花儿",
@@ -3947,6 +4339,20 @@
           "note": "活动已结束；69元为当次现金口径，不把积分折现当实付。产地/标签以商品核验。",
           "checkedAt": "2026-09-27"
         }
+      ],
+      "communityRatings": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 2.79,
+          "count": 14,
+          "countType": "ratings",
+          "checkedAt": "2026-09-28",
+          "sourceId": "community-ut-5284196-20260928",
+          "note": "页面名为国产 Super Dry、5.0%，但酒厂归属写作青岛啤酒，生产身份存在冲突，暂不用于比较。",
+          "evidenceFile": "research/2026-09-28/evidence/610f13b2abd5bb5d.json",
+          "match": "related"
+        }
       ]
     },
     {
@@ -3964,14 +4370,14 @@
         "国产白啤"
       ],
       "review": {
-        "positive": "所选500ml全麦白版规格为4.1%/11°P，属于国产白啤候选；旧版品饮常提轻麦香、柔和甜感。",
-        "caution": "旧版3.7%评论中有偏薄的反馈，但不能作为4.1%版本已证实的结论。只看当前标签和个人口味。",
-        "fit": "想尝试国产白啤，且到手价低于常见进口小麦的人。",
+        "positive": "本页收录青岛全麦白啤500ml、4.1%／11°P版本。",
+        "caution": "旧版3.7%与新找到的4.1%白啤页面都未确认匹配这一全麦规格，评分仅供参考。",
+        "fit": "想尝试国产白啤，先核对包装与规格。",
         "sourceIds": [
           "spec-tsing",
           "jh-tsing-white"
         ],
-        "type": "公开资料与品饮记录的简短归纳；适合人群、预算和购买判断为编辑意见，不是亲自试饮或商家承诺。"
+        "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
         "total": 79.8,
@@ -4000,7 +4406,7 @@
       "aliases": [
         "青岛白啤"
       ],
-      "identityNote": "本条选择全麦白500ml、4.1%/11°P版；旧版3.7%的社区评价单独作为相关记录，不能混成同一SKU。",
+      "identityNote": "全麦白500ml、4.1%／11°P版，和旧3.7%版本分开记录。",
       "identityPending": false,
       "relatedRating": {
         "platform": "酒花儿",
@@ -4070,6 +4476,20 @@
           "note": "旧文标价参考；不采用混装赠品促销摊分价。",
           "checkedAt": "2026-09-27"
         }
+      ],
+      "communityRatings": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.14,
+          "count": 132,
+          "countType": "ratings",
+          "checkedAt": "2026-09-28",
+          "sourceId": "community-ut-4229247-20260928",
+          "note": "页面为青岛白啤4.1%，未明确全麦500ml／11°P规格，暂作相关版本参考。",
+          "evidenceFile": "research/2026-09-28/evidence/e152eef28fd2e921.json",
+          "match": "related"
+        }
       ]
     },
     {
@@ -4087,14 +4507,14 @@
         "麦香定位"
       ],
       "review": {
-        "positive": "A3上市介绍强调全麦、麦香和柔和口感。这是品牌定位的归纳，并非独立盲测结论。",
-        "caution": "暂缺精确匹配的独立平台分；低价常附会员凑单条件。不能把139元标价当性价比优势。",
-        "fit": "偏传统拉格、愿意为自己喜欢的麦香付费，而不只看高端包装的人。",
+        "positive": "A3以全麦和麦香为卖点，这里收录500ml罐装。",
+        "caution": "A3与奥古特1903、A6不同；实物标签的酒精度尚未核实。",
+        "fit": "喜欢传统拉格和麦香。",
         "sourceIds": [
           "report-a3",
           "price-a3"
         ],
-        "type": "公开资料与品饮记录的简短归纳；适合人群、预算和购买判断为编辑意见，不是亲自试饮或商家承诺。"
+        "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
         "total": 103.55,
@@ -4124,7 +4544,7 @@
         "奥古特 A3",
         "奥古特"
       ],
-      "identityNote": "本版选择A3全麦500ml罐装，不代表原版奥古特或A6。原麦汁浓度不是酒精度；未取得足够明确的A3标签酒精度，暂不填数字。",
+      "identityNote": "A3全麦500ml罐装，不是奥古特1903或A6。实物标签酒精度尚未核实。",
       "identityPending": false,
       "purchaseGuide": {
         "ceiling": 7,
@@ -4198,14 +4618,14 @@
         "草本苦味"
       ],
       "review": {
-        "positive": "经典喜力罐装的聚合评论有轻麦芽、草本苦味与较清爽的描述，也存在明显口味分歧。",
-        "caution": "聚合条目产地混杂，不把2.75分假定为国产500ml独立分；包装本身不是品质排名。",
-        "fit": "已喜欢经典喜力风味，优先比较同款到手价的人。",
+        "positive": "经典喜力罐装，公开评价常提轻麦芽和草本苦味。",
+        "caution": "现有平台评分未单独统计国产500ml绿罐，仅作相关参考。",
+        "fit": "喜欢经典喜力，偏好罐装。",
         "sourceIds": [
           "jh-heineken-can",
           "price-heineken-can"
         ],
-        "type": "公开资料与品饮记录的简短归纳；适合人群、预算和购买判断为编辑意见，不是亲自试饮或商家承诺。"
+        "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
         "total": 167.72,
@@ -4327,6 +4747,20 @@
             "evidenceFile": null
           }
         }
+      ],
+      "communityRatings": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 2.96,
+          "count": 730562,
+          "countType": "ratings",
+          "checkedAt": "2026-09-28",
+          "sourceId": "community-ut-5860-20260928",
+          "note": "经典喜力总体评分，未单独统计中国生产的500ml绿罐。",
+          "evidenceFile": "research/2026-09-28/evidence/f6c925e29827cbbd.json",
+          "match": "related"
+        }
       ]
     },
     {
@@ -4344,13 +4778,13 @@
         "玻璃瓶"
       ],
       "review": {
-        "positive": "经典瓶装的聚合评论方向仍是较轻麦芽、草本苦味与熟悉的拉格口感。",
-        "caution": "没有证据仅凭绿瓶认定它高于绿罐。规格采用500ml作为选购对象，但未核实对应国内报价。",
-        "fit": "偏好玻璃瓶饮用体验，且不接受明显包装溢价的人。",
+        "positive": "经典喜力瓶装，风味偏轻麦芽和草本苦味。",
+        "caution": "现有评分未单独统计国产500ml绿瓶，不能据此判断瓶装比罐装好。",
+        "fit": "喜欢经典喜力，偏好玻璃瓶。",
         "sourceIds": [
           "jh-heineken-glass"
         ],
-        "type": "公开资料与品饮记录的简短归纳；适合人群、预算和购买判断为编辑意见，不是亲自试饮或商家承诺。"
+        "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
         "total": 85.8,
@@ -4461,6 +4895,20 @@
             "evidenceFile": null
           }
         }
+      ],
+      "communityRatings": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 2.96,
+          "count": 730562,
+          "countType": "ratings",
+          "checkedAt": "2026-09-28",
+          "sourceId": "community-ut-5860-20260928",
+          "note": "经典喜力总体评分，未单独统计中国生产的500ml绿瓶。",
+          "evidenceFile": "research/2026-09-28/evidence/f6c925e29827cbbd.json",
+          "match": "related"
+        }
       ]
     },
     {
@@ -4487,15 +4935,15 @@
         "打酒体验"
       ],
       "review": {
-        "positive": "5L压力桶提供自己打酒的体验；官网明确内置二氧化碳系统与冷藏要求。",
-        "caution": "其价值有一部分是使用体验而非酒液升档；没有桶装独立均分，国际经典款分仅作背景。",
-        "fit": "多人场合重视打酒体验、且有足够冷藏空间的人。",
+        "positive": "5L压力桶可自行打酒，内置二氧化碳系统，需要冷藏。",
+        "caution": "酒花儿已有5L桶装条目；Untappd和BeerAdvocate的经典款总体分另列参考。",
+        "fit": "看重打酒体验，有足够冷藏空间。",
         "sourceIds": [
           "official-keg",
           "ba-heineken",
           "price-keg-2026"
         ],
-        "type": "公开资料与品饮记录的简短归纳；适合人群、预算和购买判断为编辑意见，不是亲自试饮或商家承诺。"
+        "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
         "total": 305,
@@ -4582,11 +5030,25 @@
           "note": "当次券后价；不把瓶罐总体评价认作桶装独立评分。",
           "checkedAt": "2026-09-27"
         }
+      ],
+      "communityRatings": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 2.96,
+          "count": 730562,
+          "countType": "ratings",
+          "checkedAt": "2026-09-28",
+          "sourceId": "community-ut-5860-20260928",
+          "note": "经典喜力总体评分，不是5L压力桶独立评分。",
+          "evidenceFile": "research/2026-09-28/evidence/f6c925e29827cbbd.json",
+          "match": "related"
+        }
       ]
     },
     {
       "id": "nadu",
-      "name": "施纳德7号 · “纳德”临时代表款",
+      "name": "施纳德7号",
       "english": "Schneider Weisse TAP7 Original",
       "family": "wheat",
       "style": "深色小麦",
@@ -4610,13 +5072,13 @@
         "焦糖"
       ],
       "review": {
-        "positive": "本版选取的7号是深色传统小麦路线，可留意麦芽、酵母香料与轻焦糖方向。",
-        "caution": "这只是对原始模糊名称的明确代表选择。不能据此说原清单“纳德”已经被识别。",
-        "fit": "想尝试不同于5号酒花博克的经典小麦风格。",
+        "positive": "施纳德7号是深色传统小麦，带麦芽、酵母香料和轻焦糖味。",
+        "caution": "本页用7号作为“纳德”的代表款；5号、6号等编号风格不同。",
+        "fit": "想试传统深色小麦，不以强酒花香为主。",
         "sourceIds": [
           "jh-tap7"
         ],
-        "type": "公开资料与品饮记录的简短归纳；适合人群、预算和购买判断为编辑意见，不是亲自试饮或商家承诺。"
+        "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
         "total": 424,
@@ -4645,7 +5107,7 @@
       "aliases": [
         "纳德"
       ],
-      "identityNote": "原始“纳德”无法唯一识别。本版主动选择施纳德7号作临时代表，绝不表示已确认原清单指的就是它；不是5号，也不是其他编号。",
+      "identityNote": "这里用施纳德7号代表原称“纳德”，原名仍有歧义；数据仅适用于7号。",
       "identityPending": false,
       "representative": true,
       "purchaseGuide": {
@@ -4703,6 +5165,20 @@
           "note": "所选代表款施纳德7号，不是所有“纳德”的报价。",
           "checkedAt": "2026-09-27"
         }
+      ],
+      "communityRatings": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.65,
+          "count": 179140,
+          "countType": "ratings",
+          "checkedAt": "2026-09-28",
+          "sourceId": "community-ut-11982-20260928",
+          "note": "对应本页选定的施纳德7号代表款。 平台按酒款汇总，未按瓶罐或单个SKU细分。",
+          "evidenceFile": "research/2026-09-28/evidence/3d1bcbecde701cc8.json",
+          "match": "matched"
+        }
       ]
     },
     {
@@ -4731,13 +5207,13 @@
         "浑浊"
       ],
       "review": {
-        "positive": "选定的6%版本归类为酸浑浊IPA，主要尝试方向是果香与酸感的结合。",
-        "caution": "69条文字评论不等于69次评分。泛系列报价未确认到6%版本；酸甜偏好差异比细小分差重要。",
-        "fit": "喜欢水果酸感、愿意尝试酸浑浊组合的人。",
+        "positive": "本页收录6%酸浑浊IPA，风味以果香和酸感为主。",
+        "caution": "目前报价对应的芒果酸艾尔尚未确认是这款6%版本，默认不进入前沿。",
+        "fit": "喜欢果香和酸味，想试酸浑浊IPA。",
         "sourceIds": [
           "jh-dream"
         ],
-        "type": "公开资料与品饮记录的简短归纳；适合人群、预算和购买判断为编辑意见，不是亲自试饮或商家承诺。"
+        "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
         "total": 696,
@@ -4767,7 +5243,7 @@
       "aliases": [
         "沙坡尾梦小姐"
       ],
-      "identityNote": "原清单只写系列名。本版明确选择酒花儿所列6%酸浑浊IPA作代表；不是3%超级芒果或5%贵妃芒芒。检索到的泛系列报价未确认到此版，因此仍标记歧义。",
+      "identityNote": "这里收录6%酸浑浊IPA，不是3%超级芒果或5%贵妃芒芒。现有报价的版本未确认一致。",
       "identityPending": false,
       "representative": true,
       "purchaseGuide": {
@@ -4825,6 +5301,20 @@
           "note": "品牌系列报价，未确认6%对应版本；默认不进入证据前沿。",
           "checkedAt": "2026-09-27"
         }
+      ],
+      "communityRatings": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.72,
+          "count": 152,
+          "countType": "ratings",
+          "checkedAt": "2026-09-28",
+          "sourceId": "community-ut-4338144-20260928",
+          "note": "对应6%酸浑浊IPA，不对应目前未确认的芒果酸艾尔报价。 平台按酒款汇总，未按瓶罐或单个SKU细分。",
+          "evidenceFile": "research/2026-09-28/evidence/fa39637f68dad714.json",
+          "match": "matched"
+        }
       ]
     },
     {
@@ -4853,14 +5343,14 @@
         "高酒精度"
       ],
       "review": {
-        "positive": "选定的黑夜属于高强度帝国世涛；可留意浓厚烘烤、深色麦芽与酒精暖感。",
-        "caution": "13.6%为社区所列版本。它不能代表整个珀亚拉品牌，常规与PX桶陈版尤其不能混价。",
-        "fit": "明确喜欢浓厚世涛并希望进阶，而非寻求清淡解渴的人。",
+        "positive": "Pime Öö黑夜是浓郁的帝国世涛，带烘烤、深色麦芽和酒精暖感。",
+        "caution": "这里收录常规13.6%版，不是PX或其他桶陈版。",
+        "fit": "喜欢厚重的世涛，能接受高酒精度。",
         "sourceIds": [
           "jh-pohjala",
           "official-pohjala"
         ],
-        "type": "公开资料与品饮记录的简短归纳；适合人群、预算和购买判断为编辑意见，不是亲自试饮或商家承诺。"
+        "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
         "total": 220.8,
@@ -4890,7 +5380,7 @@
         "伯亚拉 珀亚拉 爱沙尼亚",
         "爱沙尼亚伯亚拉"
       ],
-      "identityNote": "珀亚拉是酒厂，不是单一酒款。本版主动选取常规黑夜Pime Öö作代表；不代表全品牌，不是PX或其他桶陈黑夜。",
+      "identityNote": "珀亚拉常规黑夜Pime Öö，不是PX或其他桶陈版，也不代表酒厂其他产品。",
       "identityPending": false,
       "representative": true,
       "ibu": 60,
@@ -4935,6 +5425,20 @@
           "sourceId": "jh-pohjala",
           "checkedAt": "2026-09-27",
           "note": ""
+        }
+      ],
+      "communityRatings": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 4.07,
+          "count": 23216,
+          "countType": "ratings",
+          "checkedAt": "2026-09-28",
+          "sourceId": "community-ut-914232-20260928",
+          "note": "对应常规Pime Öö黑夜，不是PX或其他桶陈版。 平台按酒款汇总，未按瓶罐或单个SKU细分。",
+          "evidenceFile": "research/2026-09-28/evidence/257de849d86f3879.json",
+          "match": "matched"
         }
       ]
     },
@@ -5139,15 +5643,17 @@
         "evidenceFile": "evidence/c97b760eeeea6ae3.json"
       },
       "tags": [
-        "用户榜单",
-        "资料待补"
+        "德式小麦",
+        "德国代表款"
       ],
       "review": {
-        "positive": "用户将「范佳乐」列为「顶级」。这是原清单的主观档位，不是已核验的公开品饮结论。",
-        "caution": "具体SKU、产地、规格和公开评价尚未核验；不套用同品牌其他产品的数据。",
-        "fit": "先核对商品全名与包装，再决定是否试饮；暂无已核验的风味或选购预算建议。",
-        "sourceIds": [],
-        "type": "用户提供的主观榜单；非公开评价归纳、非亲自试饮"
+        "positive": "本页选取德国Franziskaner小麦白啤作为代表，酒精度5%。",
+        "caution": "“范佳乐”有不同产地和包装，本页数据不代表全部版本。",
+        "fit": "先核对是否为所列德国版本，再比较价格和评分。",
+        "sourceIds": [
+          "research-rating-b690aa1fa280394c"
+        ],
+        "type": "按所选代表款的产品资料整理。"
       },
       "quote": {
         "total": 167,
@@ -5174,7 +5680,7 @@
       },
       "originalList": true,
       "aliases": [],
-      "identityNote": "原文未指定产地或版本；独立记录，不把旧库“教士进口小麦白啤”的评分和价格移植过来。 用户授权常见代表款：教士 小麦 -Franziskaner Weissbier。原始清单名称保留，不确认原意或所有零售SKU。原文未指定产地及包装；已读教士小麦与Premium页都标德国，不能据此确认用户所指产地或将旧进口记录自动等同。",
+      "identityNote": "这里选取德国Franziskaner作为代表。“范佳乐”原称未指定产地或包装，其他版本需另看。",
       "identityPending": false,
       "purchaseGuide": null,
       "coverage": {
@@ -5200,7 +5706,21 @@
           "url": "https://detail.tmall.com/item.htm?id=628115492988&skuId=5932035411887"
         }
       },
-      "representative": true
+      "representative": true,
+      "communityRatings": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.69,
+          "count": 469288,
+          "countType": "ratings",
+          "checkedAt": "2026-09-28",
+          "sourceId": "community-ut-14564-20260928",
+          "note": "对应本页选定的德国Franziskaner代表款，不代表所有国产范佳乐。 平台按酒款汇总，未按瓶罐或单个SKU细分。",
+          "evidenceFile": "research/2026-09-28/evidence/e93f0d3423faea18.json",
+          "match": "matched"
+        }
+      ]
     },
     {
       "id": "tsingtao-unfiltered",
@@ -5522,15 +6042,17 @@
         "evidenceFile": "evidence/5cd9ea435cbaff1d.json"
       },
       "tags": [
-        "用户榜单",
-        "资料待补"
+        "比利时白啤",
+        "比利时代表款"
       ],
       "review": {
-        "positive": "用户将「福佳白啤」列为「人上人」。这是原清单的主观档位，不是已核验的公开品饮结论。",
-        "caution": "具体SKU、产地、规格和公开评价尚未核验；不套用同品牌其他产品的数据。",
-        "fit": "先核对商品全名与包装，再决定是否试饮；暂无已核验的风味或选购预算建议。",
-        "sourceIds": [],
-        "type": "用户提供的主观榜单；非公开评价归纳、非亲自试饮"
+        "positive": "本页选取比利时Hoegaarden白啤作为代表，酒精度4.9%。",
+        "caution": "国产4.5%和比利时4.9%条目分开记录，本页不把两者混为同款。",
+        "fit": "先核对产地和酒精度，再比较价格和评分。",
+        "sourceIds": [
+          "research-rating-ead5b01b6d66ad86"
+        ],
+        "type": "按所选代表款的产品资料整理。"
       },
       "quote": {
         "total": 165,
@@ -5557,7 +6079,7 @@
       },
       "originalList": true,
       "aliases": [],
-      "identityNote": "原文未指定产地；独立记录，不把旧库“福佳白比利时原版”自动当作本条。 用户授权常见代表款：福佳 白 -Hoegaarden Witbier。原始清单名称保留，不确认原意或所有零售SKU。“福佳白啤”未指定产地与包装；三个已读候选都标比利时，但名称相近不证明用户买的是进口版；所选具名页仅供候选。",
+      "identityNote": "这里选取比利时4.9%Hoegaarden作为代表。“福佳白”原称未指定产地，国产版需另看。",
       "identityPending": false,
       "purchaseGuide": null,
       "coverage": {
@@ -5583,7 +6105,21 @@
           "url": "https://item.taobao.com/item.htm?id=601633387041&skuId=5670569072104"
         }
       },
-      "representative": true
+      "representative": true,
+      "communityRatings": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.54,
+          "count": 494589,
+          "countType": "ratings",
+          "checkedAt": "2026-09-28",
+          "sourceId": "community-ut-6422-20260928",
+          "note": "对应本页选定的比利时4.9%代表款，不套用国产4.5%版本。 平台按酒款汇总，未按瓶罐或单个SKU细分。",
+          "evidenceFile": "research/2026-09-28/evidence/ab02ad76408e0d3a.json",
+          "match": "matched"
+        }
+      ]
     },
     {
       "id": "liquan-1998-plus",
@@ -8518,6 +9054,336 @@
       "note": "淘宝选定SKU最大同款包装的页面显示／补贴价快照；不是保证结算价。",
       "evidenceFile": "taobao-evidence/heineken-keg-6093738140424.json",
       "evidenceSha256": "2571f5ca99ee4a5c13b185d9b79e87b04761c2420762ec107a203a70301016a1"
+    },
+    "community-ut-8745-20260928": {
+      "id": "community-ut-8745-20260928",
+      "url": "https://untappd.com/b/bayerische-staatsbrauerei-weihenstephan-weihenstephaner-hefeweissbier/8745",
+      "title": "Weihenstephaner Hefeweissbier - Bayerische Staatsbrauerei Weihenstephan - Untappd",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-28",
+      "note": "Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。"
+    },
+    "community-ut-15677-20260928": {
+      "id": "community-ut-15677-20260928",
+      "url": "https://untappd.com/b/paulaner-brauerei-paulaner-hefe-weissbier-hefe-weizen-weissbier/15677",
+      "title": "Hefe-Weißbier / Hefe-Weizen / Weissbier - Paulaner Brauerei - Untappd",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-28",
+      "note": "Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。"
+    },
+    "community-ut-21768-20260928": {
+      "id": "community-ut-21768-20260928",
+      "url": "https://untappd.com/b/ayinger-privatbrauerei-ayinger-brauweisse/21768",
+      "title": "Bräuweisse - Ayinger Privatbrauerei - Untappd",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-28",
+      "note": "Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。"
+    },
+    "community-ut-103362-20260928": {
+      "id": "community-ut-103362-20260928",
+      "url": "https://untappd.com/b/benediktiner-weissbrau-benediktiner-weissbier/103362",
+      "title": "Benediktiner Weissbier - Benediktiner Weissbräu - Untappd",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-28",
+      "note": "Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。"
+    },
+    "community-ut-14564-20260928": {
+      "id": "community-ut-14564-20260928",
+      "url": "https://untappd.com/b/spaten-franziskaner-lowenbrau-gruppe-franziskaner-premium-weissbier/14564",
+      "title": "Franziskaner Premium Weissbier Naturtrüb - Spaten-Franziskaner-Löwenbräu-Gruppe - Untappd",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-28",
+      "note": "Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。"
+    },
+    "community-ut-7420-20260928": {
+      "id": "community-ut-7420-20260928",
+      "url": "https://untappd.com/b/erdinger-weissbrau-erdinger-weissbier-hefe-weizen/7420",
+      "title": "Erdinger Weißbier / Hefe-Weizen - Erdinger Weissbräu - Untappd",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-28",
+      "note": "Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。"
+    },
+    "community-ut-7408-20260928": {
+      "id": "community-ut-7408-20260928",
+      "url": "https://untappd.com/b/bayerische-staatsbrauerei-weihenstephan-weihenstephaner-vitus/7408",
+      "title": "Weihenstephaner Vitus - Bayerische Staatsbrauerei Weihenstephan - Untappd",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-28",
+      "note": "Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。"
+    },
+    "community-ut-16851-20260928": {
+      "id": "community-ut-16851-20260928",
+      "url": "https://untappd.com/b/schneider-weisse-g-schneider-and-sohn-aventinus-tap06/16851",
+      "title": "Aventinus (TAP06) - Schneider Weisse G. Schneider & Sohn - Untappd",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-28",
+      "note": "Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。"
+    },
+    "community-ut-6766-20260928": {
+      "id": "community-ut-6766-20260928",
+      "url": "https://untappd.com/b/abbaye-notre-dame-de-saint-remy-trappistes-rochefort-10/6766",
+      "title": "Trappistes Rochefort 10 - Abbaye Notre-Dame de Saint-Rémy - Untappd",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-28",
+      "note": "Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。"
+    },
+    "community-ut-11473-20260928": {
+      "id": "community-ut-11473-20260928",
+      "url": "https://untappd.com/b/abbaye-notre-dame-de-saint-remy-trappistes-rochefort-8/11473",
+      "title": "Trappistes Rochefort 8 - Abbaye Notre-Dame de Saint-Rémy - Untappd",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-28",
+      "note": "Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。"
+    },
+    "community-ut-34039-20260928": {
+      "id": "community-ut-34039-20260928",
+      "url": "https://untappd.com/b/bieres-de-chimay-chimay-grande-reserve-blue/34039",
+      "title": "Chimay Grande Réserve (Blue) - Bières de Chimay - Untappd",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-28",
+      "note": "Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。"
+    },
+    "community-ut-6868-20260928": {
+      "id": "community-ut-6868-20260928",
+      "url": "https://untappd.com/b/duvel-moortgat-duvel/6868",
+      "title": "Duvel - Duvel Moortgat - Untappd",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-28",
+      "note": "Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。"
+    },
+    "community-ut-487-20260928": {
+      "id": "community-ut-487-20260928",
+      "url": "https://untappd.com/b/brouwerij-der-trappisten-van-westmalle-westmalle-trappist-tripel/487",
+      "title": "Westmalle Trappist Tripel - Brouwerij der Trappisten van Westmalle - Untappd",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-28",
+      "note": "Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。"
+    },
+    "community-ut-851-20260928": {
+      "id": "community-ut-851-20260928",
+      "url": "https://untappd.com/b/brasserie-d-orval-orval/851",
+      "title": "Orval - Brasserie d'Orval - Untappd",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-28",
+      "note": "Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。"
+    },
+    "community-ut-6422-20260928": {
+      "id": "community-ut-6422-20260928",
+      "url": "https://untappd.com/b/brouwerij-hoegaarden-hoegaarden-wit-blanche/6422",
+      "title": "Hoegaarden Wit / Blanche - Brouwerij Hoegaarden - Untappd",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-28",
+      "note": "Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。"
+    },
+    "community-ut-6284-20260928": {
+      "id": "community-ut-6284-20260928",
+      "url": "https://untappd.com/b/sierra-nevada-brewing-co-pale-ale/6284",
+      "title": "Pale Ale - Sierra Nevada Brewing Co. - Untappd",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-28",
+      "note": "Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。"
+    },
+    "community-ut-4997-20260928": {
+      "id": "community-ut-4997-20260928",
+      "url": "https://untappd.com/b/sierra-nevada-brewing-co-torpedo-extra-ipa/4997",
+      "title": "Torpedo Extra IPA - Sierra Nevada Brewing Co. - Untappd",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-28",
+      "note": "Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。"
+    },
+    "community-ut-65644-20260928": {
+      "id": "community-ut-65644-20260928",
+      "url": "https://untappd.com/b/toppling-goliath-brewing-co-pseudo-sue/65644",
+      "title": "Pseudo Sue - Toppling Goliath Brewing Co. - Untappd",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-28",
+      "note": "Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。"
+    },
+    "community-ut-594015-20260928": {
+      "id": "community-ut-594015-20260928",
+      "url": "https://untappd.com/b/toppling-goliath-brewing-co-king-sue/594015",
+      "title": "King Sue - Toppling Goliath Brewing Co. - Untappd",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-28",
+      "note": "Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。"
+    },
+    "community-ut-4473-20260928": {
+      "id": "community-ut-4473-20260928",
+      "url": "https://untappd.com/b/guinness-guinness-draught/4473",
+      "title": "Guinness Draught - Guinness - Untappd",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-28",
+      "note": "Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。"
+    },
+    "community-ut-1033614-20260928": {
+      "id": "community-ut-1033614-20260928",
+      "url": "https://untappd.com/b/belching-beaver-brewery-viva-la-beaver/1033614",
+      "title": "¡Viva La Beaver! - Belching Beaver Brewery - Untappd",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-28",
+      "note": "Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。"
+    },
+    "community-ut-37936-20260928": {
+      "id": "community-ut-37936-20260928",
+      "url": "https://untappd.com/b/plzensky-prazdroj-pilsner-urquell/37936",
+      "title": "Pilsner Urquell - Plzeňský Prazdroj - Untappd",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-28",
+      "note": "Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。"
+    },
+    "community-ut-5860-20260928": {
+      "id": "community-ut-5860-20260928",
+      "url": "https://untappd.com/b/heineken-heineken/5860",
+      "title": "Heineken - Heineken - Untappd",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-28",
+      "note": "Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。"
+    },
+    "community-ut-11027-20260928": {
+      "id": "community-ut-11027-20260928",
+      "url": "https://untappd.com/b/schneider-weisse-g-schneider-and-sohn-hopfenweisse-tap05/11027",
+      "title": "Hopfenweisse (TAP05) - Schneider Weisse G. Schneider & Sohn - Untappd",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-28",
+      "note": "Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。"
+    },
+    "community-ut-6360481-20260928": {
+      "id": "community-ut-6360481-20260928",
+      "url": "https://untappd.com/b/mahanine-brewing-arrival/6360481",
+      "title": "Arrival 降临 - MAHANINE BREWING 大九酿造 - Untappd",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-28",
+      "note": "Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。"
+    },
+    "community-ut-1883664-20260928": {
+      "id": "community-ut-1883664-20260928",
+      "url": "https://untappd.com/b/nbeer-craft-brewing-co-beijing-gose-modern/1883664",
+      "title": "Beijing Gose Modern 帝都海盐 - NBeer Craft Brewing Co. 牛啤堂 - Untappd",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-28",
+      "note": "Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。"
+    },
+    "community-ut-30947-20260928": {
+      "id": "community-ut-30947-20260928",
+      "url": "https://untappd.com/b/primator-weizen/30947",
+      "title": "Weizen - Primátor - Untappd",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-28",
+      "note": "Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。"
+    },
+    "community-ut-4909071-20260928": {
+      "id": "community-ut-4909071-20260928",
+      "url": "https://untappd.com/b/china-resources-snow-breweries-snow-12-deg-p-12-deg-p-4-7/4909071",
+      "title": "Snow 12°P (雪花 12°P) 4.7% - China Resources Snow Breweries (雪花啤酒) - Untappd",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-28",
+      "note": "Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。"
+    },
+    "community-ut-5284196-20260928": {
+      "id": "community-ut-5284196-20260928",
+      "url": "https://untappd.com/b/tsingtao-brewery-asahi-super-dry-chinese-version/5284196",
+      "title": "Asahi Super Dry (Chinese Version) - Tsingtao (青岛啤酒) Brewery - Untappd",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-28",
+      "note": "Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。"
+    },
+    "community-ut-4229247-20260928": {
+      "id": "community-ut-4229247-20260928",
+      "url": "https://untappd.com/b/tsingtao-brewery/4229247",
+      "title": "白啤 - Tsingtao (青岛啤酒) Brewery - Untappd",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-28",
+      "note": "Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。"
+    },
+    "community-ut-11982-20260928": {
+      "id": "community-ut-11982-20260928",
+      "url": "https://untappd.com/b/schneider-weisse-g-schneider-and-sohn-original-tap07/11982",
+      "title": "Original (TAP07) - Schneider Weisse G. Schneider & Sohn - Untappd",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-28",
+      "note": "Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。"
+    },
+    "community-ut-4338144-20260928": {
+      "id": "community-ut-4338144-20260928",
+      "url": "https://untappd.com/b/shapowei-suapobbe-miss-dream/4338144",
+      "title": "梦小姐 Miss Dream - 沙坡尾 Shapowei (Suapobbe) - Untappd",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-28",
+      "note": "Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。"
+    },
+    "community-ut-914232-20260928": {
+      "id": "community-ut-914232-20260928",
+      "url": "https://untappd.com/b/pohjala-pime-oo/914232",
+      "title": "Pime Öö - Põhjala - Untappd",
+      "kind": "review",
+      "evidence": "page",
+      "publishedAt": null,
+      "checkedAt": "2026-09-28",
+      "note": "Untappd公开酒款页的5分制均分和Ratings次数；不是Total／Unique打卡数，未按单个SKU细分。"
     }
   },
   "tierList": {

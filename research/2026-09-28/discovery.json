@@ -1,0 +1,1119 @@
+[
+  {
+    "query": "site:untappd.com/b/ \"Tsingtao\" \"Wheat\" \"4.1\"",
+    "results": [
+      {
+        "url": "https://untappd.com/b/tsingtao-brewery-ipa/1533317",
+        "title": "IPA - Tsingtao (青岛啤酒) Brewery - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/taiwan-tsing-beer-co-tsingtao-beer/307940",
+        "title": "Tsingtao Beer - Taiwan Tsing Beer Co. - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/tsingtao-brewery/4229247",
+        "title": "白啤 - Tsingtao (青岛啤酒) Brewery - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/tsingtao-brewery-tsingtao/6601",
+        "title": "Tsingtao - Tsingtao (青岛啤酒) Brewery - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/go-brewing-head-on-american-wheat/5310977",
+        "title": "Head On American Wheat - Go Brewing - Untappd"
+      }
+    ]
+  },
+  {
+    "query": "site:untappd.com/b/ \"Snow\" \"4.7\"",
+    "results": [
+      {
+        "url": "https://untappd.com/b/china-resources-snow-breweries-snow-12-deg-p-12-deg-p-4-7/4909071",
+        "title": "Snow 12°P (雪花12°P) 4.7% - China Resources Snow Breweries (雪花 ..."
+      },
+      {
+        "url": "https://untappd.com/b/china-resources-snow-breweries-snow-12-deg-p-12-deg-p-4-7/4909071/photos",
+        "title": "China Resources Snow Breweries (雪花啤酒) | Photos - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/4four-snow-patrol/2434249",
+        "title": "Snow Patrol - 4four - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/snow-peak-brewing-company-shield-maiden/6000042/photos",
+        "title": "Shield Maiden - Snow Peak Brewing Company | Photos - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/platform-beer-company-snow-country/3588449",
+        "title": "Snow Country - Platform Beer Company - Untappd"
+      }
+    ]
+  },
+  {
+    "query": "site:untappd.com/b/ \"Heineken\" \"China\"",
+    "results": [
+      {
+        "url": "https://untappd.com/b/heineken-asia-pacific-anchor-classic/2025370",
+        "title": "Anchor Classic - Heineken Asia Pacific - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/heineken-asia-pacific-anchor-classic/2025370/photos",
+        "title": "Anchor Classic"
+      },
+      {
+        "url": "https://untappd.com/b/heineken-asia-pacific-tiger-radler-mandarin-orange/1371248",
+        "title": "Tiger Radler Mandarin Orange - Heineken Asia Pacific - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/heineken-asia-pacific-raffles-export-lager/9117",
+        "title": "Raffles Export Lager - Heineken Asia Pacific - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/heineken-asia-pacific-red-dragon-fruit-lager/3462172",
+        "title": "Tiger Seasonal Brew - Red Dragon Fruit Lager - Heineken Asia Pacific - Untappd"
+      }
+    ]
+  },
+  {
+    "query": "site:untappd.com/b/ \"Asahi\" \"China\"",
+    "results": [
+      {
+        "url": "https://untappd.com/b/beijing-beer-asahi-iselect-ibeer/2073076",
+        "title": "IseLect IBEER - Beijing Beer Asahi"
+      },
+      {
+        "url": "https://untappd.com/b/beijing-beer-asahi-beijing-beer-8/392989",
+        "title": "Beijing Beer 8' - Beijing Beer Asahi"
+      },
+      {
+        "url": "https://untappd.com/b/beijing-yanjing-brewery-yanjing-beer/8453/photos",
+        "title": "Yanjing Beer - Beijing Yanjing Brewery (北京燕京) | Photos"
+      },
+      {
+        "url": "https://untappd.com/b/suntory-china-foo-beer/2305922",
+        "title": "Foo Beer - Suntory China (三得利)"
+      }
+    ]
+  },
+  {
+    "beerId": "weihen",
+    "query": "site:untappd.com/b/ Weihenstephaner Hefeweissbier",
+    "results": [
+      {
+        "url": "https://untappd.com/b/schneider-weisse-g-schneider-and-sohn-hefeweissbier-naturtrub-tap-01/6232155",
+        "title": "Hefeweissbier Naturtrüb (Tap 01) - Schneider Weisse G. Schneider & Sohn - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/schneider-weisse-g-schneider-and-sohn-hefeweissbier-naturtrub/6232155",
+        "title": "Hefeweissbier Naturtrüb - Schneider Weisse G. Schneider & Sohn - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/one-beer-later-obl-lab-no-2-hefeweissbier/5283252",
+        "title": "OBL Lab No. 2 - Hefeweissbier - One Beer Later - Untappd"
+      }
+    ]
+  },
+  {
+    "beerId": "paulaner",
+    "query": "site:untappd.com/b/ Paulaner Hefe-Weissbier Naturtrüb",
+    "results": [
+      {
+        "url": "https://untappd.com/b/paulaner-brauerei-paulaner-hefe-weissbier-hefe-weizen-weissbier/15677",
+        "title": "Hefe-Weißbier / Hefe-Weizen / Weissbier - Paulaner Brauerei"
+      },
+      {
+        "url": "https://untappd.com/b/paulaner-brauerei-paulaner-hefe-weissbier-hefe-weizen-weissbier/15677/nearby",
+        "title": "Where to find Hefe-Weißbier / Hefe-Weizen / Weissbier - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/paulaner-brauerei-paulaner-hefe-weissbier-dunkel/17458",
+        "title": "Paulaner Hefe-Weißbier Dunkel / Weissbier Dunkel - Untappd"
+      }
+    ]
+  },
+  {
+    "beerId": "ayinger",
+    "query": "site:untappd.com/b/ Ayinger Bräuweisse",
+    "results": [
+      {
+        "url": "https://untappd.com/b/ayinger-privatbrauerei-ayinger-brauweisse/21768/nearby",
+        "title": "Bräuweisse - Ayinger Privatbrauerei - Where to Find Near Me"
+      },
+      {
+        "url": "https://untappd.com/b/ayinger-privatbrauerei-brauweisse/21768",
+        "title": "Bräuweisse - Ayinger Privatbrauerei - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/ayinger-privatbrauerei-ayinger-brauweisse/21768/photos",
+        "title": "Bräuweisse - Ayinger Privatbrauerei | Photos"
+      }
+    ]
+  },
+  {
+    "beerId": "benediktiner",
+    "query": "site:untappd.com/b/ Benediktiner Weissbier",
+    "results": [
+      {
+        "url": "https://untappd.com/b/benediktiner-weissbrau-benediktiner-weissbier/103362",
+        "title": "Benediktiner Weissbier"
+      },
+      {
+        "url": "https://untappd.com/b/benediktiner-weissbrau-benediktiner-weissbier/103362/variants",
+        "title": "Benediktiner Weissbier"
+      },
+      {
+        "url": "https://untappd.com/b/benediktiner-weissbrau-benediktiner-weissbier-dunkel/585552",
+        "title": "Benediktiner Weissbier Dunkel"
+      }
+    ]
+  },
+  {
+    "beerId": "franziskaner",
+    "query": "site:untappd.com/b/ Franziskaner Premium Weissbier",
+    "results": [
+      {
+        "url": "https://untappd.com/b/park-and-bellheimer-brauereien-valentins-premium-weissbier-alkoholfrei/815107",
+        "title": "Valentins Premium Weissbier Alkoholfrei - Park & Bellheimer Brauereien - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/oettinger-brauerei-export-premium-lager/49841",
+        "title": "Export / Premium Lager - Oettinger Brauerei - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/unsa-bier-lager-premium/5946208",
+        "title": "Lager Premium - Unsa Bier - Untappd"
+      }
+    ]
+  },
+  {
+    "beerId": "erdinger",
+    "query": "site:untappd.com/b/ Erdinger Weissbier",
+    "results": [
+      {
+        "url": "https://untappd.com/b/erdinger-weissbrau-erdinger-weissbier-hefe-weizen/7420",
+        "title": "Erdinger Weißbier / Hefe-Weizen - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/erdinger-weissbrau-erdinger-dunkel/8697",
+        "title": "Erdinger Dunkel - Erdinger Weissbräu - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/erdinger-weissbrau-erdinger-weissbier-hefe-weizen/7420/nearby",
+        "title": "Erdinger Weißbier / Hefe-Weizen - Where to Find Near Me - Untappd"
+      }
+    ]
+  },
+  {
+    "beerId": "vitus",
+    "query": "site:untappd.com/b/ Weihenstephaner Vitus",
+    "results": [
+      {
+        "url": "https://untappd.com/b/bayerische-staatsbrauerei-weihenstephan-weihenstephaner-vitus/7408?filter=you",
+        "title": "Weihenstephaner Vitus - Bayerische Staatsbrauerei Weihenstephan - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/bayerische-staatsbrauerei-weihenstephan-weihenstephan-vitus-eisbock/4231988/photos",
+        "title": "Weihenstephan Vitus Eisbock"
+      },
+      {
+        "url": "https://untappd.com/b/bayerische-staatsbrauerei-weihenstephan-weihenstephaner-vitus/7408/nearby",
+        "title": "Weihenstephaner Vitus - Bayerische Staatsbrauerei Weihenstephan - Where to Find Near Me"
+      }
+    ]
+  },
+  {
+    "beerId": "tap6",
+    "query": "site:untappd.com/b/ Schneider Weisse Aventinus",
+    "results": [
+      {
+        "url": "https://untappd.com/b/schneider-weisse-g-schneider-and-sohn-aventinus-tap06/5919883/variants",
+        "title": "Aventinus (TAP06)"
+      },
+      {
+        "url": "https://untappd.com/b/schneider-weisse-g-schneider-and-sohn-aventinus-tap06/2042068/variants",
+        "title": "Aventinus (TAP06) - Schneider Weisse G. Schneider & Sohn - Variants - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/schneider-weisse-g-schneider-and-sohn-aventinus-tap6-2014/807731",
+        "title": "Aventinus (TAP6) (2014) - Schneider Weisse G. Schneider & Sohn - Untappd"
+      }
+    ]
+  },
+  {
+    "beerId": "rochefort10",
+    "query": "site:untappd.com/b/ Trappistes Rochefort 10",
+    "results": [
+      {
+        "url": "https://untappd.com/b/abbaye-notre-dame-de-saint-remy-trappistes-rochefort-8-2025/6134078",
+        "title": "Trappistes Rochefort 8 (2025) - Abbaye Notre-Dame de Saint-Rémy - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/abbaye-notre-dame-de-saint-remy-trappistes-rochefort-triple-extra/3986134",
+        "title": "Trappistes Rochefort Triple Extra - Abbaye Notre-Dame de Saint-Rémy - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/abbaye-notre-dame-de-saint-remy-trappistes-rochefort-6-2024/5775629",
+        "title": "Trappistes Rochefort 6 (2024) - Abbaye Notre-Dame de Saint-Rémy - Untappd"
+      }
+    ]
+  },
+  {
+    "beerId": "rochefort8",
+    "query": "site:untappd.com/b/ Trappistes Rochefort 8",
+    "results": [
+      {
+        "url": "https://untappd.com/b/abbaye-notre-dame-de-saint-remy-trappistes-rochefort-8/11473",
+        "title": "Trappistes Rochefort 8 - Abbaye Notre-Dame de Saint-Rémy - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/abbaye-notre-dame-de-saint-remy-trappistes-rochefort-8/11473/variants",
+        "title": "Trappistes Rochefort 8 - Abbaye Notre-Dame de Saint-Rémy - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/abbaye-notre-dame-de-saint-remy-trappistes-rochefort-8-2025/6134078",
+        "title": "Trappistes Rochefort 8 (2025) - Abbaye Notre-Dame de Saint-Rémy"
+      }
+    ]
+  },
+  {
+    "beerId": "chimay",
+    "query": "site:untappd.com/b/ Chimay Bleue / Grande Réserve",
+    "results": [
+      {
+        "url": "https://untappd.com/b/bieres-de-chimay-abbaye-notre-dame-de-scourmont-chimay-bleue-grande-reserve-1992/191680",
+        "title": "Chimay Grande Réserve (Blue) (1992) - Bières de Chimay - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/bieres-de-chimay-abbaye-notre-dame-de-scourmont-chimay-bleue-grande-reserve-1996/340575",
+        "title": "Chimay Grande Réserve (Blue) (1996) - Bières de Chimay - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/bieres-de-chimay-chimay-grande-reserve-vieillie-en-barriques-chataignier-neuf-chene-cognac-15-03-2016/1677466",
+        "title": "Chimay Grande Réserve Vieillie en Barriques - Châtaignier neuf, Chêne, Cognac (15/03/2016) - Bières de Chimay - Untappd"
+      }
+    ]
+  },
+  {
+    "beerId": "duvel",
+    "query": "site:untappd.com/b/ Duvel Original",
+    "results": [
+      {
+        "url": "https://untappd.com/b/duvel-moortgat-duvel/6868",
+        "title": "Duvel Moortgat"
+      },
+      {
+        "url": "https://untappd.com/b/duvel-moortgat-duvel-2024/5696066",
+        "title": "Duvel (2024)"
+      },
+      {
+        "url": "https://untappd.com/b/duvel-moortgat-duvel/6868/variants",
+        "title": "Duvel - Duvel Moortgat - Variants - Untappd"
+      }
+    ]
+  },
+  {
+    "beerId": "westmalle",
+    "query": "site:untappd.com/b/ Westmalle Tripel",
+    "results": [
+      {
+        "url": "https://untappd.com/b/van-pur-van-par-tripel/5754274",
+        "title": "Van Pur Tripel - Van Pur - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/brouwerij-roman-ename-tripel/117",
+        "title": "Ename Tripel - Brouwerij Roman - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/allagash-brewing-company-tripel/1424",
+        "title": "Tripel - Allagash Brewing Company - Untappd"
+      }
+    ]
+  },
+  {
+    "beerId": "orval",
+    "query": "site:untappd.com/b/ Orval",
+    "results": [
+      {
+        "url": "https://untappd.com/b/brasserie-d-orval-orval/851",
+        "title": "Orval - Brasserie d'Orval - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/brasserie-d-orval-orval-2025/6127794",
+        "title": "Orval (2025) - Brasserie d'Orval - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/brasserie-d-orval-orval-2026/6596878",
+        "title": "Orval (2026) - Brasserie d'Orval - Untappd"
+      }
+    ]
+  },
+  {
+    "beerId": "hoegaarden",
+    "query": "site:untappd.com/b/ Hoegaarden Original White Ale",
+    "results": [
+      {
+        "url": "https://untappd.com/b/modern-brewery-hoegaarden/6670660",
+        "title": "Hoegaarden - Modern Brewery - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/alvarado-street-brewery-hoeygaarden/2280922",
+        "title": "Hoeygaarden - Alvarado Street Brewery - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/labatt-brewing-company-hoegaarden/6407343/photos",
+        "title": "Hoegaarden - Labatt Brewing Company | Photos"
+      }
+    ]
+  },
+  {
+    "beerId": "sierra",
+    "query": "site:untappd.com/b/ Sierra Nevada Pale Ale",
+    "results": [
+      {
+        "url": "https://untappd.com/b/sierra-nevada-brewing-co-pale-ale/6284",
+        "title": "Pale Ale - Sierra Nevada Brewing Co."
+      },
+      {
+        "url": "https://untappd.com/b/sierra-nevada-brewing-co-pale-ale/6284/variants",
+        "title": "Pale Ale - Sierra Nevada Brewing Co. - Variants"
+      },
+      {
+        "url": "https://untappd.com/b/sierra-nevada-brewing-co-pale-ale-dry-hopped-w-cascade/1408712",
+        "title": "Pale Ale (Dry-Hopped w/Cascade) - Sierra Nevada ..."
+      }
+    ]
+  },
+  {
+    "beerId": "torpedo",
+    "query": "site:untappd.com/b/ Sierra Nevada Torpedo Extra IPA",
+    "results": [
+      {
+        "url": "https://untappd.com/b/sierra-nevada-brewing-co-will-o-the-wit/5802513",
+        "title": "Will-O-the-Wit - Sierra Nevada Brewing Co. - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/sierra-nevada-brewing-co-trail-pass-ipa/5513873",
+        "title": "Trail Pass IPA - Sierra Nevada Brewing Co. - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/sierra-nevada-brewing-co-kellerweis/5374",
+        "title": "Kellerweis - Sierra Nevada Brewing Co. - Untappd"
+      }
+    ]
+  },
+  {
+    "beerId": "pseudosue",
+    "query": "site:untappd.com/b/ Toppling Goliath Pseudo Sue",
+    "results": [
+      {
+        "url": "https://untappd.com/b/toppling-goliath-brewing-co-pseudo-sue/65644",
+        "title": "Pseudo Sue - Toppling Goliath Brewing Co. - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/toppling-goliath-brewing-co-double-dry-hop-pseudo-sue/1569952",
+        "title": "Double Dry Hop Pseudo Sue - Toppling Goliath Brewing Co."
+      },
+      {
+        "url": "https://untappd.com/b/toppling-goliath-brewing-co-nectaron-dry-hop-pseudo-sue/5950980",
+        "title": "Nectaron Dry Hop Pseudo Sue - Toppling Goliath Brewing Co."
+      }
+    ]
+  },
+  {
+    "beerId": "kingsue",
+    "query": "site:untappd.com/b/ Toppling Goliath King Sue",
+    "results": [
+      {
+        "url": "https://untappd.com/b/toppling-goliath-brewing-co-king-sue-2026/6721388",
+        "title": "King Sue (2026) - Toppling Goliath Brewing Co. - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/beer/594015",
+        "title": "King Sue - Toppling Goliath Brewing Co. - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/double-dry-hop-king-sue-toppling-goliath-brewing-co/3543874",
+        "title": "Double Dry Hop King Sue - Toppling Goliath Brewing Co. - Untappd"
+      }
+    ]
+  },
+  {
+    "beerId": "guinness",
+    "query": "site:untappd.com/b/ Guinness Draught",
+    "results": [
+      {
+        "url": "https://untappd.com/b/guinness-guinness-draught/4473",
+        "title": "Guinness Draught"
+      },
+      {
+        "url": "https://untappd.com/b/guinness-guinness-draught/4473/variants",
+        "title": "Guinness Draught - Guinness - Variants"
+      },
+      {
+        "url": "https://untappd.com/b/guinness-guinness-draught/4473/nearby",
+        "title": "Guinness Draught - Guinness - Where to Find Near Me"
+      }
+    ]
+  },
+  {
+    "beerId": "beaver",
+    "query": "site:untappd.com/b/ Belching Beaver ¡Viva La Beaver!",
+    "results": [
+      {
+        "url": "https://untappd.com/b/belching-beaver-brewery-tropical-terps/4929226",
+        "title": "Tropical Terps - Belching Beaver Brewery - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/belching-beaver-brewery-snoop-noggy-nog/2443580",
+        "title": "Snoop Noggy Nog - Belching Beaver Brewery - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/belching-beaver-brewery-viva-la-beaver/1033614",
+        "title": "¡Viva La Beaver! - Belching Beaver Brewery - Untappd"
+      }
+    ]
+  },
+  {
+    "beerId": "pilsner",
+    "query": "site:untappd.com/b/ Pilsner Urquell",
+    "results": [
+      {
+        "url": "https://untappd.com/b/plzensky-prazdroj-pilsner-urquell/37936",
+        "title": "Pilsner Urquell - Plzeňský Prazdroj - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/plzensky-prazdroj-pilsner-urquell-3-5/122973",
+        "title": "Pilsner Urquell 3.5% - Plzeňský Prazdroj - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/plzensky-prazdroj-pilsner-urquell/37936/nearby",
+        "title": "Pilsner Urquell - Plzeňský Prazdroj - Where to Find Near Me - Untappd"
+      }
+    ]
+  },
+  {
+    "beerId": "heineken",
+    "query": "site:untappd.com/b/ Heineken Lager Beer",
+    "results": [
+      {
+        "url": "https://untappd.com/b/beer/5860",
+        "title": "Heineken - Heineken - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/heineken-lager-beer/617956",
+        "title": "Lager Beer - Heineken - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/heineken-lager-beer/617956/photos",
+        "title": "Lager Beer"
+      }
+    ]
+  },
+  {
+    "beerId": "tap5",
+    "query": "site:untappd.com/b/ Schneider Weisse Tap 5",
+    "results": [
+      {
+        "url": "https://untappd.com/b/schneider-weisse-g-schneider-and-sohn-hopfenweisse-tap05/11027",
+        "title": "Hopfenweisse (TAP05) - Schneider Weisse G. ..."
+      },
+      {
+        "url": "https://untappd.com/b/schneider-weisse-g-schneider-and-sohn-hopfenweisse-tap05/11027/photos",
+        "title": "Hopfenweisse (TAP05) - Schneider Weisse G. ..."
+      },
+      {
+        "url": "https://untappd.com/b/schneider-weisse-g-schneider-and-sohn-festweisse-tap04/11827",
+        "title": "Festweisse (TAP04) - Schneider Weisse G. ..."
+      }
+    ]
+  },
+  {
+    "beerId": "dajiu",
+    "query": "site:untappd.com/b/ Dajiu Advent",
+    "results": []
+  },
+  {
+    "beerId": "salt",
+    "query": "site:untappd.com/b/ NBeer Imperial City Gose",
+    "results": [
+      {
+        "url": "https://untappd.com/b/hi-wire-brewing-imperial-black-gose/5351701",
+        "title": "Imperial Black Gose - Hi-Wire Brewing - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/variant-brewing-company-imperial-raspberry-lemon-gose/3167413",
+        "title": "Imperial Raspberry Lemon Gose - Variant Brewing Company - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/hebei-jiabei-brewing-co-ltd-imperial-capital-sea-salt-gose/6834688/photos",
+        "title": "Imperial Capital Sea Salt Gose - Hebei Jiabei Brewing Co. Ltd."
+      }
+    ]
+  },
+  {
+    "beerId": "primator",
+    "query": "site:untappd.com/b/ Primátor Weizenbier",
+    "results": [
+      {
+        "url": "https://untappd.com/b/primator-weizen/30947",
+        "title": "Weizen - Primátor - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/primator-weizen/30947/photos",
+        "title": "Weizen - Primátor | Photos"
+      },
+      {
+        "url": "https://untappd.com/b/primator-valentynsky-weizen/6192010/nearby",
+        "title": "Valentýnský Weizen"
+      }
+    ]
+  },
+  {
+    "beerId": "snow",
+    "query": "site:untappd.com/b/ Snow Laoxue",
+    "results": [
+      {
+        "url": "https://untappd.com/b/china-resources-snow-breweries-snow-beer/229008",
+        "title": "Snow Beer (雪花啤酒) - China Resources Snow Breweries (雪花啤酒) - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/china-resources-snow-breweries-snow-tiancui/4222270",
+        "title": "Snow Tiancui 雪花天粹 - China Resources Snow Breweries (雪花啤酒) - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/china-resources-snow-breweries-snow-premium-lager/1459465",
+        "title": "Snow Premium Lager - China Resources Snow Breweries (雪花啤酒) - Untappd"
+      }
+    ]
+  },
+  {
+    "beerId": "pang",
+    "query": "site:untappd.com/b/ Pang Dong Lai Wheat Beer",
+    "results": [
+      {
+        "url": "https://untappd.com/b/boulevard-brewing-co-unfiltered-wheat-beer/10501",
+        "title": "Unfiltered Wheat Beer - Boulevard Brewing Co. - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/toit-beer-co-banger-lager/6188733",
+        "title": "Banger Lager - Toit Beer Co. - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/lost-coast-brewery-watermelon-wheat/142515",
+        "title": "Watermelon Wheat - Lost Coast Brewery - Untappd"
+      }
+    ]
+  },
+  {
+    "beerId": "asahi",
+    "query": "site:untappd.com/b/ Asahi Super Dry China",
+    "results": [
+      {
+        "url": "https://untappd.com/b/tsingtao-brewery-asahi-super-dry-chinese-version/5284196",
+        "title": "Asahi Super Dry (Chinese Version) - Tsingtao (青岛啤酒) Brewery"
+      },
+      {
+        "url": "https://untappd.com/b/tsingtao-brewery-asahi-super-dry-chinese-version/5284196/nearby",
+        "title": "Asahi Super Dry (Chinese Version) - Tsingtao (青岛啤酒) Brewery"
+      },
+      {
+        "url": "https://untappd.com/b/asahi-breweries-fine-taste/354968",
+        "title": "Asahi Fine Taste - Asahi Breweries - Untappd"
+      }
+    ]
+  },
+  {
+    "beerId": "tsingtao-white",
+    "query": "site:untappd.com/b/ Tsingtao Wheat Beer",
+    "results": [
+      {
+        "url": "https://untappd.com/b/tsingtao-brewery/4229247",
+        "title": "白啤 - Tsingtao (青岛啤酒) Brewery - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/tsingtao-brewery/6529504",
+        "title": "青岛五厂白啤 - Tsingtao (青岛啤酒) Brewery - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/tsingtao-brewery/6697964",
+        "title": "花开茉白 - Tsingtao (青岛啤酒) Brewery - Untappd"
+      }
+    ]
+  },
+  {
+    "beerId": "augerta",
+    "query": "site:untappd.com/b/ Tsingtao Augerta",
+    "results": [
+      {
+        "url": "https://untappd.com/b/tsingtao-brewery-augerta-a3/6103285",
+        "title": "Augerta A3 - Tsingtao (青岛啤酒) Brewery"
+      },
+      {
+        "url": "https://untappd.com/b/tsingtao-brewery-augerta-a6-a6/5917452",
+        "title": "Augerta A6(奥古特A6) - Tsingtao (青岛啤酒) Brewery"
+      },
+      {
+        "url": "https://untappd.com/b/tsingtao-brewery-augerta-1903-1903/8878",
+        "title": "Augerta 1903 (奥古特1903) - Tsingtao (青岛啤酒) Brewery"
+      }
+    ]
+  },
+  {
+    "beerId": "heineken-can",
+    "query": "site:untappd.com/b/ Heineken Original Can / China",
+    "results": [
+      {
+        "url": "https://untappd.com/b/heineken-heineken-0-0-cold-pressed-lime/6499034",
+        "title": "Heineken 0.0 Cold Pressed Lime - Heineken - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/heineken-peru-tres-cruces-light/4203124",
+        "title": "Tres Cruces Light - Heineken Perú - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/heineken-vietnam-bivina-lager-beer/135501",
+        "title": "Bivina Lager Beer - Heineken Vietnam - Untappd"
+      }
+    ]
+  },
+  {
+    "beerId": "heineken-bottle",
+    "query": "site:untappd.com/b/ Heineken Original Bottle / China",
+    "results": [
+      {
+        "url": "https://untappd.com/b/heineken-asia-pacific-tiger/7747",
+        "title": "Tiger - Heineken Asia Pacific - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/tsingtao-brewery-tsingtao-4-0/55376",
+        "title": "Tsingtao 4.0% 逸品纯生- Tsingtao (青岛啤酒) Brewery - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/beijing-yanjing-brewery-yanjing-no-9-original-lager-9/6143130/photos",
+        "title": "YANJING NO.9 Original Lager(燕京9號原浆拉格) - Untappd"
+      }
+    ]
+  },
+  {
+    "beerId": "heineken-keg",
+    "query": "site:untappd.com/b/ Heineken Draught Keg",
+    "results": [
+      {
+        "url": "https://untappd.com/b/heineken-heineken/5860/variants",
+        "title": "Heineken - Heineken - Variants"
+      },
+      {
+        "url": "https://untappd.com/b/heineken-heineken/5860/nearby",
+        "title": "Heineken - Heineken - Where to Find Near Me"
+      },
+      {
+        "url": "https://untappd.com/b/heineken-retro/6419694",
+        "title": "Heineken - Heineken - Untappd"
+      }
+    ]
+  },
+  {
+    "beerId": "nadu",
+    "query": "site:untappd.com/b/ Schneider Weisse TAP7 Original",
+    "results": [
+      {
+        "url": "https://untappd.com/b/schneider-weisse-g-schneider-and-sohn-original-tap07/11982",
+        "title": "Original (TAP07) - Schneider Weisse G. Schneider & Sohn"
+      },
+      {
+        "url": "https://untappd.com/b/schneider-weisse-g-schneider-and-sohn-original-tap07/11982/nearby",
+        "title": "Original (TAP07) - Schneider Weisse G. Schneider & Sohn - Where to Find Near Me - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/original-7-weisse/4970182",
+        "title": "Weisse - Original 7 - Untappd"
+      }
+    ]
+  },
+  {
+    "beerId": "dream",
+    "query": "site:untappd.com/b/ Shapowei Miss Dream Juicy Sour Hazy IPA",
+    "results": [
+      {
+        "url": "https://untappd.com/b/shapowei-suapobbe-miss-dream/4338144",
+        "title": "梦小姐 Miss Dream - 沙坡尾 Shapowei (Suapobbe) - Untappd"
+      },
+      {
+        "url": "https://www.untappd.com/b/blackstack-brewing-stacks-in-the-park/5019714",
+        "title": "STACKS IN THE PARK - BlackStack Brewing - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/half-ton-brewery-sour-hazy-ipa/5496801",
+        "title": "Sour Hazy IPA(酸雾之旅) - Half Ton Brewery (半吨) - Untappd"
+      }
+    ]
+  },
+  {
+    "beerId": "pohjala",
+    "query": "site:untappd.com/b/ Põhjala Pime Öö Imperial Stout",
+    "results": [
+      {
+        "url": "https://untappd.com/b/pohjala-pime-oo/914232",
+        "title": "Pime Öö - Põhjala - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/pohjala-pime-oo-px-cellar-series/1127484",
+        "title": "Pime Öö PX (Cellar Series) - Põhjala - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/pohjala-pime-oo-islay-ba-cellar-series/2188716",
+        "title": "Pime Öö Islay BA (Cellar Series) - Põhjala - Untappd"
+      }
+    ]
+  },
+  {
+    "beerId": "fan-jia-le",
+    "query": "site:untappd.com/b/ Franziskaner Weissbier",
+    "results": [
+      {
+        "url": "https://untappd.com/b/spaten-franziskaner-lowenbrau-gruppe-franziskaner-premium-weissbier/14564",
+        "title": "Franziskaner Premium Weissbier Naturtrüb - Spaten-Franziskaner-Löwenbräu-Gruppe - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/spaten-franziskaner-lowenbrau-gruppe-spaten-oktoberfestbier/1722617",
+        "title": "Spaten Oktoberfestbier - Spaten-Franziskaner-Löwenbräu-Gruppe - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/bernard-family-brewery-goethe-s-weissbier/4404849",
+        "title": "Goethe's Weissbier - Bernard Family Brewery - Untappd"
+      }
+    ]
+  },
+  {
+    "beerId": "hoegaarden-user",
+    "query": "site:untappd.com/b/ Hoegaarden Witbier",
+    "results": [
+      {
+        "url": "https://untappd.com/b/brouwerij-hoegaarden-hoegaarden-wit-blanche/6422",
+        "title": "Hoegaarden Wit / Blanche - Brouwerij ..."
+      },
+      {
+        "url": "https://untappd.com/b/brouwerij-hoegaarden-hoegaarden-witbier-china/6734981",
+        "title": "Hoegaarden Witbier China - Brouwerij ..."
+      },
+      {
+        "url": "https://untappd.com/b/brouwerij-hoegaarden-hoegaarden-wit-blanche-2016/2027817",
+        "title": "Hoegaarden Wit / Blanche (2016)"
+      }
+    ]
+  },
+  {
+    "beerId": "weihen",
+    "query": "\"Weihenstephaner Hefeweissbier\" Untappd",
+    "results": [
+      {
+        "url": "https://untappd.com/b/bayerische-staatsbrauerei-weihenstephan-weihenstephaner-original/2716",
+        "title": "Weihenstephaner Original - Bayerische Staatsbrauerei Weihenstephan - Untappd"
+      },
+      {
+        "url": "https://www.weihenstephaner.de/neuigkeiten",
+        "title": "Neuigkeiten - Weihenstephaner - Die älteste Brauerei der Welt"
+      },
+      {
+        "url": "https://www.weihenstephaner.de/unsere-biere/hefeweissbier",
+        "title": "Hefeweißbier - Unsere Biere - Weihenstephaner - Die älteste Brauerei der Welt"
+      },
+      {
+        "url": "https://h.138.128.247.153.sslip.io/weihenstephaner",
+        "title": "Bayerische Staatsbrauerei Weihenstephan - Freising, Bayern - Untappd"
+      }
+    ]
+  },
+  {
+    "beerId": "tap6",
+    "query": "\"Aventinus (TAP06)\" Untappd 8.2",
+    "results": [
+      {
+        "url": "https://untappd.com/b/schneider-weisse-g-schneider-and-sohn-aventinus-tap06/16851",
+        "title": "Aventinus (TAP06) - Schneider Weisse G. Schneider & Sohn"
+      },
+      {
+        "url": "https://untappd.com/b/schneider-weisse-g-schneider-and-sohn-aventinus-tap06/16851/nearby",
+        "title": "Aventinus (TAP06) - Where to Find Near Me - Untappd"
+      },
+      {
+        "url": "https://beerizer.com/shop/alko/schneider-weisse-tap-6-mein-aventinus--342733",
+        "title": "Schneider Weisse Tap 6 Mein Aventinus - Schneider Weisse G ..."
+      },
+      {
+        "url": "https://untappd.com/b/schneider-weisse-g-schneider-and-sohn-aventinus-tap6-2013/577809/photos",
+        "title": "Aventinus (TAP6) (2013) - Schneider Weisse G. Schneider & Sohn | Photos"
+      }
+    ]
+  },
+  {
+    "beerId": "rochefort10",
+    "query": "\"Trappistes Rochefort 10\" site:untappd.com/b/ -2025 -2024 -2026",
+    "results": [
+      {
+        "url": "https://untappd.com/b/abbaye-notre-dame-de-saint-remy-trappistes-rochefort-10-1992/5543969",
+        "title": "Trappistes Rochefort 10 (1992) - Abbaye Notre-Dame de Saint-Rémy - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/abbaye-notre-dame-de-saint-remy-trappistes-rochefort-10/6766",
+        "title": "Trappistes Rochefort 10 - Abbaye Notre-Dame de Saint-Rémy - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/abbaye-notre-dame-de-saint-remy/4729201",
+        "title": "Trappistes Rochefort 10 (2022) - Abbaye Notre-Dame de Saint-Rémy - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/abbaye-notre-dame-de-saint-remy-trappistes-rochefort-10/6766/nearby",
+        "title": "Trappistes Rochefort 10"
+      }
+    ]
+  },
+  {
+    "beerId": "chimay",
+    "query": "\"Chimay Grande Réserve (Blue)\" Untappd",
+    "results": [
+      {
+        "url": "https://untappd.com/b/bieres-de-chimay-chimay-grande-reserve-blue/34039",
+        "title": "Chimay Grande Réserve (Blue) - Bières de Chimay"
+      },
+      {
+        "url": "https://untappd.com/b/bieres-de-chimay-chimay-grande-reserve-blue-2025/6159250",
+        "title": "Chimay Grande Réserve (Blue) (2025) - Bières de ..."
+      },
+      {
+        "url": "https://untappd.com/b/bieres-de-chimay-chimay-grande-reserve-blue-2024/5723403",
+        "title": "Chimay Grande Réserve (Blue) (2024)"
+      },
+      {
+        "url": "https://untappd.com/b/bieres-de-chimay-chimay-grande-reserve-blue-2022/4725212",
+        "title": "Chimay Grande Réserve (Blue) (2022)"
+      }
+    ]
+  },
+  {
+    "beerId": "westmalle",
+    "query": "\"Westmalle Trappist Tripel\" Untappd",
+    "results": [
+      {
+        "url": "https://untappd.com/user/DBBenny/checkin/1293144945",
+        "title": "Benny is drinking a Westmalle Trappist Tripel by Brouwerij der Trappisten van Westmalle on Untappd"
+      },
+      {
+        "url": "https://untappd.com/user/TimonvanVeen/checkin/1586532753",
+        "title": "Timon is drinking a Westmalle Trappist Tripel by Brouwerij der Trappisten van Westmalle on Untappd"
+      },
+      {
+        "url": "https://www.trappistwestmalle.be/en/trappist-beer/westmalle-tripel",
+        "title": "\n\t\tTrappist Westmalle | \n\t\tWestmalle Tripel - Trappist Westmalle\t"
+      },
+      {
+        "url": "https://untappd.com/user/HagBeer/checkin/1047029569",
+        "title": "Wenche is drinking a Westmalle Trappist Tripel by Brouwerij der Trappisten van Westmalle on Untappd"
+      }
+    ]
+  },
+  {
+    "beerId": "torpedo",
+    "query": "\"Torpedo Extra IPA\" Untappd",
+    "results": [
+      {
+        "url": "https://untappd.com/b/sierra-nevada-brewing-co-torpedo-extra-ipa/4997",
+        "title": "Torpedo Extra IPA - Sierra Nevada Brewing Co."
+      },
+      {
+        "url": "https://untappd.com/b/sierra-nevada-brewing-co-atomic-torpedo/4469022",
+        "title": "Atomic Torpedo - Sierra Nevada Brewing Co. - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/sierra-nevada-brewing-co-torpedo-extra-ipa-dry-hopped-citra/374841",
+        "title": "Torpedo Extra IPA Dry-Hopped Citra - Sierra Nevada Brewing Co. - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/sierra-nevada-brewing-co-tropical-torpedo/1741133",
+        "title": "Tropical Torpedo - Sierra Nevada Brewing Co. - Untappd"
+      }
+    ]
+  },
+  {
+    "beerId": "dajiu",
+    "query": "\"Maha Nine\" \"Arrival\" Untappd",
+    "results": [
+      {
+        "url": "https://untappd.com/b/mahanine-brewing-arrival/6360481",
+        "title": "Arrival 降临 - MAHANINE BREWING 大九酿造 - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/mahanine-brewing-arrival-hazy-ipa/6629126/photos",
+        "title": "Arrival 降临"
+      },
+      {
+        "url": "https://untappd.com/b/mahanine-brewing-arrival-hazy-ipa/6629126",
+        "title": "Arrival Hazy Ipa - MAHANINE BREWING 大九酿造 - Untappd"
+      },
+      {
+        "url": "https://test.uniindia.com/news/west/politics-maha-new-governor-arrival/3767936.html",
+        "title": "Fadnavis welcomes Jishnu Dev Varma ahead of Maharashtra Governor oath"
+      }
+    ]
+  },
+  {
+    "beerId": "salt",
+    "query": "\"NBeer\" \"Beijing\" \"Gose\" Untappd",
+    "results": [
+      {
+        "url": "https://untappd.com/b/nbeer-craft-brewing-co-beijing-gose-modern/1883664",
+        "title": "Beijing Gose Modern 帝都海盐- NBeer Craft Brewing Co. ..."
+      },
+      {
+        "url": "https://untappd.com/NBeerPub/beer",
+        "title": "NBeer Craft Brewing Co. 牛啤堂 - Bei Jing Shi, Bei Jing Shi - Beers and Ratings | Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/nbeer-craft-brewing-co-beijing-gose-modern-mango/3121988",
+        "title": "Beijing Gose Modern Mango 芒果帝都海盐"
+      },
+      {
+        "url": "https://untappd.com/b/nbeer-craft-brewing-co-beijing-gose-modern-double/5954928",
+        "title": "Beijing Gose Modern Double 双倍帝都海盐"
+      }
+    ]
+  },
+  {
+    "beerId": "pang",
+    "query": "\"胖东来\" site:jiuhuar.com/craftbeer/",
+    "results": [
+      {
+        "url": "https://www.jiuhuar.com/craftbeer/571de76e526c60342dbfb3db.html",
+        "title": "香格里拉 呀啦嗦-Shangri-La Yalaso - Jiuhuar"
+      }
+    ]
+  },
+  {
+    "beerId": "snow",
+    "query": "\"老雪\" site:untappd.com/b/",
+    "results": [
+      {
+        "url": "https://untappd.com/b/china-resources-snow-breweries-11-5p-4-4-vol/6049469",
+        "title": "经典老雪11.5P 4.4%Vol - China Resources Snow Breweries (雪花 ..."
+      },
+      {
+        "url": "https://untappd.com/b/china-resources-snow-breweries-11-5p-4-4-vol/6049469/photos",
+        "title": "经典老雪11.5P 4.4%Vol"
+      },
+      {
+        "url": "https://untappd.com/b/china-resources-snow-breweries-11-5p-4-4-vol/6049469/nearby",
+        "title": "经典老雪11.5P 4.4%Vol - China Resources Snow Breweries (雪花 ..."
+      }
+    ]
+  },
+  {
+    "beerId": "weihen",
+    "query": "site:untappd.com \"weihenstephaner-hefeweissbier\"",
+    "results": [
+      {
+        "url": "https://untappd.com/b/bayerische-staatsbrauerei-weihenstephan-weihenstephaner-hefeweissbier/8745",
+        "title": "Weihenstephaner Hefeweissbier - Bayerische Staatsbrauerei Weihenstephan - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/bayerische-staatsbrauerei-weihenstephan-weihenstephaner-hefeweissbier-alkoholfrei/84089",
+        "title": "Weihenstephaner Hefeweissbier Alkoholfrei - Bayerische Staatsbrauerei Weihenstephan - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/bayerische-staatsbrauerei-weihenstephan-weihenstephaner-hefeweissbier/8745/nearby",
+        "title": "Weihenstephaner Hefeweissbier - Bayerische Staatsbrauerei Weihenstephan - Where to Find Near Me"
+      },
+      {
+        "url": "https://business.untappd.com/embeds/iframes/12065/44382",
+        "title": "Redwood City Tap List"
+      }
+    ]
+  },
+  {
+    "beerId": "westmalle",
+    "query": "site:untappd.com/b/ \"Westmalle\" \"Tripel\" \"Ratings\"",
+    "results": [
+      {
+        "url": "https://untappd.com/b/abbaye-notre-dame-de-saint-remy-trappistes-rochefort-10/6766/variants",
+        "title": "Trappistes Rochefort 10 - Abbaye Notre-Dame de Saint ..."
+      },
+      {
+        "url": "https://untappd.com/b/duvel-moortgat-duvel/6868/variants",
+        "title": "Duvel Moortgat - Variants"
+      },
+      {
+        "url": "https://untappd.com/b/green-s-beers-green-s-gluten-free-quest-tripel-blonde-ale/169956",
+        "title": "Green's Gluten-Free Quest Tripel Blonde Ale - Green's Beers - Untappd"
+      },
+      {
+        "url": "https://untappd.com/b/cervejaria-belgarioca-tripel-ale/6291148/nearby",
+        "title": "Tripel Ale - Cervejaria Belgarioca - Where to Find Near Me - Untappd"
+      }
+    ]
+  },
+  {
+    "beerId": "westmalle",
+    "query": "Untappd Westmalle Tripel 9.5 beer",
+    "results": [
+      {
+        "url": "https://www.trappistwestmalle.be/en/trappist-beer/westmalle-tripel",
+        "title": "\n\t\tTrappist Westmalle | \n\t\tWestmalle Tripel - Trappist Westmalle\t"
+      },
+      {
+        "url": "https://untappd.com/b/new-belgium-brewing-company-trippel/401",
+        "title": "Trippel - New Belgium Brewing Company - Untappd"
+      },
+      {
+        "url": "https://beermerchants.com/beer/westmalle-tripel",
+        "title": "Westmalle Tripel | Belgian Trappist Tripel Beer"
+      },
+      {
+        "url": "https://www.thebelgianbeercompany.com/p/world-beers/westmalle-tripel",
+        "title": "Westmalle Tripel - The Belgian Beer Company"
+      }
+    ]
+  },
+  {
+    "beerId": "pang",
+    "query": "胖东来 精酿小麦啤酒 酒花儿 评分",
+    "results": [
+      {
+        "url": "https://zhuanlan.zhihu.com/p/1922957494327706241",
+        "title": "德式小麦啤酒测评：胖东来精酿的真实口感如何？ - 知乎专栏"
+      },
+      {
+        "url": "https://untappd.com/b/pang-donglai-dl-market-wheat-beer/5702703",
+        "title": "Wheat Beer (精酿小麦啤酒) - Pang Donglai DL Market (胖东来超市)"
+      },
+      {
+        "url": "https://guangtao.taobao.com/product-4300c50fed9fd6c83b06f62ad2bedc2593d92463239004fc3a804dd1b672c724.html",
+        "title": "胖东来精酿小麦啤酒品牌- 淘宝"
+      },
+      {
+        "url": "https://wiki.smzdm.com/p/z6mn6ov/",
+        "title": "胖东来精酿小麦啤酒330ml*6罐【报价价格评测怎么样】 - 百科"
+      }
+    ]
+  },
+  {
+    "beerId": "snow",
+    "query": "\"老雪\" \"4.7\" \"12\" 啤酒",
+    "results": [
+      {
+        "url": "https://www.sohu.com/a/1079301089_122950392",
+        "title": "夏夜微醺指南：雪花经典老雪与青岛啤酒奥古特、经典大罐的品鉴实录"
+      },
+      {
+        "url": "https://youtube.com/watch?v=SVqyo7pCpfM",
+        "title": "How to BEAT 4.7 SPIRAL ABYSS Floor 11 & 12: Guide & Tips w/ 4-Star Teams! | Genshin Impact 4.7"
+      },
+      {
+        "url": "https://zhuanlan.zhihu.com/p/392336475",
+        "title": "2026年最值得品尝的12款好喝啤酒【精酿啤酒推荐清单】"
+      },
+      {
+        "url": "https://www.basenor.com/blogs/news/groks-roadmap-what-musks-only-gets-better-means?srsltid=AfmBOopyODtP8zyF-_utOXt-9R-0K1s1Vo2R4tR6g_fLasdrCa6P3FSi",
+        "title": "Grok's Roadmap: What Musk's 'Only Gets Better' Means"
+      }
+    ]
+  }
+]

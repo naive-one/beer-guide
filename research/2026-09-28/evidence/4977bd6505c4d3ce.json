@@ -1,0 +1,19 @@
+{
+  "requestedUrl": "https://untappd.com/b/brasserie-d-orval-orval/851",
+  "checkedAt": "2026-09-28",
+  "url": "https://untappd.com/b/brasserie-d-orval-orval/851",
+  "status": "read",
+  "title": "Orval - Brasserie d'Orval - Untappd",
+  "beerName": "Orval",
+  "brewery": "Brasserie d'Orval",
+  "style": "Pale Ale - Belgian",
+  "abv": 6.2,
+  "platform": "Untappd",
+  "scale": 5,
+  "value": 3.67,
+  "count": 280719,
+  "countType": "ratings",
+  "countLabel": "Ratings",
+  "retrieval": "public-page-header",
+  "rawPageSha256": "79eadbc2e5bf598865cfc6c3e5106b5cbc8be8cdac90d46d634f7999d17b3b73"
+}

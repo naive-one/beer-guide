@@ -1,0 +1,55 @@
+{
+  "testedAt": "2026-09-28",
+  "transport": "real-local-http",
+  "storage": "native-localStorage",
+  "results": [
+    {
+      "test": "tests/ui_ambiguity.py",
+      "exit_code": 0,
+      "stdout": "PASS observed variant price, concise caution and explicit scenario toggle\n",
+      "stderr": ""
+    },
+    {
+      "test": "tests/ui_catalog_scope.py",
+      "exit_code": 0,
+      "stdout": "PASS current40/master67 isolation, archive search/reset/frontier exclusion, native persistence, import/export, compare cap and item terminology\n",
+      "stderr": ""
+    },
+    {
+      "test": "tests/ui_chart.py",
+      "exit_code": 0,
+      "stdout": "PASS single shared chart, all records, frontier key, all overlap members, dismissal and rerender focus, nulls, budget-invariant scales and geometry and responsive geometry\nPASS fresh snapshot fixture: per-unit/order, unknown volume, compact SKU and 500ml exclusion\n",
+      "stderr": ""
+    },
+    {
+      "test": "tests/ui_community.py",
+      "exit_code": 0,
+      "stdout": "PASS supplemental platform discovery, zero, dates, links, review counts and related isolation\n",
+      "stderr": ""
+    },
+    {
+      "test": "tests/ui_price_scope.py",
+      "exit_code": 0,
+      "stdout": "PASS scoped missing prices, separate guides, explicit legacy references and quote-only budget filter\n",
+      "stderr": ""
+    },
+    {
+      "test": "tests/ui_ranking.py",
+      "exit_code": 0,
+      "stdout": "PASS ranking absent, independent catalog search, unknown price and archived-name search\n",
+      "stderr": ""
+    },
+    {
+      "test": "tests/ui_readability.py",
+      "exit_code": 0,
+      "stdout": "PASS uncluttered mobile plot, separate overlap chooser and readable labels\n",
+      "stderr": ""
+    },
+    {
+      "test": "tests/ui_smoke.py",
+      "exit_code": 0,
+      "stdout": "PASS all cards + map entries + index buttons + table rows, no pagination\nPASS fresh-only per-unit default excludes legacy snapshots\nPASS coverage counters match dataset\nPASS all detail dialogs contain evaluations, quote status, budget guidance and score provenance\nPASS calculated page label and half-cent display preserve unrounded price\nPASS unknown score, editorial budget, and related-version score have distinct accessible labels\nPASS evidence-only chart toggle does not hide the other cards\nPASS platform filter and restore-all button\nPASS comment count never masquerades as rating sample size\nPASS historical exclusion changes calculation, not full-view visibility\nPASS same-style frontiers retain distinct styles\nPASS budget library filter uses only scope-selected quotes\nPASS actual quote overrides ambiguous source and recalculates frontier\nPASS personal quote and score serialize and round-trip using native localStorage after reload\nPASS personal mode does not backfill missing personal scores with community scores\nPASS three-item comparison cap and dialog\nPASS accessible complete data table\nPASS all registered source links and safe external-link attributes\nPASS personal JSON export produces expected contents\nPASS personal JSON import validates and restores records\nPASS 390/768/1440px responsive layouts retain all entries with no page horizontal overflow\nPASS no JavaScript runtime errors across all exercised flows\nALL 22 UI CHECKS PASSED\n",
+      "stderr": ""
+    }
+  ]
+}

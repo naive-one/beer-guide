@@ -228,7 +228,7 @@ with sync_playwright() as p:
     assert page.evaluate("BeerCore.resolve(BEER_DATA.beers.find(b=>b.id==='weihen'),BeerFrontier.getState()).price")==99/24
     page.locator('#all-index [data-open="weihen"]').click()
     text=page.locator('#dialog-content').inner_text()
-    assert '容量待补' in text and '测试同款24瓶' in text and '淘宝显示／补贴价快照' in text
+    assert '容量待补' in text and '测试同款24瓶' in text and '淘宝页面价' in text
     assert 'nullml' not in text and '¥0.00' not in text
     page.keyboard.press('Escape')
     page.locator('#unit').select_option('500ml')

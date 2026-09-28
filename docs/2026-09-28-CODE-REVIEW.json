@@ -1,0 +1,29 @@
+{
+  "initial": {
+    "passed": false,
+    "security_concerns": [],
+    "logic_errors": [
+      {
+        "file": "scripts/community-contract.mjs:9",
+        "severity": "low",
+        "issue": "Evidence-path validation differs from data/schema.json. validateRating accepts research/.hidden.json, while the schema rejects it. Consequently, import and build can accept a dataset that fails schema validation.",
+        "fix": "Use equivalent path rules in both validators and add a parity regression test."
+      },
+      {
+        "file": "docs/COMMUNITY-RATINGS.md:11",
+        "severity": "low",
+        "issue": "The contract incorrectly says supplemental matched ratings take priority and legacy ratings are only a fallback. core.js correctly selects the newest matched rating across both collections.",
+        "fix": "Document the combined date-based selection rule, consistent with METHODOLOGY.md and the webpage."
+      }
+    ],
+    "suggestions": [],
+    "summary": "Read-only review found two consistency defects. Verified preserved primary/related ratings, quotes, ABV/volume, active40/master67 and tier archives; supplemental totals and saved numerical evidence agree, including both unchanged Untappd records. No introduced score cherry-picking, platform averaging, count conflation, personal-data loss or privacy issue found. Six selected Node test files passed; generated application copies match. Schema execution was blocked by missing jsonschema. No build, edits, network access or Git changes performed."
+  },
+  "afterFixes": {
+    "passed": true,
+    "security_concerns": [],
+    "logic_errors": [],
+    "suggestions": [],
+    "summary": "Both prior blockers are fixed. Runtime evidenceFile validation matches the schema regex; the parity regression covers research/.hidden.json and passes. Documentation matches core selectedCommunity: combined legacy and matched supplemental ratings, newest date first, sourceId tie-break. Source-total recalculation is accurately documented. Both targeted Node test files passed. Prior full-review findings reused; no edits, builds, schema tools, commits or pushes performed."
+  }
+}

@@ -2,7 +2,7 @@
 (function(root,factory){if(typeof module==='object'&&module.exports)module.exports=factory();else root.BeerCore=factory();})(typeof globalThis!=='undefined'?globalThis:this,function(){
  'use strict';
  const EPS=1e-9;
- const defaults=()=>({budget:20,unit:'unit',priceScope:'taobao',family:'all',style:'all',mode:'global',scoreMode:'community',scorePlatform:'all',mapMode:'all',chartRange:'focus',minRatings:0,maxAbv:16,includeHistoric:true,includeAmbiguous:false,onlyPersonalPrices:false,query:'',tierFilter:'all',sort:'price',libraryMode:'all',shortlist:[],overrides:{},personalScores:{}});
+ const defaults=()=>({budget:20,unit:'unit',priceScope:'taobao',family:'all',style:'all',mode:'global',scoreMode:'community',scorePlatform:'all',mapMode:'all',chartRange:'focus',minRatings:0,maxAbv:16,includeHistoric:true,includeAmbiguous:false,onlyPersonalPrices:false,query:'',sort:'price',libraryMode:'all',shortlist:[],overrides:{},personalScores:{}});
  const finite=v=>typeof v==='number'&&Number.isFinite(v);
  // Currency presentation only; cost/frontier retain unrounded inputs.
  function formatMoney(v){return finite(v)?(Math.round((v+Number.EPSILON*Math.abs(v))*100)/100).toFixed(2):'—';}
@@ -10,15 +10,26 @@
  function cost(q,unit='500ml'){if(!validQuote(q))return null;return unit==='order'?q.total:unit==='unit'?q.total/q.quantity:finite(q.volumeMl)?q.total/q.quantity*500/q.volumeMl:null;}
  function guideCost(b,s){const g=b.purchaseGuide;return g?cost({total:g.ceiling,quantity:1,volumeMl:g.volumeMl},s.unit):null;}
  function getQuote(b,s){const q=s.overrides[b.id];if(validQuote(q))return {...q,personal:true,historical:false,ambiguous:false};return s.onlyPersonalPrices||(s.priceScope==='taobao'&&b.quote?.priceBasis!=='taobao-displayed-snapshot')?null:b.quote;}
- function rating(b,s){if(s.scoreMode==='personal'){const x=s.personalScores[b.id];return finite(x)&&x>=0&&x<=5?{value:x,count:null,countType:'personal',platform:'个人口味'}:null;}return b.rating;}
- function isInScope(b,s){const platform=(b.rating||b.relatedRating)?.platform;return (s.family==='all'||b.family===s.family)&&(s.style==='all'||b.style===s.style)&&(s.maxAbv>=16||(finite(b.abv)&&b.abv<=s.maxAbv))&&(s.scoreMode==='personal'||!s.scorePlatform||s.scorePlatform==='all'||platform===s.scorePlatform);}
+ function communityRatings(b){
+  const rows=[...(b.communityRatings||[]),...(b.rating?[{...b.rating,match:'matched'}]:[]),...(b.relatedRating?[{...b.relatedRating,match:'related'}]:[])];
+  const seen=new Set();return rows.sort((a,b)=>(b.checkedAt||'').localeCompare(a.checkedAt||'')||a.sourceId.localeCompare(b.sourceId)).filter(r=>{const key=[r.platform,r.sourceId,r.match].join('|');if(seen.has(key))return false;seen.add(key);return true;});
+ }
+ function selectedCommunity(b,s,match){
+  if(!s.scorePlatform||s.scorePlatform==='all')return (match==='matched'?b.rating:b.relatedRating)||null;
+  const legacy=match==='matched'?b.rating:b.relatedRating;
+  return [...(b.communityRatings||[]).filter(r=>r.match===match),...(legacy?[legacy]:[])]
+   .filter(r=>r.platform===s.scorePlatform).sort((a,b)=>(b.checkedAt||'').localeCompare(a.checkedAt||'')||a.sourceId.localeCompare(b.sourceId))[0]||null;
+ }
+ function relatedRating(b,s){return s.scoreMode==='personal'?null:selectedCommunity(b,s,'related');}
+ function rating(b,s){if(s.scoreMode==='personal'){const x=s.personalScores[b.id];return finite(x)&&x>=0&&x<=5?{value:x,count:null,countType:'personal',platform:'个人口味'}:null;}return selectedCommunity(b,s,'matched');}
+ function isInScope(b,s){return (s.family==='all'||b.family===s.family)&&(s.style==='all'||b.style===s.style)&&(s.maxAbv>=16||(finite(b.abv)&&b.abv<=s.maxAbv))&&(s.scoreMode==='personal'||!s.scorePlatform||s.scorePlatform==='all'||!!rating(b,s)||!!relatedRating(b,s));}
  function resolve(b,s){const quote=getQuote(b,s),r=rating(b,s),price=cost(quote,s.unit),reasons=[];
-  if(b.identityPending)reasons.push('酒款身份待确认');
-  if(!r)reasons.push(s.scoreMode==='personal'?'未填写个人评分':b.relatedRating?'只有相关版本评价':'缺少匹配版本评分');
-  if(r&&s.scoreMode==='community'&&s.minRatings>0){if(r.countType==='reviews')reasons.push('评分人数未知（只有评论数）');else if(!finite(r.count)||r.count<s.minRatings)reasons.push('评分样本少于门槛');}
-  if(price===null)reasons.push(s.onlyPersonalPrices?'未填写实付价':'缺少可换算报价');
+  if(b.identityPending)reasons.push('酒款版本待确认');
+  if(!r)reasons.push(s.scoreMode==='personal'?'未填写个人评分':relatedRating(b,s)?'只有相关版本评价':'暂无匹配版本评分');
+  if(r&&s.scoreMode==='community'&&s.minRatings>0){if(r.countType==='reviews')reasons.push('评分次数未公布（只有评论数）');else if(!finite(r.count)||r.count<s.minRatings)reasons.push('评分次数不足');}
+  if(price===null)reasons.push(s.onlyPersonalPrices?'未填写实付价':'暂无可换算价格');
   if(quote?.historical&&!s.includeHistoric&&!quote.personal)reasons.push('历史报价已排除');
-  if(quote?.ambiguous&&!s.includeAmbiguous&&!quote.personal)reasons.push('报价版本或状态有歧义');
+  if(quote?.ambiguous&&!s.includeAmbiguous&&!quote.personal)reasons.push('报价版本或状态待确认');
   return {...b,activeQuote:quote,activeRating:r,price,reasons,eligible:reasons.length===0};
  }
  function cohort(b,mode='global'){return (b.activeRating?.platform||'unknown')+(mode==='style'?' · '+b.style:'');}
@@ -41,7 +52,7 @@
  }
  function entryLimit(row,eligible,mode='global'){if(!row.activeRating)return null;const peers=eligible.filter(p=>p.id!==row.id&&comparable(p,row,mode)&&p.activeRating.value>=row.activeRating.value-EPS);if(!peers.length)return {price:null,strict:false,peerIds:[]};const min=Math.min(...peers.map(p=>p.price)),closest=peers.filter(p=>Math.abs(p.price-min)<=EPS);return {price:min,strict:closest.some(p=>p.activeRating.value>row.activeRating.value+EPS),peerIds:closest.map(p=>p.id)};}
  // A chart reference is NOT an eligible Pareto record. Unknown scores stay null.
- function displayPoint(row,s){const r=row.activeRating||(s.scoreMode==='community'?row.relatedRating:null);const hasPrice=finite(row.price),guide=!row.activeQuote&&s.priceScope==='all'&&!s.onlyPersonalPrices?guideCost(row,s):null;return {...row,plotPrice:hasPrice?row.price:guide,plotRating:r||null,reference:!row.eligible,priceBasis:hasPrice?'quote':finite(guide)?'editorial-ceiling':'unknown',scoreBasis:row.activeRating?'matched':r?'related':'unknown'};}
+ function displayPoint(row,s){const r=row.activeRating||relatedRating(row,s);const hasPrice=finite(row.price),guide=!row.activeQuote&&s.priceScope==='all'&&!s.onlyPersonalPrices?guideCost(row,s):null;return {...row,plotPrice:hasPrice?row.price:guide,plotRating:r||null,reference:!row.eligible,priceBasis:hasPrice?'quote':finite(guide)?'editorial-ceiling':'unknown',scoreBasis:row.activeRating?'matched':r?'related':'unknown'};}
  // Shared geometry only: eligibility and domination remain in analyze/frontier.
  function chartModel(analysis,s,width=700){
   const rows=(s.mapMode==='evidence'?analysis.eligible:analysis.rows).map(b=>displayPoint(b,s));
@@ -76,5 +87,5 @@
   for(const [id,r]of Object.entries(input.personalScores||{})){if(!ids.has(id)||!finite(r)||r<0||r>5)throw Error('个人评分无效：'+id);out.personalScores[id]=r;}
   if(input.shortlist!==undefined&&!Array.isArray(input.shortlist))throw Error('清单格式不正确。');out.shortlist=[...new Set(input.shortlist||[])].filter(id=>ids.has(id));return out;
  }
- return {catalogView,currentShortlist,defaults,formatMoney,validQuote,cost,guideCost,getQuote,rating,isInScope,resolve,cohort,comparable,dominates,frontier,analyze,entryLimit,displayPoint,chartModel,validateImport};
+ return {communityRatings,relatedRating,catalogView,currentShortlist,defaults,formatMoney,validQuote,cost,guideCost,getQuote,rating,isInScope,resolve,cohort,comparable,dominates,frontier,analyze,entryLimit,displayPoint,chartModel,validateImport};
 });

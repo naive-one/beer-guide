@@ -1,0 +1,19 @@
+{
+  "requestedUrl": "https://untappd.com/b/abbaye-notre-dame-de-saint-remy-trappistes-rochefort-10/6766",
+  "checkedAt": "2026-09-28",
+  "url": "https://untappd.com/b/abbaye-notre-dame-de-saint-remy-trappistes-rochefort-10/6766",
+  "status": "read",
+  "title": "Trappistes Rochefort 10 - Abbaye Notre-Dame de Saint-Rémy - Untappd",
+  "beerName": "Trappistes Rochefort 10",
+  "brewery": "Abbaye Notre-Dame de Saint-Rémy",
+  "style": "Belgian Quadrupel",
+  "abv": 11.3,
+  "platform": "Untappd",
+  "scale": 5,
+  "value": 4.04,
+  "count": 274677,
+  "countType": "ratings",
+  "countLabel": "Ratings",
+  "retrieval": "public-page-header",
+  "rawPageSha256": "188872449417a2f54a95c71bd64cce0897357042b633bfecd9a195b623cfdcd6"
+}

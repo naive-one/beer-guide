@@ -1,0 +1,19 @@
+{
+  "requestedUrl": "https://untappd.com/b/tsingtao-brewery-augerta-a3/6103285",
+  "checkedAt": "2026-09-28",
+  "url": "https://untappd.com/b/tsingtao-brewery-augerta-a3/6103285",
+  "status": "read",
+  "title": "Augerta A3 - Tsingtao (青岛啤酒) Brewery - Untappd",
+  "beerName": "Augerta A3",
+  "brewery": "Tsingtao (青岛啤酒) Brewery",
+  "style": "Lager - Pale",
+  "abv": 4.2,
+  "platform": "Untappd",
+  "scale": 5,
+  "value": 2.86,
+  "count": 80,
+  "countType": "ratings",
+  "countLabel": "Ratings",
+  "retrieval": "public-page-header",
+  "rawPageSha256": "01c3682cb7a37f9b71f9be5a574c2d6ee59290d049f393b457e8d6774dc28350"
+}

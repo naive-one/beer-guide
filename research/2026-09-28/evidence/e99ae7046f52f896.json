@@ -1,0 +1,19 @@
+{
+  "requestedUrl": "https://untappd.com/b/duvel-moortgat-duvel/6868",
+  "checkedAt": "2026-09-28",
+  "url": "https://untappd.com/b/duvel-moortgat-duvel/6868",
+  "status": "read",
+  "title": "Duvel - Duvel Moortgat - Untappd",
+  "beerName": "Duvel",
+  "brewery": "Duvel Moortgat",
+  "style": "Belgian Strong Golden Ale",
+  "abv": 8.5,
+  "platform": "Untappd",
+  "scale": 5,
+  "value": 3.71,
+  "count": 450142,
+  "countType": "ratings",
+  "countLabel": "Ratings",
+  "retrieval": "public-page-header",
+  "rawPageSha256": "f437a666f22941c3772691b9823a25cf899da55393cf56300a022805b71922f4"
+}

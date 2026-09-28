@@ -1,0 +1,19 @@
+{
+  "requestedUrl": "https://untappd.com/b/plzensky-prazdroj-pilsner-urquell/37936",
+  "checkedAt": "2026-09-28",
+  "url": "https://untappd.com/b/plzensky-prazdroj-pilsner-urquell/37936",
+  "status": "read",
+  "title": "Pilsner Urquell - Plzeňský Prazdroj - Untappd",
+  "beerName": "Pilsner Urquell",
+  "brewery": "Plzeňský Prazdroj",
+  "style": "Pilsner - Czech / Bohemian",
+  "abv": 4.4,
+  "platform": "Untappd",
+  "scale": 5,
+  "value": 3.38,
+  "count": 461102,
+  "countType": "ratings",
+  "countLabel": "Ratings",
+  "retrieval": "public-page-header",
+  "rawPageSha256": "6bebab44e254958f3cb3ab91b36207dd124ab21538dd2e9bcbd2d8eaee718787"
+}

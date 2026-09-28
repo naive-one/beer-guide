@@ -1,0 +1,19 @@
+{
+  "requestedUrl": "https://untappd.com/b/mahanine-brewing-arrival/6360481",
+  "checkedAt": "2026-09-28",
+  "url": "https://untappd.com/b/mahanine-brewing-arrival/6360481",
+  "status": "read",
+  "title": "Arrival 降临 - MAHANINE BREWING 大九酿造 - Untappd",
+  "beerName": "Arrival 降临",
+  "brewery": "MAHANINE BREWING 大九酿造",
+  "style": "IPA - New England / Hazy",
+  "abv": 6.5,
+  "platform": "Untappd",
+  "scale": 5,
+  "value": 3.89,
+  "count": 99,
+  "countType": "ratings",
+  "countLabel": "Ratings",
+  "retrieval": "public-page-header",
+  "rawPageSha256": "28d860d4503cd72ce1d079ea73702f8fd71d24601e1e5498d711b340a6c291a2"
+}

@@ -491,6 +491,73 @@
             "npc",
             "bottom"
           ]
+        },
+        "communityRatings": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/communityRating"
+          }
+        }
+      }
+    },
+    "communityRating": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "platform",
+        "scale",
+        "value",
+        "count",
+        "countType",
+        "sourceId",
+        "checkedAt",
+        "note",
+        "evidenceFile",
+        "match"
+      ],
+      "properties": {
+        "platform": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scale": {
+          "const": 5
+        },
+        "value": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 5
+        },
+        "count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "countType": {
+          "enum": [
+            "ratings",
+            "reviews"
+          ]
+        },
+        "sourceId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "checkedAt": {
+          "type": "string",
+          "format": "date"
+        },
+        "note": {
+          "type": "string"
+        },
+        "evidenceFile": {
+          "type": "string",
+          "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.?(?:/|$))[A-Za-z0-9_-]+(?:[./][A-Za-z0-9_-]+)*$"
+        },
+        "match": {
+          "enum": [
+            "matched",
+            "related"
+          ]
         }
       }
     }

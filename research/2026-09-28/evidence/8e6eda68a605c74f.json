@@ -1,0 +1,19 @@
+{
+  "requestedUrl": "https://untappd.com/b/sierra-nevada-brewing-co-torpedo-extra-ipa/4997",
+  "checkedAt": "2026-09-28",
+  "url": "https://untappd.com/b/sierra-nevada-brewing-co-torpedo-extra-ipa/4997",
+  "status": "read",
+  "title": "Torpedo Extra IPA - Sierra Nevada Brewing Co. - Untappd",
+  "beerName": "Torpedo Extra IPA",
+  "brewery": "Sierra Nevada Brewing Co.",
+  "style": "IPA - American",
+  "abv": 7.2,
+  "platform": "Untappd",
+  "scale": 5,
+  "value": 3.72,
+  "count": 377624,
+  "countType": "ratings",
+  "countLabel": "Ratings",
+  "retrieval": "public-page-header",
+  "rawPageSha256": "63146f920bfeb84bfa3a2521ac26785531760b08060b57d9b1dcc4e57b798fd2"
+}

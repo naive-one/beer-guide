@@ -1,0 +1,19 @@
+{
+  "requestedUrl": "https://untappd.com/b/benediktiner-weissbrau-benediktiner-weissbier/103362",
+  "checkedAt": "2026-09-28",
+  "url": "https://untappd.com/b/benediktiner-weissbrau-benediktiner-weissbier/103362",
+  "status": "read",
+  "title": "Benediktiner Weissbier - Benediktiner Weissbräu - Untappd",
+  "beerName": "Benediktiner Weissbier",
+  "brewery": "Benediktiner Weissbräu",
+  "style": "Wheat Beer - Hefeweizen",
+  "abv": 5.4,
+  "platform": "Untappd",
+  "scale": 5,
+  "value": 3.56,
+  "count": 161167,
+  "countType": "ratings",
+  "countLabel": "Ratings",
+  "retrieval": "public-page-header",
+  "rawPageSha256": "0a3d992e13d977aa7228801e2b4d350291366d856e31542e581b8a6b14bff819"
+}

@@ -1,0 +1,19 @@
+{
+  "requestedUrl": "https://untappd.com/b/tsingtao-brewery-asahi-super-dry-chinese-version/5284196",
+  "checkedAt": "2026-09-28",
+  "url": "https://untappd.com/b/tsingtao-brewery-asahi-super-dry-chinese-version/5284196",
+  "status": "read",
+  "title": "Asahi Super Dry (Chinese Version) - Tsingtao (青岛啤酒) Brewery - Untappd",
+  "beerName": "Asahi Super Dry (Chinese Version)",
+  "brewery": "Tsingtao (青岛啤酒) Brewery",
+  "style": "Lager - Japanese Rice",
+  "abv": 5.0,
+  "platform": "Untappd",
+  "scale": 5,
+  "value": 2.79,
+  "count": 14,
+  "countType": "ratings",
+  "countLabel": "Ratings",
+  "retrieval": "public-page-header",
+  "rawPageSha256": "70dd308c9466a1e66db4b2c5868a9efd4dc5b8395e3b09dce7865afb5f9ac511"
+}

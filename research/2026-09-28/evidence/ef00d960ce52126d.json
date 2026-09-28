@@ -1,0 +1,19 @@
+{
+  "requestedUrl": "https://untappd.com/b/china-resources-snow-breweries-11-5p-4-4-vol/6049469",
+  "checkedAt": "2026-09-28",
+  "url": "https://untappd.com/b/china-resources-snow-breweries-snow-beer-11-5-deg/5653540",
+  "status": "read",
+  "title": "Snow Beer 11.5° - China Resources Snow Breweries (雪花啤酒) - Untappd",
+  "beerName": "Snow Beer 11.5°",
+  "brewery": "China Resources Snow Breweries (雪花啤酒)",
+  "style": "Lager - Other",
+  "abv": 4.4,
+  "platform": "Untappd",
+  "scale": 5,
+  "value": 3.07,
+  "count": 90,
+  "countType": "ratings",
+  "countLabel": "Ratings",
+  "retrieval": "public-page-header",
+  "rawPageSha256": "0cacf1738638383dedf7c8b62e035e4db43cf36a0cfe09e3af0a700ec31f7e1d"
+}

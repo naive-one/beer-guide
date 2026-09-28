@@ -10,7 +10,7 @@
   },
   "scripts": {
     "build": "node scripts/build.mjs",
-    "test": "node --test tests/core.test.cjs tests/chart.test.cjs tests/tier-data.test.cjs tests/deploy.test.cjs tests/publish.test.cjs tests/research.test.cjs tests/scope.test.cjs",
+    "test": "node --test tests/core.test.cjs tests/chart.test.cjs tests/tier-data.test.cjs tests/deploy.test.cjs tests/publish.test.cjs tests/research.test.cjs tests/scope.test.cjs tests/community.test.cjs tests/community-import.test.cjs tests/community-evidence.test.cjs tests/community-contract-parity.test.cjs",
     "check": "npm run build && npm test",
     "preview": "node scripts/serve.mjs",
     "dev": "npm run build && node scripts/serve.mjs",

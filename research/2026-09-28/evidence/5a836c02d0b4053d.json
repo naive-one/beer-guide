@@ -1,0 +1,24 @@
+{
+  "requestedUrl": "https://untappd.com/b/china-resources-snow-breweries-snow-12-deg-p-12-deg-p-4-7/4909071",
+  "checkedAt": "2026-09-28",
+  "url": "https://untappd.com/b/china-resources-snow-breweries-snow-12-deg-p-12-deg-p-4-7/4909071",
+  "status": "read",
+  "title": "Snow 12°P (雪花 12°P) 4.7% - China Resources Snow Breweries (雪花啤酒) - Untappd",
+  "beerName": "Snow 12°P (雪花 12°P) 4.7%",
+  "brewery": "China Resources Snow Breweries (雪花啤酒)",
+  "style": "Lager - Japanese Rice",
+  "abv": 4.7,
+  "platform": "Untappd",
+  "scale": 5,
+  "value": 3.08,
+  "count": 382,
+  "countType": "ratings",
+  "countLabel": "Ratings",
+  "retrieval": "public-page-header",
+  "rawPageSha256": "33087de04b1ac95e7acae2220dd24ef13fc14e15546110167ca314aa9eb89216",
+  "identityFacts": {
+    "descriptionPackage": "1 L cans",
+    "descriptionRetailer": "Hema Xiangsheng",
+    "inference": "Not verified as the catalogued 640ml Shenyang version."
+  }
+}

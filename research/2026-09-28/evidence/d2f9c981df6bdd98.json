@@ -1,0 +1,19 @@
+{
+  "requestedUrl": "https://untappd.com/b/beer/594015",
+  "checkedAt": "2026-09-28",
+  "url": "https://untappd.com/b/toppling-goliath-brewing-co-king-sue/594015",
+  "status": "read",
+  "title": "King Sue - Toppling Goliath Brewing Co. - Untappd",
+  "beerName": "King Sue",
+  "brewery": "Toppling Goliath Brewing Co.",
+  "style": "IPA - Imperial / Double New England / Hazy",
+  "abv": 8.2,
+  "platform": "Untappd",
+  "scale": 5,
+  "value": 4.3,
+  "count": 176054,
+  "countType": "ratings",
+  "countLabel": "Ratings",
+  "retrieval": "public-page-header",
+  "rawPageSha256": "45bd1a2e378a33756b83d51fd9b02485d767c9921a0e77d4524901688ee94b1f"
+}

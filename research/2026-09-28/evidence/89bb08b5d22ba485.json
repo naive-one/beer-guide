@@ -1,0 +1,19 @@
+{
+  "requestedUrl": "https://untappd.com/b/bayerische-staatsbrauerei-weihenstephan-weihenstephaner-hefeweissbier/8745",
+  "checkedAt": "2026-09-28",
+  "url": "https://untappd.com/b/bayerische-staatsbrauerei-weihenstephan-weihenstephaner-hefeweissbier/8745",
+  "status": "read",
+  "title": "Weihenstephaner Hefeweissbier - Bayerische Staatsbrauerei Weihenstephan - Untappd",
+  "beerName": "Weihenstephaner Hefeweissbier",
+  "brewery": "Bayerische Staatsbrauerei Weihenstephan",
+  "style": "Wheat Beer - Hefeweizen",
+  "abv": 5.4,
+  "platform": "Untappd",
+  "scale": 5,
+  "value": 3.78,
+  "count": 479514,
+  "countType": "ratings",
+  "countLabel": "Ratings",
+  "retrieval": "public-page-header",
+  "rawPageSha256": "f9bcc210492e6d5dd76a4a4ee68725521cd38a9e99501336be977d32a2e5aad4"
+}

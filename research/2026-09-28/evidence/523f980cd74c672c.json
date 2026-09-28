@@ -1,0 +1,19 @@
+{
+  "requestedUrl": "https://untappd.com/b/westmalle-trappist-tripel-brouwerij-der-trappisten-van-westmalle/487",
+  "checkedAt": "2026-09-28",
+  "url": "https://untappd.com/b/brouwerij-der-trappisten-van-westmalle-westmalle-trappist-tripel/487",
+  "status": "read",
+  "title": "Westmalle Trappist Tripel - Brouwerij der Trappisten van Westmalle - Untappd",
+  "beerName": "Westmalle Trappist Tripel",
+  "brewery": "Brouwerij der Trappisten van Westmalle",
+  "style": "Belgian Tripel",
+  "abv": 9.5,
+  "platform": "Untappd",
+  "scale": 5,
+  "value": 3.81,
+  "count": 326144,
+  "countType": "ratings",
+  "countLabel": "Ratings",
+  "retrieval": "public-page-header",
+  "rawPageSha256": "4a844245ec3222c501e79450149bab3397833dcd5160808964969727a5b976a7"
+}

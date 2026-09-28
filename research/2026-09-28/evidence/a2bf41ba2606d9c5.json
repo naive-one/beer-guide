@@ -1,0 +1,19 @@
+{
+  "requestedUrl": "https://untappd.com/b/belching-beaver-brewery-viva-la-beaver/1033614",
+  "checkedAt": "2026-09-28",
+  "url": "https://untappd.com/b/belching-beaver-brewery-viva-la-beaver/1033614",
+  "status": "read",
+  "title": "¡Viva La Beaver! - Belching Beaver Brewery - Untappd",
+  "beerName": "¡Viva La Beaver!",
+  "brewery": "Belching Beaver Brewery",
+  "style": "Stout - Milk / Sweet",
+  "abv": 7.5,
+  "platform": "Untappd",
+  "scale": 5,
+  "value": 4.08,
+  "count": 39727,
+  "countType": "ratings",
+  "countLabel": "Ratings",
+  "retrieval": "public-page-header",
+  "rawPageSha256": "00befe5576c9f29ae43a9f788d770b93ebd13934ea3a54133508c7cf9f5f00ea"
+}

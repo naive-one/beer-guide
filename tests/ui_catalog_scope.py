@@ -13,10 +13,10 @@ with sync_playwright() as p:
             assert page.locator(selector).count()==40, selector
         for b in hidden:
             assert page.locator(f'[data-open="{b["id"]}"], [data-point="{b["id"]}"], [data-beer-id="{b["id"]}"]').count()==0
-            for selector in ['#beer-grid','#tier-board','#scatter','#all-index','#chart-table','#ladder-content']:
+            for selector in ['#beer-grid','#scatter','#all-index','#chart-table','#ladder-content']:
                 assert b['name'] not in page.locator(selector).text_content(), (b,selector)
         assert page.locator('#stat-total').inner_text()=='40'
-        assert '主库 67 款，27 款归档' in page.locator('#scope-note').inner_text()
+        assert '当前可查看 40 款' in page.locator('#scope-note').inner_text()
     current_only()
     archived=hidden[0]['id']
     personal={'schemaVersion':1,'overrides':{archived:{'total':1,'quantity':1,'volumeMl':500}},'personalScores':{archived:5},'shortlist':[b['id'] for b in hidden[:3]]}

@@ -30,13 +30,13 @@ with sync_playwright() as p:
   page.evaluate('(id)=>document.querySelector(`#all-index [data-open="${id}"]`).click()',id)
   assert page.locator('#beer-dialog').evaluate('(e)=>e.open')
   text=page.locator('#dialog-content').inner_text()
-  assert '价格证据与原包装' in text and '选购预算' in text and '评分出处与版本' in text
+  assert '价格与包装' in text and '试饮预算建议' in text and '各平台评分与来源' in text
   page.keyboard.press('Escape')
  ok('all detail dialogs contain evaluations, quote status, budget guidance and score provenance')
  page.evaluate("document.querySelector('#all-index [data-open=\"paulaner\"]').click()")
  assert '¥9.94' in page.locator('.detail-stats').inner_text()
  assert '整单按所选页面计算 ¥198.70' in page.locator('#dialog-content').inner_text()
- assert '淘宝所选页面优惠计算快照' in page.locator('#dialog-content').inner_text()
+ assert '淘宝页面优惠计算价' in page.locator('#dialog-content').inner_text()
  assert page.evaluate("BeerCore.cost(BEER_DATA.beers.find(b=>b.id==='paulaner').quote,'unit') === 198.7/20")
  page.keyboard.press('Escape')
  ok('calculated page label and half-cent display preserve unrounded price')
@@ -50,7 +50,7 @@ with sync_playwright() as p:
  assert '相关版本' in page.locator('#scatter [data-point="asahi"]').get_attribute('aria-label');ok('unknown score, editorial budget, and related-version score have distinct accessible labels')
  page.locator('#map-mode').select_option('evidence');assert page.locator('#scatter [data-point]').count()==len(a['eligible']) and page.locator('.beer-card').count()==TOTAL
  page.locator('#map-mode').select_option('all');ok('evidence-only chart toggle does not hide the other cards')
- page.locator('#score-platform').select_option('Untappd');assert page.locator('.beer-card').count()==2;assert page.evaluate('BeerFrontier.getAnalysis().eligible.every(id=>BEER_DATA.beers.find(b=>b.id===id).rating.platform==="Untappd")')
+ page.locator('#score-platform').select_option('Untappd');assert page.locator('.beer-card').count()==page.evaluate('BeerCore.analyze(BEER_DATA,BeerFrontier.getState()).rows.length');assert page.evaluate('BeerCore.analyze(BEER_DATA,BeerFrontier.getState()).eligible.every(b=>b.activeRating.platform==="Untappd")')
  page.locator('#show-all').click();assert page.locator('.beer-card').count()==TOTAL;ok('platform filter and restore-all button')
  page.locator('#min-ratings').select_option('100');assert 'salt' not in page.evaluate('window.BeerFrontier.getAnalysis().eligible');assert page.locator('.beer-card').count()==TOTAL;ok('comment count never masquerades as rating sample size')
  page.locator('#reset-filters').click();page.locator('#price-scope').select_option('all');historical_ids=set(page.evaluate('BEER_DATA.beers.filter(b=>b.quote?.historical).map(b=>b.id)'));page.locator('.advanced summary').click();page.locator('#historic').uncheck();assert historical_ids.isdisjoint(page.evaluate('window.BeerFrontier.getAnalysis().eligible'));assert page.locator('[data-point]').count()==TOTAL;ok('historical exclusion changes calculation, not full-view visibility')

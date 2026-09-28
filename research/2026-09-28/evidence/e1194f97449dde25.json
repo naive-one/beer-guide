@@ -1,0 +1,19 @@
+{
+  "requestedUrl": "https://untappd.com/b/ayinger-privatbrauerei-ayinger-brauweisse/21768",
+  "checkedAt": "2026-09-28",
+  "url": "https://untappd.com/b/ayinger-privatbrauerei-ayinger-brauweisse/21768",
+  "status": "read",
+  "title": "Bräuweisse - Ayinger Privatbrauerei - Untappd",
+  "beerName": "Bräuweisse",
+  "brewery": "Ayinger Privatbrauerei",
+  "style": "Wheat Beer - Hefeweizen",
+  "abv": 5.1,
+  "platform": "Untappd",
+  "scale": 5,
+  "value": 3.71,
+  "count": 163171,
+  "countType": "ratings",
+  "countLabel": "Ratings",
+  "retrieval": "public-page-header",
+  "rawPageSha256": "866784c914e987ca8abb6f6d242f32a325b11f5d34be93cf780ee90061a77941"
+}

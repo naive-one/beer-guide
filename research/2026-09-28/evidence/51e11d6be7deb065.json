@@ -1,0 +1,19 @@
+{
+  "requestedUrl": "https://untappd.com/b/toppling-goliath-brewing-co-pseudo-sue/65644",
+  "checkedAt": "2026-09-28",
+  "url": "https://untappd.com/b/toppling-goliath-brewing-co-pseudo-sue/65644",
+  "status": "read",
+  "title": "Pseudo Sue - Toppling Goliath Brewing Co. - Untappd",
+  "beerName": "Pseudo Sue",
+  "brewery": "Toppling Goliath Brewing Co.",
+  "style": "Pale Ale - American",
+  "abv": 5.8,
+  "platform": "Untappd",
+  "scale": 5,
+  "value": 4.1,
+  "count": 245356,
+  "countType": "ratings",
+  "countLabel": "Ratings",
+  "retrieval": "public-page-header",
+  "rawPageSha256": "85840ea759c82638353ad046ee096bfb9b315a956de9d42e90cf0b942f045295"
+}

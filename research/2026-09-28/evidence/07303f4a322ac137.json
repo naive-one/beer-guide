@@ -1,0 +1,19 @@
+{
+  "requestedUrl": "https://untappd.com/b/guinness-guinness-draught/4473",
+  "checkedAt": "2026-09-28",
+  "url": "https://untappd.com/b/guinness-guinness-draught/4473",
+  "status": "read",
+  "title": "Guinness Draught - Guinness - Untappd",
+  "beerName": "Guinness Draught",
+  "brewery": "Guinness",
+  "style": "Stout - Irish Dry",
+  "abv": 4.2,
+  "platform": "Untappd",
+  "scale": 5,
+  "value": 3.77,
+  "count": 997788,
+  "countType": "ratings",
+  "countLabel": "Ratings",
+  "retrieval": "public-page-header",
+  "rawPageSha256": "60c7cee7aaa183f07a45680c09ac7d27cc5887a81e9286da86d7d1cf5dd46878"
+}

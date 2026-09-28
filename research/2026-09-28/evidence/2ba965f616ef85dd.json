@@ -1,0 +1,19 @@
+{
+  "requestedUrl": "https://untappd.com/b/bieres-de-chimay-chimay-grande-reserve-blue/34039",
+  "checkedAt": "2026-09-28",
+  "url": "https://untappd.com/b/bieres-de-chimay-chimay-grande-reserve-blue/34039",
+  "status": "read",
+  "title": "Chimay Grande Réserve (Blue) - Bières de Chimay - Untappd",
+  "beerName": "Chimay Grande Réserve (Blue)",
+  "brewery": "Bières de Chimay",
+  "style": "Belgian Strong Dark Ale",
+  "abv": 9.0,
+  "platform": "Untappd",
+  "scale": 5,
+  "value": 3.89,
+  "count": 334485,
+  "countType": "ratings",
+  "countLabel": "Ratings",
+  "retrieval": "public-page-header",
+  "rawPageSha256": "a693010717a56652a65c2b0e8842fb695febcc99612de84efc39b17bc0367baf"
+}

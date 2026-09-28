@@ -1,0 +1,19 @@
+{
+  "requestedUrl": "https://untappd.com/b/brouwerij-hoegaarden-hoegaarden-wit-blanche/6422",
+  "checkedAt": "2026-09-28",
+  "url": "https://untappd.com/b/brouwerij-hoegaarden-hoegaarden-wit-blanche/6422",
+  "status": "read",
+  "title": "Hoegaarden Wit / Blanche - Brouwerij Hoegaarden - Untappd",
+  "beerName": "Hoegaarden Wit / Blanche",
+  "brewery": "Brouwerij Hoegaarden",
+  "style": "Wheat Beer - Witbier / Blanche",
+  "abv": 4.9,
+  "platform": "Untappd",
+  "scale": 5,
+  "value": 3.54,
+  "count": 494589,
+  "countType": "ratings",
+  "countLabel": "Ratings",
+  "retrieval": "public-page-header",
+  "rawPageSha256": "435bc3e223a3526fd1438513ec3188d2d7f454c6516d5f102661bdbe3e827689"
+}

@@ -1,0 +1,19 @@
+{
+  "requestedUrl": "https://untappd.com/b/primator-weizen/30947",
+  "checkedAt": "2026-09-28",
+  "url": "https://untappd.com/b/primator-weizen/30947",
+  "status": "read",
+  "title": "Weizen - Primátor - Untappd",
+  "beerName": "Weizen",
+  "brewery": "Primátor",
+  "style": "Wheat Beer - Hefeweizen",
+  "abv": 4.8,
+  "platform": "Untappd",
+  "scale": 5,
+  "value": 3.48,
+  "count": 36515,
+  "countType": "ratings",
+  "countLabel": "Ratings",
+  "retrieval": "public-page-header",
+  "rawPageSha256": "19e5321bfd27e3d3157f17c2e1e71ffd4ebd18a8a038a9af1473b20cd589165b"
+}

@@ -1,10 +1,12 @@
 import fs from 'node:fs';
+import {validateCommunity} from './community-contract.mjs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const read=f=>fs.readFileSync(path.join(root,f),'utf8');
 const data=JSON.parse(read('data/beers.json'));
 if(data.schemaVersion!==1||!Array.isArray(data.beers))throw new Error('Invalid dataset');
+validateCommunity(data);
 const allIds=new Set();
 for(const b of data.beers){if(allIds.has(b.id))throw new Error('Duplicate ID '+b.id);allIds.add(b.id);if(b.rating&&(b.rating.value<0||b.rating.value>5||!data.sources[b.rating.sourceId]))throw new Error('Invalid rating '+b.id);if(b.quote&&(!data.sources[b.quote.sourceId]||b.quote.total<=0||b.quote.quantity<1||(b.quote.volumeMl!=null&&b.quote.volumeMl<=0)))throw new Error('Invalid quote '+b.id);}
 if(data.catalogScope){const scoped=data.catalogScope.activeIds;if(!Array.isArray(scoped)||new Set(scoped).size!==scoped.length||scoped.some(id=>!allIds.has(id)))throw new Error('Invalid catalog scope');}

@@ -1,0 +1,19 @@
+{
+  "requestedUrl": "https://untappd.com/b/schneider-weisse-g-schneider-and-sohn-aventinus-tap06/16851",
+  "checkedAt": "2026-09-28",
+  "url": "https://untappd.com/b/schneider-weisse-g-schneider-and-sohn-aventinus-tap06/16851",
+  "status": "read",
+  "title": "Aventinus (TAP06) - Schneider Weisse G. Schneider & Sohn - Untappd",
+  "beerName": "Aventinus (TAP06)",
+  "brewery": "Schneider Weisse G. Schneider & Sohn",
+  "style": "Bock - Weizendoppelbock",
+  "abv": 8.2,
+  "platform": "Untappd",
+  "scale": 5,
+  "value": 3.8,
+  "count": 167880,
+  "countType": "ratings",
+  "countLabel": "Ratings",
+  "retrieval": "public-page-header",
+  "rawPageSha256": "15f31264069acfef16fb75ba386ac6d4b3bc812d2ab25a19248704dbcc97c763"
+}

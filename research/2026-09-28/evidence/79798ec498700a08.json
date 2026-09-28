@@ -1,0 +1,19 @@
+{
+  "requestedUrl": "https://untappd.com/b/bayerische-staatsbrauerei-weihenstephan-weihenstephaner-vitus/7408",
+  "checkedAt": "2026-09-28",
+  "url": "https://untappd.com/b/bayerische-staatsbrauerei-weihenstephan-weihenstephaner-vitus/7408",
+  "status": "read",
+  "title": "Weihenstephaner Vitus - Bayerische Staatsbrauerei Weihenstephan - Untappd",
+  "beerName": "Weihenstephaner Vitus",
+  "brewery": "Bayerische Staatsbrauerei Weihenstephan",
+  "style": "Bock - Weizenbock",
+  "abv": 7.7,
+  "platform": "Untappd",
+  "scale": 5,
+  "value": 3.83,
+  "count": 168857,
+  "countType": "ratings",
+  "countLabel": "Ratings",
+  "retrieval": "public-page-header",
+  "rawPageSha256": "d396f812d359be5b88eaf306562c58dc778db925932ea9c600c7fb7637ee1e3b"
+}

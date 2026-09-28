@@ -1,0 +1,227 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://untappd.com/b/bayerische-staatsbrauerei-weihenstephan-weihenstephaner-hefeweissbier/8745",
+      "title": "Weihenstephaner Hefeweissbier - Bayerische Staatsbrauerei Weihenstephan - Untappd",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 2,
+      "url": "https://untappd.com/b/paulaner-brauerei-paulaner-hefe-weissbier-hefe-weizen-weissbier/15677",
+      "title": "Hefe-Weißbier / Hefe-Weizen / Weissbier - Paulaner Brauerei - Untappd",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 3,
+      "url": "https://untappd.com/b/ayinger-privatbrauerei-ayinger-brauweisse/21768",
+      "title": "Bräuweisse - Ayinger Privatbrauerei - Untappd",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 4,
+      "url": "https://untappd.com/b/benediktiner-weissbrau-benediktiner-weissbier/103362",
+      "title": "Benediktiner Weissbier - Benediktiner Weissbräu - Untappd",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 5,
+      "url": "https://untappd.com/b/spaten-franziskaner-lowenbrau-gruppe-franziskaner-premium-weissbier/14564",
+      "title": "Franziskaner Premium Weissbier Naturtrüb - Spaten-Franziskaner-Löwenbräu-Gruppe - Untappd",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 6,
+      "url": "https://untappd.com/b/erdinger-weissbrau-erdinger-weissbier-hefe-weizen/7420",
+      "title": "Erdinger Weißbier / Hefe-Weizen - Erdinger Weissbräu - Untappd",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 7,
+      "url": "https://untappd.com/b/bayerische-staatsbrauerei-weihenstephan-weihenstephaner-vitus/7408",
+      "title": "Weihenstephaner Vitus - Bayerische Staatsbrauerei Weihenstephan - Untappd",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 8,
+      "url": "https://untappd.com/b/schneider-weisse-g-schneider-and-sohn-aventinus-tap06/16851",
+      "title": "Aventinus (TAP06) - Schneider Weisse G. Schneider & Sohn - Untappd",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 9,
+      "url": "https://untappd.com/b/abbaye-notre-dame-de-saint-remy-trappistes-rochefort-10/6766",
+      "title": "Trappistes Rochefort 10 - Abbaye Notre-Dame de Saint-Rémy - Untappd",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 10,
+      "url": "https://untappd.com/b/abbaye-notre-dame-de-saint-remy-trappistes-rochefort-8/11473",
+      "title": "Trappistes Rochefort 8 - Abbaye Notre-Dame de Saint-Rémy - Untappd",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 11,
+      "url": "https://untappd.com/b/bieres-de-chimay-chimay-grande-reserve-blue/34039",
+      "title": "Chimay Grande Réserve (Blue) - Bières de Chimay - Untappd",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 12,
+      "url": "https://untappd.com/b/duvel-moortgat-duvel/6868",
+      "title": "Duvel - Duvel Moortgat - Untappd",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 13,
+      "url": "https://untappd.com/b/brasserie-d-orval-orval/851",
+      "title": "Orval - Brasserie d'Orval - Untappd",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 14,
+      "url": "https://untappd.com/b/brouwerij-hoegaarden-hoegaarden-wit-blanche/6422",
+      "title": "Hoegaarden Wit / Blanche - Brouwerij Hoegaarden - Untappd",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 15,
+      "url": "https://untappd.com/b/sierra-nevada-brewing-co-pale-ale/6284",
+      "title": "Pale Ale - Sierra Nevada Brewing Co. - Untappd",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 16,
+      "url": "https://untappd.com/b/sierra-nevada-brewing-co-torpedo-extra-ipa/4997",
+      "title": "Torpedo Extra IPA - Sierra Nevada Brewing Co. - Untappd",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 17,
+      "url": "https://untappd.com/b/toppling-goliath-brewing-co-pseudo-sue/65644",
+      "title": "Pseudo Sue - Toppling Goliath Brewing Co. - Untappd",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 18,
+      "url": "https://untappd.com/b/toppling-goliath-brewing-co-king-sue/594015",
+      "title": "King Sue - Toppling Goliath Brewing Co. - Untappd",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 19,
+      "url": "https://untappd.com/b/guinness-guinness-draught/4473",
+      "title": "Guinness Draught - Guinness - Untappd",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 20,
+      "url": "https://untappd.com/b/belching-beaver-brewery-viva-la-beaver/1033614",
+      "title": "¡Viva La Beaver! - Belching Beaver Brewery - Untappd",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 21,
+      "url": "https://untappd.com/b/plzensky-prazdroj-pilsner-urquell/37936",
+      "title": "Pilsner Urquell - Plzeňský Prazdroj - Untappd",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 22,
+      "url": "https://untappd.com/b/heineken-heineken/5860",
+      "title": "Heineken - Heineken - Untappd",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 23,
+      "url": "https://untappd.com/b/schneider-weisse-g-schneider-and-sohn-hopfenweisse-tap05/11027",
+      "title": "Hopfenweisse (TAP05) - Schneider Weisse G. Schneider & Sohn - Untappd",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 24,
+      "url": "https://untappd.com/b/mahanine-brewing-arrival/6360481",
+      "title": "Arrival 降临 - MAHANINE BREWING 大九酿造 - Untappd",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 25,
+      "url": "https://untappd.com/b/nbeer-craft-brewing-co-beijing-gose-modern/1883664",
+      "title": "Beijing Gose Modern 帝都海盐 - NBeer Craft Brewing Co. 牛啤堂 - Untappd",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 26,
+      "url": "https://untappd.com/b/primator-weizen/30947",
+      "title": "Weizen - Primátor - Untappd",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 27,
+      "url": "https://untappd.com/b/tsingtao-brewery-asahi-super-dry-chinese-version/5284196",
+      "title": "Asahi Super Dry (Chinese Version) - Tsingtao (青岛啤酒) Brewery - Untappd",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 28,
+      "url": "https://untappd.com/b/tsingtao-brewery/4229247",
+      "title": "白啤 - Tsingtao (青岛啤酒) Brewery - Untappd",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 29,
+      "url": "https://untappd.com/b/schneider-weisse-g-schneider-and-sohn-original-tap07/11982",
+      "title": "Original (TAP07) - Schneider Weisse G. Schneider & Sohn - Untappd",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 30,
+      "url": "https://untappd.com/b/shapowei-suapobbe-miss-dream/4338144",
+      "title": "梦小姐 Miss Dream - 沙坡尾 Shapowei (Suapobbe) - Untappd",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 31,
+      "url": "https://untappd.com/b/pohjala-pime-oo/914232",
+      "title": "Pime Öö - Põhjala - Untappd",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 32,
+      "url": "https://untappd.com/b/tsingtao-brewery-augerta-a3/6103285",
+      "title": "Augerta A3 - Tsingtao (青岛啤酒) Brewery - Untappd",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 33,
+      "url": "https://untappd.com/b/china-resources-snow-breweries-snow-12-deg-p-12-deg-p-4-7/4909071",
+      "title": "Snow 12°P (雪花 12°P) 4.7% - China Resources Snow Breweries (雪花啤酒) - Untappd",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 34,
+      "url": "https://untappd.com/b/china-resources-snow-breweries-snow-beer-11-5-deg/5653540",
+      "title": "Snow Beer 11.5° - China Resources Snow Breweries (雪花啤酒) - Untappd",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 35,
+      "url": "https://untappd.com/b/brouwerij-hoegaarden-hoegaarden-witbier-china/6734981",
+      "title": "Hoegaarden Witbier China - Brouwerij Hoegaarden - Untappd",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 36,
+      "url": "https://untappd.com/b/brouwerij-der-trappisten-van-westmalle-westmalle-trappist-tripel/487",
+      "title": "Westmalle Trappist Tripel - Brouwerij der Trappisten van Westmalle - Untappd",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": 37,
+      "url": "https://untappd.com/b/pang-donglai-dl-market-wheat-beer/5702703",
+      "title": "Wheat Beer (精酿小麦啤酒) - Pang Donglai DL Market (胖东来超市) - Untappd",
+      "accessed": "2026-09-28"
+    }
+  ]
+}

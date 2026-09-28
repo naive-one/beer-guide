@@ -1,0 +1,19 @@
+{
+  "requestedUrl": "https://untappd.com/b/tsingtao-brewery/4229247",
+  "checkedAt": "2026-09-28",
+  "url": "https://untappd.com/b/tsingtao-brewery/4229247",
+  "status": "read",
+  "title": "白啤 - Tsingtao (青岛啤酒) Brewery - Untappd",
+  "beerName": "白啤",
+  "brewery": "Tsingtao (青岛啤酒) Brewery",
+  "style": "Wheat Beer - Hefeweizen Light / Leicht",
+  "abv": 4.1,
+  "platform": "Untappd",
+  "scale": 5,
+  "value": 3.14,
+  "count": 132,
+  "countType": "ratings",
+  "countLabel": "Ratings",
+  "retrieval": "public-page-header",
+  "rawPageSha256": "69981167a8e369abfb45508c4137b9a30dc997e576e120e1acbef3aa8417a9f1"
+}

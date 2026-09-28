@@ -1,0 +1,19 @@
+{
+  "requestedUrl": "https://untappd.com/b/sierra-nevada-brewing-co-pale-ale/6284",
+  "checkedAt": "2026-09-28",
+  "url": "https://untappd.com/b/sierra-nevada-brewing-co-pale-ale/6284",
+  "status": "read",
+  "title": "Pale Ale - Sierra Nevada Brewing Co. - Untappd",
+  "beerName": "Pale Ale",
+  "brewery": "Sierra Nevada Brewing Co.",
+  "style": "Pale Ale - American",
+  "abv": 5.6,
+  "platform": "Untappd",
+  "scale": 5,
+  "value": 3.62,
+  "count": 550755,
+  "countType": "ratings",
+  "countLabel": "Ratings",
+  "retrieval": "public-page-header",
+  "rawPageSha256": "f20c3a073b63882c82c0e69db8df6180003fb2c671c762b3bb2796f952d37673"
+}

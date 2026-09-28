@@ -1,0 +1,19 @@
+{
+  "requestedUrl": "https://untappd.com/b/erdinger-weissbrau-erdinger-weissbier-hefe-weizen/7420",
+  "checkedAt": "2026-09-28",
+  "url": "https://untappd.com/b/erdinger-weissbrau-erdinger-weissbier-hefe-weizen/7420",
+  "status": "read",
+  "title": "Erdinger Weißbier / Hefe-Weizen - Erdinger Weissbräu - Untappd",
+  "beerName": "Erdinger Weißbier / Hefe-Weizen",
+  "brewery": "Erdinger Weissbräu",
+  "style": "Wheat Beer - Hefeweizen",
+  "abv": 5.3,
+  "platform": "Untappd",
+  "scale": 5,
+  "value": 3.65,
+  "count": 419527,
+  "countType": "ratings",
+  "countLabel": "Ratings",
+  "retrieval": "public-page-header",
+  "rawPageSha256": "92b78272f9ff7fb31a4bf4e9b432b2357035b4674cf004fbdadbe0ea167df5dc"
+}

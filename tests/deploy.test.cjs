@@ -2,7 +2,7 @@ const test=require('node:test');
 const assert=require('node:assert/strict');
 const fs=require('node:fs');
 const path=require('node:path');
-const os=require('node:os');
+const scratch=require('node:os').tmpdir();
 const {execFileSync,spawn}=require('node:child_process');
 const root=path.resolve(__dirname,'..');
 const expected=['404.html','_headers','app.js','core.js','data/beers.json','data/data.js','index.html','robots.txt','styles.css'];
@@ -15,9 +15,9 @@ test('Workers config uses only dist, a matching name, and actual 404s',()=>{
  assert.equal(cfg.pages_build_output_dir,undefined);
 });
 test('build is deterministic, purges stale dist files, and publishes only allowlisted files',()=>{
- const temp=fs.mkdtempSync(path.join(os.tmpdir(),'beer-guide-build-test-'));
+ fs.mkdirSync(scratch,{recursive:true});const temp=fs.mkdtempSync(path.join(scratch,'beer-guide-build-test-'));
  try{
-  for(const f of ['index.html','styles.css','app.js','core.js','data/beers.json','scripts/build.mjs','public/404.html','public/_headers','public/robots.txt']){
+  for(const f of ['index.html','styles.css','app.js','core.js','data/beers.json','scripts/build.mjs','scripts/community-contract.mjs','public/404.html','public/_headers','public/robots.txt']){
    fs.mkdirSync(path.dirname(path.join(temp,f)),{recursive:true});fs.copyFileSync(path.join(root,f),path.join(temp,f));
   }
   fs.mkdirSync(path.join(temp,'dist'),{recursive:true});fs.writeFileSync(path.join(temp,'dist','stale-private.txt'),'not for publication');

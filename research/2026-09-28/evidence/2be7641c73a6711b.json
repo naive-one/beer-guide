@@ -1,0 +1,19 @@
+{
+  "requestedUrl": "https://untappd.com/b/schneider-weisse-g-schneider-and-sohn-hopfenweisse-tap05/11027",
+  "checkedAt": "2026-09-28",
+  "url": "https://untappd.com/b/schneider-weisse-g-schneider-and-sohn-hopfenweisse-tap05/11027",
+  "status": "read",
+  "title": "Hopfenweisse (TAP05) - Schneider Weisse G. Schneider & Sohn - Untappd",
+  "beerName": "Hopfenweisse (TAP05)",
+  "brewery": "Schneider Weisse G. Schneider & Sohn",
+  "style": "Wheat Beer - Hopfenweisse",
+  "abv": 8.2,
+  "platform": "Untappd",
+  "scale": 5,
+  "value": 3.77,
+  "count": 92547,
+  "countType": "ratings",
+  "countLabel": "Ratings",
+  "retrieval": "public-page-header",
+  "rawPageSha256": "7143a445be9a294adb33794dd02856f681356333c96851a237aed99f0e3ab7c3"
+}

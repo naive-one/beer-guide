@@ -1,0 +1,282 @@
+[
+  {
+    "beerId": "weihen",
+    "status": "added-matched",
+    "url": "https://untappd.com/b/bayerische-staatsbrauerei-weihenstephan-weihenstephaner-hefeweissbier/8745",
+    "evidenceFile": "research/2026-09-28/evidence/89bb08b5d22ba485.json",
+    "reason": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。"
+  },
+  {
+    "beerId": "paulaner",
+    "status": "added-matched",
+    "url": "https://untappd.com/b/paulaner-brauerei-paulaner-hefe-weissbier-hefe-weizen-weissbier/15677",
+    "evidenceFile": "research/2026-09-28/evidence/79318c3997ace89e.json",
+    "reason": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。"
+  },
+  {
+    "beerId": "ayinger",
+    "status": "added-matched",
+    "url": "https://untappd.com/b/ayinger-privatbrauerei-ayinger-brauweisse/21768",
+    "evidenceFile": "research/2026-09-28/evidence/e1194f97449dde25.json",
+    "reason": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。"
+  },
+  {
+    "beerId": "benediktiner",
+    "status": "added-matched",
+    "url": "https://untappd.com/b/benediktiner-weissbrau-benediktiner-weissbier/103362",
+    "evidenceFile": "research/2026-09-28/evidence/18e96c7dbf18e56e.json",
+    "reason": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。"
+  },
+  {
+    "beerId": "franziskaner",
+    "status": "added-matched",
+    "url": "https://untappd.com/b/spaten-franziskaner-lowenbrau-gruppe-franziskaner-premium-weissbier/14564",
+    "evidenceFile": "research/2026-09-28/evidence/e93f0d3423faea18.json",
+    "reason": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。"
+  },
+  {
+    "beerId": "erdinger",
+    "status": "added-matched",
+    "url": "https://untappd.com/b/erdinger-weissbrau-erdinger-weissbier-hefe-weizen/7420",
+    "evidenceFile": "research/2026-09-28/evidence/dff04425fed3247e.json",
+    "reason": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。"
+  },
+  {
+    "beerId": "vitus",
+    "status": "added-matched",
+    "url": "https://untappd.com/b/bayerische-staatsbrauerei-weihenstephan-weihenstephaner-vitus/7408",
+    "evidenceFile": "research/2026-09-28/evidence/79798ec498700a08.json",
+    "reason": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。"
+  },
+  {
+    "beerId": "tap6",
+    "status": "added-matched",
+    "url": "https://untappd.com/b/schneider-weisse-g-schneider-and-sohn-aventinus-tap06/16851",
+    "evidenceFile": "research/2026-09-28/evidence/cfee7ba07b598c3b.json",
+    "reason": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。"
+  },
+  {
+    "beerId": "rochefort10",
+    "status": "added-matched",
+    "url": "https://untappd.com/b/abbaye-notre-dame-de-saint-remy-trappistes-rochefort-10/6766",
+    "evidenceFile": "research/2026-09-28/evidence/591026258658a0f2.json",
+    "reason": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。"
+  },
+  {
+    "beerId": "rochefort8",
+    "status": "added-matched",
+    "url": "https://untappd.com/b/abbaye-notre-dame-de-saint-remy-trappistes-rochefort-8/11473",
+    "evidenceFile": "research/2026-09-28/evidence/83b1d7e15d3fe489.json",
+    "reason": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。"
+  },
+  {
+    "beerId": "chimay",
+    "status": "added-matched",
+    "url": "https://untappd.com/b/bieres-de-chimay-chimay-grande-reserve-blue/34039",
+    "evidenceFile": "research/2026-09-28/evidence/2ba965f616ef85dd.json",
+    "reason": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。"
+  },
+  {
+    "beerId": "duvel",
+    "status": "added-matched",
+    "url": "https://untappd.com/b/duvel-moortgat-duvel/6868",
+    "evidenceFile": "research/2026-09-28/evidence/e99ae7046f52f896.json",
+    "reason": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。"
+  },
+  {
+    "beerId": "westmalle",
+    "status": "added-matched",
+    "url": "https://untappd.com/b/brouwerij-der-trappisten-van-westmalle-westmalle-trappist-tripel/487",
+    "evidenceFile": "research/2026-09-28/evidence/523f980cd74c672c.json",
+    "reason": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。"
+  },
+  {
+    "beerId": "orval",
+    "status": "added-matched",
+    "url": "https://untappd.com/b/brasserie-d-orval-orval/851",
+    "evidenceFile": "research/2026-09-28/evidence/4977bd6505c4d3ce.json",
+    "reason": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。"
+  },
+  {
+    "beerId": "hoegaarden",
+    "status": "added-matched",
+    "url": "https://untappd.com/b/brouwerij-hoegaarden-hoegaarden-wit-blanche/6422",
+    "evidenceFile": "research/2026-09-28/evidence/ab02ad76408e0d3a.json",
+    "reason": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。"
+  },
+  {
+    "beerId": "sierra",
+    "status": "added-matched",
+    "url": "https://untappd.com/b/sierra-nevada-brewing-co-pale-ale/6284",
+    "evidenceFile": "research/2026-09-28/evidence/6295d2f506dde73f.json",
+    "reason": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。"
+  },
+  {
+    "beerId": "torpedo",
+    "status": "added-matched",
+    "url": "https://untappd.com/b/sierra-nevada-brewing-co-torpedo-extra-ipa/4997",
+    "evidenceFile": "research/2026-09-28/evidence/8e6eda68a605c74f.json",
+    "reason": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。"
+  },
+  {
+    "beerId": "pseudosue",
+    "status": "added-matched",
+    "url": "https://untappd.com/b/toppling-goliath-brewing-co-pseudo-sue/65644",
+    "evidenceFile": "research/2026-09-28/evidence/51e11d6be7deb065.json",
+    "reason": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。"
+  },
+  {
+    "beerId": "kingsue",
+    "status": "added-matched",
+    "url": "https://untappd.com/b/toppling-goliath-brewing-co-king-sue/594015",
+    "evidenceFile": "research/2026-09-28/evidence/d2f9c981df6bdd98.json",
+    "reason": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。"
+  },
+  {
+    "beerId": "guinness",
+    "status": "added-related",
+    "url": "https://untappd.com/b/guinness-guinness-draught/4473",
+    "evidenceFile": "research/2026-09-28/evidence/07303f4a322ac137.json",
+    "reason": "Guinness Draught总体评分，未单独统计本页氮气罐装；保留酒花儿罐装评分用于默认比较。"
+  },
+  {
+    "beerId": "beaver",
+    "status": "added-matched",
+    "url": "https://untappd.com/b/belching-beaver-brewery-viva-la-beaver/1033614",
+    "evidenceFile": "research/2026-09-28/evidence/a2bf41ba2606d9c5.json",
+    "reason": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。"
+  },
+  {
+    "beerId": "pilsner",
+    "status": "added-matched",
+    "url": "https://untappd.com/b/plzensky-prazdroj-pilsner-urquell/37936",
+    "evidenceFile": "research/2026-09-28/evidence/1ab2e64974cb713c.json",
+    "reason": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。"
+  },
+  {
+    "beerId": "heineken",
+    "status": "added-matched",
+    "url": "https://untappd.com/b/heineken-heineken/5860",
+    "evidenceFile": "research/2026-09-28/evidence/f6c925e29827cbbd.json",
+    "reason": "对应国际经典5.0%酒款；平台未按销售地区或包装细分。 平台按酒款汇总，未按瓶罐或单个SKU细分。"
+  },
+  {
+    "beerId": "tap5",
+    "status": "added-matched",
+    "url": "https://untappd.com/b/schneider-weisse-g-schneider-and-sohn-hopfenweisse-tap05/11027",
+    "evidenceFile": "research/2026-09-28/evidence/2be7641c73a6711b.json",
+    "reason": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。"
+  },
+  {
+    "beerId": "dajiu",
+    "status": "added-matched",
+    "url": "https://untappd.com/b/mahanine-brewing-arrival/6360481",
+    "evidenceFile": "research/2026-09-28/evidence/c2f066d275b9e07d.json",
+    "reason": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。"
+  },
+  {
+    "beerId": "salt",
+    "status": "added-matched",
+    "url": "https://untappd.com/b/nbeer-craft-brewing-co-beijing-gose-modern/1883664",
+    "evidenceFile": "research/2026-09-28/evidence/b0a203680b5162fd.json",
+    "reason": "酒厂、酒款名称与酒精度对应本页收录款。 平台按酒款汇总，未按瓶罐或单个SKU细分。"
+  },
+  {
+    "beerId": "primator",
+    "status": "added-related",
+    "url": "https://untappd.com/b/primator-weizen/30947",
+    "evidenceFile": "research/2026-09-28/evidence/07fb0f3dce883419.json",
+    "reason": "页面为4.8% Weizen；本页收录的是5.0%版本，仅作相关版本参考。"
+  },
+  {
+    "beerId": "snow",
+    "status": "added-related",
+    "url": "https://untappd.com/b/china-resources-snow-breweries-snow-12-deg-p-12-deg-p-4-7/4909071",
+    "evidenceFile": "research/2026-09-28/evidence/5a836c02d0b4053d.json",
+    "reason": "页面为4.7%／12°P雪花，介绍对应盒马1L装，不是已确认的640ml沈阳老雪同款。"
+  },
+  {
+    "beerId": "pang",
+    "status": "reverified-existing",
+    "url": "https://untappd.com/b/pang-donglai-dl-market-wheat-beer/5702703",
+    "evidenceFile": "research/2026-09-28/evidence/22e1f6a6a2dc307f.json",
+    "reason": "现有Untappd来源的分数与评分次数未变，不重复添加。"
+  },
+  {
+    "beerId": "asahi",
+    "status": "added-related",
+    "url": "https://untappd.com/b/tsingtao-brewery-asahi-super-dry-chinese-version/5284196",
+    "evidenceFile": "research/2026-09-28/evidence/610f13b2abd5bb5d.json",
+    "reason": "页面名为国产 Super Dry、5.0%，但酒厂归属写作青岛啤酒，生产身份存在冲突，暂不用于比较。"
+  },
+  {
+    "beerId": "tsingtao-white",
+    "status": "added-related",
+    "url": "https://untappd.com/b/tsingtao-brewery/4229247",
+    "evidenceFile": "research/2026-09-28/evidence/e152eef28fd2e921.json",
+    "reason": "页面为青岛白啤4.1%，未明确全麦500ml／11°P规格，暂作相关版本参考。"
+  },
+  {
+    "beerId": "augerta",
+    "status": "reverified-existing",
+    "url": "https://untappd.com/b/tsingtao-brewery-augerta-a3/6103285",
+    "evidenceFile": "research/2026-09-28/evidence/5a9223133a20911d.json",
+    "reason": "现有Untappd来源的分数与评分次数未变，不重复添加。"
+  },
+  {
+    "beerId": "heineken-can",
+    "status": "added-related",
+    "url": "https://untappd.com/b/heineken-heineken/5860",
+    "evidenceFile": "research/2026-09-28/evidence/f6c925e29827cbbd.json",
+    "reason": "经典喜力总体评分，未单独统计中国生产的500ml绿罐。"
+  },
+  {
+    "beerId": "heineken-bottle",
+    "status": "added-related",
+    "url": "https://untappd.com/b/heineken-heineken/5860",
+    "evidenceFile": "research/2026-09-28/evidence/f6c925e29827cbbd.json",
+    "reason": "经典喜力总体评分，未单独统计中国生产的500ml绿瓶。"
+  },
+  {
+    "beerId": "heineken-keg",
+    "status": "added-related",
+    "url": "https://untappd.com/b/heineken-heineken/5860",
+    "evidenceFile": "research/2026-09-28/evidence/f6c925e29827cbbd.json",
+    "reason": "经典喜力总体评分，不是5L压力桶独立评分。"
+  },
+  {
+    "beerId": "nadu",
+    "status": "added-matched",
+    "url": "https://untappd.com/b/schneider-weisse-g-schneider-and-sohn-original-tap07/11982",
+    "evidenceFile": "research/2026-09-28/evidence/3d1bcbecde701cc8.json",
+    "reason": "对应本页选定的施纳德7号代表款。 平台按酒款汇总，未按瓶罐或单个SKU细分。"
+  },
+  {
+    "beerId": "dream",
+    "status": "added-matched",
+    "url": "https://untappd.com/b/shapowei-suapobbe-miss-dream/4338144",
+    "evidenceFile": "research/2026-09-28/evidence/fa39637f68dad714.json",
+    "reason": "对应6%酸浑浊IPA，不对应目前未确认的芒果酸艾尔报价。 平台按酒款汇总，未按瓶罐或单个SKU细分。"
+  },
+  {
+    "beerId": "pohjala",
+    "status": "added-matched",
+    "url": "https://untappd.com/b/pohjala-pime-oo/914232",
+    "evidenceFile": "research/2026-09-28/evidence/257de849d86f3879.json",
+    "reason": "对应常规Pime Öö黑夜，不是PX或其他桶陈版。 平台按酒款汇总，未按瓶罐或单个SKU细分。"
+  },
+  {
+    "beerId": "fan-jia-le",
+    "status": "added-matched",
+    "url": "https://untappd.com/b/spaten-franziskaner-lowenbrau-gruppe-franziskaner-premium-weissbier/14564",
+    "evidenceFile": "research/2026-09-28/evidence/e93f0d3423faea18.json",
+    "reason": "对应本页选定的德国Franziskaner代表款，不代表所有国产范佳乐。 平台按酒款汇总，未按瓶罐或单个SKU细分。"
+  },
+  {
+    "beerId": "hoegaarden-user",
+    "status": "added-matched",
+    "url": "https://untappd.com/b/brouwerij-hoegaarden-hoegaarden-wit-blanche/6422",
+    "evidenceFile": "research/2026-09-28/evidence/ab02ad76408e0d3a.json",
+    "reason": "对应本页选定的比利时4.9%代表款，不套用国产4.5%版本。 平台按酒款汇总，未按瓶罐或单个SKU细分。"
+  }
+]

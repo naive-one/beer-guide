@@ -1,0 +1,19 @@
+{
+  "requestedUrl": "https://untappd.com/b/heineken-heineken/5860",
+  "checkedAt": "2026-09-28",
+  "url": "https://untappd.com/b/heineken-heineken/5860",
+  "status": "read",
+  "title": "Heineken - Heineken - Untappd",
+  "beerName": "Heineken",
+  "brewery": "Heineken",
+  "style": "Lager - Pale",
+  "abv": 5.0,
+  "platform": "Untappd",
+  "scale": 5,
+  "value": 2.96,
+  "count": 730562,
+  "countType": "ratings",
+  "countLabel": "Ratings",
+  "retrieval": "public-page-header",
+  "rawPageSha256": "cb4facf03092365aa3fbdabbce1cdd99f6bd82a64bef48ecd7e6cff88d32d956"
+}

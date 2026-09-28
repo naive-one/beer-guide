@@ -1,0 +1,19 @@
+{
+  "requestedUrl": "https://untappd.com/b/schneider-weisse-g-schneider-and-sohn-original-tap07/11982",
+  "checkedAt": "2026-09-28",
+  "url": "https://untappd.com/b/schneider-weisse-g-schneider-and-sohn-original-tap07/11982",
+  "status": "read",
+  "title": "Original (TAP07) - Schneider Weisse G. Schneider & Sohn - Untappd",
+  "beerName": "Original (TAP07)",
+  "brewery": "Schneider Weisse G. Schneider & Sohn",
+  "style": "Wheat Beer - Hefeweizen",
+  "abv": 5.4,
+  "platform": "Untappd",
+  "scale": 5,
+  "value": 3.65,
+  "count": 179140,
+  "countType": "ratings",
+  "countLabel": "Ratings",
+  "retrieval": "public-page-header",
+  "rawPageSha256": "46ec10cae349d2f38cd7a6e7603e1e72b15e1d4080578f577da973e7796ecb10"
+}

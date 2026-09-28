@@ -1,0 +1,19 @@
+{
+  "requestedUrl": "https://untappd.com/b/spaten-franziskaner-lowenbrau-gruppe-franziskaner-premium-weissbier/14564",
+  "checkedAt": "2026-09-28",
+  "url": "https://untappd.com/b/spaten-franziskaner-lowenbrau-gruppe-franziskaner-premium-weissbier/14564",
+  "status": "read",
+  "title": "Franziskaner Premium Weissbier Naturtrüb - Spaten-Franziskaner-Löwenbräu-Gruppe - Untappd",
+  "beerName": "Franziskaner Premium Weissbier Naturtrüb",
+  "brewery": "Spaten-Franziskaner-Löwenbräu-Gruppe",
+  "style": "Wheat Beer - Hefeweizen",
+  "abv": 5.0,
+  "platform": "Untappd",
+  "scale": 5,
+  "value": 3.69,
+  "count": 469288,
+  "countType": "ratings",
+  "countLabel": "Ratings",
+  "retrieval": "public-page-header",
+  "rawPageSha256": "25ed5e579fa1b4fd02777eb359536b98da4f63040e6779e0838eb062a7e83a11"
+}

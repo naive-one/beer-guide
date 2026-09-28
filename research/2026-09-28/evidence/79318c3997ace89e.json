@@ -1,0 +1,19 @@
+{
+  "requestedUrl": "https://untappd.com/b/paulaner-brauerei-paulaner-hefe-weissbier-hefe-weizen-weissbier/15677",
+  "checkedAt": "2026-09-28",
+  "url": "https://untappd.com/b/paulaner-brauerei-paulaner-hefe-weissbier-hefe-weizen-weissbier/15677",
+  "status": "read",
+  "title": "Hefe-Weißbier / Hefe-Weizen / Weissbier - Paulaner Brauerei - Untappd",
+  "beerName": "Hefe-Weißbier / Hefe-Weizen / Weissbier",
+  "brewery": "Paulaner Brauerei",
+  "style": "Wheat Beer - Hefeweizen",
+  "abv": 5.5,
+  "platform": "Untappd",
+  "scale": 5,
+  "value": 3.67,
+  "count": 511351,
+  "countType": "ratings",
+  "countLabel": "Ratings",
+  "retrieval": "public-page-header",
+  "rawPageSha256": "527f760eb9d6adeb1def37e42a90f0e110d10b2105bf3db34aa3629a4b9f1a6a"
+}
