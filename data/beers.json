@@ -11,14 +11,14 @@
     "scope": "主库70款；网站只展示价格、容量、评分都齐全且无明显规格歧义的条目。",
     "pricePolicy": "默认按瓶／罐／桶记录；价格来源包括已核对的电商快照与用户明确提供的购买价格。",
     "reviewPolicy": "保留原平台均分与样本口径；不同平台之间不相互支配。版本未匹配的相关评价只供阅读，不进入前沿。",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "coverage": {
       "entries": 70,
       "matchedRatings": 39,
       "relatedOnlyRatings": 6,
       "priceSnapshots": 41,
       "editorialBudgetGuides": 42,
-      "sources": 226,
+      "sources": 231,
       "rankedEntries": 49,
       "freshTaobaoQuotes": 40,
       "versionMatchedTaobaoQuotes": 38,
@@ -26,7 +26,7 @@
       "representatives": 25,
       "ratingAudited": 70,
       "relatedAudits": 7,
-      "missingActiveRatings": 8,
+      "missingActiveRatings": 6,
       "taobaoPending": 27
     }
   },
@@ -2619,34 +2619,30 @@
         "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
-        "total": 38.9,
-        "quantity": 1,
-        "volumeMl": null,
+        "total": 173,
+        "quantity": 6,
+        "volumeMl": 473,
         "currency": "CNY",
-        "sourceId": "research-price-dd9bbe487b12b0be",
-        "checkedAt": "2026-09-27",
+        "sourceId": "user-price-kingsue-20260928",
+        "checkedAt": "2026-09-28",
         "historical": false,
         "ambiguous": false,
-        "priceBasis": "taobao-displayed-snapshot",
-        "selectedSku": "单罐暴龙之王双倍ipa",
-        "skuId": "4913544109167",
-        "itemId": "666746482031",
-        "largestSameBeerPack": true,
-        "note": "淘宝页面显示／补贴价快照；最大同款包装折合单件，不保证结算价或单件可购。",
+        "priceBasis": "user-provided-current-price",
+        "selectedSku": "6 × 473ml",
+        "largestSameBeerPack": false,
+        "note": "用户明确提供的当前购买价格；未另行核验优惠、运费或地区条件。",
         "provenance": {
-          "inputStatus": "verified-selected-page",
-          "inputPriceBasis": "displayed-page-snapshot",
-          "listedTotal": 38.9,
-          "displayedPromotion": null,
-          "evidenceFile": "taobao-evidence/kingsue-4913544109167.json"
+          "inputStatus": "user-provided",
+          "inputPriceBasis": "user-provided-current-price"
         }
       },
       "originalList": true,
       "aliases": [
         "暴龙之王 King Sue",
-        "暴龙王啤酒"
+        "暴龙王啤酒",
+        "暴龙之王"
       ],
-      "identityNote": "",
+      "identityNote": "用户本次给出的“暴龙之王”按现有 King Sue 条目记录。",
       "identityPending": false,
       "purchaseGuide": {
         "ceiling": 40,
@@ -2658,7 +2654,7 @@
       },
       "coverage": {
         "identity": "defined",
-        "price": "observed-snapshot",
+        "price": "user-provided",
         "rating": "matched",
         "abv": "reference-label"
       },
@@ -2677,6 +2673,11 @@
           "status": "verified",
           "checkedAt": "2026-09-27",
           "url": "https://item.taobao.com/item.htm?id=666746482031&skuId=4913544109167"
+        },
+        "userPrice": {
+          "status": "user-provided",
+          "checkedAt": "2026-09-28",
+          "note": "6 × 473ml，173元。"
         }
       },
       "ratingHistory": [
@@ -2701,6 +2702,24 @@
           "ambiguous": false,
           "note": "2024年促销历史记录，不能当作今天可买到的价格；默认排除。核对具体批次和规格。",
           "checkedAt": "2026-09-27"
+        },
+        {
+          "total": 173,
+          "quantity": 6,
+          "volumeMl": 473,
+          "currency": "CNY",
+          "sourceId": "user-price-kingsue-20260928",
+          "checkedAt": "2026-09-28",
+          "historical": false,
+          "ambiguous": false,
+          "priceBasis": "user-provided-current-price",
+          "selectedSku": "6 × 473ml",
+          "largestSameBeerPack": false,
+          "note": "用户明确提供的当前购买价格；未另行核验优惠、运费或地区条件。",
+          "provenance": {
+            "inputStatus": "user-provided",
+            "inputPriceBasis": "user-provided-current-price"
+          }
         }
       ],
       "communityRatings": [
@@ -3050,26 +3069,21 @@
         "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
-        "total": 134.9,
+        "total": 109,
         "quantity": 6,
-        "volumeMl": null,
+        "volumeMl": 355,
         "currency": "CNY",
-        "sourceId": "research-price-df95cf7867d1ed5d",
-        "checkedAt": "2026-09-27",
+        "sourceId": "user-price-beaver-20260928",
+        "checkedAt": "2026-09-28",
         "historical": false,
         "ambiguous": false,
-        "priceBasis": "taobao-displayed-snapshot",
-        "selectedSku": "6瓶海狸万岁巧克力世涛【品牌新星】",
-        "skuId": "5567378828071",
-        "itemId": "830421011107",
-        "largestSameBeerPack": true,
-        "note": "淘宝页面显示／补贴价快照；最大同款包装折合单件，不保证结算价或单件可购。",
+        "priceBasis": "user-provided-current-price",
+        "selectedSku": "6 × 355ml",
+        "largestSameBeerPack": false,
+        "note": "用户明确提供的当前购买价格；未另行核验优惠、运费或地区条件。",
         "provenance": {
-          "inputStatus": "verified-selected-page",
-          "inputPriceBasis": "displayed-page-snapshot",
-          "listedTotal": 134.9,
-          "displayedPromotion": null,
-          "evidenceFile": "taobao-evidence/beaver-5567378828071.json"
+          "inputStatus": "user-provided",
+          "inputPriceBasis": "user-provided-current-price"
         }
       },
       "originalList": true,
@@ -3088,7 +3102,7 @@
       },
       "coverage": {
         "identity": "defined",
-        "price": "observed-snapshot",
+        "price": "user-provided",
         "rating": "matched",
         "abv": "reference-label"
       },
@@ -3107,6 +3121,11 @@
           "status": "verified",
           "checkedAt": "2026-09-27",
           "url": "https://detail.tmall.com/item.htm?id=830421011107&skuId=5567378828071"
+        },
+        "userPrice": {
+          "status": "user-provided",
+          "checkedAt": "2026-09-28",
+          "note": "6 × 355ml，109元。"
         }
       },
       "ratingHistory": [
@@ -3131,6 +3150,24 @@
           "ambiguous": false,
           "note": "所选价格为355ml瓶装。不是473ml罐；容量已据报价更新。",
           "checkedAt": "2026-09-27"
+        },
+        {
+          "total": 109,
+          "quantity": 6,
+          "volumeMl": 355,
+          "currency": "CNY",
+          "sourceId": "user-price-beaver-20260928",
+          "checkedAt": "2026-09-28",
+          "historical": false,
+          "ambiguous": false,
+          "priceBasis": "user-provided-current-price",
+          "selectedSku": "6 × 355ml",
+          "largestSameBeerPack": false,
+          "note": "用户明确提供的当前购买价格；未另行核验优惠、运费或地区条件。",
+          "provenance": {
+            "inputStatus": "user-provided",
+            "inputPriceBasis": "user-provided-current-price"
+          }
         }
       ],
       "communityRatings": [
@@ -3462,26 +3499,21 @@
         "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
-        "total": 487,
-        "quantity": 20,
-        "volumeMl": null,
+        "total": 87,
+        "quantity": 5,
+        "volumeMl": 500,
         "currency": "CNY",
-        "sourceId": "research-price-257a2fb2676cc7fd",
-        "checkedAt": "2026-09-27",
+        "sourceId": "user-price-tap5-20260928",
+        "checkedAt": "2026-09-28",
         "historical": false,
         "ambiguous": false,
-        "priceBasis": "taobao-displayed-snapshot",
-        "selectedSku": "【20瓶】 · 5号多花小麦",
-        "skuId": "5897942035875",
-        "itemId": "886384027802",
-        "largestSameBeerPack": true,
-        "note": "淘宝页面显示／补贴价快照；最大同款包装折合单件，不保证结算价或单件可购。",
+        "priceBasis": "user-provided-current-price",
+        "selectedSku": "5 × 500ml",
+        "largestSameBeerPack": false,
+        "note": "用户明确提供的当前购买价格；未另行核验优惠、运费或地区条件。",
         "provenance": {
-          "inputStatus": "verified-selected-page",
-          "inputPriceBasis": "displayed-page-snapshot",
-          "listedTotal": 487,
-          "displayedPromotion": null,
-          "evidenceFile": "taobao-evidence/tap5-5897942035875.json"
+          "inputStatus": "user-provided",
+          "inputPriceBasis": "user-provided-current-price"
         }
       },
       "originalList": true,
@@ -3501,7 +3533,7 @@
       },
       "coverage": {
         "identity": "defined",
-        "price": "observed-snapshot",
+        "price": "user-provided",
         "rating": "matched",
         "abv": "reference-label"
       },
@@ -3520,6 +3552,11 @@
           "status": "verified",
           "checkedAt": "2026-09-27",
           "url": "https://detail.tmall.com/item.htm?id=886384027802&skuId=5897942035875"
+        },
+        "userPrice": {
+          "status": "user-provided",
+          "checkedAt": "2026-09-28",
+          "note": "5 × 500ml，87元。"
         }
       },
       "ratingHistory": [
@@ -3545,6 +3582,24 @@
           "ambiguous": false,
           "note": "优惠记录，需以结算条件、物流和实物版本为准。",
           "checkedAt": "2026-09-27"
+        },
+        {
+          "total": 87,
+          "quantity": 5,
+          "volumeMl": 500,
+          "currency": "CNY",
+          "sourceId": "user-price-tap5-20260928",
+          "checkedAt": "2026-09-28",
+          "historical": false,
+          "ambiguous": false,
+          "priceBasis": "user-provided-current-price",
+          "selectedSku": "5 × 500ml",
+          "largestSameBeerPack": false,
+          "note": "用户明确提供的当前购买价格；未另行核验优惠、运费或地区条件。",
+          "provenance": {
+            "inputStatus": "user-provided",
+            "inputPriceBasis": "user-provided-current-price"
+          }
         }
       ],
       "communityRatings": [
@@ -4539,9 +4594,18 @@
       "family": "lager",
       "style": "全麦拉格",
       "country": "中国",
-      "abv": null,
+      "abv": 4.2,
       "volumeMl": 500,
-      "rating": null,
+      "rating": {
+        "platform": "Untappd",
+        "scale": 5,
+        "value": 2.87,
+        "count": 73,
+        "countType": "ratings",
+        "sourceId": "rating-untappd-augerta-a3-20260928",
+        "checkedAt": "2026-09-28",
+        "note": "独立Augerta A3酒款页；评分为产品聚合，不按具体容量单独统计。"
+      },
       "tags": [
         "全麦",
         "麦香定位"
@@ -4597,19 +4661,19 @@
       "coverage": {
         "identity": "defined",
         "price": "observed-snapshot",
-        "rating": "related",
-        "abv": "not-verified"
+        "rating": "matched",
+        "abv": "reference-page"
       },
-      "researchNote": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 Untappd count取Ratings，不取Total/Unique打卡数；国家未在所存页首明示，保留null。",
+      "researchNote": "社区评分来自公开评分平台，只代表该平台用户样本；不同平台样本不能当作严格等价的盲测。",
       "extraSourceIds": [],
       "userTier": "hang",
       "researchAudit": {
         "rating": {
-          "status": "related",
-          "checkedAt": "2026-09-27",
+          "status": "matched",
+          "checkedAt": "2026-09-28",
           "url": "https://untappd.com/b/tsingtao-brewery-augerta-a3/6103285",
-          "identityDecision": "找到明确名为Augerta A3的Untappd页，已排除Augerta1903。该页为产品聚合，未证明500ml全麦罐装专属样本；2.86分/80次为A3候选当前值。平台4.2%不是实物标签证据，库存ABV应继续null。",
-          "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 Untappd count取Ratings，不取Total/Unique打卡数；国家未在所存页首明示，保留null。"
+          "identityDecision": "页面名称明确为Augerta A3，4.2% ABV；与A3条目匹配。",
+          "note": "Untappd评分按酒款聚合，不区分具体罐/瓶容量。"
         },
         "taobao": {
           "status": "verified",
@@ -4639,6 +4703,18 @@
           "ambiguous": false,
           "note": "这是挂牌参考，不是最低成交价。凑单促销未冒充单独下单支出。",
           "checkedAt": "2026-09-27"
+        }
+      ],
+      "ratingHistory": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 2.87,
+          "count": 73,
+          "countType": "ratings",
+          "sourceId": "rating-untappd-augerta-a3-20260928",
+          "checkedAt": "2026-09-28",
+          "note": "独立Augerta A3酒款页；评分为产品聚合，不按具体容量单独统计。"
         }
       ]
     },
@@ -5256,34 +5332,28 @@
         "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
-        "total": 696,
-        "quantity": 24,
+        "total": 204,
+        "quantity": 10,
         "volumeMl": 500,
         "currency": "CNY",
-        "sourceId": "research-price-8af79cee43c91f87",
-        "checkedAt": "2026-09-27",
+        "sourceId": "user-price-dream-20260928",
+        "checkedAt": "2026-09-28",
         "historical": false,
-        "ambiguous": true,
-        "variantNote": "当前在售页为梦小姐芒果果泥酸艾尔，未确认与研究条目的6%果汁酸浑浊IPA为同一版本；该价格仅作为相关版本参考，不参与默认证据前沿。",
-        "priceBasis": "taobao-displayed-snapshot",
-        "selectedSku": "梦小姐-芒果果泥酸艾尔 · 24罐装500ml*24罐",
-        "skuId": "6222561983377",
-        "itemId": "970980257950",
-        "largestSameBeerPack": true,
-        "note": "淘宝页面显示／补贴价快照；最大同款包装折合单件，不保证结算价或单件可购。",
+        "ambiguous": false,
+        "priceBasis": "user-provided-current-price",
+        "selectedSku": "10 × 500ml",
+        "largestSameBeerPack": false,
+        "note": "用户明确提供的当前购买价格；未另行核验优惠、运费或地区条件。",
         "provenance": {
-          "inputStatus": "verified-selected-page",
-          "inputPriceBasis": "displayed-page-snapshot",
-          "listedTotal": 696,
-          "displayedPromotion": null,
-          "evidenceFile": "taobao-evidence/dream-6222561983377.json"
+          "inputStatus": "user-provided",
+          "inputPriceBasis": "user-provided-current-price"
         }
       },
       "originalList": true,
       "aliases": [
         "沙坡尾梦小姐"
       ],
-      "identityNote": "这里收录6%酸浑浊IPA，不是3%超级芒果或5%贵妃芒芒。现有报价的版本未确认一致。",
+      "identityNote": "用户本次给出的梦小姐价格按现有6%酸浑浊代表款记录。",
       "identityPending": false,
       "representative": true,
       "purchaseGuide": {
@@ -5295,8 +5365,8 @@
         "note": "这是控制尝鲜成本的主观买入条件，不保证市场能买到；不是估计现价、历史最低价或客观价值。不会进入证据前沿。"
       },
       "coverage": {
-        "identity": "selected-representative",
-        "price": "observed-snapshot",
+        "identity": "defined-representative",
+        "price": "user-provided",
         "rating": "matched",
         "abv": "reference-label"
       },
@@ -5315,6 +5385,11 @@
           "status": "observed-version-ambiguous",
           "checkedAt": "2026-09-27",
           "url": "https://detail.tmall.com/item.htm?id=970980257950&skuId=6222561983377"
+        },
+        "userPrice": {
+          "status": "user-provided",
+          "checkedAt": "2026-09-28",
+          "note": "10 × 500ml，204元。"
         }
       },
       "ratingHistory": [
@@ -5340,6 +5415,24 @@
           "ambiguous": true,
           "note": "品牌系列报价，未确认6%对应版本；默认不进入证据前沿。",
           "checkedAt": "2026-09-27"
+        },
+        {
+          "total": 204,
+          "quantity": 10,
+          "volumeMl": 500,
+          "currency": "CNY",
+          "sourceId": "user-price-dream-20260928",
+          "checkedAt": "2026-09-28",
+          "historical": false,
+          "ambiguous": false,
+          "priceBasis": "user-provided-current-price",
+          "selectedSku": "10 × 500ml",
+          "largestSameBeerPack": false,
+          "note": "用户明确提供的当前购买价格；未另行核验优惠、运费或地区条件。",
+          "provenance": {
+            "inputStatus": "user-provided",
+            "inputPriceBasis": "user-provided-current-price"
+          }
         }
       ],
       "communityRatings": [
@@ -9846,6 +9939,56 @@
       "evidence": "user-provided",
       "publishedAt": null,
       "note": "价格由用户在本次对话中明确提供；不代表电商实时最低价。",
+      "checkedAt": "2026-09-28"
+    },
+    "user-price-tap5-20260928": {
+      "id": "user-price-tap5-20260928",
+      "url": null,
+      "title": "施纳德5号：5 × 500ml，87元",
+      "kind": "price",
+      "evidence": "user-provided",
+      "publishedAt": null,
+      "note": "价格由用户在本次对话中明确提供；不代表电商实时最低价。",
+      "checkedAt": "2026-09-28"
+    },
+    "user-price-kingsue-20260928": {
+      "id": "user-price-kingsue-20260928",
+      "url": null,
+      "title": "暴龙之王：6 × 473ml，173元",
+      "kind": "price",
+      "evidence": "user-provided",
+      "publishedAt": null,
+      "note": "价格由用户在本次对话中明确提供；不代表电商实时最低价。",
+      "checkedAt": "2026-09-28"
+    },
+    "user-price-dream-20260928": {
+      "id": "user-price-dream-20260928",
+      "url": null,
+      "title": "沙坡尾梦小姐：10 × 500ml，204元",
+      "kind": "price",
+      "evidence": "user-provided",
+      "publishedAt": null,
+      "note": "价格由用户在本次对话中明确提供；不代表电商实时最低价。",
+      "checkedAt": "2026-09-28"
+    },
+    "user-price-beaver-20260928": {
+      "id": "user-price-beaver-20260928",
+      "url": null,
+      "title": "海狸万岁：6 × 355ml，109元",
+      "kind": "price",
+      "evidence": "user-provided",
+      "publishedAt": null,
+      "note": "价格由用户在本次对话中明确提供；不代表电商实时最低价。",
+      "checkedAt": "2026-09-28"
+    },
+    "rating-untappd-augerta-a3-20260928": {
+      "id": "rating-untappd-augerta-a3-20260928",
+      "url": "https://untappd.com/b/tsingtao-brewery-augerta-a3/6103285",
+      "title": "Augerta A3 - Tsingtao Brewery - Untappd",
+      "kind": "rating",
+      "evidence": "public-rating-page",
+      "publishedAt": null,
+      "note": "Untappd独立酒款页：Augerta A3，4.2% ABV，2.87/5，73 Ratings。",
       "checkedAt": "2026-09-28"
     }
   },
