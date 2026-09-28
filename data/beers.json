@@ -3,28 +3,28 @@
   "meta": {
     "title": "啤酒前沿",
     "english": "BEER FRONTIER",
-    "snapshotDate": "2026-09-28",
+    "snapshotDate": "2026-09-29",
     "currency": "CNY",
     "market": "中国大陆零售参考样本",
     "scorePlatform": "分平台：BeerAdvocate / 酒花儿 / Untappd",
     "scoreScale": 5,
-    "scope": "主库80款；网站只展示价格、容量、评分都齐全且无明显规格歧义的条目。",
+    "scope": "主库81款；网站只展示价格、容量、评分都齐全且无明显规格歧义的条目。",
     "pricePolicy": "默认按瓶／罐／桶记录；价格来源包括已核对的电商快照与用户明确提供的购买价格。",
     "reviewPolicy": "保留原平台均分与样本口径；不同平台之间不相互支配。版本未匹配的相关评价只供阅读，不进入前沿。",
-    "version": "1.10.0",
+    "version": "1.11.0",
     "coverage": {
-      "entries": 80,
+      "entries": 81,
       "matchedRatings": 39,
       "relatedOnlyRatings": 6,
       "priceSnapshots": 41,
       "editorialBudgetGuides": 42,
-      "sources": 265,
+      "sources": 270,
       "rankedEntries": 49,
       "freshTaobaoQuotes": 40,
       "versionMatchedTaobaoQuotes": 38,
       "ambiguousTaobaoQuotes": 2,
       "representatives": 25,
-      "ratingAudited": 80,
+      "ratingAudited": 81,
       "relatedAudits": 7,
       "missingActiveRatings": 6,
       "taobaoPending": 27
@@ -1196,37 +1196,28 @@
         "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
-        "total": 93,
-        "quantity": 4,
-        "volumeMl": null,
+        "total": 437,
+        "quantity": 24,
+        "volumeMl": 330,
         "currency": "CNY",
-        "sourceId": "research-price-364041cad424256b",
-        "checkedAt": "2026-09-27",
+        "sourceId": "user-price-rochefort10-20260929",
+        "checkedAt": "2026-09-29",
         "historical": false,
         "ambiguous": false,
-        "priceBasis": "taobao-displayed-snapshot",
-        "selectedSku": "4瓶：罗斯福10号",
-        "skuId": "5105390999215",
-        "itemId": "659596625200",
-        "largestSameBeerPack": true,
-        "note": "按所选页面标价及明确优惠计算的快照；最大同款包装折合单件，不保证普遍现金结算价或单件可购。",
+        "priceBasis": "user-provided-current-price",
+        "selectedSku": "24 × 330ml",
+        "largestSameBeerPack": false,
+        "note": "用户明确提供的当前价格。",
         "provenance": {
-          "inputStatus": "verified-selected-page-calculation",
-          "inputPriceBasis": "calculated-page-promotion",
-          "listedTotal": 124,
-          "discountAmount": 31,
-          "minimumSpend": 0,
-          "derivation": "total = round(listedTotal - discountAmount, 2)",
-          "evidenceSha256": "2fa106fdb1ee5007b813c6198eabfe7eeea99d8dcb8619ee0f740b398ae9d183",
-          "displayedPromotion": null,
-          "evidenceFile": "taobao-evidence/rochefort10.json"
+          "inputStatus": "user-provided",
+          "inputPriceBasis": "user-provided-current-price"
         }
       },
       "originalList": true,
       "aliases": [
         "罗斯福啤酒（10°）"
       ],
-      "identityNote": "",
+      "identityNote": "Trappistes Rochefort 10，330ml瓶装。",
       "identityPending": false,
       "purchaseGuide": {
         "ceiling": 22,
@@ -1238,7 +1229,7 @@
       },
       "coverage": {
         "identity": "defined",
-        "price": "observed-snapshot",
+        "price": "user-provided",
         "rating": "matched",
         "abv": "reference-label"
       },
@@ -1257,6 +1248,11 @@
           "status": "verified",
           "checkedAt": "2026-09-27",
           "url": "https://item.taobao.com/item.htm?id=659596625200&skuId=5105390999215"
+        },
+        "userPrice": {
+          "status": "user-provided",
+          "checkedAt": "2026-09-29",
+          "note": "24×330ml，437元。"
         }
       },
       "ratingHistory": [
@@ -1281,6 +1277,24 @@
           "ambiguous": false,
           "note": "取页面价102.90元，不采用97.90元的条件优惠；页面月日显示09-21但年份未完整核实。运费与库存未核验。",
           "checkedAt": "2026-09-27"
+        },
+        {
+          "total": 437,
+          "quantity": 24,
+          "volumeMl": 330,
+          "currency": "CNY",
+          "sourceId": "user-price-rochefort10-20260929",
+          "checkedAt": "2026-09-29",
+          "historical": false,
+          "ambiguous": false,
+          "priceBasis": "user-provided-current-price",
+          "selectedSku": "24 × 330ml",
+          "largestSameBeerPack": false,
+          "note": "用户明确提供的当前价格。",
+          "provenance": {
+            "inputStatus": "user-provided",
+            "inputPriceBasis": "user-provided-current-price"
+          }
         }
       ],
       "communityRatings": [
@@ -1333,35 +1347,26 @@
         "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
-        "total": 74.25,
-        "quantity": 4,
-        "volumeMl": null,
+        "total": 348,
+        "quantity": 24,
+        "volumeMl": 330,
         "currency": "CNY",
-        "sourceId": "research-price-d05dd174adb741a2",
-        "checkedAt": "2026-09-27",
+        "sourceId": "user-price-rochefort8-20260929",
+        "checkedAt": "2026-09-29",
         "historical": false,
         "ambiguous": false,
-        "priceBasis": "taobao-displayed-snapshot",
-        "selectedSku": "4瓶：罗斯福8号",
-        "skuId": "5105390999216",
-        "itemId": "659596625200",
-        "largestSameBeerPack": true,
-        "note": "按所选页面标价及明确优惠计算的快照；最大同款包装折合单件，不保证普遍现金结算价或单件可购。",
+        "priceBasis": "user-provided-current-price",
+        "selectedSku": "24 × 330ml",
+        "largestSameBeerPack": false,
+        "note": "用户明确提供的当前价格。",
         "provenance": {
-          "inputStatus": "verified-selected-page-calculation",
-          "inputPriceBasis": "calculated-page-promotion",
-          "listedTotal": 99,
-          "discountAmount": 24.75,
-          "minimumSpend": 0,
-          "derivation": "total = round(listedTotal - discountAmount, 2)",
-          "evidenceSha256": "be73bdb8cd646380a20115182719d3edcde237f6bcdb85c89ccbcb5ec47edcff",
-          "displayedPromotion": null,
-          "evidenceFile": "taobao-evidence/rochefort8.json"
+          "inputStatus": "user-provided",
+          "inputPriceBasis": "user-provided-current-price"
         }
       },
       "originalList": false,
       "aliases": [],
-      "identityNote": "",
+      "identityNote": "Trappistes Rochefort 8，330ml瓶装。",
       "identityPending": false,
       "purchaseGuide": {
         "ceiling": 16,
@@ -1373,7 +1378,7 @@
       },
       "coverage": {
         "identity": "defined",
-        "price": "observed-snapshot",
+        "price": "user-provided",
         "rating": "matched",
         "abv": "reference-label"
       },
@@ -1391,6 +1396,11 @@
           "status": "verified",
           "checkedAt": "2026-09-27",
           "url": "https://item.taobao.com/item.htm?id=659596625200&skuId=5105390999216"
+        },
+        "userPrice": {
+          "status": "user-provided",
+          "checkedAt": "2026-09-29",
+          "note": "24×330ml，348元。"
         }
       },
       "ratingHistory": [
@@ -1415,6 +1425,24 @@
           "ambiguous": false,
           "note": "页面报价样本；活动有效期、运费、税费、库存与账号条件均未现场结算核验。",
           "checkedAt": "2026-09-27"
+        },
+        {
+          "total": 348,
+          "quantity": 24,
+          "volumeMl": 330,
+          "currency": "CNY",
+          "sourceId": "user-price-rochefort8-20260929",
+          "checkedAt": "2026-09-29",
+          "historical": false,
+          "ambiguous": false,
+          "priceBasis": "user-provided-current-price",
+          "selectedSku": "24 × 330ml",
+          "largestSameBeerPack": false,
+          "note": "用户明确提供的当前价格。",
+          "provenance": {
+            "inputStatus": "user-provided",
+            "inputPriceBasis": "user-provided-current-price"
+          }
         }
       ],
       "communityRatings": [
@@ -3617,18 +3645,18 @@
         "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
-        "total": 87,
-        "quantity": 5,
+        "total": 467,
+        "quantity": 24,
         "volumeMl": 500,
         "currency": "CNY",
-        "sourceId": "user-price-tap5-20260928",
-        "checkedAt": "2026-09-28",
+        "sourceId": "user-price-tap5-20260929",
+        "checkedAt": "2026-09-29",
         "historical": false,
         "ambiguous": false,
         "priceBasis": "user-provided-current-price",
-        "selectedSku": "5 × 500ml",
+        "selectedSku": "24 × 500ml",
         "largestSameBeerPack": false,
-        "note": "用户明确提供的当前购买价格；未另行核验优惠、运费或地区条件。",
+        "note": "用户明确提供的当前价格。",
         "provenance": {
           "inputStatus": "user-provided",
           "inputPriceBasis": "user-provided-current-price"
@@ -3673,8 +3701,8 @@
         },
         "userPrice": {
           "status": "user-provided",
-          "checkedAt": "2026-09-28",
-          "note": "5 × 500ml，87元。"
+          "checkedAt": "2026-09-29",
+          "note": "24×500ml，467元。"
         }
       },
       "ratingHistory": [
@@ -3714,6 +3742,24 @@
           "selectedSku": "5 × 500ml",
           "largestSameBeerPack": false,
           "note": "用户明确提供的当前购买价格；未另行核验优惠、运费或地区条件。",
+          "provenance": {
+            "inputStatus": "user-provided",
+            "inputPriceBasis": "user-provided-current-price"
+          }
+        },
+        {
+          "total": 467,
+          "quantity": 24,
+          "volumeMl": 500,
+          "currency": "CNY",
+          "sourceId": "user-price-tap5-20260929",
+          "checkedAt": "2026-09-29",
+          "historical": false,
+          "ambiguous": false,
+          "priceBasis": "user-provided-current-price",
+          "selectedSku": "24 × 500ml",
+          "largestSameBeerPack": false,
+          "note": "用户明确提供的当前价格。",
           "provenance": {
             "inputStatus": "user-provided",
             "inputPriceBasis": "user-provided-current-price"
@@ -9016,6 +9062,120 @@
           }
         }
       ]
+    },
+    {
+      "id": "rochefort6",
+      "name": "罗斯福6号",
+      "english": "Trappistes Rochefort 6",
+      "family": "belgian",
+      "style": "比利时双料 Dubbel",
+      "country": "比利时",
+      "abv": 7.5,
+      "volumeMl": 330,
+      "rating": {
+        "platform": "Untappd",
+        "scale": 5,
+        "value": 3.71,
+        "count": 130535,
+        "countType": "ratings",
+        "sourceId": "rating-rochefort6-untappd-20260929",
+        "checkedAt": "2026-09-29",
+        "note": "常规Trappistes Rochefort 6，7.5% ABV；不使用年份版评分。"
+      },
+      "quote": {
+        "total": 309,
+        "quantity": 24,
+        "volumeMl": 330,
+        "currency": "CNY",
+        "sourceId": "user-price-rochefort6-20260929",
+        "checkedAt": "2026-09-29",
+        "historical": false,
+        "ambiguous": false,
+        "priceBasis": "user-provided-current-price",
+        "selectedSku": "24 × 330ml",
+        "largestSameBeerPack": false,
+        "note": "用户明确提供的当前价格。",
+        "provenance": {
+          "inputStatus": "user-provided",
+          "inputPriceBasis": "user-provided-current-price"
+        }
+      },
+      "tags": [
+        "麦芽",
+        "焦糖",
+        "红果"
+      ],
+      "review": {
+        "positive": "麦芽和焦糖味明显，带一点红色水果和香料感，整体比8号、10号更轻。",
+        "caution": "这是常规罗斯福6号7.5%版本，不使用年份版评分。",
+        "fit": "喜欢比利时修道院深色艾尔，但不想从高酒精度的10号开始。",
+        "sourceIds": [
+          "rating-rochefort6-untappd-20260929",
+          "user-price-rochefort6-20260929"
+        ],
+        "type": "风味为公开资料简要整理。"
+      },
+      "originalList": false,
+      "aliases": [
+        "Rochefort 6",
+        "Trappistes Rochefort 6"
+      ],
+      "identityNote": "常规罗斯福6号，330ml瓶装。",
+      "identityPending": false,
+      "coverage": {
+        "identity": "defined",
+        "price": "user-provided",
+        "rating": "matched",
+        "abv": "reference-page"
+      },
+      "researchNote": "社区评分来自公开评分平台，只代表该平台用户样本；不同平台之间不视为严格等价的盲测。",
+      "extraSourceIds": [],
+      "researchAudit": {
+        "rating": {
+          "status": "matched",
+          "checkedAt": "2026-09-29",
+          "url": "https://untappd.com/b/abbaye-notre-dame-de-saint-remy-trappistes-rochefort-6/10722",
+          "identityDecision": "Trappistes Rochefort 6，7.5% ABV，常规非年份版。",
+          "note": "社区评分来自公开评分平台，只代表该平台用户样本；不同平台之间不视为严格等价的盲测。"
+        },
+        "userPrice": {
+          "status": "user-provided",
+          "checkedAt": "2026-09-29",
+          "note": "24×330ml，309元。"
+        }
+      },
+      "ratingHistory": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.71,
+          "count": 130535,
+          "countType": "ratings",
+          "sourceId": "rating-rochefort6-untappd-20260929",
+          "checkedAt": "2026-09-29",
+          "note": "常规Trappistes Rochefort 6，7.5% ABV；不使用年份版评分。"
+        }
+      ],
+      "quoteHistory": [
+        {
+          "total": 309,
+          "quantity": 24,
+          "volumeMl": 330,
+          "currency": "CNY",
+          "sourceId": "user-price-rochefort6-20260929",
+          "checkedAt": "2026-09-29",
+          "historical": false,
+          "ambiguous": false,
+          "priceBasis": "user-provided-current-price",
+          "selectedSku": "24 × 330ml",
+          "largestSameBeerPack": false,
+          "note": "用户明确提供的当前价格。",
+          "provenance": {
+            "inputStatus": "user-provided",
+            "inputPriceBasis": "user-provided-current-price"
+          }
+        }
+      ]
     }
   ],
   "sources": {
@@ -11872,6 +12032,56 @@
       "publishedAt": null,
       "note": "价格由用户在本次对话中明确提供。",
       "checkedAt": "2026-09-28"
+    },
+    "user-price-rochefort10-20260929": {
+      "id": "user-price-rochefort10-20260929",
+      "url": null,
+      "title": "罗斯福10号：24 × 330ml，437元",
+      "kind": "price",
+      "evidence": "user-provided",
+      "publishedAt": null,
+      "note": "价格由用户在本次对话中明确提供。",
+      "checkedAt": "2026-09-29"
+    },
+    "user-price-rochefort8-20260929": {
+      "id": "user-price-rochefort8-20260929",
+      "url": null,
+      "title": "罗斯福8号：24 × 330ml，348元",
+      "kind": "price",
+      "evidence": "user-provided",
+      "publishedAt": null,
+      "note": "价格由用户在本次对话中明确提供。",
+      "checkedAt": "2026-09-29"
+    },
+    "rating-rochefort6-untappd-20260929": {
+      "id": "rating-rochefort6-untappd-20260929",
+      "url": "https://untappd.com/b/abbaye-notre-dame-de-saint-remy-trappistes-rochefort-6/10722",
+      "title": "Trappistes Rochefort 6 - Untappd",
+      "kind": "rating",
+      "evidence": "public-rating-page",
+      "publishedAt": null,
+      "note": "Trappistes Rochefort 6，Belgian Dubbel，7.5% ABV，3.71/5，130,535 Ratings。",
+      "checkedAt": "2026-09-29"
+    },
+    "user-price-rochefort6-20260929": {
+      "id": "user-price-rochefort6-20260929",
+      "url": null,
+      "title": "罗斯福6号：24 × 330ml，309元",
+      "kind": "price",
+      "evidence": "user-provided",
+      "publishedAt": null,
+      "note": "价格由用户在本次对话中明确提供。",
+      "checkedAt": "2026-09-29"
+    },
+    "user-price-tap5-20260929": {
+      "id": "user-price-tap5-20260929",
+      "url": null,
+      "title": "施耐德5号：24 × 500ml，467元",
+      "kind": "price",
+      "evidence": "user-provided",
+      "publishedAt": null,
+      "note": "价格由用户在本次对话中明确提供。",
+      "checkedAt": "2026-09-29"
     }
   },
   "tierList": {
@@ -12175,7 +12385,8 @@
       "snow-beer",
       "asahi-super-dry-can",
       "krombacher-pils",
-      "paulaner-munchner-hell"
+      "paulaner-munchner-hell",
+      "rochefort6"
     ]
   }
 }
