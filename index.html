@@ -276,7 +276,7 @@ window.BEER_META = {
       html += `<circle class="point-hit" data-id="${p.b.id}" cx="${p.cx}" cy="${p.cy}" r="${hitR}"/>`;
     });
     svg.innerHTML=html;
-    $('#chart .point-hit').forEach(el=>{
+    document.querySelectorAll('#chart .point-hit').forEach(el=>{
       el.addEventListener('mouseenter',e=>showTooltip(e,el.dataset.id));
       el.addEventListener('mousemove',e=>showTooltip(e,el.dataset.id));
       el.addEventListener('mouseleave',hideTooltip);
