@@ -8,23 +8,23 @@
     "market": "中国大陆零售参考样本",
     "scorePlatform": "分平台：BeerAdvocate / 酒花儿 / Untappd",
     "scoreScale": 5,
-    "scope": "主库70款；网站只展示价格、容量、评分都齐全且无明显规格歧义的条目。",
+    "scope": "主库74款；网站只展示价格、容量、评分都齐全且无明显规格歧义的条目。",
     "pricePolicy": "默认按瓶／罐／桶记录；价格来源包括已核对的电商快照与用户明确提供的购买价格。",
     "reviewPolicy": "保留原平台均分与样本口径；不同平台之间不相互支配。版本未匹配的相关评价只供阅读，不进入前沿。",
-    "version": "1.6.0",
+    "version": "1.7.0",
     "coverage": {
-      "entries": 70,
+      "entries": 74,
       "matchedRatings": 39,
       "relatedOnlyRatings": 6,
       "priceSnapshots": 41,
       "editorialBudgetGuides": 42,
-      "sources": 234,
+      "sources": 245,
       "rankedEntries": 49,
       "freshTaobaoQuotes": 40,
       "versionMatchedTaobaoQuotes": 38,
       "ambiguousTaobaoQuotes": 2,
       "representatives": 25,
-      "ratingAudited": 70,
+      "ratingAudited": 74,
       "relatedAudits": 7,
       "missingActiveRatings": 6,
       "taobaoPending": 27
@@ -5639,7 +5639,7 @@
       "style": "拉格啤酒  淡色拉格",
       "country": "日本",
       "abv": 5,
-      "volumeMl": null,
+      "volumeMl": 500,
       "rating": {
         "platform": "酒花儿",
         "scale": 5,
@@ -5662,15 +5662,32 @@
         "sourceIds": [],
         "type": "用户提供的主观榜单；非公开评价归纳、非亲自试饮"
       },
-      "quote": null,
+      "quote": {
+        "total": 149,
+        "quantity": 24,
+        "volumeMl": 500,
+        "currency": "CNY",
+        "sourceId": "retail-kirin-ichiban-20260928",
+        "checkedAt": "2026-09-28",
+        "historical": false,
+        "ambiguous": false,
+        "priceBasis": "jd-public-price-snapshot",
+        "selectedSku": "24 × 500ml",
+        "largestSameBeerPack": false,
+        "note": "公开零售页面价格快照；不含账号券、地区券和运费差异。",
+        "provenance": {
+          "inputStatus": "public-retail-snapshot",
+          "inputPriceBasis": "jd-public-price-snapshot"
+        }
+      },
       "originalList": true,
       "aliases": [],
-      "identityNote": "按用户原文录入，具体商品身份与版本待核验。 用户授权常见代表款：麒麟 一番榨-Kirin Ichiban Shibori Premium。原始清单名称保留，不确认原意或所有零售SKU。“一番榨”未指明产地、罐瓶与配方；5%普通、5%罐与4.5%均有独立页。展示日本5%常规作具名候选。",
+      "identityNote": "一番榨5%常规款；价格规格500ml*24听。",
       "identityPending": false,
       "purchaseGuide": null,
       "coverage": {
         "identity": "representative",
-        "price": "missing",
+        "price": "observed-snapshot",
         "rating": "representative",
         "abv": "unverified"
       },
@@ -5687,9 +5704,35 @@
         },
         "taobao": {
           "status": "pending"
+        },
+        "retail": {
+          "status": "verified",
+          "checkedAt": "2026-09-28",
+          "url": "https://item.jd.com/product/4_k0rjOhDGmclR0Z2QjnLg.html",
+          "note": "公开零售价格快照。"
         }
       },
-      "representative": true
+      "representative": true,
+      "quoteHistory": [
+        {
+          "total": 149,
+          "quantity": 24,
+          "volumeMl": 500,
+          "currency": "CNY",
+          "sourceId": "retail-kirin-ichiban-20260928",
+          "checkedAt": "2026-09-28",
+          "historical": false,
+          "ambiguous": false,
+          "priceBasis": "jd-public-price-snapshot",
+          "selectedSku": "24 × 500ml",
+          "largestSameBeerPack": false,
+          "note": "公开零售页面价格快照；不含账号券、地区券和运费差异。",
+          "provenance": {
+            "inputStatus": "public-retail-snapshot",
+            "inputPriceBasis": "jd-public-price-snapshot"
+          }
+        }
+      ]
     },
     {
       "id": "tsingtao-small-brown",
@@ -6378,7 +6421,7 @@
       "style": "小麦啤酒  比利时小麦啤酒",
       "country": "比利时",
       "abv": 4.7,
-      "volumeMl": null,
+      "volumeMl": 500,
       "rating": {
         "platform": "酒花儿",
         "scale": 5,
@@ -6401,15 +6444,32 @@
         "sourceIds": [],
         "type": "用户提供的主观榜单；非公开评价归纳、非亲自试饮"
       },
-      "quote": null,
+      "quote": {
+        "total": 149,
+        "quantity": 12,
+        "volumeMl": 500,
+        "currency": "CNY",
+        "sourceId": "retail-vedett-white-20260928",
+        "checkedAt": "2026-09-28",
+        "historical": false,
+        "ambiguous": false,
+        "priceBasis": "jd-public-price-snapshot",
+        "selectedSku": "12 × 500ml",
+        "largestSameBeerPack": false,
+        "note": "公开零售页面价格快照；不含账号券、地区券和运费差异。",
+        "provenance": {
+          "inputStatus": "public-retail-snapshot",
+          "inputPriceBasis": "jd-public-price-snapshot"
+        }
+      },
       "originalList": true,
       "aliases": [],
-      "identityNote": "按用户原文录入，具体商品身份与版本待核验。 用户授权常见代表款：督威 白熊啤酒 比利时小麦-Duvel Vedett Extra White。原始清单名称保留，不确认原意或所有零售SKU。发现两个标比利时的常规Extra White同名页，另有宝石蓝/接骨木花检索线索；用户未指定版本或包装，常规Extra White仅为代表候选。",
+      "identityNote": "白熊比利时风味小麦白啤500ml*12听。",
       "identityPending": false,
       "purchaseGuide": null,
       "coverage": {
         "identity": "representative",
-        "price": "missing",
+        "price": "observed-snapshot",
         "rating": "representative",
         "abv": "unverified"
       },
@@ -6426,9 +6486,35 @@
         },
         "taobao": {
           "status": "pending"
+        },
+        "retail": {
+          "status": "verified",
+          "checkedAt": "2026-09-28",
+          "url": "https://item.jd.com/product/avQfgW8TeOqGHk81bJLkQQ.html",
+          "note": "公开零售价格快照。"
         }
       },
-      "representative": true
+      "representative": true,
+      "quoteHistory": [
+        {
+          "total": 149,
+          "quantity": 12,
+          "volumeMl": 500,
+          "currency": "CNY",
+          "sourceId": "retail-vedett-white-20260928",
+          "checkedAt": "2026-09-28",
+          "historical": false,
+          "ambiguous": false,
+          "priceBasis": "jd-public-price-snapshot",
+          "selectedSku": "12 × 500ml",
+          "largestSameBeerPack": false,
+          "note": "公开零售页面价格快照；不含账号券、地区券和运费差异。",
+          "provenance": {
+            "inputStatus": "public-retail-snapshot",
+            "inputPriceBasis": "jd-public-price-snapshot"
+          }
+        }
+      ]
     },
     {
       "id": "yanjing-u8",
@@ -7021,13 +7107,13 @@
     },
     {
       "id": "budweiser",
-      "name": "百威",
-      "english": "Budweiser Pale Lager",
+      "name": "百威经典红罐",
+      "english": "Budweiser Classic Red Can",
       "family": "lager",
       "style": "拉格啤酒  淡色拉格",
       "country": "美国",
       "abv": 3.6,
-      "volumeMl": null,
+      "volumeMl": 450,
       "rating": {
         "platform": "酒花儿",
         "scale": 5,
@@ -7050,15 +7136,35 @@
         "sourceIds": [],
         "type": "用户提供的主观榜单；非公开评价归纳、非亲自试饮"
       },
-      "quote": null,
+      "quote": {
+        "total": 98.99,
+        "quantity": 20,
+        "volumeMl": 450,
+        "currency": "CNY",
+        "sourceId": "retail-budweiser-20260928",
+        "checkedAt": "2026-09-28",
+        "historical": false,
+        "ambiguous": false,
+        "priceBasis": "jd-public-price-snapshot",
+        "selectedSku": "20 × 450ml",
+        "largestSameBeerPack": false,
+        "note": "公开零售页面价格快照；不含账号券、地区券和运费差异。",
+        "provenance": {
+          "inputStatus": "public-retail-snapshot",
+          "inputPriceBasis": "jd-public-price-snapshot"
+        }
+      },
       "originalList": true,
-      "aliases": [],
-      "identityNote": "按用户原文录入，具体商品身份与版本待核验。 用户授权常见代表款：百威 淡色拉格-Budweiser Pale Lager。原始清单名称保留，不确认原意或所有零售SKU。“百威”未区分产地、罐瓶、经典/黑金/淡爽；普通淡色拉格只是代表候选。",
+      "aliases": [
+        "百威",
+        "百威红罐"
+      ],
+      "identityNote": "经典红罐450ml*20；当前价格样本为临期特惠。",
       "identityPending": false,
       "purchaseGuide": null,
       "coverage": {
         "identity": "representative",
-        "price": "missing",
+        "price": "observed-snapshot",
         "rating": "representative",
         "abv": "unverified"
       },
@@ -7075,9 +7181,35 @@
         },
         "taobao": {
           "status": "pending"
+        },
+        "retail": {
+          "status": "verified",
+          "checkedAt": "2026-09-28",
+          "url": "https://item.jd.com/product/-Ww3kDOZXs0MuUryte_rfw.html",
+          "note": "公开零售价格快照。"
         }
       },
-      "representative": true
+      "representative": true,
+      "quoteHistory": [
+        {
+          "total": 98.99,
+          "quantity": 20,
+          "volumeMl": 450,
+          "currency": "CNY",
+          "sourceId": "retail-budweiser-20260928",
+          "checkedAt": "2026-09-28",
+          "historical": false,
+          "ambiguous": false,
+          "priceBasis": "jd-public-price-snapshot",
+          "selectedSku": "20 × 450ml",
+          "largestSameBeerPack": false,
+          "note": "公开零售页面价格快照；不含账号券、地区券和运费差异。",
+          "provenance": {
+            "inputStatus": "public-retail-snapshot",
+            "inputPriceBasis": "jd-public-price-snapshot"
+          }
+        }
+      ]
     },
     {
       "id": "strong-user",
@@ -7527,6 +7659,462 @@
           "provenance": {
             "inputStatus": "user-provided",
             "inputPriceBasis": "user-provided-current-price"
+          }
+        }
+      ]
+    },
+    {
+      "id": "harbin-1900-full-malt",
+      "name": "哈尔滨1900全麦",
+      "english": "Harbin 1900 Full-Malt Beer",
+      "family": "lager",
+      "style": "全麦啤酒 / Malt Beer",
+      "country": "中国",
+      "abv": 4,
+      "volumeMl": 500,
+      "rating": {
+        "platform": "Untappd",
+        "scale": 5,
+        "value": 3.16,
+        "count": 107,
+        "countType": "ratings",
+        "sourceId": "rating-harbin-1900-full-malt-20260928",
+        "checkedAt": "2026-09-28",
+        "note": "Untappd酒厂列表中的 Harbin 1900 Full-Malt Beer，4.0% ABV，3.16/5，107 Ratings。"
+      },
+      "quote": {
+        "total": 65,
+        "quantity": 12,
+        "volumeMl": 500,
+        "currency": "CNY",
+        "sourceId": "retail-harbin-1900-full-malt-20260928",
+        "checkedAt": "2026-09-28",
+        "historical": false,
+        "ambiguous": false,
+        "priceBasis": "jd-public-price-snapshot",
+        "selectedSku": "12 × 500ml",
+        "largestSameBeerPack": false,
+        "note": "公开零售页面价格快照；不含账号券、地区券和运费差异。",
+        "provenance": {
+          "inputStatus": "public-retail-snapshot",
+          "inputPriceBasis": "jd-public-price-snapshot"
+        }
+      },
+      "tags": [
+        "全麦",
+        "麦香",
+        "清爽"
+      ],
+      "review": {
+        "positive": "麦芽香比较明显，整体清爽，属于容易喝的大众口粮酒。",
+        "caution": "这里按1900全麦4.0%版本记录，不和1900 Treasure等其他版本混用。",
+        "fit": "喜欢麦香明显、价格不高的日常拉格。",
+        "sourceIds": [
+          "rating-harbin-1900-full-malt-20260928",
+          "retail-harbin-1900-full-malt-20260928"
+        ],
+        "type": "风味为公开评价简要整理。"
+      },
+      "originalList": false,
+      "aliases": [
+        "哈尔滨1900",
+        "哈啤1900全麦"
+      ],
+      "identityNote": "1900全麦4.0%版本。",
+      "identityPending": false,
+      "coverage": {
+        "identity": "defined",
+        "price": "observed-snapshot",
+        "rating": "matched",
+        "abv": "reference-page"
+      },
+      "researchNote": "社区评分来自公开评分平台，代表该平台用户样本；不同平台之间不视为严格等价的盲测。",
+      "extraSourceIds": [],
+      "researchAudit": {
+        "rating": {
+          "status": "matched",
+          "checkedAt": "2026-09-28",
+          "url": "https://untappd.com/w/harbin-brewing-a-a0-ae-a-e/7507/beer",
+          "identityDecision": "名称明确为Harbin 1900 Full-Malt Beer，4.0% ABV。",
+          "note": "社区评分来自公开评分平台，代表该平台用户样本；不同平台之间不视为严格等价的盲测。"
+        },
+        "retail": {
+          "status": "verified",
+          "checkedAt": "2026-09-28",
+          "url": "https://item.jd.com/product/oKuwMrcwFUyVK5PY_QG5aA.html"
+        }
+      },
+      "ratingHistory": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.16,
+          "count": 107,
+          "countType": "ratings",
+          "sourceId": "rating-harbin-1900-full-malt-20260928",
+          "checkedAt": "2026-09-28",
+          "note": "Untappd酒厂列表中的 Harbin 1900 Full-Malt Beer，4.0% ABV，3.16/5，107 Ratings。"
+        }
+      ],
+      "quoteHistory": [
+        {
+          "total": 65,
+          "quantity": 12,
+          "volumeMl": 500,
+          "currency": "CNY",
+          "sourceId": "retail-harbin-1900-full-malt-20260928",
+          "checkedAt": "2026-09-28",
+          "historical": false,
+          "ambiguous": false,
+          "priceBasis": "jd-public-price-snapshot",
+          "selectedSku": "12 × 500ml",
+          "largestSameBeerPack": false,
+          "note": "公开零售页面价格快照；不含账号券、地区券和运费差异。",
+          "provenance": {
+            "inputStatus": "public-retail-snapshot",
+            "inputPriceBasis": "jd-public-price-snapshot"
+          }
+        }
+      ]
+    },
+    {
+      "id": "harbin-ice-pure-draft",
+      "name": "哈尔滨冰极纯生",
+      "english": "Harbin Ice Pure Draft",
+      "family": "lager",
+      "style": "淡色拉格",
+      "country": "中国",
+      "abv": 3.2,
+      "volumeMl": 500,
+      "rating": {
+        "platform": "Untappd",
+        "scale": 5,
+        "value": 2.29,
+        "count": 22,
+        "countType": "ratings",
+        "sourceId": "rating-harbin-ice-pure-draft-20260928",
+        "checkedAt": "2026-09-28",
+        "note": "Untappd同名哈尔滨冰极纯生，3.2% ABV，2.29/5，22 Ratings。"
+      },
+      "quote": {
+        "total": 52,
+        "quantity": 12,
+        "volumeMl": 500,
+        "currency": "CNY",
+        "sourceId": "retail-harbin-ice-pure-draft-20260928",
+        "checkedAt": "2026-09-28",
+        "historical": false,
+        "ambiguous": false,
+        "priceBasis": "jd-public-price-snapshot",
+        "selectedSku": "12 × 500ml",
+        "largestSameBeerPack": false,
+        "note": "公开零售页面价格快照；不含账号券、地区券和运费差异。",
+        "provenance": {
+          "inputStatus": "public-retail-snapshot",
+          "inputPriceBasis": "jd-public-price-snapshot"
+        }
+      },
+      "tags": [
+        "纯生",
+        "干爽",
+        "清淡"
+      ],
+      "review": {
+        "positive": "口感偏轻、偏干爽，冰镇后更适合大口喝。",
+        "caution": "评分样本量不大，只有22个Ratings。",
+        "fit": "喜欢清淡、干爽、低甜感的日常啤酒。",
+        "sourceIds": [
+          "rating-harbin-ice-pure-draft-20260928",
+          "retail-harbin-ice-pure-draft-20260928"
+        ],
+        "type": "风味为公开评价简要整理。"
+      },
+      "originalList": false,
+      "aliases": [
+        "哈啤冰极纯生"
+      ],
+      "identityNote": "同名冰极纯生3.2%版本。",
+      "identityPending": false,
+      "coverage": {
+        "identity": "defined",
+        "price": "observed-snapshot",
+        "rating": "matched",
+        "abv": "reference-page"
+      },
+      "researchNote": "社区评分来自公开评分平台，代表该平台用户样本；不同平台之间不视为严格等价的盲测。",
+      "extraSourceIds": [],
+      "researchAudit": {
+        "rating": {
+          "status": "matched",
+          "checkedAt": "2026-09-28",
+          "url": "https://untappd.com/b/harbin-brewing/5923695",
+          "identityDecision": "同名哈尔滨冰极纯生，3.2% ABV。",
+          "note": "社区评分来自公开评分平台，代表该平台用户样本；不同平台之间不视为严格等价的盲测。"
+        },
+        "retail": {
+          "status": "verified",
+          "checkedAt": "2026-09-28",
+          "url": "https://item.jd.com/product/0OQlkuq57jDar-PUnKFIKQ.html"
+        }
+      },
+      "ratingHistory": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 2.29,
+          "count": 22,
+          "countType": "ratings",
+          "sourceId": "rating-harbin-ice-pure-draft-20260928",
+          "checkedAt": "2026-09-28",
+          "note": "Untappd同名哈尔滨冰极纯生，3.2% ABV，2.29/5，22 Ratings。"
+        }
+      ],
+      "quoteHistory": [
+        {
+          "total": 52,
+          "quantity": 12,
+          "volumeMl": 500,
+          "currency": "CNY",
+          "sourceId": "retail-harbin-ice-pure-draft-20260928",
+          "checkedAt": "2026-09-28",
+          "historical": false,
+          "ambiguous": false,
+          "priceBasis": "jd-public-price-snapshot",
+          "selectedSku": "12 × 500ml",
+          "largestSameBeerPack": false,
+          "note": "公开零售页面价格快照；不含账号券、地区券和运费差异。",
+          "provenance": {
+            "inputStatus": "public-retail-snapshot",
+            "inputPriceBasis": "jd-public-price-snapshot"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tsingtao-classic-1903",
+      "name": "青岛经典1903",
+      "english": "Tsingtao Classical 1903 (Can)",
+      "family": "lager",
+      "style": "淡色拉格",
+      "country": "中国",
+      "abv": 4,
+      "volumeMl": 330,
+      "rating": {
+        "platform": "酒花儿",
+        "scale": 5,
+        "value": 2.72,
+        "count": 59,
+        "countType": "reviews",
+        "sourceId": "rating-tsingtao-classic-1903-20260928",
+        "checkedAt": "2026-09-28",
+        "note": "酒花儿同名易拉罐条目，4.0% ABV，2.72/5，59条评论。"
+      },
+      "quote": {
+        "total": 124,
+        "quantity": 24,
+        "volumeMl": 330,
+        "currency": "CNY",
+        "sourceId": "retail-tsingtao-classic-1903-20260928",
+        "checkedAt": "2026-09-28",
+        "historical": false,
+        "ambiguous": false,
+        "priceBasis": "jd-public-price-snapshot",
+        "selectedSku": "24 × 330ml",
+        "largestSameBeerPack": false,
+        "note": "公开零售页面价格快照；不含账号券、地区券和运费差异。",
+        "provenance": {
+          "inputStatus": "public-retail-snapshot",
+          "inputPriceBasis": "jd-public-price-snapshot"
+        }
+      },
+      "tags": [
+        "麦香",
+        "清爽",
+        "经典拉格"
+      ],
+      "review": {
+        "positive": "麦香、清爽感和轻微苦味比较均衡。",
+        "caution": "经典1903有多种容量和包装，这里评分对应易拉罐酒款，价格用330ml*24罐。",
+        "fit": "喜欢青岛经典拉格口感，想和奥古特、普通青岛对比。",
+        "sourceIds": [
+          "rating-tsingtao-classic-1903-20260928",
+          "retail-tsingtao-classic-1903-20260928"
+        ],
+        "type": "风味为公开评价简要整理。"
+      },
+      "originalList": false,
+      "aliases": [
+        "青岛1903",
+        "经典1903"
+      ],
+      "identityNote": "经典1903易拉罐；价格规格330ml*24。",
+      "identityPending": false,
+      "coverage": {
+        "identity": "defined",
+        "price": "observed-snapshot",
+        "rating": "matched",
+        "abv": "reference-page"
+      },
+      "researchNote": "社区评分来自公开评分平台，代表该平台用户样本；不同平台之间不视为严格等价的盲测。",
+      "extraSourceIds": [],
+      "researchAudit": {
+        "rating": {
+          "status": "matched",
+          "checkedAt": "2026-09-28",
+          "url": "https://www.jiuhuar.com/craftbeer/58df65c979011231555dc99d.html",
+          "identityDecision": "青岛经典1903易拉罐，4.0%。",
+          "note": "社区评分来自公开评分平台，代表该平台用户样本；不同平台之间不视为严格等价的盲测。"
+        },
+        "retail": {
+          "status": "observed",
+          "checkedAt": "2026-09-28",
+          "url": "https://item.jd.com/product/WPaHvfh50IloRaQ8s6yu5Q.html",
+          "note": "推荐列表同规格价格。"
+        }
+      },
+      "ratingHistory": [
+        {
+          "platform": "酒花儿",
+          "scale": 5,
+          "value": 2.72,
+          "count": 59,
+          "countType": "reviews",
+          "sourceId": "rating-tsingtao-classic-1903-20260928",
+          "checkedAt": "2026-09-28",
+          "note": "酒花儿同名易拉罐条目，4.0% ABV，2.72/5，59条评论。"
+        }
+      ],
+      "quoteHistory": [
+        {
+          "total": 124,
+          "quantity": 24,
+          "volumeMl": 330,
+          "currency": "CNY",
+          "sourceId": "retail-tsingtao-classic-1903-20260928",
+          "checkedAt": "2026-09-28",
+          "historical": false,
+          "ambiguous": false,
+          "priceBasis": "jd-public-price-snapshot",
+          "selectedSku": "24 × 330ml",
+          "largestSameBeerPack": false,
+          "note": "公开零售页面价格快照；不含账号券、地区券和运费差异。",
+          "provenance": {
+            "inputStatus": "public-retail-snapshot",
+            "inputPriceBasis": "jd-public-price-snapshot"
+          }
+        }
+      ]
+    },
+    {
+      "id": "san-miguel-pale-pilsen",
+      "name": "生力 Pale Pilsen",
+      "english": "San Miguel Pale Pilsen",
+      "family": "lager",
+      "style": "皮尔森 Pilsner",
+      "country": "中国市场版",
+      "abv": 5,
+      "volumeMl": 640,
+      "rating": {
+        "platform": "Untappd",
+        "scale": 5,
+        "value": 3,
+        "count": 34928,
+        "countType": "ratings",
+        "sourceId": "rating-san-miguel-pale-pilsen-20260928",
+        "checkedAt": "2026-09-28",
+        "note": "Untappd同名Pale Pilsen聚合条目，5.0% ABV，3.00/5，34,928 Ratings；该产品在中国等多个国家生产。"
+      },
+      "quote": {
+        "total": 112,
+        "quantity": 12,
+        "volumeMl": 640,
+        "currency": "CNY",
+        "sourceId": "retail-san-miguel-pale-pilsen-20260928",
+        "checkedAt": "2026-09-28",
+        "historical": false,
+        "ambiguous": false,
+        "priceBasis": "jd-public-price-snapshot",
+        "selectedSku": "12 × 640ml",
+        "largestSameBeerPack": false,
+        "note": "公开零售页面价格快照；不含账号券、地区券和运费差异。",
+        "provenance": {
+          "inputStatus": "public-retail-snapshot",
+          "inputPriceBasis": "jd-public-price-snapshot"
+        }
+      },
+      "tags": [
+        "皮尔森",
+        "麦香",
+        "清爽"
+      ],
+      "review": {
+        "positive": "麦芽香清楚，带一点皮尔森式的苦味，整体耐喝。",
+        "caution": "Untappd评分是同名Pale Pilsen全球聚合，不是广东版独立样本。",
+        "fit": "喜欢经典黄啤、清爽但又不想太寡淡。",
+        "sourceIds": [
+          "rating-san-miguel-pale-pilsen-20260928",
+          "retail-san-miguel-pale-pilsen-20260928"
+        ],
+        "type": "风味为公开评价简要整理。"
+      },
+      "originalList": false,
+      "aliases": [
+        "生力啤酒",
+        "San Miguel"
+      ],
+      "identityNote": "京东商品为广东640ml瓶装；评分为同名Pale Pilsen全球酒款聚合。",
+      "identityPending": false,
+      "coverage": {
+        "identity": "defined-product",
+        "price": "observed-snapshot",
+        "rating": "matched-global-product",
+        "abv": "reference-page"
+      },
+      "researchNote": "社区评分来自公开评分平台，代表该平台用户样本；不同平台之间不视为严格等价的盲测。",
+      "extraSourceIds": [],
+      "researchAudit": {
+        "rating": {
+          "status": "matched-global-product",
+          "checkedAt": "2026-09-28",
+          "url": "https://untappd.com/b/san-miguel-brewery-san-miguel-pale-pilsen/8956/nearby",
+          "identityDecision": "同名Pale Pilsen；平台说明该酒在中国等多国生产。",
+          "note": "社区评分来自公开评分平台，代表该平台用户样本；不同平台之间不视为严格等价的盲测。"
+        },
+        "retail": {
+          "status": "verified",
+          "checkedAt": "2026-09-28",
+          "url": "https://item.jd.com/product/YXRDrpxRg3eoA3mN8C8SuQ.html"
+        }
+      },
+      "ratingHistory": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3,
+          "count": 34928,
+          "countType": "ratings",
+          "sourceId": "rating-san-miguel-pale-pilsen-20260928",
+          "checkedAt": "2026-09-28",
+          "note": "Untappd同名Pale Pilsen聚合条目，5.0% ABV，3.00/5，34,928 Ratings；该产品在中国等多个国家生产。"
+        }
+      ],
+      "quoteHistory": [
+        {
+          "total": 112,
+          "quantity": 12,
+          "volumeMl": 640,
+          "currency": "CNY",
+          "sourceId": "retail-san-miguel-pale-pilsen-20260928",
+          "checkedAt": "2026-09-28",
+          "historical": false,
+          "ambiguous": false,
+          "priceBasis": "jd-public-price-snapshot",
+          "selectedSku": "12 × 640ml",
+          "largestSameBeerPack": false,
+          "note": "公开零售页面价格快照；不含账号券、地区券和运费差异。",
+          "provenance": {
+            "inputStatus": "public-retail-snapshot",
+            "inputPriceBasis": "jd-public-price-snapshot"
           }
         }
       ]
@@ -10075,6 +10663,116 @@
       "evidence": "user-provided",
       "publishedAt": null,
       "note": "价格由用户在本次对话中明确提供；不代表电商实时最低价。",
+      "checkedAt": "2026-09-28"
+    },
+    "rating-harbin-1900-full-malt-20260928": {
+      "id": "rating-harbin-1900-full-malt-20260928",
+      "url": "https://untappd.com/w/harbin-brewing-a-a0-ae-a-e/7507/beer",
+      "title": "Harbin Brewing beer list - Untappd",
+      "kind": "rating",
+      "evidence": "public-rating-page",
+      "publishedAt": null,
+      "note": "Untappd酒厂列表中的 Harbin 1900 Full-Malt Beer，4.0% ABV，3.16/5，107 Ratings。",
+      "checkedAt": "2026-09-28"
+    },
+    "retail-harbin-1900-full-malt-20260928": {
+      "id": "retail-harbin-1900-full-malt-20260928",
+      "url": "https://item.jd.com/product/oKuwMrcwFUyVK5PY_QG5aA.html",
+      "title": "哈尔滨1900全麦啤酒 500ml*12罐 - 京东",
+      "kind": "price",
+      "evidence": "jd-current-page",
+      "publishedAt": null,
+      "note": "京东公开页面价格快照；价格、库存和优惠会变化。",
+      "checkedAt": "2026-09-28"
+    },
+    "rating-harbin-ice-pure-draft-20260928": {
+      "id": "rating-harbin-ice-pure-draft-20260928",
+      "url": "https://untappd.com/b/harbin-brewing/5923695",
+      "title": "哈尔滨冰极纯生 - Untappd",
+      "kind": "rating",
+      "evidence": "public-rating-page",
+      "publishedAt": null,
+      "note": "Untappd同名哈尔滨冰极纯生，3.2% ABV，2.29/5，22 Ratings。",
+      "checkedAt": "2026-09-28"
+    },
+    "retail-harbin-ice-pure-draft-20260928": {
+      "id": "retail-harbin-ice-pure-draft-20260928",
+      "url": "https://item.jd.com/product/0OQlkuq57jDar-PUnKFIKQ.html",
+      "title": "哈尔滨冰极纯生0糖啤酒 500ml*12听 - 京东",
+      "kind": "price",
+      "evidence": "jd-current-page",
+      "publishedAt": null,
+      "note": "京东公开页面价格快照；价格、库存和优惠会变化。",
+      "checkedAt": "2026-09-28"
+    },
+    "rating-tsingtao-classic-1903-20260928": {
+      "id": "rating-tsingtao-classic-1903-20260928",
+      "url": "https://www.jiuhuar.com/craftbeer/58df65c979011231555dc99d.html",
+      "title": "青岛 经典1903（易拉罐）- 酒花儿",
+      "kind": "rating",
+      "evidence": "public-rating-page",
+      "publishedAt": null,
+      "note": "酒花儿同名易拉罐条目，4.0% ABV，2.72/5，59条评论。",
+      "checkedAt": "2026-09-28"
+    },
+    "retail-tsingtao-classic-1903-20260928": {
+      "id": "retail-tsingtao-classic-1903-20260928",
+      "url": "https://item.jd.com/product/WPaHvfh50IloRaQ8s6yu5Q.html",
+      "title": "青岛经典1903 330mL*24罐价格样本 - 京东",
+      "kind": "price",
+      "evidence": "jd-related-listing",
+      "publishedAt": null,
+      "note": "京东公开页面推荐列表中的同规格价格快照。",
+      "checkedAt": "2026-09-28"
+    },
+    "rating-san-miguel-pale-pilsen-20260928": {
+      "id": "rating-san-miguel-pale-pilsen-20260928",
+      "url": "https://untappd.com/b/san-miguel-brewery-san-miguel-pale-pilsen/8956/nearby",
+      "title": "San Miguel Pale Pilsen - Untappd",
+      "kind": "rating",
+      "evidence": "public-rating-page",
+      "publishedAt": null,
+      "note": "Untappd同名Pale Pilsen聚合条目，5.0% ABV，3.00/5，34,928 Ratings；该产品在中国等多个国家生产。",
+      "checkedAt": "2026-09-28"
+    },
+    "retail-san-miguel-pale-pilsen-20260928": {
+      "id": "retail-san-miguel-pale-pilsen-20260928",
+      "url": "https://item.jd.com/product/YXRDrpxRg3eoA3mN8C8SuQ.html",
+      "title": "生力 Pale Pilsen 广东版 640ml*12瓶 - 京东",
+      "kind": "price",
+      "evidence": "jd-current-page",
+      "publishedAt": null,
+      "note": "京东公开页面价格快照；价格、库存和优惠会变化。",
+      "checkedAt": "2026-09-28"
+    },
+    "retail-kirin-ichiban-20260928": {
+      "id": "retail-kirin-ichiban-20260928",
+      "url": "https://item.jd.com/product/4_k0rjOhDGmclR0Z2QjnLg.html",
+      "title": "麒麟一番榨 500ml*24听价格样本 - 京东",
+      "kind": "price",
+      "evidence": "jd-related-listing",
+      "publishedAt": null,
+      "note": "京东公开页面推荐列表中的同规格价格快照。",
+      "checkedAt": "2026-09-28"
+    },
+    "retail-budweiser-20260928": {
+      "id": "retail-budweiser-20260928",
+      "url": "https://item.jd.com/product/-Ww3kDOZXs0MuUryte_rfw.html",
+      "title": "百威经典红罐 450ml*20罐 - 京东",
+      "kind": "price",
+      "evidence": "jd-current-page",
+      "publishedAt": null,
+      "note": "页面为临期特惠价格，不能当作长期常态价。",
+      "checkedAt": "2026-09-28"
+    },
+    "retail-vedett-white-20260928": {
+      "id": "retail-vedett-white-20260928",
+      "url": "https://item.jd.com/product/avQfgW8TeOqGHk81bJLkQQ.html",
+      "title": "白熊白啤 500ml*12听 - 京东",
+      "kind": "price",
+      "evidence": "jd-current-page",
+      "publishedAt": null,
+      "note": "京东公开页面价格快照；价格、库存和优惠会变化。",
       "checkedAt": "2026-09-28"
     }
   },
