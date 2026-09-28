@@ -8,23 +8,23 @@
     "market": "中国大陆零售参考样本",
     "scorePlatform": "分平台：BeerAdvocate / 酒花儿 / Untappd",
     "scoreScale": 5,
-    "scope": "主库78款；网站只展示价格、容量、评分都齐全且无明显规格歧义的条目。",
+    "scope": "主库80款；网站只展示价格、容量、评分都齐全且无明显规格歧义的条目。",
     "pricePolicy": "默认按瓶／罐／桶记录；价格来源包括已核对的电商快照与用户明确提供的购买价格。",
     "reviewPolicy": "保留原平台均分与样本口径；不同平台之间不相互支配。版本未匹配的相关评价只供阅读，不进入前沿。",
-    "version": "1.9.0",
+    "version": "1.10.0",
     "coverage": {
-      "entries": 78,
+      "entries": 80,
       "matchedRatings": 39,
       "relatedOnlyRatings": 6,
       "priceSnapshots": 41,
       "editorialBudgetGuides": 42,
-      "sources": 261,
+      "sources": 265,
       "rankedEntries": 49,
       "freshTaobaoQuotes": 40,
       "versionMatchedTaobaoQuotes": 38,
       "ambiguousTaobaoQuotes": 2,
       "representatives": 25,
-      "ratingAudited": 78,
+      "ratingAudited": 80,
       "relatedAudits": 7,
       "missingActiveRatings": 6,
       "taobaoPending": 27
@@ -8787,6 +8787,235 @@
           "note": "京东活动价记录39.60元/12罐。"
         }
       }
+    },
+    {
+      "id": "krombacher-pils",
+      "name": "科隆巴赫皮尔森",
+      "english": "Krombacher Pils",
+      "family": "lager",
+      "style": "德式皮尔森 German Pilsner",
+      "country": "德国",
+      "abv": 4.8,
+      "volumeMl": 500,
+      "rating": {
+        "platform": "Untappd",
+        "scale": 5,
+        "value": 3.26,
+        "count": 237717,
+        "countType": "ratings",
+        "sourceId": "rating-krombacher-pils-20260928",
+        "checkedAt": "2026-09-28",
+        "note": "Krombacher Pils，German Pilsner，4.8% ABV，3.26/5，237,717 Ratings。"
+      },
+      "quote": {
+        "total": 240,
+        "quantity": 24,
+        "volumeMl": 500,
+        "currency": "CNY",
+        "sourceId": "user-price-krombacher-pils-20260928",
+        "checkedAt": "2026-09-28",
+        "historical": false,
+        "ambiguous": false,
+        "priceBasis": "user-provided-current-price",
+        "selectedSku": "24 × 500ml",
+        "largestSameBeerPack": false,
+        "note": "用户明确提供的当前价格。",
+        "provenance": {
+          "inputStatus": "user-provided",
+          "inputPriceBasis": "user-provided-current-price"
+        }
+      },
+      "tags": [
+        "皮尔森",
+        "清苦",
+        "麦香"
+      ],
+      "review": {
+        "positive": "酒体清爽，麦芽和细苦味比较平衡，是典型德式皮尔森路线。",
+        "caution": "这里记录的是 Krombacher Pils 4.8% 常规款。",
+        "fit": "喜欢清爽、干净、带明显但不过分苦味的拉格。",
+        "sourceIds": [
+          "rating-krombacher-pils-20260928",
+          "user-price-krombacher-pils-20260928"
+        ],
+        "type": "风味为公开资料简要整理。"
+      },
+      "originalList": false,
+      "aliases": [
+        "Krombacher Pils",
+        "科隆巴赫啤酒"
+      ],
+      "identityNote": "Krombacher Pils 4.8% 常规款。",
+      "identityPending": false,
+      "coverage": {
+        "identity": "defined",
+        "price": "user-provided",
+        "rating": "matched",
+        "abv": "reference-page"
+      },
+      "researchNote": "社区评分来自公开评分平台，只代表该平台用户样本；不同平台之间不视为严格等价的盲测。",
+      "extraSourceIds": [],
+      "researchAudit": {
+        "rating": {
+          "status": "matched",
+          "checkedAt": "2026-09-28",
+          "url": "https://untappd.com/b/krombacher-gruppe-krombacher-pils/9945",
+          "identityDecision": "名称、风格和4.8% ABV与Krombacher Pils一致。",
+          "note": "社区评分来自公开评分平台，只代表该平台用户样本；不同平台之间不视为严格等价的盲测。"
+        },
+        "userPrice": {
+          "status": "user-provided",
+          "checkedAt": "2026-09-28",
+          "note": "24×500ml，240元。"
+        }
+      },
+      "ratingHistory": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.26,
+          "count": 237717,
+          "countType": "ratings",
+          "sourceId": "rating-krombacher-pils-20260928",
+          "checkedAt": "2026-09-28",
+          "note": "Krombacher Pils，German Pilsner，4.8% ABV，3.26/5，237,717 Ratings。"
+        }
+      ],
+      "quoteHistory": [
+        {
+          "total": 240,
+          "quantity": 24,
+          "volumeMl": 500,
+          "currency": "CNY",
+          "sourceId": "user-price-krombacher-pils-20260928",
+          "checkedAt": "2026-09-28",
+          "historical": false,
+          "ambiguous": false,
+          "priceBasis": "user-provided-current-price",
+          "selectedSku": "24 × 500ml",
+          "largestSameBeerPack": false,
+          "note": "用户明确提供的当前价格。",
+          "provenance": {
+            "inputStatus": "user-provided",
+            "inputPriceBasis": "user-provided-current-price"
+          }
+        }
+      ]
+    },
+    {
+      "id": "paulaner-munchner-hell",
+      "name": "保拉纳全麦拉格",
+      "english": "Paulaner Münchner Hell / Original Munich Lager",
+      "family": "lager",
+      "style": "慕尼黑淡色拉格 Helles",
+      "country": "德国",
+      "abv": 4.9,
+      "volumeMl": 500,
+      "rating": {
+        "platform": "Untappd",
+        "scale": 5,
+        "value": 3.46,
+        "count": 239917,
+        "countType": "ratings",
+        "sourceId": "rating-paulaner-munchner-hell-20260928",
+        "checkedAt": "2026-09-28",
+        "note": "Münchner Hell / Münchner Lager / Original Munich Lager，4.9% ABV，3.46/5，239,917 Ratings。"
+      },
+      "quote": {
+        "total": 80,
+        "quantity": 12,
+        "volumeMl": 500,
+        "currency": "CNY",
+        "sourceId": "user-price-paulaner-munchner-hell-20260928",
+        "checkedAt": "2026-09-28",
+        "historical": false,
+        "ambiguous": false,
+        "priceBasis": "user-provided-current-price",
+        "selectedSku": "12 × 500ml",
+        "largestSameBeerPack": false,
+        "note": "用户明确提供的当前价格。",
+        "provenance": {
+          "inputStatus": "user-provided",
+          "inputPriceBasis": "user-provided-current-price"
+        }
+      },
+      "tags": [
+        "大麦",
+        "麦香",
+        "清爽"
+      ],
+      "review": {
+        "positive": "麦芽香柔和，略带甜感，苦味轻，整体很顺口。",
+        "caution": "国内常写“全麦拉格”或“慕尼黑大麦啤酒”，对应的是 Münchner Hell，不是保拉纳小麦白啤。",
+        "fit": "喜欢麦芽香明显、苦味不重的德式拉格。",
+        "sourceIds": [
+          "rating-paulaner-munchner-hell-20260928",
+          "user-price-paulaner-munchner-hell-20260928"
+        ],
+        "type": "风味为公开资料简要整理。"
+      },
+      "originalList": false,
+      "aliases": [
+        "保拉纳慕尼黑大麦啤酒",
+        "保拉纳慕尼黑拉格",
+        "Paulaner Münchner Hell"
+      ],
+      "identityNote": "国内“全麦拉格/慕尼黑大麦啤酒”对应 Münchner Hell 4.9% 常规款。",
+      "identityPending": false,
+      "coverage": {
+        "identity": "defined",
+        "price": "user-provided",
+        "rating": "matched",
+        "abv": "reference-page"
+      },
+      "researchNote": "社区评分来自公开评分平台，只代表该平台用户样本；不同平台之间不视为严格等价的盲测。",
+      "extraSourceIds": [],
+      "researchAudit": {
+        "rating": {
+          "status": "matched",
+          "checkedAt": "2026-09-28",
+          "url": "https://untappd.com/b/paulaner-brauerei-paulaner-munchner-hell-munchner-lager-original-munich-lager/3235",
+          "identityDecision": "Münchner Hell / Original Munich Lager，4.9% ABV；与国内全麦拉格/慕尼黑大麦啤酒对应。",
+          "note": "社区评分来自公开评分平台，只代表该平台用户样本；不同平台之间不视为严格等价的盲测。"
+        },
+        "userPrice": {
+          "status": "user-provided",
+          "checkedAt": "2026-09-28",
+          "note": "12×500ml，80元。"
+        }
+      },
+      "ratingHistory": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.46,
+          "count": 239917,
+          "countType": "ratings",
+          "sourceId": "rating-paulaner-munchner-hell-20260928",
+          "checkedAt": "2026-09-28",
+          "note": "Münchner Hell / Münchner Lager / Original Munich Lager，4.9% ABV，3.46/5，239,917 Ratings。"
+        }
+      ],
+      "quoteHistory": [
+        {
+          "total": 80,
+          "quantity": 12,
+          "volumeMl": 500,
+          "currency": "CNY",
+          "sourceId": "user-price-paulaner-munchner-hell-20260928",
+          "checkedAt": "2026-09-28",
+          "historical": false,
+          "ambiguous": false,
+          "priceBasis": "user-provided-current-price",
+          "selectedSku": "12 × 500ml",
+          "largestSameBeerPack": false,
+          "note": "用户明确提供的当前价格。",
+          "provenance": {
+            "inputStatus": "user-provided",
+            "inputPriceBasis": "user-provided-current-price"
+          }
+        }
+      ]
     }
   ],
   "sources": {
@@ -11603,6 +11832,46 @@
       "publishedAt": null,
       "note": "京东公开页面显示黄河之水500ml单罐30元，登录后到手价可能变化。",
       "checkedAt": "2026-09-28"
+    },
+    "rating-krombacher-pils-20260928": {
+      "id": "rating-krombacher-pils-20260928",
+      "url": "https://untappd.com/b/krombacher-gruppe-krombacher-pils/9945",
+      "title": "Krombacher Pils - Untappd",
+      "kind": "rating",
+      "evidence": "public-rating-page",
+      "publishedAt": null,
+      "note": "Krombacher Pils，German Pilsner，4.8% ABV，3.26/5，237,717 Ratings。",
+      "checkedAt": "2026-09-28"
+    },
+    "user-price-krombacher-pils-20260928": {
+      "id": "user-price-krombacher-pils-20260928",
+      "url": null,
+      "title": "科隆巴赫皮尔森：24 × 500ml，240元",
+      "kind": "price",
+      "evidence": "user-provided",
+      "publishedAt": null,
+      "note": "价格由用户在本次对话中明确提供。",
+      "checkedAt": "2026-09-28"
+    },
+    "rating-paulaner-munchner-hell-20260928": {
+      "id": "rating-paulaner-munchner-hell-20260928",
+      "url": "https://untappd.com/b/paulaner-brauerei-paulaner-munchner-hell-munchner-lager-original-munich-lager/3235",
+      "title": "Paulaner Münchner Hell - Untappd",
+      "kind": "rating",
+      "evidence": "public-rating-page",
+      "publishedAt": null,
+      "note": "Münchner Hell / Münchner Lager / Original Munich Lager，4.9% ABV，3.46/5，239,917 Ratings。",
+      "checkedAt": "2026-09-28"
+    },
+    "user-price-paulaner-munchner-hell-20260928": {
+      "id": "user-price-paulaner-munchner-hell-20260928",
+      "url": null,
+      "title": "保拉纳全麦拉格：12 × 500ml，80元",
+      "kind": "price",
+      "evidence": "user-provided",
+      "publishedAt": null,
+      "note": "价格由用户在本次对话中明确提供。",
+      "checkedAt": "2026-09-28"
     }
   },
   "tierList": {
@@ -11904,7 +12173,9 @@
       "hoegaarden-user",
       "augerta-1903",
       "snow-beer",
-      "asahi-super-dry-can"
+      "asahi-super-dry-can",
+      "krombacher-pils",
+      "paulaner-munchner-hell"
     ]
   }
 }
