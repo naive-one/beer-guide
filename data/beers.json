@@ -11,14 +11,14 @@
     "scope": "主库78款；网站只展示价格、容量、评分都齐全且无明显规格歧义的条目。",
     "pricePolicy": "默认按瓶／罐／桶记录；价格来源包括已核对的电商快照与用户明确提供的购买价格。",
     "reviewPolicy": "保留原平台均分与样本口径；不同平台之间不相互支配。版本未匹配的相关评价只供阅读，不进入前沿。",
-    "version": "1.8.0",
+    "version": "1.9.0",
     "coverage": {
       "entries": 78,
       "matchedRatings": 39,
       "relatedOnlyRatings": 6,
       "priceSnapshots": 41,
       "editorialBudgetGuides": 42,
-      "sources": 256,
+      "sources": 261,
       "rankedEntries": 49,
       "freshTaobaoQuotes": 40,
       "versionMatchedTaobaoQuotes": 38,
@@ -1576,15 +1576,14 @@
       "abv": 10,
       "volumeMl": 330,
       "rating": {
-        "platform": "酒花儿",
+        "platform": "Untappd",
         "scale": 5,
-        "value": 3.55,
-        "count": 377,
-        "countType": "reviews",
-        "sourceId": "research-rating-18b9f3986c6b01ce",
-        "checkedAt": "2026-09-27",
-        "note": "常规Abt12、比利时、10%一致；排除周年及年份纪念款。",
-        "evidenceFile": "evidence/b9aadc2864904490.json"
+        "value": 3.99,
+        "count": 353671,
+        "countType": "ratings",
+        "sourceId": "rating-st-bernardus-abt12-20260928",
+        "checkedAt": "2026-09-28",
+        "note": "常规 Abt 12，10% ABV，3.99/5，353,671 Ratings。"
       },
       "tags": [
         "葡萄干",
@@ -1600,12 +1599,29 @@
         ],
         "type": "公开品饮评价的归纳；适合人群为编辑判断，不代表亲自试饮"
       },
-      "quote": null,
+      "quote": {
+        "total": 384,
+        "quantity": 24,
+        "volumeMl": 330,
+        "currency": "CNY",
+        "sourceId": "retail-st-bernardus-abt12-20260928",
+        "checkedAt": "2026-09-28",
+        "historical": false,
+        "ambiguous": false,
+        "priceBasis": "jd-current-low-via-smzdm",
+        "selectedSku": "330ml × 24瓶",
+        "largestSameBeerPack": false,
+        "note": "什么值得买当前规格显示圣伯纳12号330ml*24整箱，京东最低384元。",
+        "provenance": {
+          "inputStatus": "public-price-snapshot",
+          "inputPriceBasis": "jd-current-low-via-smzdm"
+        }
+      },
       "originalList": false,
       "aliases": [
         "圣伯纳 Abt12 圣伯纳杜斯"
       ],
-      "identityNote": "",
+      "identityNote": "常规 St. Bernardus Abt 12，330ml 版本；不含年份纪念和桶陈款。",
       "identityPending": false,
       "purchaseGuide": {
         "ceiling": 20,
@@ -1617,22 +1633,28 @@
       },
       "coverage": {
         "identity": "defined",
-        "price": "not-verified",
+        "price": "observed-snapshot",
         "rating": "matched",
-        "abv": "reference-label"
+        "abv": "reference-page"
       },
-      "researchNote": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 原BeerAdvocate评分本轮未验证，选取的是另一平台当前页面，不能解读为原平台分数涨跌。",
+      "researchNote": "社区评分来自公开评分平台，只代表该平台用户样本；不同平台之间不视为严格等价的盲测。",
       "extraSourceIds": [],
       "researchAudit": {
         "rating": {
           "status": "matched",
-          "checkedAt": "2026-09-27",
-          "url": "https://www.jiuhuar.com/craftbeer/56e13dad8b15e6e6e1d46754.html",
-          "identityDecision": "常规Abt12、比利时、10%一致；排除周年及年份纪念款。",
-          "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 原BeerAdvocate评分本轮未验证，选取的是另一平台当前页面，不能解读为原平台分数涨跌。"
+          "checkedAt": "2026-09-28",
+          "url": "https://untappd.com/b/brouwerij-st-bernardus-abt-12/6760",
+          "identityDecision": "名称、风格与酒精度对应到独立酒款条目。",
+          "note": "常规 Abt 12，10% ABV，3.99/5，353,671 Ratings。"
         },
         "taobao": {
           "status": "pending"
+        },
+        "retail": {
+          "status": "verified",
+          "checkedAt": "2026-09-28",
+          "url": "https://wiki.smzdm.com/p/1r10x4y/",
+          "note": "什么值得买当前规格显示圣伯纳12号330ml*24整箱，京东最低384元。"
         }
       },
       "ratingHistory": [
@@ -1644,6 +1666,36 @@
           "sourceId": "ba-abt12",
           "checkedAt": "2026-09-27",
           "countType": "ratings"
+        },
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.99,
+          "count": 353671,
+          "countType": "ratings",
+          "sourceId": "rating-st-bernardus-abt12-20260928",
+          "checkedAt": "2026-09-28",
+          "note": "常规 Abt 12，10% ABV，3.99/5，353,671 Ratings。"
+        }
+      ],
+      "quoteHistory": [
+        {
+          "total": 384,
+          "quantity": 24,
+          "volumeMl": 330,
+          "currency": "CNY",
+          "sourceId": "retail-st-bernardus-abt12-20260928",
+          "checkedAt": "2026-09-28",
+          "historical": false,
+          "ambiguous": false,
+          "priceBasis": "jd-current-low-via-smzdm",
+          "selectedSku": "330ml × 24瓶",
+          "largestSameBeerPack": false,
+          "note": "什么值得买当前规格显示圣伯纳12号330ml*24整箱，京东最低384元。",
+          "provenance": {
+            "inputStatus": "public-price-snapshot",
+            "inputPriceBasis": "jd-current-low-via-smzdm"
+          }
         }
       ]
     },
@@ -5844,63 +5896,124 @@
     },
     {
       "id": "yanjing-craft",
-      "name": "燕京精酿",
-      "english": "Yanjing Beer V10 Wheat Beer (Can)",
+      "name": "燕京 V10 白啤",
+      "english": "Yanjing V10 Weissbier",
       "family": "wheat",
-      "style": "小麦啤酒  德式小麦啤酒",
+      "style": "德式小麦 Hefeweizen",
       "country": "中国",
       "abv": 3.3,
-      "volumeMl": null,
+      "volumeMl": 500,
       "rating": {
-        "platform": "酒花儿",
+        "platform": "Untappd",
         "scale": 5,
-        "value": 3.43,
-        "count": 2,
-        "countType": "reviews",
-        "sourceId": "research-rating-ebc1eaabec4706da",
-        "checkedAt": "2026-09-27",
-        "note": "“燕京精酿”是宽泛名称；V10精酿白啤罐装仅为具名候选，不代表整个品牌或八景系列。",
-        "evidenceFile": "evidence/5c67b72b247d055a.json"
+        "value": 3.14,
+        "count": 411,
+        "countType": "ratings",
+        "sourceId": "rating-yanjing-v10-20260928",
+        "checkedAt": "2026-09-28",
+        "note": "燕京 V10 Weissbier，3.3% ABV，3.14/5，411 Ratings。"
       },
       "tags": [
-        "用户榜单",
-        "资料待补"
+        "小麦",
+        "清爽",
+        "V10"
       ],
       "review": {
-        "positive": "用户将「燕京精酿」列为「顶级」。这是原清单的主观档位，不是已核验的公开品饮结论。",
-        "caution": "具体SKU、产地、规格和公开评价尚未核验；不套用同品牌其他产品的数据。",
-        "fit": "先核对商品全名与包装，再决定是否试饮；暂无已核验的风味或选购预算建议。",
-        "sourceIds": [],
-        "type": "用户提供的主观榜单；非公开评价归纳、非亲自试饮"
+        "positive": "小麦、果香和轻微香料感，整体清爽顺滑。",
+        "caution": "这里按 V10 3.3% 版本记录；价格是京东优惠样本，需要用券并购买多件。",
+        "fit": "想用较低成本尝试国产德式白啤。",
+        "sourceIds": [
+          "rating-yanjing-v10-20260928",
+          "retail-yanjing-v10-20260928"
+        ],
+        "type": "风味为公开资料简要整理。"
       },
-      "quote": null,
+      "quote": {
+        "total": 47.9,
+        "quantity": 12,
+        "volumeMl": 500,
+        "currency": "CNY",
+        "sourceId": "retail-yanjing-v10-20260928",
+        "checkedAt": "2026-09-28",
+        "historical": false,
+        "ambiguous": false,
+        "priceBasis": "jd-promo-via-smzdm",
+        "selectedSku": "500ml × 12听",
+        "largestSameBeerPack": false,
+        "note": "什么值得买显示京东最低47.9元/箱；需要买2件并用券，属于优惠样本，不代表长期常规价。",
+        "provenance": {
+          "inputStatus": "public-price-snapshot",
+          "inputPriceBasis": "jd-promo-via-smzdm"
+        }
+      },
       "originalList": true,
-      "aliases": [],
-      "identityNote": "按用户原文录入，具体商品身份与版本待核验。 用户授权常见代表款：燕京 V10 精酿白啤（易拉罐）-Yanjing Beer V10 Wheat Beer (Can)。原始清单名称保留，不确认原意或所有零售SKU。“燕京精酿”是宽泛名称；V10精酿白啤罐装仅为具名候选，不代表整个品牌或八景系列。",
+      "aliases": [
+        "燕京V10白啤",
+        "燕京精酿V10"
+      ],
+      "identityNote": "本条已明确为燕京 V10 精酿白啤 3.3% 版本。",
       "identityPending": false,
       "purchaseGuide": null,
       "coverage": {
-        "identity": "representative",
-        "price": "missing",
-        "rating": "representative",
-        "abv": "unverified"
+        "identity": "defined",
+        "price": "observed-snapshot",
+        "rating": "matched",
+        "abv": "reference-page"
       },
-      "researchNote": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。",
+      "researchNote": "社区评分来自公开评分平台，只代表该平台用户样本；不同平台之间不视为严格等价的盲测。",
       "extraSourceIds": [],
       "userTier": "top",
       "researchAudit": {
         "rating": {
-          "status": "ambiguous",
-          "checkedAt": "2026-09-27",
-          "url": "https://www.jiuhuar.com/craftbeer/626cdd617901122dc401cd45.html",
-          "identityDecision": "“燕京精酿”是宽泛名称；V10精酿白啤罐装仅为具名候选，不代表整个品牌或八景系列。",
-          "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。"
+          "status": "matched",
+          "checkedAt": "2026-09-28",
+          "url": "https://untappd.com/b/beijing-yanjing-brewery-yanjing-v10-weissbier-v10/4222163",
+          "identityDecision": "名称、风格与酒精度对应到独立酒款条目。",
+          "note": "燕京 V10 Weissbier，3.3% ABV，3.14/5，411 Ratings。"
         },
         "taobao": {
           "status": "pending"
+        },
+        "retail": {
+          "status": "verified",
+          "checkedAt": "2026-09-28",
+          "url": "https://wiki.smzdm.com/p/mz47r0d/",
+          "note": "什么值得买显示京东最低47.9元/箱；需要买2件并用券，属于优惠样本，不代表长期常规价。"
         }
       },
-      "representative": true
+      "representative": true,
+      "ratingHistory": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.14,
+          "count": 411,
+          "countType": "ratings",
+          "sourceId": "rating-yanjing-v10-20260928",
+          "checkedAt": "2026-09-28",
+          "note": "燕京 V10 Weissbier，3.3% ABV，3.14/5，411 Ratings。"
+        }
+      ],
+      "quoteHistory": [
+        {
+          "total": 47.9,
+          "quantity": 12,
+          "volumeMl": 500,
+          "currency": "CNY",
+          "sourceId": "retail-yanjing-v10-20260928",
+          "checkedAt": "2026-09-28",
+          "historical": false,
+          "ambiguous": false,
+          "priceBasis": "jd-promo-via-smzdm",
+          "selectedSku": "500ml × 12听",
+          "largestSameBeerPack": false,
+          "note": "什么值得买显示京东最低47.9元/箱；需要买2件并用券，属于优惠样本，不代表长期常规价。",
+          "provenance": {
+            "inputStatus": "public-price-snapshot",
+            "inputPriceBasis": "jd-promo-via-smzdm"
+          }
+        }
+      ]
     },
     {
       "id": "fan-jia-le",
@@ -6064,13 +6177,13 @@
     },
     {
       "id": "he-bu-fan-yellow-river",
-      "name": "或不凡黄河之水",
+      "name": "或不凡 · 黄河之水",
       "english": "Hop Fan Liquor of the Yellow River NE IPA (Can)",
       "family": "hoppy",
       "style": "IPA  新英格兰IPA",
       "country": "中国",
       "abv": 8.2,
-      "volumeMl": null,
+      "volumeMl": 500,
       "rating": {
         "platform": "酒花儿",
         "scale": 5,
@@ -6083,44 +6196,94 @@
         "evidenceFile": "evidence/f292e84cdb661cbf.json"
       },
       "tags": [
-        "用户榜单",
-        "资料待补"
+        "新英格兰IPA",
+        "热带果香",
+        "酒花"
       ],
       "review": {
-        "positive": "用户将「或不凡黄河之水」列为「顶级」。这是原清单的主观档位，不是已核验的公开品饮结论。",
-        "caution": "具体SKU、产地、规格和公开评价尚未核验；不套用同品牌其他产品的数据。",
-        "fit": "先核对商品全名与包装，再决定是否试饮；暂无已核验的风味或选购预算建议。",
-        "sourceIds": [],
-        "type": "用户提供的主观榜单；非公开评价归纳、非亲自试饮"
+        "positive": "热带水果和酒花香气浓，酒体饱满，是偏重口的浑浊IPA路线。",
+        "caution": "8.2%酒精度不低；单罐价格不代表多罐装促销价。",
+        "fit": "喜欢浓郁果香、浑浊IPA和高强度酒花风味。",
+        "sourceIds": [
+          "research-rating-91569f21fc0fb43e",
+          "retail-yellow-river-20260928"
+        ],
+        "type": "风味为公开评价简要整理。"
       },
-      "quote": null,
+      "quote": {
+        "total": 30,
+        "quantity": 1,
+        "volumeMl": 500,
+        "currency": "CNY",
+        "sourceId": "retail-yellow-river-20260928",
+        "checkedAt": "2026-09-28",
+        "historical": false,
+        "ambiguous": false,
+        "priceBasis": "jd-public-price-snapshot",
+        "selectedSku": "500ml × 1罐",
+        "largestSameBeerPack": false,
+        "note": "京东公开页面显示黄河之水500ml单罐30元，登录后到手价可能变化。",
+        "provenance": {
+          "inputStatus": "public-price-snapshot",
+          "inputPriceBasis": "jd-public-price-snapshot"
+        }
+      },
       "originalList": true,
-      "aliases": [],
-      "identityNote": "保留原文“或不凡黄河之水”；名称与具体版本待核验。 用户授权常见代表款：或不凡 黄河之水 新英格兰IPA（易拉罐）-Hop Fan Liquor of the Yellow River NE IPA (Can)。原始清单名称保留，不确认原意或所有零售SKU。中文酒名吻合Hop Fan Liquor of the Yellow River，但罐装与非罐装分列；用户包装不明，保留歧义。",
+      "aliases": [
+        "黄河之水",
+        "或不凡黄河之水"
+      ],
+      "identityNote": "本条按黄河之水 500ml 罐装记录，与库内罐装评分条目对应。",
       "identityPending": false,
       "purchaseGuide": null,
       "coverage": {
-        "identity": "representative",
-        "price": "missing",
-        "rating": "representative",
-        "abv": "unverified"
+        "identity": "defined",
+        "price": "observed-snapshot",
+        "rating": "matched",
+        "abv": "reference-page"
       },
-      "researchNote": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。",
+      "researchNote": "社区评分来自公开评分平台，只代表该平台用户样本；不同平台之间不视为严格等价的盲测。",
       "extraSourceIds": [],
       "userTier": "top",
       "researchAudit": {
         "rating": {
-          "status": "ambiguous",
-          "checkedAt": "2026-09-27",
+          "status": "matched",
+          "checkedAt": "2026-09-28",
           "url": "https://www.jiuhuar.com/craftbeer/5a31dffb8ba5b0f0268b4567.html",
-          "identityDecision": "中文酒名吻合Hop Fan Liquor of the Yellow River，但罐装与非罐装分列；用户包装不明，保留歧义。",
+          "identityDecision": "商品与评分均明确为黄河之水罐装条目，按同一酒款记录。",
           "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。"
         },
         "taobao": {
           "status": "pending"
+        },
+        "retail": {
+          "status": "verified",
+          "checkedAt": "2026-09-28",
+          "url": "https://item.jd.com/product/kBjQyql-136wHBRN-ZL31w.html",
+          "note": "京东公开页面显示黄河之水500ml单罐30元，登录后到手价可能变化。"
         }
       },
-      "representative": true
+      "representative": true,
+      "quoteHistory": [
+        {
+          "total": 30,
+          "quantity": 1,
+          "volumeMl": 500,
+          "currency": "CNY",
+          "sourceId": "retail-yellow-river-20260928",
+          "checkedAt": "2026-09-28",
+          "historical": false,
+          "ambiguous": false,
+          "priceBasis": "jd-public-price-snapshot",
+          "selectedSku": "500ml × 1罐",
+          "largestSameBeerPack": false,
+          "note": "京东公开页面显示黄河之水500ml单罐30元，登录后到手价可能变化。",
+          "provenance": {
+            "inputStatus": "public-price-snapshot",
+            "inputPriceBasis": "jd-public-price-snapshot"
+          }
+        }
+      ]
     },
     {
       "id": "duchesse",
@@ -11389,6 +11552,56 @@
       "evidence": "jd-promo-via-smzdm",
       "publishedAt": null,
       "note": "2026-07-23京东活动样本，返积分后39.60元；常规活动前价格65元。",
+      "checkedAt": "2026-09-28"
+    },
+    "rating-yanjing-v10-20260928": {
+      "id": "rating-yanjing-v10-20260928",
+      "url": "https://untappd.com/b/beijing-yanjing-brewery-yanjing-v10-weissbier-v10/4222163",
+      "title": "Yanjing V10 Weissbier - Untappd",
+      "kind": "rating",
+      "evidence": "public-rating-page",
+      "publishedAt": null,
+      "note": "燕京 V10 Weissbier，3.3% ABV，3.14/5，411 Ratings。",
+      "checkedAt": "2026-09-28"
+    },
+    "retail-yanjing-v10-20260928": {
+      "id": "retail-yanjing-v10-20260928",
+      "url": "https://wiki.smzdm.com/p/mz47r0d/",
+      "title": "燕京 V10精酿白啤 500ml*12听 - 京东优惠",
+      "kind": "price",
+      "evidence": "jd-promo-via-smzdm",
+      "publishedAt": null,
+      "note": "什么值得买显示京东最低47.9元/箱；需要买2件并用券，属于优惠样本，不代表长期常规价。",
+      "checkedAt": "2026-09-28"
+    },
+    "rating-st-bernardus-abt12-20260928": {
+      "id": "rating-st-bernardus-abt12-20260928",
+      "url": "https://untappd.com/b/brouwerij-st-bernardus-abt-12/6760",
+      "title": "St. Bernardus Abt 12 - Untappd",
+      "kind": "rating",
+      "evidence": "public-rating-page",
+      "publishedAt": null,
+      "note": "常规 Abt 12，10% ABV，3.99/5，353,671 Ratings。",
+      "checkedAt": "2026-09-28"
+    },
+    "retail-st-bernardus-abt12-20260928": {
+      "id": "retail-st-bernardus-abt12-20260928",
+      "url": "https://wiki.smzdm.com/p/1r10x4y/",
+      "title": "圣伯纳12号 330ml*24 - 京东最低价",
+      "kind": "price",
+      "evidence": "jd-current-low-via-smzdm",
+      "publishedAt": null,
+      "note": "什么值得买当前规格显示圣伯纳12号330ml*24整箱，京东最低384元。",
+      "checkedAt": "2026-09-28"
+    },
+    "retail-yellow-river-20260928": {
+      "id": "retail-yellow-river-20260928",
+      "url": "https://item.jd.com/product/kBjQyql-136wHBRN-ZL31w.html",
+      "title": "或不凡 黄河之水 500ml 单罐 - 京东",
+      "kind": "price",
+      "evidence": "jd-public-price-snapshot",
+      "publishedAt": null,
+      "note": "京东公开页面显示黄河之水500ml单罐30元，登录后到手价可能变化。",
       "checkedAt": "2026-09-28"
     }
   },
