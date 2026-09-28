@@ -8,23 +8,23 @@
     "market": "中国大陆零售参考样本",
     "scorePlatform": "分平台：BeerAdvocate / 酒花儿 / Untappd",
     "scoreScale": 5,
-    "scope": "主库81款；网站只展示价格、容量、评分都齐全且无明显规格歧义的条目。",
+    "scope": "主库84款；网站只展示价格、容量、评分都齐全且无明显规格歧义的条目。",
     "pricePolicy": "默认按瓶／罐／桶记录；价格来源包括已核对的电商快照与用户明确提供的购买价格。",
     "reviewPolicy": "保留原平台均分与样本口径；不同平台之间不相互支配。版本未匹配的相关评价只供阅读，不进入前沿。",
-    "version": "1.11.0",
+    "version": "1.12.0",
     "coverage": {
-      "entries": 81,
+      "entries": 84,
       "matchedRatings": 39,
       "relatedOnlyRatings": 6,
       "priceSnapshots": 41,
       "editorialBudgetGuides": 42,
-      "sources": 270,
+      "sources": 276,
       "rankedEntries": 49,
       "freshTaobaoQuotes": 40,
       "versionMatchedTaobaoQuotes": 38,
       "ambiguousTaobaoQuotes": 2,
       "representatives": 25,
-      "ratingAudited": 81,
+      "ratingAudited": 84,
       "relatedAudits": 7,
       "missingActiveRatings": 6,
       "taobaoPending": 27
@@ -9176,6 +9176,351 @@
           }
         }
       ]
+    },
+    {
+      "id": "shuanghesheng-german-wheat",
+      "name": "双合盛德式小麦",
+      "english": "Sonhoshin German Wheat Beer",
+      "family": "wheat",
+      "style": "德式小麦 Hefeweizen",
+      "country": "中国",
+      "abv": 4.5,
+      "volumeMl": 500,
+      "rating": {
+        "platform": "Untappd",
+        "scale": 5,
+        "value": 3.16,
+        "count": 250,
+        "countType": "ratings",
+        "sourceId": "rating-shuanghesheng-german-wheat-20260929",
+        "checkedAt": "2026-09-29",
+        "note": "双合盛 German Wheat Beer / 德式小麦啤酒，Hefeweizen，4.5% ABV，3.16/5，250 Ratings。"
+      },
+      "quote": {
+        "total": 59,
+        "quantity": 12,
+        "volumeMl": 500,
+        "currency": "CNY",
+        "sourceId": "user-price-shuanghesheng-german-wheat-20260929",
+        "checkedAt": "2026-09-29",
+        "historical": false,
+        "ambiguous": false,
+        "priceBasis": "user-provided-current-price",
+        "selectedSku": "12 × 500ml",
+        "largestSameBeerPack": false,
+        "note": "用户明确提供的当前价格。",
+        "provenance": {
+          "inputStatus": "user-provided",
+          "inputPriceBasis": "user-provided-current-price"
+        }
+      },
+      "tags": [
+        "小麦",
+        "香蕉",
+        "麦香"
+      ],
+      "review": {
+        "positive": "香蕉和麦香比较明显，整体偏甜、顺口。",
+        "caution": "这里按双合盛德式小麦罐装记录，不是五星经典或纯生。",
+        "fit": "喜欢国产小麦白啤、看重性价比。",
+        "sourceIds": [
+          "rating-shuanghesheng-german-wheat-20260929",
+          "user-price-shuanghesheng-german-wheat-20260929"
+        ],
+        "type": "风味为公开资料简要整理。"
+      },
+      "originalList": false,
+      "aliases": [
+        "双合盛罐装",
+        "双合盛德式小麦",
+        "Sonhoshin German Wheat Beer"
+      ],
+      "identityNote": "按京东59元活动对应的双合盛精酿德式小麦500ml×12听记录。",
+      "identityPending": false,
+      "coverage": {
+        "identity": "defined",
+        "price": "user-provided",
+        "rating": "matched",
+        "abv": "reference-page"
+      },
+      "researchNote": "社区评分来自公开评分平台，只代表该平台用户样本；不同平台之间不视为严格等价的盲测。",
+      "extraSourceIds": [],
+      "researchAudit": {
+        "rating": {
+          "status": "matched",
+          "checkedAt": "2026-09-29",
+          "url": "https://untappd.com/b/sonhoshin-german-wheat-beer/5038314",
+          "identityDecision": "双合盛德式小麦，4.5% ABV；页面近期活动中可见罐装打卡。",
+          "note": "社区评分来自公开评分平台，只代表该平台用户样本；不同平台之间不视为严格等价的盲测。"
+        },
+        "userPrice": {
+          "status": "user-provided",
+          "checkedAt": "2026-09-29",
+          "note": "12×500ml，59元。"
+        }
+      },
+      "ratingHistory": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.16,
+          "count": 250,
+          "countType": "ratings",
+          "sourceId": "rating-shuanghesheng-german-wheat-20260929",
+          "checkedAt": "2026-09-29",
+          "note": "双合盛 German Wheat Beer / 德式小麦啤酒，Hefeweizen，4.5% ABV，3.16/5，250 Ratings。"
+        }
+      ],
+      "quoteHistory": [
+        {
+          "total": 59,
+          "quantity": 12,
+          "volumeMl": 500,
+          "currency": "CNY",
+          "sourceId": "user-price-shuanghesheng-german-wheat-20260929",
+          "checkedAt": "2026-09-29",
+          "historical": false,
+          "ambiguous": false,
+          "priceBasis": "user-provided-current-price",
+          "selectedSku": "12 × 500ml",
+          "largestSameBeerPack": false,
+          "note": "用户明确提供的当前价格。",
+          "provenance": {
+            "inputStatus": "user-provided",
+            "inputPriceBasis": "user-provided-current-price"
+          }
+        }
+      ]
+    },
+    {
+      "id": "eichbaum-weissbier-china",
+      "name": "爱士堡白啤",
+      "english": "Würenbacher Weissbier Hell (Eichbaum)",
+      "family": "wheat",
+      "style": "小麦啤酒 Weissbier Hell",
+      "country": "德国",
+      "abv": 5.3,
+      "volumeMl": 500,
+      "rating": {
+        "platform": "Untappd",
+        "scale": 5,
+        "value": 2.97,
+        "count": 35,
+        "countType": "ratings",
+        "sourceId": "rating-eichbaum-weissbier-china-20260929",
+        "checkedAt": "2026-09-29",
+        "note": "页面描述明确写“爱士堡 小麦啤酒 / Brewed for export to China”，5.3% ABV，2.97/5，35 Ratings。"
+      },
+      "quote": {
+        "total": 112,
+        "quantity": 24,
+        "volumeMl": 500,
+        "currency": "CNY",
+        "sourceId": "user-price-eichbaum-weissbier-china-20260929",
+        "checkedAt": "2026-09-29",
+        "historical": false,
+        "ambiguous": false,
+        "priceBasis": "user-provided-current-price",
+        "selectedSku": "24 × 500ml",
+        "largestSameBeerPack": false,
+        "note": "用户明确提供的当前价格。",
+        "provenance": {
+          "inputStatus": "user-provided",
+          "inputPriceBasis": "user-provided-current-price"
+        }
+      },
+      "tags": [
+        "小麦",
+        "出口中国",
+        "清爽"
+      ],
+      "review": {
+        "positive": "小麦香和酵母感为主，口感偏清爽。",
+        "caution": "Untappd样本只有35个，分数参考价值弱于大样本酒款。",
+        "fit": "想要低价德国进口小麦白啤。",
+        "sourceIds": [
+          "rating-eichbaum-weissbier-china-20260929",
+          "user-price-eichbaum-weissbier-china-20260929"
+        ],
+        "type": "风味为公开资料简要整理。"
+      },
+      "originalList": false,
+      "aliases": [
+        "爱士堡小麦啤酒",
+        "爱士堡白啤",
+        "Würenbacher Weissbier Hell"
+      ],
+      "identityNote": "Untappd页面中文明确标注“爱士堡 小麦啤酒”，为出口中国版本。",
+      "identityPending": false,
+      "coverage": {
+        "identity": "defined",
+        "price": "user-provided",
+        "rating": "matched",
+        "abv": "reference-page"
+      },
+      "researchNote": "社区评分来自公开评分平台，只代表该平台用户样本；不同平台之间不视为严格等价的盲测。",
+      "extraSourceIds": [],
+      "researchAudit": {
+        "rating": {
+          "status": "matched",
+          "checkedAt": "2026-09-29",
+          "url": "https://untappd.com/b/privatbrauerei-eichbaum-wurenbacher-weissbier-hell/4936347",
+          "identityDecision": "页面明确标注爱士堡小麦啤酒、出口中国，5.3% ABV。",
+          "note": "社区评分来自公开评分平台，只代表该平台用户样本；不同平台之间不视为严格等价的盲测。"
+        },
+        "userPrice": {
+          "status": "user-provided",
+          "checkedAt": "2026-09-29",
+          "note": "24×500ml，112元。"
+        }
+      },
+      "ratingHistory": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 2.97,
+          "count": 35,
+          "countType": "ratings",
+          "sourceId": "rating-eichbaum-weissbier-china-20260929",
+          "checkedAt": "2026-09-29",
+          "note": "页面描述明确写“爱士堡 小麦啤酒 / Brewed for export to China”，5.3% ABV，2.97/5，35 Ratings。"
+        }
+      ],
+      "quoteHistory": [
+        {
+          "total": 112,
+          "quantity": 24,
+          "volumeMl": 500,
+          "currency": "CNY",
+          "sourceId": "user-price-eichbaum-weissbier-china-20260929",
+          "checkedAt": "2026-09-29",
+          "historical": false,
+          "ambiguous": false,
+          "priceBasis": "user-provided-current-price",
+          "selectedSku": "24 × 500ml",
+          "largestSameBeerPack": false,
+          "note": "用户明确提供的当前价格。",
+          "provenance": {
+            "inputStatus": "user-provided",
+            "inputPriceBasis": "user-provided-current-price"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tsingtao-gold-296",
+      "name": "青岛啤酒金质小瓶",
+      "english": "Tsingtao Gold",
+      "family": "lager",
+      "style": "皮尔森 Pilsner",
+      "country": "中国",
+      "abv": 4.3,
+      "volumeMl": 296,
+      "rating": {
+        "platform": "Untappd",
+        "scale": 5,
+        "value": 2.94,
+        "count": 2230,
+        "countType": "ratings",
+        "sourceId": "rating-tsingtao-gold-296-20260929",
+        "checkedAt": "2026-09-29",
+        "note": "Tsingtao Gold，Pilsner，4.3% ABV，约2.94/5，约2,230 Ratings。"
+      },
+      "quote": {
+        "total": 110,
+        "quantity": 24,
+        "volumeMl": 296,
+        "currency": "CNY",
+        "sourceId": "user-price-tsingtao-gold-296-20260929",
+        "checkedAt": "2026-09-29",
+        "historical": false,
+        "ambiguous": false,
+        "priceBasis": "user-provided-current-price",
+        "selectedSku": "24 × 296ml",
+        "largestSameBeerPack": false,
+        "note": "用户明确提供的当前价格。",
+        "provenance": {
+          "inputStatus": "user-provided",
+          "inputPriceBasis": "user-provided-current-price"
+        }
+      },
+      "tags": [
+        "金质",
+        "小瓶",
+        "清爽"
+      ],
+      "review": {
+        "positive": "清爽拉格路线，麦芽和轻苦味比较平衡。",
+        "caution": "这里按296ml金质小瓶对应Tsingtao Gold 4.3%记录。",
+        "fit": "喜欢小瓶装、清爽型青岛拉格。",
+        "sourceIds": [
+          "rating-tsingtao-gold-296-20260929",
+          "user-price-tsingtao-gold-296-20260929"
+        ],
+        "type": "风味为公开资料简要整理。"
+      },
+      "originalList": false,
+      "aliases": [
+        "青岛金质",
+        "青岛小棕金",
+        "Tsingtao Gold"
+      ],
+      "identityNote": "296ml×24金质小瓶，对应Tsingtao Gold 4.3%。",
+      "identityPending": false,
+      "coverage": {
+        "identity": "defined",
+        "price": "user-provided",
+        "rating": "matched",
+        "abv": "reference-page"
+      },
+      "researchNote": "社区评分来自公开评分平台，只代表该平台用户样本；不同平台之间不视为严格等价的盲测。",
+      "extraSourceIds": [],
+      "researchAudit": {
+        "rating": {
+          "status": "matched",
+          "checkedAt": "2026-09-29",
+          "url": "https://untappd.com/b/tsingtao-brewery-tsingtao-gold/396848",
+          "identityDecision": "Tsingtao Gold，4.3% ABV；与青岛金质小瓶对应。",
+          "note": "社区评分来自公开评分平台，只代表该平台用户样本；不同平台之间不视为严格等价的盲测。"
+        },
+        "userPrice": {
+          "status": "user-provided",
+          "checkedAt": "2026-09-29",
+          "note": "24×296ml，110元。"
+        }
+      },
+      "ratingHistory": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 2.94,
+          "count": 2230,
+          "countType": "ratings",
+          "sourceId": "rating-tsingtao-gold-296-20260929",
+          "checkedAt": "2026-09-29",
+          "note": "Tsingtao Gold，Pilsner，4.3% ABV，约2.94/5，约2,230 Ratings。"
+        }
+      ],
+      "quoteHistory": [
+        {
+          "total": 110,
+          "quantity": 24,
+          "volumeMl": 296,
+          "currency": "CNY",
+          "sourceId": "user-price-tsingtao-gold-296-20260929",
+          "checkedAt": "2026-09-29",
+          "historical": false,
+          "ambiguous": false,
+          "priceBasis": "user-provided-current-price",
+          "selectedSku": "24 × 296ml",
+          "largestSameBeerPack": false,
+          "note": "用户明确提供的当前价格。",
+          "provenance": {
+            "inputStatus": "user-provided",
+            "inputPriceBasis": "user-provided-current-price"
+          }
+        }
+      ]
     }
   ],
   "sources": {
@@ -12082,6 +12427,66 @@
       "publishedAt": null,
       "note": "价格由用户在本次对话中明确提供。",
       "checkedAt": "2026-09-29"
+    },
+    "rating-shuanghesheng-german-wheat-20260929": {
+      "id": "rating-shuanghesheng-german-wheat-20260929",
+      "url": "https://untappd.com/b/sonhoshin-german-wheat-beer/5038314",
+      "title": "German Wheat Beer (德式小麦啤酒) - Sonhoshin (双合盛) - Untappd",
+      "kind": "rating",
+      "evidence": "public-rating-page",
+      "publishedAt": null,
+      "note": "双合盛 German Wheat Beer / 德式小麦啤酒，Hefeweizen，4.5% ABV，3.16/5，250 Ratings。",
+      "checkedAt": "2026-09-29"
+    },
+    "user-price-shuanghesheng-german-wheat-20260929": {
+      "id": "user-price-shuanghesheng-german-wheat-20260929",
+      "url": null,
+      "title": "双合盛德式小麦罐装：12 × 500ml，59元",
+      "kind": "price",
+      "evidence": "user-provided",
+      "publishedAt": null,
+      "note": "价格由用户在本次对话中明确提供。",
+      "checkedAt": "2026-09-29"
+    },
+    "rating-eichbaum-weissbier-china-20260929": {
+      "id": "rating-eichbaum-weissbier-china-20260929",
+      "url": "https://untappd.com/b/privatbrauerei-eichbaum-wurenbacher-weissbier-hell/4936347",
+      "title": "Würenbacher Weissbier Hell - Privatbrauerei Eichbaum - Untappd",
+      "kind": "rating",
+      "evidence": "public-rating-page",
+      "publishedAt": null,
+      "note": "页面描述明确写“爱士堡 小麦啤酒 / Brewed for export to China”，5.3% ABV，2.97/5，35 Ratings。",
+      "checkedAt": "2026-09-29"
+    },
+    "user-price-eichbaum-weissbier-china-20260929": {
+      "id": "user-price-eichbaum-weissbier-china-20260929",
+      "url": null,
+      "title": "爱士堡白啤：24 × 500ml，112元",
+      "kind": "price",
+      "evidence": "user-provided",
+      "publishedAt": null,
+      "note": "价格由用户在本次对话中明确提供。",
+      "checkedAt": "2026-09-29"
+    },
+    "rating-tsingtao-gold-296-20260929": {
+      "id": "rating-tsingtao-gold-296-20260929",
+      "url": "https://untappd.com/b/tsingtao-brewery-tsingtao-gold/396848",
+      "title": "Tsingtao Gold - Tsingtao Brewery - Untappd",
+      "kind": "rating",
+      "evidence": "public-rating-page",
+      "publishedAt": null,
+      "note": "Tsingtao Gold，Pilsner，4.3% ABV，约2.94/5，约2,230 Ratings。",
+      "checkedAt": "2026-09-29"
+    },
+    "user-price-tsingtao-gold-296-20260929": {
+      "id": "user-price-tsingtao-gold-296-20260929",
+      "url": null,
+      "title": "青岛啤酒金质小瓶：24 × 296ml，110元",
+      "kind": "price",
+      "evidence": "user-provided",
+      "publishedAt": null,
+      "note": "价格由用户在本次对话中明确提供。",
+      "checkedAt": "2026-09-29"
     }
   },
   "tierList": {
@@ -12386,7 +12791,10 @@
       "asahi-super-dry-can",
       "krombacher-pils",
       "paulaner-munchner-hell",
-      "rochefort6"
+      "rochefort6",
+      "shuanghesheng-german-wheat",
+      "eichbaum-weissbier-china",
+      "tsingtao-gold-296"
     ]
   }
 }
