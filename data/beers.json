@@ -11,14 +11,14 @@
     "scope": "主库70款；网站只展示价格、容量、评分都齐全且无明显规格歧义的条目。",
     "pricePolicy": "默认按瓶／罐／桶记录；价格来源包括已核对的电商快照与用户明确提供的购买价格。",
     "reviewPolicy": "保留原平台均分与样本口径；不同平台之间不相互支配。版本未匹配的相关评价只供阅读，不进入前沿。",
-    "version": "1.5.0",
+    "version": "1.6.0",
     "coverage": {
       "entries": 70,
       "matchedRatings": 39,
       "relatedOnlyRatings": 6,
       "priceSnapshots": 41,
       "editorialBudgetGuides": 42,
-      "sources": 231,
+      "sources": 234,
       "rankedEntries": 49,
       "freshTaobaoQuotes": 40,
       "versionMatchedTaobaoQuotes": 38,
@@ -1994,26 +1994,21 @@
         "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
-        "total": 222,
-        "quantity": 6,
+        "total": 24,
+        "quantity": 1,
         "volumeMl": 330,
         "currency": "CNY",
-        "sourceId": "research-price-a076ec07a75ee410",
-        "checkedAt": "2026-09-27",
+        "sourceId": "user-price-orval-20260928",
+        "checkedAt": "2026-09-28",
         "historical": false,
         "ambiguous": false,
-        "priceBasis": "taobao-displayed-snapshot",
-        "selectedSku": "奥威啤酒330ml*6瓶",
-        "skuId": "5826001573875",
-        "itemId": "545595876286",
-        "largestSameBeerPack": true,
-        "note": "淘宝页面显示／补贴价快照；最大同款包装折合单件，不保证结算价或单件可购。",
+        "priceBasis": "user-provided-current-price",
+        "selectedSku": "1 × 330ml",
+        "largestSameBeerPack": false,
+        "note": "用户明确提供的当前购买价格；未另行核验优惠、运费或地区条件。",
         "provenance": {
-          "inputStatus": "verified-selected-page",
-          "inputPriceBasis": "displayed-page-snapshot",
-          "listedTotal": 222,
-          "displayedPromotion": null,
-          "evidenceFile": "taobao-evidence/orval-5826001573875.json"
+          "inputStatus": "user-provided",
+          "inputPriceBasis": "user-provided-current-price"
         }
       },
       "originalList": false,
@@ -2032,7 +2027,7 @@
       },
       "coverage": {
         "identity": "defined",
-        "price": "observed-snapshot",
+        "price": "user-provided",
         "rating": "matched",
         "abv": "reference-label"
       },
@@ -2050,6 +2045,11 @@
           "status": "verified",
           "checkedAt": "2026-09-27",
           "url": "https://detail.tmall.com/item.htm?id=545595876286&skuId=5826001573875"
+        },
+        "userPrice": {
+          "status": "user-provided",
+          "checkedAt": "2026-09-28",
+          "note": "1 × 330ml，24元。"
         }
       },
       "ratingHistory": [
@@ -2074,6 +2074,24 @@
           "ambiguous": false,
           "note": "页面报价样本；活动有效期、运费、税费、库存与账号条件均未现场结算核验。",
           "checkedAt": "2026-09-27"
+        },
+        {
+          "total": 24,
+          "quantity": 1,
+          "volumeMl": 330,
+          "currency": "CNY",
+          "sourceId": "user-price-orval-20260928",
+          "checkedAt": "2026-09-28",
+          "historical": false,
+          "ambiguous": false,
+          "priceBasis": "user-provided-current-price",
+          "selectedSku": "1 × 330ml",
+          "largestSameBeerPack": false,
+          "note": "用户明确提供的当前购买价格；未另行核验优惠、运费或地区条件。",
+          "provenance": {
+            "inputStatus": "user-provided",
+            "inputPriceBasis": "user-provided-current-price"
+          }
         }
       ],
       "communityRatings": [
@@ -4158,7 +4176,7 @@
       "style": "德式小麦 Hefeweizen",
       "country": "中国",
       "abv": 4.7,
-      "volumeMl": 330,
+      "volumeMl": 500,
       "rating": {
         "platform": "Untappd",
         "scale": 5,
@@ -4185,26 +4203,21 @@
         "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
-        "total": 79.8,
-        "quantity": 24,
-        "volumeMl": 330,
+        "total": 60,
+        "quantity": 12,
+        "volumeMl": 500,
         "currency": "CNY",
-        "sourceId": "research-price-71c4cbfbf5bda636",
-        "checkedAt": "2026-09-27",
+        "sourceId": "user-price-pang-20260928",
+        "checkedAt": "2026-09-28",
         "historical": false,
         "ambiguous": false,
-        "priceBasis": "taobao-displayed-snapshot",
-        "selectedSku": "胖东来精酿白啤330ml*24罐【原箱整箱】",
-        "skuId": "5864311902558",
-        "itemId": "794556292974",
-        "largestSameBeerPack": true,
-        "note": "淘宝页面显示／补贴价快照；最大同款包装折合单件，不保证结算价或单件可购。",
+        "priceBasis": "user-provided-current-price",
+        "selectedSku": "12 × 500ml",
+        "largestSameBeerPack": false,
+        "note": "用户明确提供的当前购买价格；未另行核验优惠、运费或地区条件。",
         "provenance": {
-          "inputStatus": "verified-selected-page",
-          "inputPriceBasis": "displayed-page-snapshot",
-          "listedTotal": 79.8,
-          "displayedPromotion": null,
-          "evidenceFile": "taobao-evidence/pang-5864311902558.json"
+          "inputStatus": "user-provided",
+          "inputPriceBasis": "user-provided-current-price"
         }
       },
       "originalList": true,
@@ -4224,7 +4237,7 @@
       },
       "coverage": {
         "identity": "defined",
-        "price": "observed-snapshot",
+        "price": "user-provided",
         "rating": "matched",
         "abv": "reference-label"
       },
@@ -4243,6 +4256,11 @@
           "status": "verified",
           "checkedAt": "2026-09-27",
           "url": "https://item.taobao.com/item.htm?id=794556292974&skuId=5864311902558"
+        },
+        "userPrice": {
+          "status": "user-provided",
+          "checkedAt": "2026-09-28",
+          "note": "12 × 500ml，60元。"
         }
       },
       "ratingHistory": [
@@ -4268,6 +4286,24 @@
           "ambiguous": false,
           "note": "2026年报道的原渠道原价。未含代购加价、运费；不承诺现在有货。",
           "checkedAt": "2026-09-27"
+        },
+        {
+          "total": 60,
+          "quantity": 12,
+          "volumeMl": 500,
+          "currency": "CNY",
+          "sourceId": "user-price-pang-20260928",
+          "checkedAt": "2026-09-28",
+          "historical": false,
+          "ambiguous": false,
+          "priceBasis": "user-provided-current-price",
+          "selectedSku": "12 × 500ml",
+          "largestSameBeerPack": false,
+          "note": "用户明确提供的当前购买价格；未另行核验优惠、运费或地区条件。",
+          "provenance": {
+            "inputStatus": "user-provided",
+            "inputPriceBasis": "user-provided-current-price"
+          }
         }
       ]
     },
@@ -5486,26 +5522,21 @@
         "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
-        "total": 220.8,
+        "total": 163,
         "quantity": 6,
-        "volumeMl": null,
+        "volumeMl": 330,
         "currency": "CNY",
-        "sourceId": "research-price-03f4a1c94bfd1ea7",
-        "checkedAt": "2026-09-27",
+        "sourceId": "user-price-pohjala-20260928",
+        "checkedAt": "2026-09-28",
         "historical": false,
         "ambiguous": false,
-        "priceBasis": "taobao-displayed-snapshot",
-        "selectedSku": "珀亚拉黑夜*6瓶",
-        "skuId": "5170435450930",
-        "itemId": "714931802277",
-        "largestSameBeerPack": true,
-        "note": "淘宝页面显示／补贴价快照；最大同款包装折合单件，不保证结算价或单件可购。",
+        "priceBasis": "user-provided-current-price",
+        "selectedSku": "6 × 330ml",
+        "largestSameBeerPack": false,
+        "note": "用户明确提供的当前购买价格；未另行核验优惠、运费或地区条件。",
         "provenance": {
-          "inputStatus": "verified-selected-page",
-          "inputPriceBasis": "displayed-page-snapshot",
-          "listedTotal": 220.8,
-          "displayedPromotion": null,
-          "evidenceFile": "taobao-evidence/pohjala-5170435450930.json"
+          "inputStatus": "user-provided",
+          "inputPriceBasis": "user-provided-current-price"
         }
       },
       "originalList": true,
@@ -5513,7 +5544,7 @@
         "伯亚拉 珀亚拉 爱沙尼亚",
         "爱沙尼亚伯亚拉"
       ],
-      "identityNote": "珀亚拉常规黑夜Pime Öö，不是PX或其他桶陈版，也不代表酒厂其他产品。",
+      "identityNote": "用户本次“爱沙尼亚”按之前清单中的珀亚拉·黑夜 Pime Öö 条目更新。",
       "identityPending": false,
       "representative": true,
       "ibu": 60,
@@ -5527,7 +5558,7 @@
       },
       "coverage": {
         "identity": "selected-representative",
-        "price": "not-verified",
+        "price": "user-provided",
         "rating": "matched",
         "abv": "reference-label"
       },
@@ -5546,6 +5577,11 @@
           "status": "verified",
           "checkedAt": "2026-09-27",
           "url": "https://item.taobao.com/item.htm?id=714931802277&skuId=5170435450930"
+        },
+        "userPrice": {
+          "status": "user-provided",
+          "checkedAt": "2026-09-28",
+          "note": "6 × 330ml，163元。"
         }
       },
       "ratingHistory": [
@@ -5572,6 +5608,26 @@
           "note": "对应常规Pime Öö黑夜，不是PX或其他桶陈版。 平台按酒款汇总，未按瓶罐或单个SKU细分。",
           "evidenceFile": "research/2026-09-28/evidence/257de849d86f3879.json",
           "match": "matched"
+        }
+      ],
+      "quoteHistory": [
+        {
+          "total": 163,
+          "quantity": 6,
+          "volumeMl": 330,
+          "currency": "CNY",
+          "sourceId": "user-price-pohjala-20260928",
+          "checkedAt": "2026-09-28",
+          "historical": false,
+          "ambiguous": false,
+          "priceBasis": "user-provided-current-price",
+          "selectedSku": "6 × 330ml",
+          "largestSameBeerPack": false,
+          "note": "用户明确提供的当前购买价格；未另行核验优惠、运费或地区条件。",
+          "provenance": {
+            "inputStatus": "user-provided",
+            "inputPriceBasis": "user-provided-current-price"
+          }
         }
       ]
     },
@@ -9989,6 +10045,36 @@
       "evidence": "public-rating-page",
       "publishedAt": null,
       "note": "Untappd独立酒款页：Augerta A3，4.2% ABV，2.87/5，73 Ratings。",
+      "checkedAt": "2026-09-28"
+    },
+    "user-price-pohjala-20260928": {
+      "id": "user-price-pohjala-20260928",
+      "url": null,
+      "title": "珀亚拉 · 黑夜 Pime Öö：6 × 330ml，163元",
+      "kind": "price",
+      "evidence": "user-provided",
+      "publishedAt": null,
+      "note": "价格由用户在本次对话中明确提供；不代表电商实时最低价。",
+      "checkedAt": "2026-09-28"
+    },
+    "user-price-orval-20260928": {
+      "id": "user-price-orval-20260928",
+      "url": null,
+      "title": "奥威：1 × 330ml，24元",
+      "kind": "price",
+      "evidence": "user-provided",
+      "publishedAt": null,
+      "note": "价格由用户在本次对话中明确提供；不代表电商实时最低价。",
+      "checkedAt": "2026-09-28"
+    },
+    "user-price-pang-20260928": {
+      "id": "user-price-pang-20260928",
+      "url": null,
+      "title": "胖东来精酿小麦啤酒：12 × 500ml，60元",
+      "kind": "price",
+      "evidence": "user-provided",
+      "publishedAt": null,
+      "note": "价格由用户在本次对话中明确提供；不代表电商实时最低价。",
       "checkedAt": "2026-09-28"
     }
   },
