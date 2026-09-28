@@ -8,23 +8,23 @@
     "market": "中国大陆零售参考样本",
     "scorePlatform": "分平台：BeerAdvocate / 酒花儿 / Untappd",
     "scoreScale": 5,
-    "scope": "主库74款；网站只展示价格、容量、评分都齐全且无明显规格歧义的条目。",
+    "scope": "主库78款；网站只展示价格、容量、评分都齐全且无明显规格歧义的条目。",
     "pricePolicy": "默认按瓶／罐／桶记录；价格来源包括已核对的电商快照与用户明确提供的购买价格。",
     "reviewPolicy": "保留原平台均分与样本口径；不同平台之间不相互支配。版本未匹配的相关评价只供阅读，不进入前沿。",
-    "version": "1.7.0",
+    "version": "1.8.0",
     "coverage": {
-      "entries": 74,
+      "entries": 78,
       "matchedRatings": 39,
       "relatedOnlyRatings": 6,
       "priceSnapshots": 41,
       "editorialBudgetGuides": 42,
-      "sources": 245,
+      "sources": 256,
       "rankedEntries": 49,
       "freshTaobaoQuotes": 40,
       "versionMatchedTaobaoQuotes": 38,
       "ambiguousTaobaoQuotes": 2,
       "representatives": 25,
-      "ratingAudited": 74,
+      "ratingAudited": 78,
       "relatedAudits": 7,
       "missingActiveRatings": 6,
       "taobaoPending": 27
@@ -478,7 +478,7 @@
     },
     {
       "id": "benediktiner",
-      "name": "百帝王小麦白啤",
+      "name": "百帝王白啤",
       "english": "Benediktiner Weissbier",
       "family": "wheat",
       "style": "德式小麦 Hefeweizen",
@@ -486,58 +486,55 @@
       "abv": 5.4,
       "volumeMl": 500,
       "rating": {
-        "platform": "酒花儿",
+        "platform": "Untappd",
         "scale": 5,
-        "value": 2.98,
-        "count": 62,
-        "countType": "reviews",
-        "sourceId": "research-rating-783624a5b046b26a",
-        "checkedAt": "2026-09-27",
-        "note": "Benediktiner Weissbier、德国、5.4%一致；采用未标罐装的常规条目，罐装单独保留；不合并两条评论数。",
-        "evidenceFile": "evidence/e0576416caab9c57.json"
+        "value": 3.56,
+        "count": 161167,
+        "countType": "ratings",
+        "sourceId": "rating-benediktiner-weissbier-20260928",
+        "checkedAt": "2026-09-28",
+        "note": "5.4% ABV，3.56/5，161,167 Ratings。"
       },
       "tags": [
         "香蕉",
         "丁香",
-        "麦甜"
+        "麦香"
       ],
       "review": {
-        "positive": "香蕉和丁香香气，入口带麦芽甜味。",
-        "caution": "风味相对收敛，酒体比一些小麦白啤轻。",
-        "fit": "喜欢传统小麦风味，又不想要太厚的酒体。",
+        "positive": "香蕉、丁香和麦芽香比较典型，口感顺滑。",
+        "caution": "这里是白啤 Weissbier，不要和黑啤或 Hell 拉格混淆。",
+        "fit": "喜欢传统德式小麦。",
         "sourceIds": [
-          "ba-benediktiner"
+          "rating-benediktiner-weissbier-20260928",
+          "user-price-benediktiner-weissbier-20260928"
         ],
-        "type": "风味整理自公开资料，非本站试饮。"
+        "type": "风味为公开资料简要整理。"
       },
       "quote": {
-        "total": 184,
+        "total": 165,
         "quantity": 24,
         "volumeMl": 500,
         "currency": "CNY",
-        "sourceId": "research-price-937167d0b20f1f91",
-        "checkedAt": "2026-09-27",
+        "sourceId": "user-price-benediktiner-weissbier-20260928",
+        "checkedAt": "2026-09-28",
         "historical": false,
         "ambiguous": false,
-        "priceBasis": "taobao-displayed-snapshot",
-        "selectedSku": "百帝王白啤500ml*24听【26.6月产】",
-        "skuId": "6134912628528",
-        "itemId": "646056056216",
-        "largestSameBeerPack": true,
-        "note": "淘宝页面显示／补贴价快照；最大同款包装折合单件，不保证结算价或单件可购。",
+        "priceBasis": "user-provided-current-price",
+        "selectedSku": "24 × 500ml",
+        "largestSameBeerPack": false,
+        "note": "用户明确提供的当前价格。",
         "provenance": {
-          "inputStatus": "verified-selected-page",
-          "inputPriceBasis": "displayed-page-snapshot",
-          "listedTotal": 184,
-          "displayedPromotion": null,
-          "evidenceFile": "taobao-evidence/benediktiner-6134912628528.json"
+          "inputStatus": "user-provided",
+          "inputPriceBasis": "user-provided-current-price"
         }
       },
       "originalList": false,
       "aliases": [
-        "百帝王 本笃"
+        "百帝王 本笃",
+        "百帝王白啤",
+        "Benediktiner Weissbier"
       ],
-      "identityNote": "",
+      "identityNote": "百帝王白啤独立条目。",
       "identityPending": false,
       "purchaseGuide": {
         "ceiling": 7,
@@ -549,24 +546,29 @@
       },
       "coverage": {
         "identity": "defined",
-        "price": "observed-snapshot",
+        "price": "user-provided",
         "rating": "matched",
-        "abv": "reference-label"
+        "abv": "reference-page"
       },
-      "researchNote": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 原BeerAdvocate评分本轮未验证，选取的是另一平台当前页面，不能解读为原平台分数涨跌。",
+      "researchNote": "社区评分来自公开评分平台，只代表该平台用户样本；不同平台之间不视为严格等价的盲测。",
       "extraSourceIds": [],
       "researchAudit": {
         "rating": {
           "status": "matched",
-          "checkedAt": "2026-09-27",
-          "url": "https://www.jiuhuar.com/craftbeer/57e893f9526c60193de15568.html",
-          "identityDecision": "Benediktiner Weissbier、德国、5.4%一致；采用未标罐装的常规条目，罐装单独保留；不合并两条评论数。",
-          "note": "专业啤酒网站的社区用户评分，不是专业评委分；酒花儿count为文字评论条数，不等于评分人数。matched是研究酒款层面匹配，不证明每个零售批次/容量独立统计。 原BeerAdvocate评分本轮未验证，选取的是另一平台当前页面，不能解读为原平台分数涨跌。"
+          "checkedAt": "2026-09-28",
+          "url": "https://untappd.com/b/benediktiner-weissbrau-benediktiner-weissbier/103362",
+          "identityDecision": "名称、风格与酒精度对应到独立酒款条目。",
+          "note": "社区评分代表平台用户样本。"
         },
         "taobao": {
           "status": "verified",
           "checkedAt": "2026-09-27",
           "url": "https://item.taobao.com/item.htm?id=646056056216&skuId=6134912628528"
+        },
+        "userPrice": {
+          "status": "user-provided",
+          "checkedAt": "2026-09-28",
+          "note": "24×500ml，165元。"
         }
       },
       "ratingHistory": [
@@ -578,6 +580,16 @@
           "sourceId": "ba-benediktiner",
           "checkedAt": "2026-09-27",
           "countType": "ratings"
+        },
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.56,
+          "count": 161167,
+          "countType": "ratings",
+          "sourceId": "rating-benediktiner-weissbier-20260928",
+          "checkedAt": "2026-09-28",
+          "note": "5.4% ABV，3.56/5，161,167 Ratings。"
         }
       ],
       "quoteHistory": [
@@ -591,6 +603,24 @@
           "ambiguous": false,
           "note": "页面报价样本；活动有效期、运费、税费、库存与账号条件均未现场结算核验。",
           "checkedAt": "2026-09-27"
+        },
+        {
+          "total": 165,
+          "quantity": 24,
+          "volumeMl": 500,
+          "currency": "CNY",
+          "sourceId": "user-price-benediktiner-weissbier-20260928",
+          "checkedAt": "2026-09-28",
+          "historical": false,
+          "ambiguous": false,
+          "priceBasis": "user-provided-current-price",
+          "selectedSku": "24 × 500ml",
+          "largestSameBeerPack": false,
+          "note": "用户明确提供的当前价格。",
+          "provenance": {
+            "inputStatus": "user-provided",
+            "inputPriceBasis": "user-provided-current-price"
+          }
         }
       ],
       "communityRatings": [
@@ -2953,26 +2983,21 @@
         "type": "风味整理自公开资料，非本站试饮。"
       },
       "quote": {
-        "total": 337,
+        "total": 199,
         "quantity": 24,
         "volumeMl": 440,
         "currency": "CNY",
-        "sourceId": "research-price-f29326c0b9694ed1",
-        "checkedAt": "2026-09-27",
+        "sourceId": "user-price-guinness-20260928",
+        "checkedAt": "2026-09-28",
         "historical": false,
         "ambiguous": false,
-        "priceBasis": "taobao-displayed-snapshot",
-        "selectedSku": "24罐：健力士黑啤440ml（爱尔兰进口）（26年6月产）",
-        "skuId": "6117806763999",
-        "itemId": "689279648584",
-        "largestSameBeerPack": true,
-        "note": "淘宝页面显示／补贴价快照；最大同款包装折合单件，不保证结算价或单件可购。",
+        "priceBasis": "user-provided-current-price",
+        "selectedSku": "24 × 440ml",
+        "largestSameBeerPack": false,
+        "note": "用户明确提供的当前价格。",
         "provenance": {
-          "inputStatus": "verified-selected-page",
-          "inputPriceBasis": "displayed-page-snapshot",
-          "listedTotal": 337,
-          "displayedPromotion": null,
-          "evidenceFile": "taobao-evidence/guinness-6117806763999.json"
+          "inputStatus": "user-provided",
+          "inputPriceBasis": "user-provided-current-price"
         }
       },
       "originalList": true,
@@ -2992,7 +3017,7 @@
       },
       "coverage": {
         "identity": "defined",
-        "price": "observed-snapshot",
+        "price": "user-provided",
         "rating": "matched",
         "abv": "reference-label"
       },
@@ -3011,6 +3036,11 @@
           "status": "verified",
           "checkedAt": "2026-09-27",
           "url": "https://detail.tmall.com/item.htm?id=689279648584&skuId=6117806763999"
+        },
+        "userPrice": {
+          "status": "user-provided",
+          "checkedAt": "2026-09-28",
+          "note": "24×440ml，199元。"
         }
       },
       "ratingHistory": [
@@ -3035,6 +3065,24 @@
           "ambiguous": false,
           "note": "保留活动标价44.9元；没有采用88VIP等优惠后的36.2元。不是Foreign Extra。活动是否仍可用未核验。",
           "checkedAt": "2026-09-27"
+        },
+        {
+          "total": 199,
+          "quantity": 24,
+          "volumeMl": 440,
+          "currency": "CNY",
+          "sourceId": "user-price-guinness-20260928",
+          "checkedAt": "2026-09-28",
+          "historical": false,
+          "ambiguous": false,
+          "priceBasis": "user-provided-current-price",
+          "selectedSku": "24 × 440ml",
+          "largestSameBeerPack": false,
+          "note": "用户明确提供的当前价格。",
+          "provenance": {
+            "inputStatus": "user-provided",
+            "inputPriceBasis": "user-provided-current-price"
+          }
         }
       ],
       "communityRatings": [
@@ -7437,7 +7485,7 @@
     },
     {
       "id": "snow-beer",
-      "name": "雪花啤酒",
+      "name": "雪花啤酒（通用款）",
       "english": "Snow Beer",
       "family": "lager",
       "style": "淡色拉格",
@@ -7491,7 +7539,7 @@
       "aliases": [
         "Snow Beer"
       ],
-      "identityNote": "用户仅写“雪花啤酒”，按Untappd同名通用款记录，不套用勇闯或纯生评分。",
+      "identityNote": "用户此前只写“雪花啤酒”，保留为通用款；纯生、SuperX、老雪等另列。",
       "identityPending": false,
       "coverage": {
         "identity": "defined-generic",
@@ -8118,6 +8166,464 @@
           }
         }
       ]
+    },
+    {
+      "id": "benediktiner-dunkel",
+      "name": "百帝王黑啤",
+      "english": "Benediktiner Weissbier Dunkel",
+      "family": "wheat",
+      "style": "深色小麦 Dunkelweizen",
+      "country": "德国",
+      "abv": 5.4,
+      "volumeMl": 500,
+      "rating": {
+        "platform": "Untappd",
+        "scale": 5,
+        "value": 3.45,
+        "count": 33765,
+        "countType": "ratings",
+        "sourceId": "rating-benediktiner-dunkel-20260928",
+        "checkedAt": "2026-09-28",
+        "note": "5.4% ABV，3.45/5，33,765 Ratings。"
+      },
+      "quote": {
+        "total": 165,
+        "quantity": 24,
+        "volumeMl": 500,
+        "currency": "CNY",
+        "sourceId": "user-price-benediktiner-dunkel-20260928",
+        "checkedAt": "2026-09-28",
+        "historical": false,
+        "ambiguous": false,
+        "priceBasis": "user-provided-current-price",
+        "selectedSku": "24 × 500ml",
+        "largestSameBeerPack": false,
+        "note": "用户明确提供的当前价格。",
+        "provenance": {
+          "inputStatus": "user-provided",
+          "inputPriceBasis": "user-provided-current-price"
+        }
+      },
+      "tags": [
+        "焦糖",
+        "麦香",
+        "深色小麦"
+      ],
+      "review": {
+        "positive": "深色麦芽和焦糖感比白啤更明显，同时保留小麦啤的顺滑感。",
+        "caution": "这是Dunkelweizen深色小麦，不是世涛。",
+        "fit": "喜欢小麦啤，但想要更深的麦芽味。",
+        "sourceIds": [
+          "rating-benediktiner-dunkel-20260928",
+          "user-price-benediktiner-dunkel-20260928"
+        ],
+        "type": "风味为公开资料简要整理。"
+      },
+      "originalList": false,
+      "aliases": [
+        "百帝王黑啤",
+        "Benediktiner Dunkel"
+      ],
+      "identityNote": "百帝王深色小麦独立条目。",
+      "identityPending": false,
+      "coverage": {
+        "identity": "defined",
+        "price": "user-provided",
+        "rating": "matched",
+        "abv": "reference-page"
+      },
+      "researchNote": "社区评分来自公开评分平台，只代表该平台用户样本；不同平台之间不视为严格等价的盲测。",
+      "extraSourceIds": [],
+      "ratingHistory": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.45,
+          "count": 33765,
+          "countType": "ratings",
+          "sourceId": "rating-benediktiner-dunkel-20260928",
+          "checkedAt": "2026-09-28",
+          "note": "5.4% ABV，3.45/5，33,765 Ratings。"
+        }
+      ],
+      "quoteHistory": [
+        {
+          "total": 165,
+          "quantity": 24,
+          "volumeMl": 500,
+          "currency": "CNY",
+          "sourceId": "user-price-benediktiner-dunkel-20260928",
+          "checkedAt": "2026-09-28",
+          "historical": false,
+          "ambiguous": false,
+          "priceBasis": "user-provided-current-price",
+          "selectedSku": "24 × 500ml",
+          "largestSameBeerPack": false,
+          "note": "用户明确提供的当前价格。",
+          "provenance": {
+            "inputStatus": "user-provided",
+            "inputPriceBasis": "user-provided-current-price"
+          }
+        }
+      ],
+      "researchAudit": {
+        "rating": {
+          "status": "matched",
+          "checkedAt": "2026-09-28",
+          "url": "https://untappd.com/b/benediktiner-weissbrau-benediktiner-weissbier-dunkel/585552",
+          "identityDecision": "名称、风格与酒精度对应到独立酒款条目。",
+          "note": "社区评分代表平台用户样本。"
+        },
+        "userPrice": {
+          "status": "user-provided",
+          "checkedAt": "2026-09-28",
+          "note": "24×500ml，165元。"
+        }
+      }
+    },
+    {
+      "id": "benediktiner-hell",
+      "name": "百帝王拉格",
+      "english": "Benediktiner Hell",
+      "family": "lager",
+      "style": "德式淡色拉格 Helles",
+      "country": "德国",
+      "abv": 5,
+      "volumeMl": 500,
+      "rating": {
+        "platform": "Untappd",
+        "scale": 5,
+        "value": 3.4,
+        "count": 100394,
+        "countType": "ratings",
+        "sourceId": "rating-benediktiner-hell-20260928",
+        "checkedAt": "2026-09-28",
+        "note": "5.0% ABV，3.40/5，100,394 Ratings。"
+      },
+      "quote": {
+        "total": 165,
+        "quantity": 24,
+        "volumeMl": 500,
+        "currency": "CNY",
+        "sourceId": "user-price-benediktiner-hell-20260928",
+        "checkedAt": "2026-09-28",
+        "historical": false,
+        "ambiguous": false,
+        "priceBasis": "user-provided-current-price",
+        "selectedSku": "24 × 500ml",
+        "largestSameBeerPack": false,
+        "note": "用户明确提供的当前价格。",
+        "provenance": {
+          "inputStatus": "user-provided",
+          "inputPriceBasis": "user-provided-current-price"
+        }
+      },
+      "tags": [
+        "麦芽",
+        "清爽",
+        "Helles"
+      ],
+      "review": {
+        "positive": "麦芽香干净，酒体清爽，苦味不重。",
+        "caution": "这是Hell/Helles拉格，不是百帝王小麦白啤。",
+        "fit": "喜欢德式清爽拉格。",
+        "sourceIds": [
+          "rating-benediktiner-hell-20260928",
+          "user-price-benediktiner-hell-20260928"
+        ],
+        "type": "风味为公开资料简要整理。"
+      },
+      "originalList": false,
+      "aliases": [
+        "百帝王拉格",
+        "Benediktiner Hell"
+      ],
+      "identityNote": "原Benediktiner Original现名Benediktiner Hell。",
+      "identityPending": false,
+      "coverage": {
+        "identity": "defined",
+        "price": "user-provided",
+        "rating": "matched",
+        "abv": "reference-page"
+      },
+      "researchNote": "社区评分来自公开评分平台，只代表该平台用户样本；不同平台之间不视为严格等价的盲测。",
+      "extraSourceIds": [],
+      "ratingHistory": [
+        {
+          "platform": "Untappd",
+          "scale": 5,
+          "value": 3.4,
+          "count": 100394,
+          "countType": "ratings",
+          "sourceId": "rating-benediktiner-hell-20260928",
+          "checkedAt": "2026-09-28",
+          "note": "5.0% ABV，3.40/5，100,394 Ratings。"
+        }
+      ],
+      "quoteHistory": [
+        {
+          "total": 165,
+          "quantity": 24,
+          "volumeMl": 500,
+          "currency": "CNY",
+          "sourceId": "user-price-benediktiner-hell-20260928",
+          "checkedAt": "2026-09-28",
+          "historical": false,
+          "ambiguous": false,
+          "priceBasis": "user-provided-current-price",
+          "selectedSku": "24 × 500ml",
+          "largestSameBeerPack": false,
+          "note": "用户明确提供的当前价格。",
+          "provenance": {
+            "inputStatus": "user-provided",
+            "inputPriceBasis": "user-provided-current-price"
+          }
+        }
+      ],
+      "researchAudit": {
+        "rating": {
+          "status": "matched",
+          "checkedAt": "2026-09-28",
+          "url": "https://untappd.com/b/benediktiner-weissbrau-benediktiner-hell/1140001",
+          "identityDecision": "名称、风格与酒精度对应到独立酒款条目。",
+          "note": "社区评分代表平台用户样本。"
+        },
+        "userPrice": {
+          "status": "user-provided",
+          "checkedAt": "2026-09-28",
+          "note": "24×500ml，165元。"
+        }
+      }
+    },
+    {
+      "id": "snow-pure-draft-8p-can",
+      "name": "雪花纯生 8°P",
+      "english": "Snow Beer Draft 8°P (Can)",
+      "family": "lager",
+      "style": "美式淡拉格",
+      "country": "中国",
+      "abv": 2.5,
+      "volumeMl": 500,
+      "rating": {
+        "platform": "酒花儿",
+        "scale": 5,
+        "value": 1.79,
+        "count": 50,
+        "countType": "reviews",
+        "sourceId": "rating-snow-pure-draft-8p-can-20260928",
+        "checkedAt": "2026-09-28",
+        "note": "2.5% ABV，1.79/5，50条评论。"
+      },
+      "quote": {
+        "total": 119.9,
+        "quantity": 24,
+        "volumeMl": 500,
+        "currency": "CNY",
+        "sourceId": "retail-snow-pure-draft-8p-can-20260928",
+        "checkedAt": "2026-09-28",
+        "historical": false,
+        "ambiguous": false,
+        "priceBasis": "jd-public-price-snapshot",
+        "selectedSku": "24 × 500ml",
+        "largestSameBeerPack": false,
+        "note": "京东公开页面当前标价119.90元，登录后到手价可能不同。",
+        "provenance": {
+          "inputStatus": "public-retail-snapshot",
+          "inputPriceBasis": "jd-public-price-snapshot"
+        }
+      },
+      "tags": [
+        "纯生",
+        "清爽",
+        "低苦"
+      ],
+      "review": {
+        "positive": "口感清爽、麦芽味轻，属于典型淡爽型纯生。",
+        "caution": "这里是8°P易拉罐2.5%版本，和10°P匠心营造等其它纯生版本分开。",
+        "fit": "喜欢清淡、冰镇后大口喝。",
+        "sourceIds": [
+          "rating-snow-pure-draft-8p-can-20260928",
+          "retail-snow-pure-draft-8p-can-20260928"
+        ],
+        "type": "风味为公开评价简要整理。"
+      },
+      "originalList": false,
+      "aliases": [
+        "雪花纯生",
+        "Snow Pure Draft"
+      ],
+      "identityNote": "8°P易拉罐2.5%版本。",
+      "identityPending": false,
+      "coverage": {
+        "identity": "defined",
+        "price": "observed-snapshot",
+        "rating": "matched",
+        "abv": "reference-page"
+      },
+      "researchNote": "社区评分来自公开评分平台，只代表该平台用户样本；不同平台之间不视为严格等价的盲测。",
+      "extraSourceIds": [],
+      "ratingHistory": [
+        {
+          "platform": "酒花儿",
+          "scale": 5,
+          "value": 1.79,
+          "count": 50,
+          "countType": "reviews",
+          "sourceId": "rating-snow-pure-draft-8p-can-20260928",
+          "checkedAt": "2026-09-28",
+          "note": "2.5% ABV，1.79/5，50条评论。"
+        }
+      ],
+      "quoteHistory": [
+        {
+          "total": 119.9,
+          "quantity": 24,
+          "volumeMl": 500,
+          "currency": "CNY",
+          "sourceId": "retail-snow-pure-draft-8p-can-20260928",
+          "checkedAt": "2026-09-28",
+          "historical": false,
+          "ambiguous": false,
+          "priceBasis": "jd-public-price-snapshot",
+          "selectedSku": "24 × 500ml",
+          "largestSameBeerPack": false,
+          "note": "京东公开页面当前标价119.90元，登录后到手价可能不同。",
+          "provenance": {
+            "inputStatus": "public-retail-snapshot",
+            "inputPriceBasis": "jd-public-price-snapshot"
+          }
+        }
+      ],
+      "researchAudit": {
+        "rating": {
+          "status": "matched",
+          "checkedAt": "2026-09-28",
+          "url": "https://www.jiuhuar.com/craftbeer/57e4a15c526c60193de0efe0.html",
+          "identityDecision": "名称、风格与酒精度对应到独立酒款条目。",
+          "note": "社区评分代表平台用户样本。"
+        },
+        "retail": {
+          "status": "verified",
+          "checkedAt": "2026-09-28",
+          "url": "https://item.jd.com/product/cCoG_TwV8lCi70TBkFJDFg.html",
+          "note": "500ml*24听，119.90元。"
+        }
+      }
+    },
+    {
+      "id": "snow-superx",
+      "name": "雪花勇闯天涯 SuperX",
+      "english": "Snow Beer Brave Super X Lager (Can)",
+      "family": "lager",
+      "style": "美式淡拉格",
+      "country": "中国",
+      "abv": 3.3,
+      "volumeMl": 500,
+      "rating": {
+        "platform": "酒花儿",
+        "scale": 5,
+        "value": 2.74,
+        "count": 20,
+        "countType": "reviews",
+        "sourceId": "rating-snow-superx-20260928",
+        "checkedAt": "2026-09-28",
+        "note": "3.3% ABV，2.74/5，20条评论。"
+      },
+      "quote": {
+        "total": 39.6,
+        "quantity": 12,
+        "volumeMl": 500,
+        "currency": "CNY",
+        "sourceId": "retail-snow-superx-20260928",
+        "checkedAt": "2026-09-28",
+        "historical": false,
+        "ambiguous": false,
+        "priceBasis": "jd-promo-via-smzdm",
+        "selectedSku": "12 × 500ml",
+        "largestSameBeerPack": false,
+        "note": "2026-07-23京东活动样本，返积分后39.60元；常规活动前价格65元。",
+        "provenance": {
+          "inputStatus": "public-retail-snapshot",
+          "inputPriceBasis": "jd-promo-via-smzdm"
+        }
+      },
+      "tags": [
+        "SuperX",
+        "清爽",
+        "轻麦香"
+      ],
+      "review": {
+        "positive": "比普通勇闯天涯香气稍丰富，仍然是清爽淡拉格路线。",
+        "caution": "价格采用京东活动样本，促销结束后会回升；不要当长期固定价。",
+        "fit": "想喝大众拉格，但希望比基础款多一点香气。",
+        "sourceIds": [
+          "rating-snow-superx-20260928",
+          "retail-snow-superx-20260928"
+        ],
+        "type": "风味为公开评价简要整理。"
+      },
+      "originalList": false,
+      "aliases": [
+        "SuperX",
+        "超级勇闯"
+      ],
+      "identityNote": "SuperX 3.3%易拉罐版本。",
+      "identityPending": false,
+      "coverage": {
+        "identity": "defined",
+        "price": "promo-snapshot",
+        "rating": "matched",
+        "abv": "reference-page"
+      },
+      "researchNote": "社区评分来自公开评分平台，只代表该平台用户样本；不同平台之间不视为严格等价的盲测。",
+      "extraSourceIds": [],
+      "ratingHistory": [
+        {
+          "platform": "酒花儿",
+          "scale": 5,
+          "value": 2.74,
+          "count": 20,
+          "countType": "reviews",
+          "sourceId": "rating-snow-superx-20260928",
+          "checkedAt": "2026-09-28",
+          "note": "3.3% ABV，2.74/5，20条评论。"
+        }
+      ],
+      "quoteHistory": [
+        {
+          "total": 39.6,
+          "quantity": 12,
+          "volumeMl": 500,
+          "currency": "CNY",
+          "sourceId": "retail-snow-superx-20260928",
+          "checkedAt": "2026-09-28",
+          "historical": false,
+          "ambiguous": false,
+          "priceBasis": "jd-promo-via-smzdm",
+          "selectedSku": "12 × 500ml",
+          "largestSameBeerPack": false,
+          "note": "2026-07-23京东活动样本，返积分后39.60元；常规活动前价格65元。",
+          "provenance": {
+            "inputStatus": "public-retail-snapshot",
+            "inputPriceBasis": "jd-promo-via-smzdm"
+          }
+        }
+      ],
+      "researchAudit": {
+        "rating": {
+          "status": "matched",
+          "checkedAt": "2026-09-28",
+          "url": "https://www.jiuhuar.com/craftbeer/5deb329e526c60045b3b3295.html",
+          "identityDecision": "名称、风格与酒精度对应到独立酒款条目。",
+          "note": "社区评分代表平台用户样本。"
+        },
+        "retail": {
+          "status": "promo-snapshot",
+          "checkedAt": "2026-09-28",
+          "url": "https://www.smzdm.com/p/179105062/",
+          "note": "京东活动价记录39.60元/12罐。"
+        }
+      }
     }
   ],
   "sources": {
@@ -10773,6 +11279,116 @@
       "evidence": "jd-current-page",
       "publishedAt": null,
       "note": "京东公开页面价格快照；价格、库存和优惠会变化。",
+      "checkedAt": "2026-09-28"
+    },
+    "user-price-guinness-20260928": {
+      "id": "user-price-guinness-20260928",
+      "url": null,
+      "title": "健力士氮气世涛：24 × 440ml，199元",
+      "kind": "price",
+      "evidence": "user-provided",
+      "publishedAt": null,
+      "note": "价格由用户在本次对话中明确提供。",
+      "checkedAt": "2026-09-28"
+    },
+    "rating-benediktiner-weissbier-20260928": {
+      "id": "rating-benediktiner-weissbier-20260928",
+      "url": "https://untappd.com/b/benediktiner-weissbrau-benediktiner-weissbier/103362",
+      "title": "Benediktiner Weissbier - Untappd",
+      "kind": "rating",
+      "evidence": "public-rating-page",
+      "publishedAt": null,
+      "note": "5.4% ABV，3.56/5，161,167 Ratings。",
+      "checkedAt": "2026-09-28"
+    },
+    "user-price-benediktiner-weissbier-20260928": {
+      "id": "user-price-benediktiner-weissbier-20260928",
+      "url": null,
+      "title": "百帝王白啤：24 × 500ml，165元",
+      "kind": "price",
+      "evidence": "user-provided",
+      "publishedAt": null,
+      "note": "价格由用户在本次对话中明确提供。",
+      "checkedAt": "2026-09-28"
+    },
+    "rating-benediktiner-dunkel-20260928": {
+      "id": "rating-benediktiner-dunkel-20260928",
+      "url": "https://untappd.com/b/benediktiner-weissbrau-benediktiner-weissbier-dunkel/585552",
+      "title": "Benediktiner Weissbier Dunkel - Untappd",
+      "kind": "rating",
+      "evidence": "public-rating-page",
+      "publishedAt": null,
+      "note": "5.4% ABV，3.45/5，33,765 Ratings。",
+      "checkedAt": "2026-09-28"
+    },
+    "user-price-benediktiner-dunkel-20260928": {
+      "id": "user-price-benediktiner-dunkel-20260928",
+      "url": null,
+      "title": "百帝王黑啤：24 × 500ml，165元",
+      "kind": "price",
+      "evidence": "user-provided",
+      "publishedAt": null,
+      "note": "价格由用户在本次对话中明确提供。",
+      "checkedAt": "2026-09-28"
+    },
+    "rating-benediktiner-hell-20260928": {
+      "id": "rating-benediktiner-hell-20260928",
+      "url": "https://untappd.com/b/benediktiner-weissbrau-benediktiner-hell/1140001",
+      "title": "Benediktiner Hell - Untappd",
+      "kind": "rating",
+      "evidence": "public-rating-page",
+      "publishedAt": null,
+      "note": "5.0% ABV，3.40/5，100,394 Ratings。",
+      "checkedAt": "2026-09-28"
+    },
+    "user-price-benediktiner-hell-20260928": {
+      "id": "user-price-benediktiner-hell-20260928",
+      "url": null,
+      "title": "百帝王拉格：24 × 500ml，165元",
+      "kind": "price",
+      "evidence": "user-provided",
+      "publishedAt": null,
+      "note": "价格由用户在本次对话中明确提供。",
+      "checkedAt": "2026-09-28"
+    },
+    "rating-snow-pure-draft-8p-can-20260928": {
+      "id": "rating-snow-pure-draft-8p-can-20260928",
+      "url": "https://www.jiuhuar.com/craftbeer/57e4a15c526c60193de0efe0.html",
+      "title": "雪花纯生8°P（易拉罐）- 酒花儿",
+      "kind": "rating",
+      "evidence": "public-rating-page",
+      "publishedAt": null,
+      "note": "2.5% ABV，1.79/5，50条评论。",
+      "checkedAt": "2026-09-28"
+    },
+    "retail-snow-pure-draft-8p-can-20260928": {
+      "id": "retail-snow-pure-draft-8p-can-20260928",
+      "url": "https://item.jd.com/product/cCoG_TwV8lCi70TBkFJDFg.html",
+      "title": "雪花纯生500ml*24听 - 京东",
+      "kind": "price",
+      "evidence": "jd-public-price-snapshot",
+      "publishedAt": null,
+      "note": "京东公开页面当前标价119.90元，登录后到手价可能不同。",
+      "checkedAt": "2026-09-28"
+    },
+    "rating-snow-superx-20260928": {
+      "id": "rating-snow-superx-20260928",
+      "url": "https://www.jiuhuar.com/craftbeer/5deb329e526c60045b3b3295.html",
+      "title": "雪花勇闯天涯 Super X 拉格（易拉罐）- 酒花儿",
+      "kind": "rating",
+      "evidence": "public-rating-page",
+      "publishedAt": null,
+      "note": "3.3% ABV，2.74/5，20条评论。",
+      "checkedAt": "2026-09-28"
+    },
+    "retail-snow-superx-20260928": {
+      "id": "retail-snow-superx-20260928",
+      "url": "https://www.smzdm.com/p/179105062/",
+      "title": "雪花勇闯天涯 SuperX 500ml*12罐 - 京东活动价记录",
+      "kind": "price",
+      "evidence": "jd-promo-via-smzdm",
+      "publishedAt": null,
+      "note": "2026-07-23京东活动样本，返积分后39.60元；常规活动前价格65元。",
       "checkedAt": "2026-09-28"
     }
   },
